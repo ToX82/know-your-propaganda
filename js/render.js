@@ -39,6 +39,10 @@ function updateStaticUI() {
   }
   const exploredSuffix = document.getElementById('explored-suffix');
   if (exploredSuffix) exploredSuffix.textContent = u.nav.exploredSuffix;
+  const sidebarToggle = document.getElementById('sidebar-toggle');
+  if (sidebarToggle && u.nav.openMenu) {
+    sidebarToggle.setAttribute('aria-label', sidebarToggle.getAttribute('aria-expanded') === 'true' ? u.nav.closeMenu : u.nav.openMenu);
+  }
   document.documentElement.lang = _lang;
 }
 
@@ -58,7 +62,7 @@ function renderHome() {
 
   content.innerHTML = `
     <!-- Hero panel -->
-    <div class="neo-panel p-6 mb-5">
+    <div class="neo-panel p-4 md:p-6 mb-5">
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex-1">
           <span class="cat-badge cat-manipulation mb-3">${u.badge}</span>
@@ -138,7 +142,7 @@ function renderTechniques() {
 
   content.innerHTML = `
     <!-- Filters -->
-    <div class="flex flex-wrap gap-1.5 mb-5 pb-4 border-b-2 border-neo">
+    <div class="flex flex-wrap gap-2 mb-4 md:mb-5 pb-4 border-b-2 border-neo">
       ${Object.entries(u.filters).map(([f, label]) => `
         <button onclick="setFilter('${f}')"
           class="neo-btn-sm ${currentFilter === f ? 'active' : ''}">
@@ -191,9 +195,9 @@ function renderDetail() {
       </button>
 
       <!-- Header -->
-      <div class="neo-brand p-5 border-b-0 rounded-b-none shadow-[0_4px_0_0_#1a1a1a]">
-        <div class="flex items-start gap-4">
-          <span class="text-4xl">${t.icon}</span>
+      <div class="neo-brand p-4 md:p-5 border-b-0 rounded-b-none shadow-[0_4px_0_0_#1a1a1a]">
+        <div class="flex items-start gap-3 md:gap-4">
+          <span class="text-3xl md:text-4xl">${t.icon}</span>
           <div>
             <div class="flex items-center gap-2 mb-1">
               <span class="${categoryColors[t.category]} text-xs px-1.5 py-0.5">${t.catLabel}</span>
@@ -208,24 +212,24 @@ function renderDetail() {
       <!-- Body -->
       <div class="neo-panel rounded-t-none divide-y divide-slate-200">
 
-        <section class="p-5">
+        <section class="p-4 md:p-5">
           <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.definition}</h2>
           <p class="text-sm text-slate-700 leading-relaxed">${t.definition}</p>
         </section>
 
-        <section class="p-5">
+        <section class="p-4 md:p-5">
           <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.historical}</h2>
           <p class="text-sm text-slate-700 leading-relaxed">${t.historicalContext}</p>
         </section>
 
-        <section class="p-5">
+        <section class="p-4 md:p-5">
           <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.psychological}</h2>
           <div class="neo-box pl-4 py-3 pr-3 border-l-4 border-blue-500">
             <p class="text-sm text-blue-900 leading-relaxed">${t.psychologicalMechanism}</p>
           </div>
         </section>
 
-        <section class="p-5">
+        <section class="p-4 md:p-5">
           <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.variants}</h2>
           <div class="space-y-2">
             ${t.variants.map(v => `
@@ -237,7 +241,7 @@ function renderDetail() {
           </div>
         </section>
 
-        <section class="p-5">
+        <section class="p-4 md:p-5">
           <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.redFlags}</h2>
           <div class="space-y-1.5">
             ${t.redFlags.map(f => `
@@ -249,7 +253,7 @@ function renderDetail() {
           </div>
         </section>
 
-        <section class="p-5">
+        <section class="p-4 md:p-5">
           <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.caseStudies}</h2>
           <div class="space-y-3">
             ${t.caseStudies.map(cs => `
@@ -266,7 +270,7 @@ function renderDetail() {
           </div>
         </section>
 
-        <section class="p-5">
+        <section class="p-4 md:p-5">
           <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.defense}</h2>
           <div class="space-y-2">
             ${t.defense.map((d, i) => `
@@ -278,7 +282,7 @@ function renderDetail() {
           </div>
         </section>
 
-        <section id="technique-quiz" class="p-5">
+        <section id="technique-quiz" class="p-4 md:p-5">
           <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.quiz}</h2>
           <div id="quiz-container">
             <div class="neo-panel p-6 text-center bg-amber-50">
@@ -303,17 +307,17 @@ function renderAbout() {
     <div class="max-w-2xl mx-auto space-y-3">
       <div class="neo-panel overflow-hidden">
         <div class="bg-neo text-white px-4 py-2 text-xs font-bold uppercase tracking-widest">${u.infoTitle}</div>
-        <div class="p-5"><p class="text-sm text-slate-600 leading-relaxed">${u.infoDesc}</p></div>
+        <div class="p-4 md:p-5"><p class="text-sm text-slate-600 leading-relaxed">${u.infoDesc}</p></div>
       </div>
       <div class="neo-panel overflow-hidden">
         <div class="bg-neo text-white px-4 py-2 text-xs font-bold uppercase tracking-widest">${u.sourcesTitle}</div>
-        <ul class="p-5 space-y-1.5">
+        <ul class="p-4 md:p-5 space-y-1.5">
           ${u.sources.map(s => `<li class="text-sm text-slate-600 flex items-start gap-2"><span class="text-slate-400 font-mono">—</span><span>${s}</span></li>`).join('')}
         </ul>
       </div>
       <div class="neo-panel overflow-hidden">
         <div class="bg-neo text-white px-4 py-2 text-xs font-bold uppercase tracking-widest">${u.principlesTitle}</div>
-        <ul class="p-5 space-y-2">
+        <ul class="p-4 md:p-5 space-y-2">
           ${u.principles.map(p => `<li class="flex items-start gap-2 text-sm text-slate-700"><span class="text-amber-500 font-bold mt-0.5">✦</span><span>${p}</span></li>`).join('')}
         </ul>
       </div>

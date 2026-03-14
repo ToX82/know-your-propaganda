@@ -27,8 +27,11 @@
 </head>
 <body class="min-h-screen">
 
-<!-- Sidebar -->
-<aside id="sidebar" class="sidebar-neo fixed left-0 top-0 h-full w-64 z-50 flex flex-col">
+<!-- Overlay (mobile only, when sidebar open) -->
+<div id="sidebar-overlay" class="fixed inset-0 bg-black/40 z-40 hidden md:hidden" aria-hidden="true"></div>
+
+<!-- Sidebar: drawer on mobile, fixed on md+ -->
+<aside id="sidebar" class="sidebar-neo fixed left-0 top-0 h-full w-64 z-50 flex flex-col -translate-x-full md:translate-x-0 transition-transform duration-200 ease-out">
 
   <!-- Brand -->
   <div class="neo-brand p-4">
@@ -101,11 +104,16 @@
 </aside>
 
 <!-- Main -->
-<main class="ml-64 min-h-screen flex flex-col">
-  <header class="sticky top-0 z-40 bg-white border-b-2 border-neo shadow-[0_4px_0_0_#1a1a1a] px-6 py-3">
-    <div class="flex items-center justify-between">
-      <h1 class="font-bold text-slate-900 tracking-tight" id="page-title">Panoramica</h1>
-      <div class="flex items-center gap-4">
+<main class="ml-0 md:ml-64 min-h-screen flex flex-col min-w-0 overflow-x-hidden">
+  <header class="sticky top-0 z-30 bg-white border-b-2 border-neo shadow-[0_4px_0_0_#1a1a1a] px-4 py-3 md:px-6">
+    <div class="flex items-center justify-between gap-2 flex-wrap">
+      <div class="flex items-center gap-2 min-w-0 flex-1">
+        <button id="sidebar-toggle" type="button" class="md:hidden p-2 -ml-2 rounded-md border-2 border-neo bg-white shadow-[2px_2px_0_#1a1a1a] hover:bg-slate-50 active:shadow-none active:translate-x-[1px] active:translate-y-[1px] transition-all flex-shrink-0" aria-label="Apri menu" aria-expanded="false" aria-controls="sidebar">
+          <svg class="w-5 h-5 text-slate-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+        <h1 class="font-bold text-slate-900 tracking-tight truncate" id="page-title">Panoramica</h1>
+      </div>
+      <div class="flex items-center gap-2 md:gap-4 flex-shrink-0">
         <div class="flex items-center gap-1.5 text-sm text-slate-500 font-mono">
           <span class="text-amber-500">★</span>
           <span id="explored-count">0</span>
@@ -118,7 +126,7 @@
     </div>
   </header>
 
-  <div id="content" class="p-6 flex-1"></div>
+  <div id="content" class="p-4 md:p-6 flex-1 min-w-0"></div>
 </main>
 
 <script src="js/i18n.js"></script>

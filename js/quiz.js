@@ -121,7 +121,7 @@ function renderQuizQuestion() {
   const bonusInsight = (hasAnswer && q.bonus_insight) ? q.bonus_insight : '';
 
   document.getElementById('quiz-card').innerHTML = `
-    <div class="p-5">
+    <div class="p-4 md:p-5">
       <div class="flex items-center justify-between mb-4">
         <span class="bg-neo text-white text-xs font-bold font-mono px-3 py-1 border-2 border-neo" style="box-shadow: 2px 2px 0 #1a1a1a">${questionLabel}</span>
         ${hasAnswer ? '<span class="text-green-600 text-xs font-bold uppercase tracking-wider">' + u.completed + '</span>' : ''}
@@ -145,7 +145,7 @@ function renderQuizQuestion() {
       </div>
       ${explanation ? `<div class="mt-3 p-3 rounded-md border-l-4 border-amber-500 bg-amber-50 text-sm text-slate-700" id="quiz-feedback" role="status"><p>${explanation}</p>${bonusInsight ? `<p class="mt-2 pt-2 border-t border-amber-200 text-xs text-slate-600">${bonusInsight}</p>` : ''}</div>` : ''}
       ${bonusInsight && !explanation ? `<div class="mt-3 p-3 rounded-md border-l-4 border-slate-400 bg-slate-50 text-sm text-slate-600" id="quiz-feedback" role="status">${bonusInsight}</div>` : ''}
-      <div class="border-t-2 border-neo mt-4 pt-4 flex justify-between items-center">
+      <div class="border-t-2 border-neo mt-4 pt-4 flex flex-wrap justify-between items-center gap-2">
         <button onclick="prevQuiz()"
           class="neo-btn-sm ${currentQuizQuestion === 0 ? 'opacity-40 cursor-not-allowed' : ''}"
           ${currentQuizQuestion === 0 ? 'disabled' : ''}>${u.prev}</button>
