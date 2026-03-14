@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Propaganda Defense Guide — 33 Tecniche di Manipolazione</title>
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#f59e0b',
+            primaryDark: '#d97706',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-slate-50 min-h-screen">
+
+<!-- Sidebar -->
+<aside id="sidebar" class="fixed left-0 top-0 h-full w-64 bg-white border-r border-slate-200 shadow-sm z-50 flex flex-col">
+  <div class="p-4 border-b border-slate-200">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-full bg-amber-400 flex items-center justify-center text-xl shadow-md">🛡️</div>
+      <div>
+        <div class="font-bold text-sm text-slate-800">Propaganda</div>
+        <div class="text-xs text-slate-500">Defense Guide</div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="flex-1 p-3 space-y-1 overflow-y-auto sidebar">
+    <div class="text-xs font-semibold text-slate-400 uppercase px-3 py-2">Navigazione</div>
+
+    <button class="nav-item active w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-page="home">
+      <span class="text-lg">🏠</span> Panoramica
+    </button>
+
+    <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-page="techniques">
+      <span class="text-lg">📚</span> Tutte le Tecniche
+      <span class="ml-auto bg-amber-100 text-amber-800 text-xs px-2 py-0.5 rounded-full" id="techniques-count">33</span>
+    </button>
+
+    <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-page="quiz">
+      <span class="text-lg">✅</span> Test Resistenza
+    </button>
+
+    <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-page="about">
+      <span class="text-lg">ℹ️</span> Informazioni
+    </button>
+
+    <div class="text-xs font-semibold text-slate-400 uppercase px-3 py-2 mt-4">Categorie</div>
+
+    <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="attack">
+      <span>⚔️</span> Attacco
+      <span class="ml-auto text-xs text-slate-400" id="count-attack">3</span>
+    </button>
+    <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="disinfo">
+      <span>📰</span> Disinformazione
+      <span class="ml-auto text-xs text-slate-400" id="count-disinfo">2</span>
+    </button>
+    <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="framing">
+      <span>🖼️</span> Inquadratura
+      <span class="ml-auto text-xs text-slate-400" id="count-framing">6</span>
+    </button>
+    <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="manipulation">
+      <span>🧠</span> Manipolazione
+      <span class="ml-auto text-xs text-slate-400" id="count-manipulation">14</span>
+    </button>
+    <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="digital">
+      <span>💻</span> Operazioni Digitali
+      <span class="ml-auto text-xs text-slate-400" id="count-digital">5</span>
+    </button>
+    <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="emotional">
+      <span>💔</span> Appelli Emotivi
+      <span class="ml-auto text-xs text-slate-400" id="count-emotional">3</span>
+    </button>
+  </nav>
+
+  <div class="p-4 border-t border-slate-200 bg-slate-50">
+    <div class="flex items-center justify-between mb-2">
+      <span class="text-xs text-slate-500">Progresso</span>
+      <span class="text-xs font-medium" id="progress-text">0/33 esplorate</span>
+    </div>
+    <div class="w-full bg-slate-200 rounded-full h-2">
+      <div id="progress-bar" class="bg-amber-400 h-2 rounded-full transition-all duration-300" style="width: 0%"></div>
+    </div>
+  </div>
+</aside>
+
+<!-- Main Content -->
+<main class="ml-64 min-h-screen">
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-slate-200 px-6 py-3">
+    <div class="flex items-center justify-between">
+      <h1 class="font-semibold text-slate-800" id="page-title">Panoramica</h1>
+      <div class="flex items-center gap-4">
+        <div class="flex items-center gap-2 text-sm text-slate-500">
+          <span class="text-amber-500">⭐</span>
+          <span id="explored-count">0</span> tecniche esplorate
+        </div>
+        <div class="w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center text-sm shadow">🛡️</div>
+      </div>
+    </div>
+  </header>
+
+  <div id="content" class="p-6"></div>
+</main>
+
+<script src="js/data/techniques.js"></script>
+<script src="js/data/quiz-questions.js"></script>
+<script src="js/state.js"></script>
+<script src="js/render.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+* { font-family: 'Inter', sans-serif; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* Animazioni */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in { animation: fadeIn 0.3s ease-out; }
+
+/* Sidebar */
+.nav-item.active {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  border-left: 3px solid #f59e0b;
+}
+
+/* Card hover */
+.tech-card {
+  transition: all 0.2s ease;
+}
+.tech-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+/* Category colors */
+.cat-attack { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+.cat-disinfo { background: #eff6ff; color: #1e40af; border: 1px solid #bfdbfe; }
+.cat-framing { background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
+.cat-manipulation { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
+.cat-digital { background: #faf5ff; color: #6b21a8; border: 1px solid #e9d5ff; }
+.cat-emotional { background: #fdf4ff; color: #86198f; border: 1px solid #f5d0fe; }
+
+/* Quiz */
+.quiz-option {
+  transition: all 0.15s ease;
+}
+.quiz-option:hover:not(.selected):not(.disabled) {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+}
+.quiz-option.correct {
+  background: #f0fdf4;
+  border-color: #22c55e;
+}
+.quiz-option.incorrect {
+  background: #fef2f2;
+  border-color: #ef4444;
+}
+
+/* Sidebar scrollbar */
+.sidebar::-webkit-scrollbar { width: 4px; }
