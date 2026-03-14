@@ -33,9 +33,10 @@ async function switchLanguage(lang) {
   currentTechnique = null;
   currentFilter = 'all';
   exploredTechniques = new Set();
-  completedQuestions = new Set();
+  quizSelections = {};
   quizScores = {};
   currentQuizQuestion = 0;
+  quizResultsVisible = false;
   techniqueQuizState = { answered: false, selected: null };
 
   await i18n.loadLocale(lang);

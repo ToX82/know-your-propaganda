@@ -1,90 +1,185 @@
-[
-  {
-    "id": "q1",
-    "title": "📱 The Viral Post",
-    "situation": "A post says: \"Water contains Poison! The media won't tell you!\" 10,000 shares. Source: \".xyz\"",
-    "question": "What is your reaction?",
-    "options": [
-      { "text": "Share it immediately!", "score": 3 },
-      { "text": "Check a fact-check first", "score": 0 },
-      { "text": "Look for other sources", "score": 1 }
-    ]
+{
+  "quiz_info": {
+    "titolo": "🛡️ Propaganda Resistance Test",
+    "sottotitolo": "Discover how resistant you are to information manipulation techniques",
+    "istruzioni": "For each situation, choose the response that best matches your real behaviour. At the end you'll see your score and personalised suggestions.",
+    "punteggio": {
+      "0-8": "🦅 Guardian of Information – Critical and aware",
+      "9-16": "🧐 Curious Investigator – Good capacity for doubt",
+      "17-24": "🎯 Occasional Target – Some vulnerabilities",
+      "25-40": "📉 High risk – Review your information habits"
+    }
   },
-  {
-    "id": "q2",
-    "title": "🗳️ The Debate",
-    "situation": "A candidate says: \"My opponent is a total disaster!\" No evidence provided.",
-    "question": "What do you notice?",
-    "options": [
-      { "text": "Normal politics", "score": 2 },
-      { "text": "Generic accusations without proof", "score": 0 },
-      { "text": "I trust them because they're on TV", "score": 3 }
-    ]
+  "questions": [
+    {
+      "id": "q1",
+      "title": "📱 The viral post",
+      "situation": "You scroll your feed and see a post with 15,000 shares: \"Tap water contains DISSIDIUM! They've been hiding it for years!\" The linked article is from a .xyz domain and the author is 'Independent Researcher'.",
+      "question": "What is your instinctive reaction?",
+      "options": [
+        { "id": "a", "text": "I check fact-checks on Open.europa or official pages before any action", "score": 0, "explanation": "✅ Correct! Checking institutional and accredited fact-checking sources is your first line of defence. 'Dissidium' doesn't exist in chemistry – it's a made-up term that sounds scientific." },
+        { "id": "b", "text": "15,000 shares mean there must be something true to it", "score": 3, "explanation": "❌ Trap! Virality does not mean truth. Content that triggers fear spreads faster – that's exactly what manipulators rely on." },
+        { "id": "c", "text": "I share to warn friends and family about the 'danger'", "score": 4, "explanation": "❌ Dangerous! Even with good intentions, you amplify disinformation. 68% of health hoaxes spread this way, through people trying to 'protect' others." }
+      ],
+      "bonus_insight": "💡 .xyz, .tk, .ml domains are often used for disinformation sites because they're free and lightly regulated."
+    },
+    {
+      "id": "q2",
+      "title": "🗳️ The TV debate",
+      "situation": "During an election debate, Candidate A says: 'My opponent ran three companies into the ground!' Candidate B replies: 'You evaded taxes!' Neither provides evidence or sources. The moderator doesn't intervene.",
+      "question": "How do you read this exchange?",
+      "options": [
+        { "id": "a", "text": "If one of them were lying, the other would debunk it with evidence", "score": 3, "explanation": "❌ Fallacious reasoning! In an unmoderated clash, both can lie freely. The absence of a rebuttal is not proof of truth." },
+        { "id": "b", "text": "These are mutual accusations with no evidence: a sign of propaganda, not debate", "score": 0, "explanation": "✅ Well done! Recognising the lack of evidence is essential. Serious debate requires verifiable claims, not trading accusations." },
+        { "id": "c", "text": "I look for independent checks on both claims afterwards", "score": 1, "explanation": "👍 Good practice! Not settling for the debate and checking afterwards is a sign of active critical thinking." }
+      ],
+      "bonus_insight": "💡 Studies show 73% of claims in political debates contain verifiable exaggerations or inaccuracies."
+    },
+    {
+      "id": "q3",
+      "title": "🌍 Two conflicting stories",
+      "situation": "Same day, same event (a climate protest): Outlet A headlines 'HISTORIC PROTEST: 500,000 IN THE STREETS!' while Outlet B writes 'TOTAL FLOP: a few thousand lost'. The photos are different.",
+      "question": "How do you approach this discrepancy?",
+      "options": [
+        { "id": "a", "text": "I read both articles and verify the sources of the figures given", "score": 0, "explanation": "✅ Excellent approach! Official figures come from police/city sources. Comparing primary sources often reveals the truth between opposing narratives." },
+        { "id": "b", "text": "One of them is deliberately lying", "score": 2, "explanation": "⚠️ Too simplistic. Often it's not 'lying' but selective framing: different times, areas, sources. Reality is more nuanced." },
+        { "id": "c", "text": "I trust the outlet that usually reflects my views", "score": 4, "explanation": "❌ Confirmation bias! This tendency feeds our information bubble: we only see what confirms what we already believe." }
+      ],
+      "bonus_insight": "💡 Photos can show different moments: an empty square at 8am doesn't disprove a full square at 2pm. Always check timestamps."
+    },
+    {
+      "id": "q4",
+      "title": "🔥 The article that makes you angry",
+      "situation": "You read an article with a shocking headline: 'The rich are stealing water from the poor! SCANDAL!' The piece has emotional testimonials, no numbers, and ends with 'Share to spread the truth!'",
+      "question": "What do you notice and what do you do?",
+      "options": [
+        { "id": "a", "text": "Strong emotion is a signal: I pause for 10 minutes before any action", "score": 0, "explanation": "✅ Recognising emotion as a 'warning bell' is the key move. Manipulators rely on anger to bypass critical thinking." },
+        { "id": "b", "text": "There's no concrete data and the call-to-action is suspicious", "score": 1, "explanation": "👍 Noticing the lack of data and the pressure to share is good. Serious content doesn't ask for emotional shares." },
+        { "id": "c", "text": "I share: if it's true, people need to know now", "score": 4, "explanation": "❌ Dangerous! The combo 'strong emotion + urgency + no data' is the trifecta of manipulation. Exactly the kind of content to double-check." }
+      ],
+      "bonus_insight": "💡 Manipulators use 'bait-and-switch': they anger you with a headline, then the body doesn't prove anything. But you've already shared."
+    },
+    {
+      "id": "q5",
+      "title": "🔬 The mysterious expert",
+      "situation": "A 5-minute video shows a man in a white coat explaining how 'official medicine is hiding the cure for cancer'. The channel has 2 million subscribers but the video gives no name, credentials, or institution.",
+      "question": "How do you rate this source?",
+      "options": [
+        { "id": "a", "text": "2 million subscribers mean someone has checked it", "score": 4, "explanation": "❌ Critical error! Followers can be bought and algorithms reward engagement, not truth. A channel can be popular and completely unreliable." },
+        { "id": "b", "text": "White coat ≠ medical expertise: I want a name and verifiable credentials", "score": 0, "explanation": "✅ Perfect! A white coat is a costume anyone can wear. A real medical expert always gives name, specialisation and institutional affiliation." },
+        { "id": "c", "text": "I read the comments to see if anyone has debunked it", "score": 3, "explanation": "⚠️ Weak strategy. Comments can be manipulated, critics removed, bots used for fake consensus. The primary source stays anonymous." }
+      ],
+      "bonus_insight": "💡 The 'hidden cure' conspiracy has existed for every disease since the 1800s. If it were real, at least one researcher would have come forward for the Nobel."
+    },
+    {
+      "id": "q6",
+      "title": "⚔️ The personal attack",
+      "situation": "A politician presents a detailed tax reform with data and projections. An opponent responds: 'This guy was convicted of drunk driving 15 years ago! You trust him?'",
+      "question": "How do you analyse this criticism?",
+      "options": [
+        { "id": "a", "text": "The attack on the person is irrelevant to the merit of the reform", "score": 1, "explanation": "👍 Right direction! It's a classic ad hominem: attacking the speaker instead of what they say. Note that the conviction is real, unlike many political smears." },
+        { "id": "b", "text": "The past conviction makes me doubt their overall reliability", "score": 2, "explanation": "⚠️ Understandable but fallacious. Even if the conviction is real, it doesn't automatically invalidate the tax proposal. Judge the content, not just the proposer." },
+        { "id": "c", "text": "It's an ad hominem that deflects from the real issue: the reform should be judged on its content", "score": 0, "explanation": "✅ Excellent analysis! Recognising the personal attack as a diversion keeps you focused on the actual proposal." }
+      ],
+      "bonus_insight": "💡 Ad hominem can contain truth (the person may have real flaws) but it remains a fallacy when used to avoid discussing the argument."
+    },
+    {
+      "id": "q7",
+      "title": "📚 The 'irrefutable' video",
+      "situation": "A 90-minute video titled '100 proofs the government is lying' lists 100 alleged scandals, each covered in under a minute. No sources are cited, but 'it all fits' because the pieces seem to slot together.",
+      "question": "How do you approach this mass of 'proofs'?",
+      "options": [
+        { "id": "a", "text": "So many claims = at least some are probably true", "score": 3, "explanation": "❌ Gish Gallop trap! Flooding with claims makes it impossible to check everything. One true claim gives undue credibility to all the rest." },
+        { "id": "b", "text": "I verify 3–4 at random: if they're false, the rest is suspect", "score": 0, "explanation": "✅ Smart strategy! Sampling lets you judge overall reliability. If 30–40% of checks fail, the whole thing is compromised." },
+        { "id": "c", "text": "I watch it all and then form a complete picture", "score": 4, "explanation": "❌ Saturation risk! After 90 minutes of unsourced claims, the brain tends to accept them passively. That's exactly what the manipulator wants." }
+      ],
+      "bonus_insight": "💡 The 'flood of data' technique is used in trials too: overwhelm with weak evidence. Quantity is never quality."
+    },
+    {
+      "id": "q8",
+      "title": "⏰ Artificial urgency",
+      "situation": "A message is circulating in groups: 'SHARE NOW before they censor this! The government is about to pass a law BANNING growing vegetables at home!'",
+      "question": "How do you react to the urgency?",
+      "options": [
+        { "id": "a", "text": "If it were true, it would be in every paper by tomorrow", "score": 0, "explanation": "✅ Correct reasoning! Real news doesn't need 'pre-emptive censorship'. If a government passed such a law, it would be public and verifiable." },
+        { "id": "b", "text": "I share straight away: better safe than sorry", "score": 4, "explanation": "❌ Exactly what the manipulator wants! Artificial urgency is there to bypass critical thinking. No serious law is passed in secret and enforced overnight." },
+        { "id": "c", "text": "I save the message and search for official news about the alleged law", "score": 1, "explanation": "👍 Good practice! Saving instead of sharing is step one. Checking official sources (government gazette, official sites) is step two." }
+      ],
+      "bonus_insight": "💡 Urgency is the number one red flag. True information can wait for verification; false information needs your haste."
+    },
+    {
+      "id": "q9",
+      "title": "🎭 The 'ex' expert",
+      "situation": "A viral video shows an 'ex pharma executive' revealing disturbing industry secrets. The host introduces them as a 'courageous whistleblower'. There are no details on which company, when, or what role they had.",
+      "question": "How do you assess this testimony?",
+      "options": [
+        { "id": "a", "text": "An 'ex' who speaks has more credibility because they risk backlash", "score": 3, "explanation": "❌ Not necessarily! Without verifying who they were and when, anyone can claim to be 'ex something'. Real whistleblowers provide verifiable documents and names." },
+        { "id": "b", "text": "I want specific details: which company, which role, which years", "score": 0, "explanation": "✅ Right approach! A real insider has an interest in documenting their position: it adds credibility without compromising safety." },
+        { "id": "c", "text": "I share it as a 'possible truth' to keep an eye on", "score": 2, "explanation": "⚠️ Adds noise. Sharing unverified content as 'worth watching' still spreads potential falsehoods." }
+      ],
+      "bonus_insight": "💡 Real whistleblowers (like Edward Snowden or Frances Haugen) provide verifiable documents and accept legal consequences. Total anonymity is suspicious."
+    },
+    {
+      "id": "q10",
+      "title": "🧩 The perfect puzzle",
+      "situation": "A documentary links apparently unrelated events (a suspicious death, a private meeting, a share purchase) to prove a conspiracy. 'Too many coincidences to be random!' says the narrator.",
+      "question": "What do you make of this reasoning?",
+      "options": [
+        { "id": "a", "text": "I verify each event on its own before accepting the connection", "score": 0, "explanation": "✅ Scientific method in action! Each 'piece' must be verified independently. Often one turns out to be false and the whole construction collapses." },
+        { "id": "b", "text": "If the puzzle fits, only a few pieces are missing", "score": 4, "explanation": "❌ Reasoning error! You can link unrelated events by building false narratives. Pattern matching is a very strong cognitive bias." },
+        { "id": "c", "text": "Coincidence isn't proof: I look for direct evidence of the link", "score": 1, "explanation": "👍 Good approach! Correlation doesn't imply causation. A real conspiracy needs evidence of coordination, not just things happening at the same time." }
+      ],
+      "bonus_insight": "💡 Our brains are wired to find patterns. In a world of 8 billion people, 'incredible coincidences' happen every day by pure statistics."
+    }
+  ],
+  "final_feedback": {
+    "title": "📊 Your resistance to propaganda",
+    "suggestionsLabel": "Suggestions",
+    "resourcesLabel": "Useful resources",
+    "ranges": {
+      "0-8 punti": {
+        "level": "🦅 Guardian of Information",
+        "description": "You have excellent critical thinking. You recognise manipulation techniques and don't let emotions override your judgement. Keep it up and help others develop the same awareness.",
+        "suggestions": [
+          "Consider further training in fact-checking",
+          "Share your skills with friends and family",
+          "Stay updated on new disinformation techniques"
+        ]
+      },
+      "9-16 punti": {
+        "level": "🧐 Curious Investigator",
+        "description": "You have a good basis in critical thinking but some manipulation techniques can still catch you out. Your instinct is good; you could strengthen a few specific defences.",
+        "suggestions": [
+          "Practise the '10 minute rule' before sharing",
+          "Build a list of reliable sources to check regularly",
+          "Study the main logical fallacies"
+        ]
+      },
+      "17-24 punti": {
+        "level": "🎯 Occasional Target",
+        "description": "You're vulnerable to some manipulation techniques, especially those that play on emotions. Don't worry: recognition is the first step to defence.",
+        "suggestions": [
+          "Whenever you feel strong emotion online, pause",
+          "Never trust content without verifiable sources",
+          "Subscribe to one reliable outlet and compare with free sources"
+        ]
+      },
+      "25-40 punti": {
+        "level": "📉 High Risk",
+        "description": "Your defences against propaganda are weak. That doesn't mean you 'believe everything', but your information habits expose you to significant risk.",
+        "suggestions": [
+          "Start by ALWAYS checking sources before sharing",
+          "Take online media literacy courses",
+          "Use fact-checking tools like Open.europa, Full Fact, Snopes",
+          "Diversify your information sources"
+        ]
+      }
+    }
   },
-  {
-    "id": "q3",
-    "title": "🌍 Two News Stories",
-    "situation": "Outlet A: \"HISTORIC PROTEST!\" Outlet B: \"COMPLETE FLOP.\" Same event.",
-    "question": "How do you interpret this?",
-    "options": [
-      { "text": "One of them is lying", "score": 2 },
-      { "text": "Different framing", "score": 0 },
-      { "text": "I'll read whichever I like more", "score": 3 }
-    ]
-  },
-  {
-    "id": "q4",
-    "title": "🎯 A Strong Emotion",
-    "situation": "An article makes you angry. Impulse: share it immediately.",
-    "question": "What do you do?",
-    "options": [
-      { "text": "Share it immediately!", "score": 3 },
-      { "text": "Take 10 minutes to verify", "score": 0 },
-      { "text": "Wait until tomorrow", "score": 1 }
-    ]
-  },
-  {
-    "id": "q5",
-    "title": "🔍 The Mysterious Source",
-    "situation": "A video features an \"expert\" with no name or credentials.",
-    "question": "What do you think?",
-    "options": [
-      { "text": "If it's viral, it must be true", "score": 3 },
-      { "text": "Without a name, I don't trust it", "score": 0 },
-      { "text": "I'll check the comments", "score": 2 }
-    ]
-  },
-  {
-    "id": "q6",
-    "title": "⚔️ The Attack",
-    "situation": "A politician proposes a reform. The opponent says: \"He's been divorced!\"",
-    "question": "Is this a valid criticism?",
-    "options": [
-      { "text": "Yes, it shows what kind of person they are", "score": 2 },
-      { "text": "Irrelevant ad hominem", "score": 0 },
-      { "text": "Depends on the severity", "score": 3 }
-    ]
-  },
-  {
-    "id": "q7",
-    "title": "🧠 The List",
-    "situation": "A 45-minute video lists 100 alleged scandals without sources.",
-    "question": "How do you approach it?",
-    "options": [
-      { "text": "Many facts = something must be true", "score": 2 },
-      { "text": "I verify 2-3 points", "score": 0 },
-      { "text": "I watch everything then judge", "score": 3 }
-    ]
-  },
-  {
-    "id": "q8",
-    "title": "📢 The Urgency",
-    "situation": "\"SHARE NOW before they delete it!\"",
-    "question": "What do you do?",
-    "options": [
-      { "text": "Share it immediately!", "score": 3 },
-      { "text": "If it's true it'll be news tomorrow", "score": 0 },
-      { "text": "Save it and verify later", "score": 1 }
-    ]
-  }
-]
+  "resources": [
+    { "name": "Open.europa", "url": "https://open.europa.eu", "description": "European fact-checking platform" },
+    { "name": "Full Fact", "url": "https://fullfact.org", "description": "UK independent fact-checking" },
+    { "name": "Snopes", "url": "https://www.snopes.com", "description": "Historical database of hoaxes and urban legends" },
+    { "name": "Poynter IFCN", "url": "https://ifcncodeofprinciples.poynter.org", "description": "International fact-checking network" }
+  ]
+}

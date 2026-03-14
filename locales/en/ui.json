@@ -70,15 +70,19 @@
     },
     "quizIntro": "Put your understanding to the test",
     "startQuiz": "Start Quiz",
+    "confirmAnswer": "Confirm answer",
     "situation": "Situation:"
   },
   "quiz": {
     "title": "🧪 Test Your Resistance",
     "subtitle": "Lower score = better resistance!",
+    "firstLine": "Answer the questions to discover your resistance level.",
+    "completeMessage": "You've completed the test!",
     "questionOf": "Question {n} of {total}",
     "completed": "✓ Completed",
     "prev": "← Previous",
     "next": "Next →",
+    "completeBtn": "Complete",
     "riskPoints": "/ {max} risk points",
     "restart": "↺ Restart",
     "levels": {
@@ -107,10 +111,10 @@
         "desc": "Some answers indicate vulnerabilities."
       },
       "trainee": {
-        "title": "Trainee",
-        "icon": "⚠️",
+        "title": "Growing",
+        "icon": "🌱",
         "color": "text-red-600",
-        "desc": "High risk. Study all the techniques."
+        "desc": "You have room to grow. Exploring the techniques in the guide will help you recognise them."
       }
     }
   },

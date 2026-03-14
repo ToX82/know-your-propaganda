@@ -21,7 +21,11 @@
       fetch(base + 'ui.json')
     ]);
     window.techniques = await techRes.json();
-    window.quizQuestions = await quizRes.json();
+    const quizData = await quizRes.json();
+    window.quizQuestions = Array.isArray(quizData) ? quizData : (quizData.questions || []);
+    window.quizInfo = quizData.quiz_info || null;
+    window.quizFinalFeedback = quizData.final_feedback || null;
+    window.quizResources = quizData.resources || [];
     window._ui = await uiRes.json();
     window._lang = lang;
   }

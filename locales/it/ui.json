@@ -70,15 +70,19 @@
     },
     "quizIntro": "Metti alla prova la tua comprensione",
     "startQuiz": "Inizia il Quiz",
+    "confirmAnswer": "Conferma risposta",
     "situation": "Situazione:"
   },
   "quiz": {
     "title": "🧪 Test della Tua Resistenza",
     "subtitle": "Punteggio più basso = migliore resistenza!",
+    "firstLine": "Rispondi alle domande per scoprire il tuo livello di resistenza.",
+    "completeMessage": "Hai completato il test!",
     "questionOf": "Domanda {n} di {total}",
     "completed": "✓ Completata",
     "prev": "← Precedente",
     "next": "Successiva →",
+    "completeBtn": "Completa",
     "riskPoints": "/ {max} punti rischio",
     "restart": "↺ Ricomincia",
     "levels": {
@@ -107,10 +111,10 @@
         "desc": "Alcune risposte indicano vulnerabilità."
       },
       "trainee": {
-        "title": "Allievo da Formare",
-        "icon": "⚠️",
+        "title": "In crescita",
+        "icon": "🌱",
         "color": "text-red-600",
-        "desc": "Alto rischio. Studia tutte le tecniche."
+        "desc": "Hai margine di miglioramento. Esplorare le tecniche nella guida ti aiuterà a riconoscerle."
       }
     }
   },

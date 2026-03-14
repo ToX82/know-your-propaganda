@@ -49,7 +49,7 @@ function renderHome() {
   const explored = exploredTechniques.size;
   const total = techniques.length;
   const quizTotal = Object.values(quizScores).reduce((a, b) => a + b, 0);
-  const maxQuiz = quizQuestions.length * 3;
+  const maxQuiz = (typeof getQuizMaxScore === 'function' ? getQuizMaxScore() : quizQuestions.length * 3);
 
   const riskText = maxQuiz > 0
     ? u.progress.riskScore.replace('{score}', quizTotal).replace('{max}', maxQuiz)

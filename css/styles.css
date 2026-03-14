@@ -212,6 +212,11 @@ body { background-color: #e8e3db; }
   transform: translate(-1px, -1px);
   box-shadow: 3px 3px 0 #1a1a1a;
 }
+.quiz-option.selected {
+  background-color: #fef9c3;
+  border-color: #ca8a04;
+  box-shadow: 2px 2px 0 #ca8a04;
+}
 .quiz-option.correct {
   background-color: #dcfce7;
   border-color: #16a34a;
