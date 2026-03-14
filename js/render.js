@@ -17,25 +17,21 @@ function updateCategoryCounts() {
 
 function updateStaticUI() {
   const u = _ui;
-  // Sidebar nav labels
   const navMap = { home: u.nav.home, techniques: u.nav.techniques, quiz: u.nav.quiz, about: u.nav.about };
   Object.entries(navMap).forEach(([page, label]) => {
     const el = document.querySelector('[data-page="' + page + '"] [data-label]');
     if (el) el.textContent = label;
   });
-  // Category labels in sidebar
   Object.entries(u.nav.categories).forEach(([cat, label]) => {
     const el = document.querySelector('[data-filter="' + cat + '"] [data-label]');
     if (el) el.textContent = label;
   });
-  // Section headers
   const sectionNav = document.getElementById('section-nav');
   if (sectionNav) sectionNav.textContent = u.nav.sectionNav;
   const sectionCat = document.getElementById('section-cat');
   if (sectionCat) sectionCat.textContent = u.nav.sectionCat;
   const progressLabel = document.getElementById('progress-label');
   if (progressLabel) progressLabel.textContent = u.nav.progress;
-  // Lang switcher button
   const langBtn = document.getElementById('lang-switch');
   if (langBtn) {
     langBtn.textContent = u.lang.switchLabel;
@@ -46,6 +42,7 @@ function updateStaticUI() {
   document.documentElement.lang = _lang;
 }
 
+/* ─── HOME ─────────────────────────────────────────────── */
 function renderHome() {
   const u = _ui.home;
   const content = document.getElementById('content');
@@ -60,77 +57,120 @@ function renderHome() {
   const exploredText = u.progress.exploredOf.replace('{n}', explored).replace('{total}', total);
 
   content.innerHTML = `
-    <div class="bg-gradient-to-br from-amber-50 via-white to-orange-50 border border-amber-200 rounded-xl p-6 mb-6 shadow-sm">
+    <!-- Hero panel -->
+    <div class="neo-panel p-6 mb-5">
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex-1">
-          <span class="inline-block bg-amber-100 text-amber-800 text-xs font-semibold px-3 py-1 rounded-full border border-amber-300 mb-3">${u.badge}</span>
-          <h1 class="text-3xl font-bold mb-3 text-slate-800">${u.title}</h1>
-          <p class="text-slate-600 mb-4">${u.description}</p>
-          <button onclick="navigateTo('quiz')" class="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded-lg font-medium transition inline-flex items-center gap-2">${u.ctaButton}</button>
+          <span class="cat-badge cat-manipulation mb-3">${u.badge}</span>
+          <h1 class="text-2xl font-bold mb-3 text-slate-900 tracking-tight">${u.title}</h1>
+          <p class="text-slate-600 mb-4 text-sm leading-relaxed">${u.description}</p>
+          <button onclick="navigateTo('quiz')" class="btn-primary inline-flex items-center gap-2">${u.ctaButton}</button>
         </div>
-        <div class="grid grid-cols-2 gap-3">
-          <div class="bg-white/80 rounded-lg border p-4 text-center"><div class="text-2xl font-bold text-slate-800">${total}</div><div class="text-xs text-slate-500">${u.stats.techniques}</div></div>
-          <div class="bg-white/80 rounded-lg border p-4 text-center"><div class="text-2xl font-bold text-slate-800">6</div><div class="text-xs text-slate-500">${u.stats.categories}</div></div>
-          <div class="bg-white/80 rounded-lg border p-4 text-center"><div class="text-2xl font-bold text-slate-800">${quizQuestions.length}</div><div class="text-xs text-slate-500">${u.stats.questions}</div></div>
-          <div class="bg-white/80 rounded-lg border p-4 text-center"><div class="text-2xl font-bold text-slate-800">${explored}</div><div class="text-xs text-slate-500">${u.stats.explored}</div></div>
+        <div class="grid grid-cols-2 gap-2 shrink-0">
+          <div class="neo-panel p-4 text-center min-w-[80px]">
+            <div class="text-2xl font-bold font-mono text-slate-900">${total}</div>
+            <div class="text-xs text-slate-500 uppercase tracking-wider mt-0.5">${u.stats.techniques}</div>
+          </div>
+          <div class="neo-panel p-4 text-center">
+            <div class="text-2xl font-bold font-mono text-slate-900">6</div>
+            <div class="text-xs text-slate-500 uppercase tracking-wider mt-0.5">${u.stats.categories}</div>
+          </div>
+          <div class="neo-panel p-4 text-center">
+            <div class="text-2xl font-bold font-mono text-slate-900">${quizQuestions.length}</div>
+            <div class="text-xs text-slate-500 uppercase tracking-wider mt-0.5">${u.stats.questions}</div>
+          </div>
+          <div class="neo-panel p-4 text-center">
+            <div class="text-2xl font-bold font-mono text-amber-600">${explored}</div>
+            <div class="text-xs text-slate-500 uppercase tracking-wider mt-0.5">${u.stats.explored}</div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="grid md:grid-cols-2 gap-4 mb-6">
-      <div class="bg-white rounded-lg border p-4">
-        <div class="flex items-center gap-2 mb-2"><span class="text-lg">📚</span><span class="font-medium text-slate-700">${u.progress.techniquesLabel}</span></div>
-        <div class="w-full bg-slate-200 rounded-full h-2 mb-2"><div class="bg-amber-400 h-2 rounded-full transition-all" style="width: ${(explored/total)*100}%"></div></div>
-        <p class="text-sm text-slate-500">${exploredText}</p>
+
+    <!-- Progress panels -->
+    <div class="grid md:grid-cols-2 gap-3 mb-5">
+      <div class="neo-panel p-4">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="text-sm">📚</span>
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-700">${u.progress.techniquesLabel}</span>
+        </div>
+        <div class="neo-progress-track w-full h-3 mb-2">
+          <div class="bg-amber-400 neo-progress-fill transition-all" style="width: ${(explored/total)*100}%"></div>
+        </div>
+        <p class="text-xs text-slate-500 font-mono">${exploredText}</p>
       </div>
-      <div class="bg-white rounded-lg border p-4">
-        <div class="flex items-center gap-2 mb-2"><span class="text-lg">🛡️</span><span class="font-medium text-slate-700">${u.progress.resistanceLabel}</span></div>
-        <div class="w-full bg-slate-200 rounded-full h-2 mb-2"><div class="bg-green-500 h-2 rounded-full transition-all" style="width: ${maxQuiz > 0 ? 100 - (quizTotal/maxQuiz)*100 : 100}%"></div></div>
-        <p class="text-sm text-slate-500">${riskText}</p>
+      <div class="neo-panel p-4">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="text-sm">🛡️</span>
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-700">${u.progress.resistanceLabel}</span>
+        </div>
+        <div class="neo-progress-track w-full h-3 mb-2">
+          <div class="bg-green-500 neo-progress-fill transition-all" style="width: ${maxQuiz > 0 ? 100 - (quizTotal/maxQuiz)*100 : 100}%"></div>
+        </div>
+        <p class="text-xs text-slate-500 font-mono">${riskText}</p>
       </div>
     </div>
-    <h2 class="text-lg font-semibold mb-4 text-slate-800">${u.quickAccess}</h2>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+    <!-- Quick access -->
+    <div class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3 border-b-2 border-neo pb-2">${u.quickAccess}</div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
       ${techniques.slice(0, 6).map(t => `
-        <div class="tech-card bg-white rounded-lg border p-4 cursor-pointer" onclick="openTechnique(${t.id})">
-          <div class="flex items-start gap-3 mb-2"><span class="text-2xl">${t.icon}</span><div><span class="${categoryColors[t.category]} text-xs px-2 py-0.5 rounded-full">${t.catLabel}</span><h3 class="font-semibold mt-1">${t.name}</h3></div></div>
-          <p class="text-sm text-slate-500 line-clamp-2">${t.summary}</p>
+        <div class="tech-card p-4" onclick="openTechnique(${t.id})">
+          <div class="flex items-start gap-3 mb-2">
+            <span class="text-xl">${t.icon}</span>
+            <div>
+              <span class="${categoryColors[t.category]} text-xs px-1.5 py-0.5">${t.catLabel}</span>
+              <h3 class="font-semibold text-sm mt-1 text-slate-900">${t.name}</h3>
+            </div>
+          </div>
+          <p class="text-xs text-slate-500 leading-relaxed line-clamp-2">${t.summary}</p>
         </div>
       `).join('')}
     </div>
   `;
 }
 
+/* ─── TECHNIQUES ────────────────────────────────────────── */
 function renderTechniques() {
   const u = _ui.techniques;
   const content = document.getElementById('content');
   const filtered = currentFilter === 'all' ? techniques : techniques.filter(t => t.category === currentFilter);
 
   content.innerHTML = `
-    <div class="flex flex-wrap gap-2 mb-6">
+    <!-- Filters -->
+    <div class="flex flex-wrap gap-1.5 mb-5 pb-4 border-b-2 border-neo">
       ${Object.entries(u.filters).map(([f, label]) => `
-        <button onclick="setFilter('${f}')" class="px-3 py-1.5 rounded-lg text-sm font-medium transition ${currentFilter === f ? 'bg-amber-500 text-white' : 'bg-white border hover:bg-slate-50'}">
+        <button onclick="setFilter('${f}')"
+          class="neo-btn-sm ${currentFilter === f ? 'active' : ''}">
           ${label}
         </button>
       `).join('')}
     </div>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+    <!-- Grid -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
       ${filtered.map(t => `
-        <div class="tech-card bg-white rounded-lg border p-4 cursor-pointer ${exploredTechniques.has(t.id) ? 'ring-2 ring-amber-400' : ''}" onclick="openTechnique(${t.id})">
+        <div class="tech-card p-4 ${exploredTechniques.has(t.id) ? 'ring-2 ring-amber-500 ring-offset-2 ring-offset-[#e8e3db]' : ''}"
+             onclick="openTechnique(${t.id})">
           <div class="flex items-start gap-3 mb-2">
-            <span class="text-2xl">${t.icon}</span>
-            <div class="flex-1">
-              <div class="flex items-center gap-2"><span class="${categoryColors[t.category]} text-xs px-2 py-0.5 rounded-full">${t.catLabel}</span>${exploredTechniques.has(t.id) ? '<span class="text-amber-500">⭐</span>' : ''}</div>
-              <h3 class="font-semibold mt-1">${t.name}</h3>
+            <span class="text-xl">${t.icon}</span>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2">
+                <span class="${categoryColors[t.category]} text-xs px-1.5 py-0.5">${t.catLabel}</span>
+                ${exploredTechniques.has(t.id) ? '<span class="text-amber-500 text-xs font-bold">★</span>' : ''}
+              </div>
+              <h3 class="font-semibold text-sm mt-1 text-slate-900">${t.name}</h3>
               <p class="text-xs text-slate-400">${t.subtitle}</p>
             </div>
           </div>
-          <p class="text-sm text-slate-500 line-clamp-2">${t.summary}</p>
+          <p class="text-xs text-slate-500 leading-relaxed line-clamp-2">${t.summary}</p>
         </div>
       `).join('')}
     </div>
   `;
 }
 
+/* ─── OPEN / DETAIL ─────────────────────────────────────── */
 function openTechnique(id) {
   currentTechnique = techniques.find(t => t.id === id);
   exploredTechniques.add(id);
@@ -146,46 +186,140 @@ function renderDetail() {
 
   content.innerHTML = `
     <div class="max-w-4xl mx-auto">
-      <button onclick="navigateTo('techniques')" class="mb-4 text-slate-600 hover:text-slate-800 inline-flex items-center gap-1">${u.backButton}</button>
-      <div class="bg-gradient-to-r from-slate-50 to-slate-100 rounded-t-xl border border-b-0 p-6">
+      <button onclick="navigateTo('techniques')" class="neo-btn-sm mb-4">
+        ${u.backButton}
+      </button>
+
+      <!-- Header -->
+      <div class="neo-brand p-5 border-b-0 rounded-b-none shadow-[0_4px_0_0_#1a1a1a]">
         <div class="flex items-start gap-4">
-          <span class="text-5xl">${t.icon}</span>
+          <span class="text-4xl">${t.icon}</span>
           <div>
-            <div class="flex items-center gap-2 mb-1"><span class="${categoryColors[t.category]} text-xs px-2 py-0.5 rounded-full">${t.catLabel}</span>${exploredTechniques.has(t.id) ? '<span class="bg-amber-100 text-amber-800 text-xs px-2 py-0.5 rounded-full">' + u.exploredBadge + '</span>' : ''}</div>
-            <h1 class="text-2xl font-bold">${t.name}</h1>
-            <p class="text-slate-500">${t.subtitle}</p>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="${categoryColors[t.category]} text-xs px-1.5 py-0.5">${t.catLabel}</span>
+              ${exploredTechniques.has(t.id) ? '<span class="bg-amber-700 text-white text-xs px-2 py-0.5 font-bold border border-neo">' + u.exploredBadge + '</span>' : ''}
+            </div>
+            <h1 class="text-xl font-bold text-slate-900 tracking-tight">${t.name}</h1>
+            <p class="text-sm text-amber-900 font-medium">${t.subtitle}</p>
           </div>
         </div>
       </div>
-      <div class="bg-white rounded-b-xl border p-6 space-y-6">
-        <section><h2 class="flex items-center gap-2 text-lg font-semibold mb-3">${u.sections.definition}</h2><p class="text-slate-600 leading-relaxed">${t.definition}</p></section>
-        <hr class="border-slate-200">
-        <section><h2 class="flex items-center gap-2 text-lg font-semibold mb-3">${u.sections.historical}</h2><p class="text-slate-600 leading-relaxed">${t.historicalContext}</p></section>
-        <hr class="border-slate-200">
-        <section><h2 class="flex items-center gap-2 text-lg font-semibold mb-3">${u.sections.psychological}</h2><div class="bg-blue-50 border border-blue-200 rounded-lg p-4"><p class="text-blue-900">${t.psychologicalMechanism}</p></div></section>
-        <hr class="border-slate-200">
-        <section><h2 class="flex items-center gap-2 text-lg font-semibold mb-3">${u.sections.variants}</h2><div class="space-y-2">${t.variants.map(v => `<div class="flex items-start gap-3 p-3 bg-slate-50 rounded-lg border"><span class="text-amber-500">→</span><div><span class="font-medium">${v.name}</span><p class="text-sm text-slate-500">${v.desc}</p></div></div>`).join('')}</div></section>
-        <hr class="border-slate-200">
-        <section><h2 class="flex items-center gap-2 text-lg font-semibold mb-3">${u.sections.redFlags}</h2><div class="space-y-2">${t.redFlags.map(f => `<div class="flex items-start gap-2 p-2 bg-orange-50 border border-orange-200 rounded-lg"><span class="text-orange-500">⚠</span><span class="text-sm text-orange-900">${f}</span></div>`).join('')}</div></section>
-        <hr class="border-slate-200">
-        <section><h2 class="flex items-center gap-2 text-lg font-semibold mb-3">${u.sections.caseStudies}</h2><div class="space-y-4">${t.caseStudies.map(cs => `<div class="border rounded-lg overflow-hidden"><div class="bg-slate-50 px-4 py-2 border-b"><h3 class="font-medium">${cs.title}</h3></div><div class="p-4"><p class="text-sm text-slate-600 mb-2">${cs.description}</p><p class="text-sm text-amber-700 font-medium">💡 ${cs.lesson}</p></div></div>`).join('')}</div></section>
-        <hr class="border-slate-200">
-        <section><h2 class="flex items-center gap-2 text-lg font-semibold mb-3">${u.sections.defense}</h2><div class="space-y-2">${t.defense.map((d, i) => `<div class="flex items-start gap-3 p-3 bg-green-50 border border-green-200 rounded-lg"><span class="w-6 h-6 rounded-full bg-green-600 text-white flex items-center justify-center text-xs font-bold">${i + 1}</span><div><span class="font-medium text-green-900">${d.step}</span><p class="text-sm text-green-700">${d.action}</p></div></div>`).join('')}</div></section>
-        <hr class="border-slate-200">
-        <section id="technique-quiz"><h2 class="flex items-center gap-2 text-lg font-semibold mb-3">${u.sections.quiz}</h2><div id="quiz-container"><div class="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 rounded-lg p-6 text-center"><span class="text-4xl mb-3 block">🎯</span><h3 class="font-semibold mb-2">${t.scenario.title}</h3><p class="text-sm text-slate-500 mb-4">${u.quizIntro}</p><button onclick="startTechniqueQuiz()" class="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded-lg font-medium transition">${u.startQuiz}</button></div></div></section>
+
+      <!-- Body -->
+      <div class="neo-panel rounded-t-none divide-y divide-slate-200">
+
+        <section class="p-5">
+          <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.definition}</h2>
+          <p class="text-sm text-slate-700 leading-relaxed">${t.definition}</p>
+        </section>
+
+        <section class="p-5">
+          <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.historical}</h2>
+          <p class="text-sm text-slate-700 leading-relaxed">${t.historicalContext}</p>
+        </section>
+
+        <section class="p-5">
+          <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.psychological}</h2>
+          <div class="neo-box pl-4 py-3 pr-3 border-l-4 border-blue-500">
+            <p class="text-sm text-blue-900 leading-relaxed">${t.psychologicalMechanism}</p>
+          </div>
+        </section>
+
+        <section class="p-5">
+          <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.variants}</h2>
+          <div class="space-y-2">
+            ${t.variants.map(v => `
+              <div class="neo-box flex items-start gap-3 p-3">
+                <span class="text-amber-500 font-bold mt-0.5">→</span>
+                <div><span class="font-semibold text-sm">${v.name}</span><p class="text-xs text-slate-500 mt-0.5">${v.desc}</p></div>
+              </div>
+            `).join('')}
+          </div>
+        </section>
+
+        <section class="p-5">
+          <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.redFlags}</h2>
+          <div class="space-y-1.5">
+            ${t.redFlags.map(f => `
+              <div class="neo-box flex items-start gap-2 p-2 border-l-4 border-orange-400 bg-orange-50">
+                <span class="text-orange-500 font-bold text-xs mt-0.5">⚠</span>
+                <span class="text-xs text-orange-900 leading-relaxed">${f}</span>
+              </div>
+            `).join('')}
+          </div>
+        </section>
+
+        <section class="p-5">
+          <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.caseStudies}</h2>
+          <div class="space-y-3">
+            ${t.caseStudies.map(cs => `
+              <div class="border-2 border-neo rounded-md overflow-hidden" style="box-shadow: 2px 2px 0 #1a1a1a">
+                <div class="bg-neo text-white px-4 py-2">
+                  <h3 class="text-sm font-semibold">${cs.title}</h3>
+                </div>
+                <div class="p-4 bg-white">
+                  <p class="text-sm text-slate-600 mb-2">${cs.description}</p>
+                  <p class="text-xs text-amber-700 font-semibold border-l-2 border-amber-400 pl-2">💡 ${cs.lesson}</p>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </section>
+
+        <section class="p-5">
+          <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.defense}</h2>
+          <div class="space-y-2">
+            ${t.defense.map((d, i) => `
+              <div class="neo-box flex items-start gap-3 p-3 border-l-4 border-green-500 bg-green-50">
+                <span class="w-5 h-5 bg-green-600 text-white flex items-center justify-center text-xs font-bold shrink-0 border border-neo">${i + 1}</span>
+                <div><span class="font-semibold text-sm text-green-900">${d.step}</span><p class="text-xs text-green-700 mt-0.5">${d.action}</p></div>
+              </div>
+            `).join('')}
+          </div>
+        </section>
+
+        <section id="technique-quiz" class="p-5">
+          <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">${u.sections.quiz}</h2>
+          <div id="quiz-container">
+            <div class="neo-panel p-6 text-center bg-amber-50">
+              <div class="text-3xl mb-2">🎯</div>
+              <h3 class="font-bold text-slate-900 mb-1">${t.scenario.title}</h3>
+              <p class="text-xs text-slate-500 mb-4">${u.quizIntro}</p>
+              <button onclick="startTechniqueQuiz()" class="btn-primary">${u.startQuiz}</button>
+            </div>
+          </div>
+        </section>
+
       </div>
     </div>
   `;
 }
 
+/* ─── ABOUT ─────────────────────────────────────────────── */
 function renderAbout() {
   const u = _ui.about;
   const content = document.getElementById('content');
-  content.innerHTML = `<div class="max-w-2xl mx-auto space-y-4">
-    <div class="bg-white rounded-lg border p-6"><h2 class="text-lg font-semibold mb-3">${u.infoTitle}</h2><p class="text-slate-600 mb-3">${u.infoDesc}</p></div>
-    <div class="bg-white rounded-lg border p-6"><h2 class="text-lg font-semibold mb-3">${u.sourcesTitle}</h2><ul class="space-y-1 text-sm text-slate-600">${u.sources.map(s => `<li>• ${s}</li>`).join('')}</ul></div>
-    <div class="bg-white rounded-lg border p-6"><h2 class="text-lg font-semibold mb-3">${u.principlesTitle}</h2><ul class="space-y-2 text-slate-600">${u.principles.map(p => `<li class="flex items-start gap-2"><span class="text-amber-500">✦</span><span>${p}</span></li>`).join('')}</ul></div>
-  </div>`;
+  content.innerHTML = `
+    <div class="max-w-2xl mx-auto space-y-3">
+      <div class="neo-panel overflow-hidden">
+        <div class="bg-neo text-white px-4 py-2 text-xs font-bold uppercase tracking-widest">${u.infoTitle}</div>
+        <div class="p-5"><p class="text-sm text-slate-600 leading-relaxed">${u.infoDesc}</p></div>
+      </div>
+      <div class="neo-panel overflow-hidden">
+        <div class="bg-neo text-white px-4 py-2 text-xs font-bold uppercase tracking-widest">${u.sourcesTitle}</div>
+        <ul class="p-5 space-y-1.5">
+          ${u.sources.map(s => `<li class="text-sm text-slate-600 flex items-start gap-2"><span class="text-slate-400 font-mono">—</span><span>${s}</span></li>`).join('')}
+        </ul>
+      </div>
+      <div class="neo-panel overflow-hidden">
+        <div class="bg-neo text-white px-4 py-2 text-xs font-bold uppercase tracking-widest">${u.principlesTitle}</div>
+        <ul class="p-5 space-y-2">
+          ${u.principles.map(p => `<li class="flex items-start gap-2 text-sm text-slate-700"><span class="text-amber-500 font-bold mt-0.5">✦</span><span>${p}</span></li>`).join('')}
+        </ul>
+      </div>
+    </div>
+  `;
 }
 
+/* ─── UTILS ─────────────────────────────────────────────── */
 function setFilter(filter) { currentFilter = filter; navigateTo('techniques', filter); }

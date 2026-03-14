@@ -1,57 +1,233 @@
+/* ═══════════════════════════════════════════════════════
+   BASE
+═══════════════════════════════════════════════════════ */
 * { font-family: 'Inter', sans-serif; }
 
-/* Scrollbar */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #f1f5f9; }
-::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+body { background-color: #e8e3db; }
 
-/* Animazioni */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
-.animate-fade-in { animation: fadeIn 0.3s ease-out; }
+.animate-fade-in { animation: fadeIn 0.18s ease-out; }
 
-/* Sidebar */
+/* ═══════════════════════════════════════════════════════
+   NEO-BRUTALIST SHADOWS  (offset solid, zero blur)
+═══════════════════════════════════════════════════════ */
+.neo-panel {
+  background: #ffffff;
+  border: 2px solid #1a1a1a;
+  border-radius: 6px;
+  box-shadow: 5px 5px 0 #1a1a1a;
+}
+
+.neo-card {
+  background: #ffffff;
+  border: 2px solid #1a1a1a;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 #1a1a1a;
+  transition: transform 0.08s, box-shadow 0.08s;
+  cursor: pointer;
+}
+.neo-card:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0 #1a1a1a;
+}
+
+/* Button with press-down effect */
+.neo-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 2px solid #1a1a1a;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 #1a1a1a;
+  padding: 0.4rem 1rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: transform 0.08s, box-shadow 0.08s;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+.neo-btn:hover   { transform: translate(1px, 1px);  box-shadow: 2px 2px 0 #1a1a1a; }
+.neo-btn:active  { transform: translate(3px, 3px);  box-shadow: none; }
+
+.neo-btn-amber   { background: #fbbf24; }
+.neo-btn-amber:hover { background: #f59e0b; }
+
+.neo-btn-dark    { background: #1a1a1a; color: #ffffff; }
+.neo-btn-dark:hover { background: #333; }
+
+/* Small inline button (filter, nav, etc.) */
+.neo-btn-sm {
+  border: 2px solid #1a1a1a;
+  border-radius: 4px;
+  box-shadow: 2px 2px 0 #1a1a1a;
+  padding: 0.25rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: transform 0.08s, box-shadow 0.08s;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+.neo-btn-sm:hover  { transform: translate(1px, 1px); box-shadow: 1px 1px 0 #1a1a1a; }
+.neo-btn-sm:active { transform: translate(2px, 2px); box-shadow: none; }
+.neo-btn-sm.active { background: #fbbf24; box-shadow: 2px 2px 0 #1a1a1a; }
+
+/* Primary CTA (alias for neo-btn + neo-btn-amber) */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 2px solid #1a1a1a;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 #1a1a1a;
+  padding: 0.4rem 1rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: transform 0.08s, box-shadow 0.08s;
+  background: #fbbf24;
+  color: #1a1a1a;
+}
+.btn-primary:hover  { transform: translate(1px, 1px); box-shadow: 2px 2px 0 #1a1a1a; background: #f59e0b; }
+.btn-primary:active { transform: translate(3px, 3px); box-shadow: none; }
+
+/* Situation / info box (quiz scenario, technique detail) */
+.neo-box {
+  background: #f8f6f3;
+  border: 2px solid #1a1a1a;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 #1a1a1a;
+}
+
+/* Progress bar track */
+.neo-progress-track {
+  background: #e5e2dd;
+  border: 2px solid #1a1a1a;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.neo-progress-track .neo-progress-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+/* Sidebar container (right border + shadow) */
+.sidebar-neo {
+  background: #ffffff;
+  border-right: 2px solid #1a1a1a;
+  box-shadow: 4px 0 0 #1a1a1a;
+}
+
+/* Brand block (amber header in sidebar) */
+.neo-brand {
+  background: #fbbf24;
+  border: 2px solid #1a1a1a;
+  border-radius: 0;
+  box-shadow: 0 3px 0 #1a1a1a;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SIDEBAR NAV
+═══════════════════════════════════════════════════════ */
+.nav-item {
+  border-radius: 4px;
+  transition: background-color 0.08s;
+}
+.nav-item:hover { background-color: #f1ede6; }
 .nav-item.active {
-  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
-  border-left: 3px solid #f59e0b;
+  background-color: #fef9c3;
+  border-left: 4px solid #1a1a1a;
+  font-weight: 700;
+  color: #1a1a1a;
+  box-shadow: 2px 0 0 #1a1a1a;
 }
 
-/* Card hover */
+/* ═══════════════════════════════════════════════════════
+   TECH CARD  (alias for neo-card in techniques grid)
+═══════════════════════════════════════════════════════ */
 .tech-card {
-  transition: all 0.2s ease;
+  background: #ffffff;
+  border: 2px solid #1a1a1a;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 #1a1a1a;
+  transition: transform 0.08s, box-shadow 0.08s;
+  cursor: pointer;
 }
 .tech-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0 #1a1a1a;
 }
 
-/* Category colors */
-.cat-attack { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
-.cat-disinfo { background: #eff6ff; color: #1e40af; border: 1px solid #bfdbfe; }
-.cat-framing { background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
-.cat-manipulation { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
-.cat-digital { background: #faf5ff; color: #6b21a8; border: 1px solid #e9d5ff; }
-.cat-emotional { background: #fdf4ff; color: #86198f; border: 1px solid #f5d0fe; }
+/* ═══════════════════════════════════════════════════════
+   CATEGORY BADGES
+═══════════════════════════════════════════════════════ */
+.cat-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 3px;
+  border: 1.5px solid #1a1a1a;
+  display: inline-block;
+}
+.cat-attack      { background: #fecaca; color: #7f1d1d; }
+.cat-disinfo     { background: #bfdbfe; color: #1e3a8a; }
+.cat-framing     { background: #bbf7d0; color: #14532d; }
+.cat-manipulation{ background: #fed7aa; color: #7c2d12; }
+.cat-digital     { background: #e9d5ff; color: #581c87; }
+.cat-emotional   { background: #f5d0fe; color: #701a75; }
 
-/* Quiz */
+/* ═══════════════════════════════════════════════════════
+   COUNT BADGE  (green, like the #4 in screenshot)
+═══════════════════════════════════════════════════════ */
+.count-badge {
+  background: #4ade80;
+  color: #14532d;
+  border: 2px solid #1a1a1a;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: 'Courier New', monospace;
+  padding: 0 6px;
+  box-shadow: 1px 1px 0 #1a1a1a;
+  display: inline-block;
+}
+
+/* ═══════════════════════════════════════════════════════
+   QUIZ OPTIONS
+═══════════════════════════════════════════════════════ */
 .quiz-option {
-  transition: all 0.15s ease;
+  border: 2px solid #1a1a1a;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 #1a1a1a;
+  background: #ffffff;
+  cursor: pointer;
+  transition: transform 0.08s, box-shadow 0.08s, background-color 0.08s;
 }
-.quiz-option:hover:not(.selected):not(.disabled) {
-  background: #f8fafc;
-  border-color: #cbd5e1;
+.quiz-option:hover:not(.disabled) {
+  background-color: #fef9c3;
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 #1a1a1a;
 }
 .quiz-option.correct {
-  background: #f0fdf4;
-  border-color: #22c55e;
+  background-color: #dcfce7;
+  border-color: #16a34a;
+  box-shadow: 2px 2px 0 #16a34a;
 }
 .quiz-option.incorrect {
-  background: #fef2f2;
-  border-color: #ef4444;
+  background-color: #fee2e2;
+  border-color: #dc2626;
+  box-shadow: 2px 2px 0 #dc2626;
 }
 
-/* Sidebar scrollbar */
-.sidebar::-webkit-scrollbar { width: 4px; }
+/* ═══════════════════════════════════════════════════════
+   SCROLLBARS
+═══════════════════════════════════════════════════════ */
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: #e8e3db; }
+::-webkit-scrollbar-thumb { background: #a39d96; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #7a756f; }
+.sidebar::-webkit-scrollbar { width: 3px; }
