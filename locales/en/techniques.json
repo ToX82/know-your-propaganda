@@ -1,0 +1,1558 @@
+[
+  {
+    "id": 1,
+    "icon": "⚔️",
+    "name": "Ad Hominem",
+    "subtitle": "Attack on the Person",
+    "category": "attack",
+    "catLabel": "Attack",
+    "summary": "Attacking the person rather than their arguments. One of the oldest logical fallacies.",
+    "definition": "Ad hominem (Latin: 'against the man') is a logical fallacy in which one attacks the character, motives, or other personal attributes of someone making an argument, rather than addressing the substance of the argument itself.",
+    "historicalContext": "Classified by Aristotle among the sophisms. Systematically employed by totalitarian regimes: the label 'enemy of the people' delegitimized any argument regardless of its merit.",
+    "psychologicalMechanism": "Exploits the source heuristic: we tend to evaluate information based on who delivers it. When the source is delegitimized, the brain automatically discards even sound arguments.",
+    "variants": [
+      { "name": "Abusive", "desc": "Direct insults: 'You're an idiot!'" },
+      { "name": "Circumstantial", "desc": "Attack on interests: 'You're paid to say that!'" },
+      { "name": "Tu Quoque", "desc": "Accusation of hypocrisy: 'You do the same thing!'" },
+      { "name": "Guilt by Association", "desc": "Guilt by association: 'They talk with X, therefore...'" }
+    ],
+    "redFlags": [
+      "The argument focuses on the person making the claim, not on the claim itself",
+      "Repeated use of negative labels",
+      "No engagement with the specific content of the argument"
+    ],
+    "caseStudies": [
+      {
+        "title": "Galileo",
+        "description": "He was branded a 'heretic' rather than having his astronomical arguments refuted.",
+        "lesson": "Personal flaws do not invalidate arguments."
+      }
+    ],
+    "defense": [
+      { "step": "Recognize", "action": "Identify when the discussion shifts from the facts to the person" },
+      { "step": "Separate", "action": "Isolate the argument from any personal attributes" },
+      { "step": "Ask", "action": "'What does this have to do with the specific proposal?'" }
+    ],
+    "scenario": {
+      "title": "Energy policy debate",
+      "situation": "An engineer proposes nuclear power plants. An opponent says: 'We can't listen to him! He works for an industry company!'",
+      "question": "Which variant is being used?",
+      "options": [
+        { "text": "Circumstantial ad hominem", "correct": true, "explanation": "It attacks the person's presumed interests to avoid discussing the technical merits." },
+        { "text": "Legitimate concern about conflicts of interest", "correct": false, "explanation": "Conflicts of interest should be disclosed, but they do not automatically invalidate an argument." },
+        { "text": "Abusive ad hominem", "correct": false, "explanation": "There are no direct insults." }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "icon": "😂",
+    "name": "Ridicule",
+    "subtitle": "The Weapon of Mockery",
+    "category": "attack",
+    "catLabel": "Attack",
+    "summary": "Turning the opponent into an object of derision to delegitimize them without argument.",
+    "definition": "Systematic ridicule uses humor to make it socially costly to take the opponent seriously.",
+    "historicalContext": "Used by regimes through caricatures of ethnic groups and opponents. In the digital age, memes have become powerful weapons.",
+    "psychologicalMechanism": "Humor creates an emotional association that bypasses reasoning. Someone who laughs at another person categorizes them as 'not worthy of serious consideration.'",
+    "variants": [
+      { "name": "Serial memes", "desc": "Coordinated campaigns targeting the same figure" },
+      { "name": "Selective montages", "desc": "Compilations of out-of-context blunders" },
+      { "name": "Derogatory nicknames", "desc": "Humorous labels used in place of the person's name" }
+    ],
+    "redFlags": [
+      "Memes targeting physical appearance rather than ideas",
+      "Systematic one-sided satire",
+      "Mockery without any accompanying argument"
+    ],
+    "caseStudies": [
+      {
+        "title": "The power of memes",
+        "description": "Studies show that candidates systematically ridiculed in memes are perceived as less competent.",
+        "lesson": "Memes are political communication with measurable effects."
+      }
+    ],
+    "defense": [
+      { "step": "Separate", "action": "'It makes me laugh' does not mean 'they are wrong'" },
+      { "step": "Check the source", "action": "Who produces the content that makes you laugh?" },
+      { "step": "Reverse test", "action": "How would you react if the same technique were used against your own side?" }
+    ],
+    "scenario": {
+      "title": "Meme campaign",
+      "situation": "For months, social media is flooded with memes showing a politician with a distorted face. No arguments are made — only mockery.",
+      "question": "What effect does this have?",
+      "options": [
+        { "text": "Delegitimization without argument", "correct": true, "explanation": "It makes criticizing the politician socially costly." },
+        { "text": "It's just harmless satire", "correct": false, "explanation": "Systematic satire has measurable effects on public perception." },
+        { "text": "If it's funny, there must be some truth to it", "correct": false, "explanation": "Humor can be effective even when entirely misleading." }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "icon": "👹",
+    "name": "Demonization",
+    "subtitle": "The Absolute Enemy",
+    "category": "attack",
+    "catLabel": "Attack",
+    "summary": "Portraying the opponent as the embodiment of evil, stripped of any human qualities.",
+    "definition": "Demonization represents the opponent not as someone with different opinions, but as a force of evil — an existential threat, a being devoid of morality or humanity.",
+    "historicalContext": "A central technique in every genocide: Jews, Tutsis, and Armenians were first demonized as 'rats,' 'cockroaches,' and 'parasites.' Demonization psychologically prepares populations for violence.",
+    "psychologicalMechanism": "It dehumanizes the enemy, removing moral inhibitions against violence. When someone is framed as 'pure evil,' any action taken against them becomes justified.",
+    "variants": [
+      { "name": "Subhuman", "desc": "Comparisons to animals, parasites, or disease" },
+      { "name": "Existential threat", "desc": "'They want to destroy everything we love'" },
+      { "name": "Conspiracy", "desc": "'They are everywhere, they control everything'" },
+      { "name": "Morally inferior", "desc": "'They have no values, they are savages'" }
+    ],
+    "redFlags": [
+      "Comparisons to animals or diseases",
+      "Portrayal as an existential threat",
+      "Denial of humanity to the opponent",
+      "Language implying a need for 'purification' or 'elimination'"
+    ],
+    "caseStudies": [
+      {
+        "title": "Radio Rwanda",
+        "description": "Before the genocide, Tutsis were called 'inyenzi' (cockroaches). The demonization prepared the population for mass slaughter.",
+        "lesson": "Demonization is the first step toward mass violence."
+      },
+      {
+        "title": "Nazi propaganda",
+        "description": "Jews were depicted as rats 'infesting' society. Stripping away their humanity enabled the 'final solution.'",
+        "lesson": "Words precede actions."
+      }
+    ],
+    "defense": [
+      { "step": "Recognize dehumanization", "action": "Notice when the opponent loses human attributes in the discourse" },
+      { "step": "Remember history", "action": "Demonization has preceded every genocide" },
+      { "step": "Seek complexity", "action": "No group is monolithic or absolutely evil" },
+      { "step": "Reject the language", "action": "Neither use nor accept terms that dehumanize" }
+    ],
+    "scenario": {
+      "title": "Public speech",
+      "situation": "A speaker says: 'These parasites won't stop until they have destroyed everything we love. They are a plague that must be eradicated.'",
+      "question": "Which technique do you recognize?",
+      "options": [
+        { "text": "Demonization: dehumanizes the group as parasites to be eradicated", "correct": true, "explanation": "Language that prepares for violence by stripping away humanity." },
+        { "text": "Strong but legitimate rhetoric", "correct": false, "explanation": "'Parasites' and 'eradicated' are dehumanizing terms." },
+        { "text": "Harmless rhetorical exaggeration", "correct": false, "explanation": "History shows that this type of language precedes violence." }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "icon": "📰",
+    "name": "Firehose of Falsehood",
+    "subtitle": "Flood of Lies",
+    "category": "disinfo",
+    "catLabel": "Disinformation",
+    "summary": "Flooding the information space with such a high volume of contradictory messages that fact-checking becomes impossible.",
+    "definition": "A propaganda model that bombards the public with many false and contradictory messages — betting that corrections cannot keep pace.",
+    "historicalContext": "Theorized by the RAND Corporation in 2016 to describe Russian operations during the annexation of Crimea. Unlike Soviet propaganda, it openly accepts obvious contradictions.",
+    "psychologicalMechanism": "Exploits the 'illusory truth effect' (repetition makes things seem true) and 'cognitive fatigue' (too many contradictory pieces of information lead people to stop verifying).",
+    "variants": [
+      { "name": "High volume", "desc": "More information than can possibly be verified" },
+      { "name": "Speed", "desc": "Rapid publication before corrections can be issued" },
+      { "name": "Incoherence", "desc": "Accepts obvious contradictions" },
+      { "name": "Multiple channels", "desc": "Deployed across different platforms simultaneously" }
+    ],
+    "redFlags": [
+      "A continuous flow of stories that contradict previous narratives",
+      "Stories that change their version rapidly",
+      "Contradictory narratives occupying the same information space"
+    ],
+    "caseStudies": [
+      {
+        "title": "MH17",
+        "description": "After the plane was shot down, 15 different explanations were proposed within days: a Ukrainian missile, a fighter jet, a CIA plot...",
+        "lesson": "A plurality of explanations can be more effective than a single lie."
+      }
+    ],
+    "defense": [
+      { "step": "Slow down", "action": "Do not react in real time" },
+      { "step": "Triangulate", "action": "Seek confirmation from independent sources" },
+      { "step": "Identify patterns", "action": "Recognize multiple and contradictory narratives" }
+    ],
+    "scenario": {
+      "title": "International crisis",
+      "situation": "Within 48 hours: 'There are no troops' (Mon), 'Defensive exercises' (Tue morning), 'The enemy provoked us' (Tue afternoon), 'We were attacked' (Tue evening).",
+      "question": "Which pattern do you recognize?",
+      "options": [
+        { "text": "Firehose: contradictory narratives in rapid succession", "correct": true, "explanation": "Obvious contradictions within 48 hours." },
+        { "text": "Normal evolution during a crisis", "correct": false, "explanation": "Coherent accounts do not change this radically." },
+        { "text": "Manipulated tweets", "correct": false, "explanation": "The pattern is characteristic of the firehose technique." }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "icon": "🔗",
+    "name": "Chain Letter",
+    "subtitle": "Viral Amplification",
+    "category": "disinfo",
+    "catLabel": "Disinformation",
+    "summary": "Exploiting virality to amplify unverified or false information.",
+    "definition": "The modern chain letter exploits social media algorithms to amplify emotionally charged content, regardless of its truthfulness.",
+    "historicalContext": "Originating as paper chain letters, the format evolved alongside social media. Algorithms reward engagement, not accuracy.",
+    "psychologicalMechanism": "Exploits social proof and emotion: content that generates anger or fear is shared more rapidly.",
+    "variants": [
+      { "name": "Emotional chain", "desc": "'Share if you care!'" },
+      { "name": "Alert", "desc": "'Urgent warning for everyone!'" },
+      { "name": "Luck chain", "desc": "'Share or something bad will happen to you'" },
+      { "name": "Viral petition", "desc": "False or manipulated petitions" }
+    ],
+    "redFlags": [
+      "Explicit call to share",
+      "Highly emotional content with no sources",
+      "Threats or promises tied to sharing"
+    ],
+    "caseStudies": [
+      {
+        "title": "WhatsApp chains",
+        "description": "During epidemics and elections, chains of unverified messages spread exponentially, bypassing fact-checkers.",
+        "lesson": "The speed of sharing outpaces the speed of verification."
+      }
+    ],
+    "defense": [
+      { "step": "Pause", "action": "Do not forward automatically" },
+      { "step": "Verify", "action": "Seek independent sources" },
+      { "step": "Break the chain", "action": "Reply with a fact-check when possible" }
+    ],
+    "scenario": {
+      "title": "Viral message",
+      "situation": "You receive: 'URGENT! New banking scam! Share with all your contacts to protect them!' No sources provided.",
+      "question": "What do you do?",
+      "options": [
+        { "text": "I verify before sharing", "correct": true, "explanation": "The urgency is artificial; verification is always possible." },
+        { "text": "I share immediately to protect people", "correct": false, "explanation": "The message itself could be a scam or disinformation." },
+        { "text": "I share with a note saying 'unverified'", "correct": false, "explanation": "Even with a disclaimer, you are amplifying unverified content." }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "icon": "🖼️",
+    "name": "Framing",
+    "subtitle": "Narrative Framing",
+    "category": "framing",
+    "catLabel": "Framing",
+    "summary": "The facts do not change — only the frame through which they are presented.",
+    "definition": "Framing selects certain aspects of reality and makes them more salient, promoting a particular definition of the problem, causal interpretation, and moral evaluation.",
+    "historicalContext": "A concept derived from media sociology (Goffman, Entman). The same facts can be presented through entirely different frames.",
+    "psychologicalMechanism": "Operates through accessibility (information presented first influences interpretation) and applicability (the frame activates specific mental schemas).",
+    "variants": [
+      { "name": "Conflict frame", "desc": "Presenting an issue as a clash between opposing sides" },
+      { "name": "Economic frame", "desc": "Evaluating in terms of costs and benefits" },
+      { "name": "Moral frame", "desc": "Issues of values, good vs. evil" },
+      { "name": "Security frame", "desc": "Presenting an issue as a threat" }
+    ],
+    "redFlags": [
+      "The same event described with very different language by different sources",
+      "Terms that are systematically emotionally charged",
+      "Selective focus on certain aspects of a story"
+    ],
+    "caseStudies": [
+      {
+        "title": "Immigration",
+        "description": "Outlet A: 'security crisis' (invasion, illegal aliens). Outlet B: 'humanitarian emergency' (refugees, hope).",
+        "lesson": "You do not need to lie: selection alone constructs different realities."
+      }
+    ],
+    "defense": [
+      { "step": "Identify the frame", "action": "How is this event being presented?" },
+      { "step": "Analyze the language", "action": "Are the terms neutral or emotionally loaded?" },
+      { "step": "Seek alternative frames", "action": "How is this event being presented elsewhere?" }
+    ],
+    "scenario": {
+      "title": "Street protest",
+      "situation": "10,000 people demonstrate; 50 cause disturbances. Outlet A: 'VIOLENCE IN THE CITY.' Outlet B: 'TEN THOUSAND TAKE TO THE STREETS.'",
+      "question": "What distinguishes the two approaches?",
+      "options": [
+        { "text": "Different framing: same facts, opposing frames", "correct": true, "explanation": "Both are true, but each selects different aspects of the event." },
+        { "text": "One focuses on numbers", "correct": false, "explanation": "Both could be factually correct." },
+        { "text": "Outlet A is objective", "correct": false, "explanation": "Outlet A conceals the 9,950 peaceful protesters." }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "icon": "🔄",
+    "name": "Whataboutism",
+    "subtitle": "The Deflection",
+    "category": "framing",
+    "catLabel": "Framing",
+    "summary": "Deflecting every criticism by pointing to the faults of others instead of responding.",
+    "definition": "A variant of the 'tu quoque' fallacy: instead of responding to a criticism, one accuses the critic of the same behavior.",
+    "historicalContext": "Perfected by Soviet propaganda. When the West criticized human rights conditions in the USSR, the standard reply was: 'And you? You have racism!'",
+    "psychologicalMechanism": "Exploits the desire for moral consistency: we feel uncomfortable criticizing someone if we ourselves are not perfect.",
+    "variants": [
+      { "name": "Direct whatabout", "desc": "'What about you? You do the same thing!'" },
+      { "name": "Historical whatabout", "desc": "'What about what you did in 1950?'" },
+      { "name": "Systemic whatabout", "desc": "'What about capitalism?'" },
+      { "name": "Selective whatabout", "desc": "Only citing cases that favor one's own narrative" }
+    ],
+    "redFlags": [
+      "A response that does not address the question",
+      "'Yes, but...' followed by others' faults",
+      "Comparisons used to justify anything"
+    ],
+    "caseStudies": [
+      {
+        "title": "Soviet responses",
+        "description": "Criticisms about political dissidents were met with: 'What about Black Americans?' Legitimate criticisms were weaponized to shut down debate.",
+        "lesson": "Valid criticisms can be used as shields to deflect other valid criticisms."
+      }
+    ],
+    "defense": [
+      { "step": "Recognize", "action": "'Did you answer the question or just ask another one?'" },
+      { "step": "Separate", "action": "'Can we discuss these two issues separately?'" },
+      { "step": "Return to the point", "action": "'Now: is this particular decision right or wrong?'" }
+    ],
+    "scenario": {
+      "title": "Difficult interview",
+      "situation": "Journalist: 'Your party was convicted of illegal financing.' Politician: 'And what about Party X? They did worse!'",
+      "question": "How should one respond?",
+      "options": [
+        { "text": "'We can discuss everything, but right now: what is your response to the conviction?'", "correct": true, "explanation": "This prevents the question from being replaced." },
+        { "text": "Engage with the discussion about other parties", "correct": false, "explanation": "That is exactly what whataboutism is designed to achieve." },
+        { "text": "'Everyone is corrupt'", "correct": false, "explanation": "Moral equivalence is the intended outcome." }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "icon": "📺",
+    "name": "Agenda Setting",
+    "subtitle": "Control of the Invisible",
+    "category": "framing",
+    "catLabel": "Framing",
+    "summary": "What matters is not how we talk about it, but WHAT we do not talk about.",
+    "definition": "The capacity of media to influence not what the public thinks, but what the public thinks about.",
+    "historicalContext": "Theory formulated by McCombs and Shaw in 1972: the media do not tell people what to think, but what to think about.",
+    "psychologicalMechanism": "The brain assesses relevance based on media salience. If something is widely discussed, it must be important.",
+    "variants": [
+      { "name": "Selective amplification", "desc": "Some topics receive constant coverage; others receive none" },
+      { "name": "Selective timing", "desc": "Inconvenient news released at low-attention moments" },
+      { "name": "Gatekeeping", "desc": "Simply not allowing certain topics to pass through" },
+      { "name": "Competitive agenda", "desc": "Saturating the media with irrelevant topics" }
+    ],
+    "redFlags": [
+      "Scandals receiving disproportionate coverage",
+      "Important topics receiving zero attention",
+      "News 'buried' in low-traffic time slots"
+    ],
+    "caseStudies": [
+      {
+        "title": "Saturation",
+        "description": "During weeks of scandal coverage, important legislation passes unnoticed.",
+        "lesson": "What is not said is more important than what is said."
+      }
+    ],
+    "defense": [
+      { "step": "Ask", "action": "'What is NOT being talked about?'" },
+      { "step": "Vary your sources", "action": "Different sources have different agendas" },
+      { "step": "Look for buried news", "action": "Read minor sections and less prominent stories too" }
+    ],
+    "scenario": {
+      "title": "A media week",
+      "situation": "For a week, 15 of 20 minutes of airtime are devoted to a celebrity accused of fraud. A major electoral reform is passed with 30 seconds of coverage aired at night.",
+      "question": "Which phenomenon do you observe?",
+      "options": [
+        { "text": "Selective agenda setting: focus on entertainment, silence on politics", "correct": true, "explanation": "The reform affects millions; the celebrity scandal affects no one in any material way." },
+        { "text": "Normal, the celebrity is more interesting", "correct": false, "explanation": "It seems interesting because it is presented as important." },
+        { "text": "The reform was less important", "correct": false, "explanation": "Electoral reforms have effects that last decades." }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "icon": "🪣",
+    "name": "Poisoning the Well",
+    "subtitle": "Preemptive Delegitimization",
+    "category": "framing",
+    "catLabel": "Framing",
+    "summary": "Pre-judging a source before it can speak, making it impossible to receive its arguments fairly.",
+    "definition": "Presenting negative information about a source BEFORE that source has had a chance to speak, so that anything it says is filtered through a negative lens.",
+    "historicalContext": "The term comes from the ancient practice of literally poisoning wells. In rhetoric, it is a preemptive form of attack.",
+    "psychologicalMechanism": "The primacy effect: the first piece of information received about someone shapes the interpretation of everything that follows.",
+    "variants": [
+      { "name": "Pre-defamation", "desc": "Releasing 'negative information' before a speech or appearance" },
+      { "name": "Preventive association", "desc": "'They are about to speak, but remember that...'" },
+      { "name": "Preemptive disqualification", "desc": "'Everything they say will be false because...'" }
+    ],
+    "redFlags": [
+      "Negative information presented before the source has spoken",
+      "Warnings to 'not trust X' issued ahead of events",
+      "Systematically negative qualifiers attached to a source"
+    ],
+    "caseStudies": [
+      {
+        "title": "Political debates",
+        "description": "Before a debate, negative stories about a candidate are circulated so that every word the candidate says is received with suspicion.",
+        "lesson": "Preemptive damage is difficult to repair."
+      }
+    ],
+    "defense": [
+      { "step": "Recognize the timing", "action": "Is the negative information arriving BEFORE the source speaks?" },
+      { "step": "Listen anyway", "action": "Evaluate the arguments, not just the source" },
+      { "step": "Verify the accusations", "action": "Is the preemptively circulated information actually true?" }
+    ],
+    "scenario": {
+      "title": "Pre-event",
+      "situation": "Before an expert's conference, the following circulates: 'Warning: this person has ties to interested industries!' No specifics are given, nor is there any indication of whether such ties influence the research.",
+      "question": "What do you recognize?",
+      "options": [
+        { "text": "Poisoning the well: preemptive prejudice to shape how the expert is received", "correct": true, "explanation": "The vague information arrives BEFORE the talk, to color everything that follows." },
+        { "text": "Useful information for attendees", "correct": false, "explanation": "Without specifics, it is just prejudice." },
+        { "text": "Necessary transparency", "correct": false, "explanation": "Genuine transparency specifies the ties; vague accusations are not transparency." }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "icon": "🎯",
+    "name": "Card Stacking",
+    "subtitle": "Stacking the Deck",
+    "category": "framing",
+    "catLabel": "Framing",
+    "summary": "Presenting only the facts favorable to one's thesis while concealing those that contradict it.",
+    "definition": "Building an entire message from true facts that are selectively chosen and presented in a one-sided manner.",
+    "historicalContext": "Term coined by the Institute for Propaganda Analysis (1937). Distinct from lying: the facts are true but incomplete.",
+    "psychologicalMechanism": "Exploits confirmation bias and the illusion of completeness: when we see a lot of data, we assume the picture is complete.",
+    "variants": [
+      { "name": "Omission", "desc": "Simply not mentioning contrary facts" },
+      { "name": "Selective emphasis", "desc": "Giving much space to favorable facts, little or none to unfavorable ones" },
+      { "name": "Missing context", "desc": "True facts without the context that would change their meaning" }
+    ],
+    "redFlags": [
+      "A very one-sided presentation",
+      "Absence of data that could contradict the thesis",
+      "All sources sharing the same orientation"
+    ],
+    "caseStudies": [
+      {
+        "title": "Corporate reports",
+        "description": "Annual reports that celebrate successes but make no mention of failures or risks.",
+        "lesson": "Completeness requires including what we do not like."
+      }
+    ],
+    "defense": [
+      { "step": "Ask", "action": "'What data contradicts this thesis?'" },
+      { "step": "Seek alternative sources", "action": "What do those with different interests say?" },
+      { "step": "Note what is missing", "action": "What is NOT being said?" }
+    ],
+    "scenario": {
+      "title": "Sales report",
+      "situation": "A company announces: 'We sold 1 million units!' It does not mention that 3 million were projected.",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Card stacking: a true fact but with hidden context", "correct": true, "explanation": "The million units are real, but the figure is incomplete without comparison to projections." },
+        { "text": "Fake news — the figure is false", "correct": false, "explanation": "The figure could be entirely true." },
+        { "text": "Legitimate communication", "correct": false, "explanation": "Omitting context creates a misleading impression." }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "icon": "🏷️",
+    "name": "Labeling",
+    "subtitle": "Name-Calling",
+    "category": "framing",
+    "catLabel": "Framing",
+    "summary": "Using labels to define people, groups, or ideas — simplifying and often delegitimizing them.",
+    "definition": "Applying labels (positive or negative) that replace argument and short-circuit critical thinking.",
+    "historicalContext": "Systematically used in every conflict: 'terrorist' vs. 'freedom fighter,' 'patriot' vs. 'nationalist.'",
+    "psychologicalMechanism": "Labels activate stereotypes and bypass analysis. Once a label is applied, we stop analyzing the content.",
+    "variants": [
+      { "name": "Demonizing labels", "desc": "'Traitor,' 'enemy,' 'subversive'" },
+      { "name": "Ennobling labels", "desc": "'Hero,' 'pioneer,' 'defender'" },
+      { "name": "Reductive labels", "desc": "'Right-wing,' 'left-wing' used to shut down debate" }
+    ],
+    "redFlags": [
+      "Labels used instead of arguments",
+      "Labels substituting for analysis",
+      "Systematic labeling applied to certain groups"
+    ],
+    "caseStudies": [
+      {
+        "title": "The Cold War",
+        "description": "'Communist' was used to delegitimize any progressive position without engaging with its merits.",
+        "lesson": "Labels shut down debate."
+      }
+    ],
+    "defense": [
+      { "step": "Recognize the label", "action": "'Is this a label or an argument?'" },
+      { "step": "Ask for content", "action": "'What exactly does this label mean in this specific context?'" },
+      { "step": "Reject the simplification", "action": "Reality is more complex than any label" }
+    ],
+    "scenario": {
+      "title": "Debate",
+      "situation": "Someone proposes a tax reform. Their opponent says: 'That's typical socialist thinking!' No discussion of the actual proposal.",
+      "question": "What is happening?",
+      "options": [
+        { "text": "Labeling: the argument is replaced with a label", "correct": true, "explanation": "The label closes off debate about the actual proposal." },
+        { "text": "Legitimate ideological analysis", "correct": false, "explanation": "There is no analysis — just a label." },
+        { "text": "Useful information about ideological orientation", "correct": false, "explanation": "Without argument, it is just a conversation-stopper." }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "icon": "🐑",
+    "name": "Bandwagon",
+    "subtitle": "Herd Effect",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "'Everyone is doing it!' — Exploiting the desire for social conformity.",
+    "definition": "A technique that exploits social proof: if 'everyone' does or believes something, it must be right, true, or desirable.",
+    "historicalContext": "One of the seven main techniques identified by the Institute for Propaganda Analysis in 1937. Used in advertising and politics.",
+    "psychologicalMechanism": "Exploits the need to belong and the fear of being excluded. We tend to conform to what we perceive as the social norm.",
+    "variants": [
+      { "name": "Explicit bandwagon", "desc": "'Everyone is doing it!' / 'Thousands of people...'" },
+      { "name": "Implicit bandwagon", "desc": "Showing cheering crowds and long queues" },
+      { "name": "False consensus", "desc": "Inflating support numbers" }
+    ],
+    "redFlags": [
+      "Invitations to join the majority",
+      "Unverifiable support numbers",
+      "Implicit social pressure"
+    ],
+    "caseStudies": [
+      {
+        "title": "The 1936 election",
+        "description": "The Literary Digest predicted a Landon victory based on millions of questionnaire responses — but the sample was skewed. The bandwagon turned out to be wrong.",
+        "lesson": "The majority can be wrong."
+      }
+    ],
+    "defense": [
+      { "step": "Verify the numbers", "action": "Is the 'everyone' real or imaginary?" },
+      { "step": "Evaluate on merit", "action": "Even if everyone did it, would it be right?" },
+      { "step": "Remember history", "action": "Majorities have often supported things that were wrong" }
+    ],
+    "scenario": {
+      "title": "Advertising campaign",
+      "situation": "'Used by millions!' No specification of how many millions, or whether the product actually works.",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Bandwagon: vague social proof to induce conformity", "correct": true, "explanation": "Vague numbers are used to suggest consensus." },
+        { "text": "Legitimate testimonial", "correct": false, "explanation": "Without specific data, it is mere suggestion." },
+        { "text": "Useful information", "correct": false, "explanation": "It says nothing about the quality of the product." }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "icon": "✨",
+    "name": "Glittering Generalities",
+    "subtitle": "Shining Words",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Using words with positive connotations but no specific meaning.",
+    "definition": "Words such as 'freedom,' 'democracy,' 'progress,' and 'justice' used without defining their content, in order to associate positive feelings with a cause.",
+    "historicalContext": "Identified by the Institute for Propaganda Analysis. Complementary to Name-Calling: empty positive words instead of negative ones.",
+    "psychologicalMechanism": "Positive words activate positive emotions without activating critical thinking. After all, who is against 'freedom'?",
+    "variants": [
+      { "name": "Abstract values", "desc": "'Freedom,' 'justice,' 'progress'" },
+      { "name": "Empty qualifiers", "desc": "'The right solution,' 'real change'" },
+      { "name": "Positive adjectives", "desc": "'Courageous,' 'visionary,' 'authentic'" }
+    ],
+    "redFlags": [
+      "Words with strong emotional charge but no definition",
+      "Everyone can agree on them, but they mean different things to different people",
+      "Statements that sound good but say nothing"
+    ],
+    "caseStudies": [
+      {
+        "title": "Electoral campaigns",
+        "description": "'For freedom!' 'For real progress!' Without defining what these words mean in the actual platform.",
+        "lesson": "Everyone loves freedom, but people define it differently."
+      }
+    ],
+    "defense": [
+      { "step": "Ask for definitions", "action": "'What does freedom actually mean in this program?'" },
+      { "step": "Look for specifics", "action": "Behind the glittering word, what is being concretely proposed?" },
+      { "step": "Note the absence", "action": "What is NOT being said?" }
+    ],
+    "scenario": {
+      "title": "Political slogan",
+      "situation": "'Vote for real freedom and real progress!' No explanation of what 'real' means or what concrete policies are proposed.",
+      "question": "What do you recognize?",
+      "options": [
+        { "text": "Glittering generalities: positive but empty words with no content", "correct": true, "explanation": "Everyone loves freedom and progress, but without definitions they are meaningless." },
+        { "text": "Effective and legitimate slogan", "correct": false, "explanation": "Without content, it is only emotional suggestion." },
+        { "text": "Information about values", "correct": false, "explanation": "It does not actually inform about any content." }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "icon": "🧬",
+    "name": "Transfer",
+    "subtitle": "Authority Transfer",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Transferring the authority or prestige of a figure or symbol to a cause.",
+    "definition": "Associating a cause with respected (or despised) symbols, people, or institutions to automatically transfer those feelings.",
+    "historicalContext": "Used systematically in advertising (celebrity endorsement) and politics (photographs with flags, religious figures, military personnel).",
+    "psychologicalMechanism": "The brain automatically transfers feelings from the source to the associated object. If a respected person supports X, then X acquires respectability.",
+    "variants": [
+      { "name": "Religious authority", "desc": "Associating causes with religious figures or sacred symbols" },
+      { "name": "Scientific authority", "desc": "Citing experts outside their field of expertise" },
+      { "name": "National symbols", "desc": "Flags, anthems, monuments used to legitimize causes" },
+      { "name": "Moral authority", "desc": "Citing respected historical figures" }
+    ],
+    "redFlags": [
+      "Association with authoritative figures who are out of context",
+      "Use of sacred or national symbols for ordinary causes",
+      "Experts cited outside their field of competence"
+    ],
+    "caseStudies": [
+      {
+        "title": "Scientific advertising",
+        "description": "An actor who plays a doctor on TV recommends a medication. The transferred authority is fictional but effective.",
+        "lesson": "Authority must be relevant and genuine."
+      }
+    ],
+    "defense": [
+      { "step": "Verify relevance", "action": "Does this authority have expertise ON THIS specific topic?" },
+      { "step": "Separate", "action": "Does the cause have its own merits, independent of who supports it?" },
+      { "step": "Recognize the association", "action": "Is a symbol being used to legitimize something unrelated?" }
+    ],
+    "scenario": {
+      "title": "Endorsement",
+      "situation": "A famous actor takes a position on global economic policy. He has no economics training.",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Transfer: the actor's prestige is transferred to the economic position", "correct": true, "explanation": "Fame is not economic expertise." },
+        { "text": "Legitimate testimonial", "correct": false, "explanation": "Without relevant expertise, it is only a prestige transfer." },
+        { "text": "Everyone is entitled to an opinion", "correct": false, "explanation": "True, but using fame to legitimize a position is transfer." }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "icon": "🎤",
+    "name": "Testimonial",
+    "subtitle": "Personal Testimony",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Using personal testimonials instead of data or arguments.",
+    "definition": "Presenting individual experiences as general proof, or using paid or coached witnesses to reinforce a message.",
+    "historicalContext": "The foundation of modern advertising. In propaganda, used to humanize causes or delegitimize opponents.",
+    "psychologicalMechanism": "Personal stories are more persuasive than abstract data. The brain remembers narratives better than statistics.",
+    "variants": [
+      { "name": "Emotional testimony", "desc": "Tear-jerking stories that bypass data" },
+      { "name": "Authority testimony", "desc": "Celebrities or experts cited outside their field" },
+      { "name": "Orchestrated testimony", "desc": "Coached or paid witnesses" }
+    ],
+    "redFlags": [
+      "Moving stories without supporting data",
+      "A single experience presented as the norm",
+      "Witnesses with hidden interests"
+    ],
+    "caseStudies": [
+      {
+        "title": "'Maria the housewife'",
+        "description": "Advertisements featuring 'real consumers' who turn out to be actors. The testimony appears spontaneous but is scripted.",
+        "lesson": "Always verify the authenticity and interests of the witness."
+      }
+    ],
+    "defense": [
+      { "step": "Look for data", "action": "What do the statistics say, not just the stories?" },
+      { "step": "Verify the witness", "action": "Do they have interests? Are they representative?" },
+      { "step": "Remember", "action": "An anecdote is not data; a story is not a statistic" }
+    ],
+    "scenario": {
+      "title": "Health campaign",
+      "situation": "'My cousin took this medication and was cured!' Presented as proof of effectiveness, without any clinical studies.",
+      "question": "What do you recognize?",
+      "options": [
+        { "text": "Testimonial: an anecdote presented as general proof", "correct": true, "explanation": "A single case is not a statistic." },
+        { "text": "Useful information", "correct": false, "explanation": "Without statistical context, it is misleading." },
+        { "text": "Legitimate testimony", "correct": false, "explanation": "Legitimate as personal experience, not as scientific proof." }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "icon": "🔁",
+    "name": "Repetition",
+    "subtitle": "Repetition",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Repeating a message until it is accepted as true.",
+    "definition": "The constant repetition of a claim makes it seem true, regardless of its actual truthfulness.",
+    "historicalContext": "'A lie repeated a thousand times becomes truth' (attributed to Goebbels). This effect is studied in psychology as the 'illusory truth effect.'",
+    "psychologicalMechanism": "The brain uses ease of processing as a proxy for truth. If something is familiar, it seems true.",
+    "variants": [
+      { "name": "Explicit repetition", "desc": "The same slogan repeated obsessively" },
+      { "name": "Multi-channel repetition", "desc": "The same message across multiple platforms" },
+      { "name": "Repetition with variations", "desc": "The same concept formulated in different ways" }
+    ],
+    "redFlags": [
+      "The same message appearing everywhere",
+      "Slogans repeated without argument",
+      "Claims that become 'common knowledge' without evidence"
+    ],
+    "caseStudies": [
+      {
+        "title": "The illusory truth effect",
+        "description": "Studies show that statements presented multiple times are judged to be more true — even by people who had previously classified them as false.",
+        "lesson": "Familiarity is not truth."
+      }
+    ],
+    "defense": [
+      { "step": "Recognize the repetition", "action": "Have I heard this many times?" },
+      { "step": "Verify", "action": "Familiarity is not proof" },
+      { "step": "Remember", "action": "A lie repeated is still a lie" }
+    ],
+    "scenario": {
+      "title": "Ubiquitous slogan",
+      "situation": "For months, every channel repeats: 'The problem is X!' No data is presented, but everyone 'knows' it is true.",
+      "question": "What effect does this have?",
+      "options": [
+        { "text": "Illusory truth through repetition", "correct": true, "explanation": "Familiarity creates the illusion of truth." },
+        { "text": "It has become true", "correct": false, "explanation": "Repetition does not create truth." },
+        { "text": "Information being widely disseminated", "correct": false, "explanation": "Without data, it is only repetition." }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "icon": "📢",
+    "name": "Slogan",
+    "subtitle": "Short Phrases",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Short, memorable phrases that replace complex thought.",
+    "definition": "Short, easy-to-remember and easy-to-repeat formulas that summarize (and often drastically oversimplify) a position.",
+    "historicalContext": "'Make America Great Again,' 'Hope and Change,' 'Yes We Can.' Slogans are central to every political campaign.",
+    "psychologicalMechanism": "The brain prefers easily processed information. Slogans are memorized automatically and recalled with ease.",
+    "variants": [
+      { "name": "Identity slogan", "desc": "'[Country] First!' / 'Citizens, not subjects'" },
+      { "name": "Action slogan", "desc": "'Enough [X]!' / 'Yes we can!'" },
+      { "name": "Contrasting slogan", "desc": "'They destroy, we build'" }
+    ],
+    "redFlags": [
+      "Very short phrases summarizing complex issues",
+      "Easy to chant, impossible to debate",
+      "Used in place of arguments"
+    ],
+    "caseStudies": [
+      {
+        "title": "Slogans in dictatorship",
+        "description": "'One people, one empire, one leader' — three words that summarize and simplify a complex totalitarian ideology.",
+        "lesson": "Slogans bypass critical thinking."
+      }
+    ],
+    "defense": [
+      { "step": "Expand", "action": "'What does this slogan actually mean in concrete terms?'" },
+      { "step": "Look for detail", "action": "Behind the simple phrase, what is the actual program?" },
+      { "step": "Note the absence", "action": "What does the slogan NOT say?" }
+    ],
+    "scenario": {
+      "title": "Campaign rally",
+      "situation": "The candidate shouts: 'Law and order!' The crowd cheers. There is no discussion of which laws or what kind of order.",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Slogan: a formula that replaces substance", "correct": true, "explanation": "Three words for complex issues." },
+        { "text": "A clear political program", "correct": false, "explanation": "Nothing specific is stated." },
+        { "text": "A legitimate summary", "correct": false, "explanation": "A summary without content is just a slogan." }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "icon": "🎭",
+    "name": "Plain Folks",
+    "subtitle": "Ordinary People",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Presenting oneself as 'one of you' in order to gain trust.",
+    "definition": "A technique in which those who hold power present themselves as ordinary people in order to build identification and trust.",
+    "historicalContext": "Identified by the Institute for Propaganda Analysis in 1937. Used by political leaders across every era.",
+    "psychologicalMechanism": "We tend to trust those we perceive as similar to ourselves. If the leader is 'just like us,' they must have our interests at heart.",
+    "variants": [
+      { "name": "Staged events", "desc": "Politicians 'doing their grocery shopping' only during election campaigns" },
+      { "name": "Artificial language", "desc": "Educated people deliberately using colloquial expressions" },
+      { "name": "Humble origins", "desc": "Emphasis on 'modest' origins now long in the past" }
+    ],
+    "redFlags": [
+      "Politicians appearing in 'everyday' settings only during campaigns",
+      "Language carefully crafted to sound informal",
+      "Emphasis on humble origins that no longer reflect current reality"
+    ],
+    "caseStudies": [
+      {
+        "title": "Joe the Plumber",
+        "description": "He became a symbol of the ordinary citizen. Investigations revealed he was not a licensed plumber and his question had been prepared in advance.",
+        "lesson": "Even real people can be used as orchestrated instruments."
+      }
+    ],
+    "defense": [
+      { "step": "Verify consistency", "action": "Is the 'ordinariness' genuine or performed?" },
+      { "step": "Look at the record", "action": "What have they actually done, not just how do they appear?" },
+      { "step": "Look for staging", "action": "Is the 'everyday' context spontaneous or prepared?" }
+    ],
+    "scenario": {
+      "title": "Viral video",
+      "situation": "A video shows 'Maria, 42, homemaker' complaining about the government. It is professionally filmed, with no surname or city given.",
+      "question": "What should you verify?",
+      "options": [
+        { "text": "Identity, hidden interests, the nature of the production", "correct": true, "explanation": "Professional quality and anonymity suggest orchestration." },
+        { "text": "She is a citizen expressing her opinion", "correct": false, "explanation": "She may be, but it needs to be verified." },
+        { "text": "No need to verify — she's just an ordinary person", "correct": false, "explanation": "The professional anonymous video warrants caution." }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "icon": "🧠",
+    "name": "Appeal to Authority",
+    "subtitle": "Appeal to Authority",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Citing authorities as proof, even when they are irrelevant or not competent on the topic.",
+    "definition": "A fallacy that cites an authority as definitive proof, even when the authority has no specific expertise on the subject.",
+    "historicalContext": "Aristotle classified appeal to authority as a fallacy when the authority is not relevant to the question at hand.",
+    "psychologicalMechanism": "Respect for authority is deeply internalized culturally. When an authority speaks, we tend to accept without verifying.",
+    "variants": [
+      { "name": "Out-of-field authority", "desc": "A doctor speaking about economics" },
+      { "name": "Dubious authority", "desc": "Citing sources with conflicts of interest" },
+      { "name": "Lone authority", "desc": "A single voice against scientific consensus" }
+    ],
+    "redFlags": [
+      "Experts cited outside their field",
+      "One authority against the consensus",
+      "Authorities with hidden conflicts of interest"
+    ],
+    "caseStudies": [
+      {
+        "title": "Tobacco and doctors",
+        "description": "For decades, the industry cited doctors who downplayed the risks of smoking. They were paid to do so.",
+        "lesson": "Verify the competence, relevance, and interests of the authority."
+      }
+    ],
+    "defense": [
+      { "step": "Verify competence", "action": "Does this person have expertise ON THIS specific topic?" },
+      { "step": "Seek the consensus", "action": "Is this an isolated voice or the scientific consensus?" },
+      { "step": "Check for interests", "action": "Do they have conflicts of interest?" }
+    ],
+    "scenario": {
+      "title": "Campaign",
+      "situation": "'9 out of 10 scientists say X is safe!' No specification of which scientists, whether they have relevant expertise, or whether they have interests.",
+      "question": "What questions should you ask?",
+      "options": [
+        { "text": "Competence, conflicts of interest, representativeness of the sample", "correct": true, "explanation": "Authority without context is not proof." },
+        { "text": "If 9 out of 10 say so, it must be true", "correct": false, "explanation": "It depends on who the 10 are." },
+        { "text": "Scientists are always right", "correct": false, "explanation": "Especially when speaking outside their own field." }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "icon": "⚡",
+    "name": "Polarization",
+    "subtitle": "Us vs. Them",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Constructing antagonistic identities that make dialogue impossible.",
+    "definition": "A strategy of dividing society into two mutually exclusive camps, where group membership matters more than truth.",
+    "historicalContext": "Used by regimes to consolidate power. In the digital age, polarizing content receives more engagement.",
+    "psychologicalMechanism": "Exploits tribalism: the brain processes information differently depending on whether it comes from 'our group' or 'the enemy.'",
+    "variants": [
+      { "name": "Military terminology", "desc": "'Battle,' 'front' applied to politics" },
+      { "name": "Total delegitimization", "desc": "'They have no right to speak'" },
+      { "name": "Apocalypticism", "desc": "'If they win, it's the end'" }
+    ],
+    "redFlags": [
+      "Debate shifted from facts to identity",
+      "Systematic 'us' vs. 'them' framing",
+      "Internal criticism treated as betrayal"
+    ],
+    "caseStudies": [
+      {
+        "title": "The algorithm of division",
+        "description": "Content that generates outrage toward the out-group receives more shares. This is a business model.",
+        "lesson": "Polarization is also an economic model."
+      }
+    ],
+    "defense": [
+      { "step": "Recognize tribalism", "action": "When you feel like part of a 'team,' stop and reflect" },
+      { "step": "Look for the grey zone", "action": "Which intermediate positions are being excluded?" },
+      { "step": "Criticize your own side", "action": "That is the first step out of polarization" }
+    ],
+    "scenario": {
+      "title": "Speech",
+      "situation": "'Whoever is not with us is against us! There is no middle ground!'",
+      "question": "Which mechanism is at work?",
+      "options": [
+        { "text": "Elimination of the center: only allies or enemies", "correct": true, "explanation": "Constructs a rigid identity with no nuance." },
+        { "text": "Legitimate motivation", "correct": false, "explanation": "Motivating people does not require eliminating intermediate positions." },
+        { "text": "Normal rhetoric", "correct": false, "explanation": "Normalizing apocalypticism is part of the problem." }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "icon": "🔫",
+    "name": "Gish Gallop",
+    "subtitle": "Flood of Claims",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Too many claims delivered too quickly for all of them to be verified.",
+    "definition": "Bombarding an opponent with so many unverified claims that refuting them all is impossible.",
+    "historicalContext": "Named after creationist Duane Gish, who would fire off dozens of arguments in a matter of minutes.",
+    "psychologicalMechanism": "Exploits asymmetry: making a claim takes seconds; refuting it takes minutes or hours.",
+    "variants": [
+      { "name": "Video marathon", "desc": "Hours of content containing hundreds of claims" },
+      { "name": "Infinite thread", "desc": "Dozens of unverified points in a social media thread" },
+      { "name": "Document dump", "desc": "Links to massive PDFs: 'It's all in there!'" }
+    ],
+    "redFlags": [
+      "Each point addressed in 10–30 seconds",
+      "No sources provided for individual claims",
+      "Machine-gun structure of argumentation"
+    ],
+    "caseStudies": [
+      {
+        "title": "Creationist debates",
+        "description": "Gish would launch dozens of arguments in 5 minutes. Refuting one takes 10 minutes. The audience saw claims going 'unrefuted.'",
+        "lesson": "The quantity of arguments impresses non-experts."
+      }
+    ],
+    "defense": [
+      { "step": "Don't follow the pace", "action": "Choose only the most important points to address" },
+      { "step": "Call out the technique", "action": "'You are making 50 claims in 5 minutes'" },
+      { "step": "Verify a sample", "action": "If some turn out to be false, the rest is probably unreliable too" }
+    ],
+    "scenario": {
+      "title": "Video",
+      "situation": "A 45-minute video lists 80 alleged scandals, one after another, without sources.",
+      "question": "How do you approach this?",
+      "options": [
+        { "text": "Verify 2–3 random points", "correct": true, "explanation": "If they are false, the rest of the content is likely unreliable." },
+        { "text": "Watch the whole thing", "correct": false, "explanation": "45 minutes of unverified claims are not worth more than 1 minute." },
+        { "text": "With so many points, some must be true", "correct": false, "explanation": "That is the error the technique is designed to induce." }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "icon": "💣",
+    "name": "Straw Man",
+    "subtitle": "Scarecrow",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Distorting the opponent's argument in order to attack it more easily.",
+    "definition": "Constructing a weak or distorted version of the opponent's argument, attacking that version, and pretending to have refuted the original.",
+    "historicalContext": "The name comes from the ease of knocking down a straw man. It is one of the most common logical fallacies.",
+    "psychologicalMechanism": "The audience perceives that the argument has been 'refuted,' without noticing that the argument actually attacked was not the original one.",
+    "variants": [
+      { "name": "Oversimplification", "desc": "Reducing a complex position to a trivial phrase" },
+      { "name": "Extremization", "desc": "Presenting a moderate position as extreme" },
+      { "name": "Fabrication", "desc": "Attributing to the opponent positions they never held" }
+    ],
+    "redFlags": [
+      "The opponent's position is presented in a ridiculous or extreme way",
+      "The attack is easy but does not reflect what was actually said",
+      "The opponent says 'But I never said that!'"
+    ],
+    "caseStudies": [
+      {
+        "title": "Political debates",
+        "description": "Candidate A proposes modest tax reforms. Candidate B: 'They want to destroy the economy!' They are attacking a position A never held.",
+        "lesson": "Always check: is the argument being attacked actually the one that was made?"
+      }
+    ],
+    "defense": [
+      { "step": "Recognize the distortion", "action": "'Is that really what I argued?'" },
+      { "step": "Correct the record", "action": "'I never said that. My actual position is...'" },
+      { "step": "Refuse the false debate", "action": "Do not defend a position that is not yours" }
+    ],
+    "scenario": {
+      "title": "Debate",
+      "situation": "You say: 'We should reduce taxes slightly.' Your opponent: 'You want to eliminate all public services!'",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Straw man: a moderate proposal is distorted into an extreme one", "correct": true, "explanation": "Attacks a position that was never stated." },
+        { "text": "Legitimate criticism", "correct": false, "explanation": "It does not address the actual proposal." },
+        { "text": "Logical consequence", "correct": false, "explanation": "It is not a consequence — it is a distortion." }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "icon": "🐟",
+    "name": "Red Herring",
+    "subtitle": "Smoked Herring",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Distracting with an irrelevant argument.",
+    "definition": "Introducing an irrelevant piece of information in order to distract from the main topic.",
+    "historicalContext": "The name comes from the use of smoked herrings to confuse hunting dogs, distracting them from the trail.",
+    "psychologicalMechanism": "The brain follows salient information. By introducing an exciting topic, attention is diverted from the main issue.",
+    "variants": [
+      { "name": "Emotional distraction", "desc": "Shifting to a topic that generates a strong reaction" },
+      { "name": "Whatabout", "desc": "'What about this other problem?'" },
+      { "name": "New topic", "desc": "Changing the subject entirely" }
+    ],
+    "redFlags": [
+      "The argument shifts suddenly",
+      "An unrelated topic is introduced",
+      "The answer has nothing to do with the question"
+    ],
+    "caseStudies": [
+      {
+        "title": "Interviews",
+        "description": "Journalist: 'What do you say about these scandals?' Politician: 'But look how wonderful our education reform is!'",
+        "lesson": "Changing the subject is not an answer."
+      }
+    ],
+    "defense": [
+      { "step": "Recognize the deviation", "action": "'This doesn't answer the question'" },
+      { "step": "Return to the point", "action": "Repeat the original question" },
+      { "step": "Don't follow along", "action": "Do not let yourself be dragged onto the new topic" }
+    ],
+    "scenario": {
+      "title": "Interview",
+      "situation": "Journalist: 'What about the corruption investigation?' Politician: 'We should be talking about our economy, which is doing great!'",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Red herring: distraction with an irrelevant topic", "correct": true, "explanation": "The economy does not address the corruption question." },
+        { "text": "Focus on positivity", "correct": false, "explanation": "It does not answer the question." },
+        { "text": "Useful information", "correct": false, "explanation": "It is not related to what was asked." }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "icon": "🪞",
+    "name": "Projection",
+    "subtitle": "Projection",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Accusing others of exactly what you are doing.",
+    "definition": "A technique in which exactly what one is doing is attributed to one's opponents, thereby neutralizing accusations.",
+    "historicalContext": "Used systematically by dictatorships and authoritarian regimes: they accuse the opposition of being 'coup plotters' while planning a coup themselves.",
+    "psychologicalMechanism": "Confuses the public ('who is right?') and pre-builds a defense ('they are saying the same thing'). Renders accusations mutually canceling.",
+    "variants": [
+      { "name": "Mirror accusation", "desc": "'You're the one doing X!' — while doing it yourself" },
+      { "name": "Pre-accusation", "desc": "Accusing before being accused" },
+      { "name": "Inversion", "desc": "Presenting the victim as the aggressor" }
+    ],
+    "redFlags": [
+      "Accusations that seem perfectly mirrored",
+      "The accuser exhibits the same behavior",
+      "Suspicious timing of accusations"
+    ],
+    "caseStudies": [
+      {
+        "title": "Authoritarian regimes",
+        "description": "Regimes preparing electoral fraud accuse the opposition of 'planning fraud,' preemptively delegitimizing any accusations that will follow.",
+        "lesson": "Mirror accusations must be verified on both sides."
+      }
+    ],
+    "defense": [
+      { "step": "Verify both sides", "action": "Do not assume 'the truth lies in the middle'" },
+      { "step": "Look for evidence", "action": "Who has evidence, and who only has accusations?" },
+      { "step": "Note the timing", "action": "Do the accusations come before or after the behavior?" }
+    ],
+    "scenario": {
+      "title": "Debate",
+      "situation": "A party accuses the other of 'censoring debate.' At the same time, it is expelling internal dissidents.",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Projection: accusing others of what you are doing", "correct": true, "explanation": "Accuses others of censorship while itself censoring." },
+        { "text": "Legitimate criticism", "correct": false, "explanation": "Not when the accuser is doing the same thing." },
+        { "text": "Both sides are wrong", "correct": false, "explanation": "Projection is a deliberate technique, not mere equivalence." }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "icon": "🐕",
+    "name": "Dog Whistle",
+    "subtitle": "Coded Message",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Coded messages that only certain groups understand.",
+    "definition": "Communications that carry an innocuous meaning for the general public but convey a specific message to a target group.",
+    "historicalContext": "The term comes from dog whistles, audible only to dogs. Systematically used in politics to signal to extremist bases.",
+    "psychologicalMechanism": "Allows controversial messages to be communicated while maintaining plausible deniability ('I didn't mean that').",
+    "variants": [
+      { "name": "Historical codes", "desc": "References recognized only by certain groups" },
+      { "name": "Loaded terms", "desc": "Words with dual meanings" },
+      { "name": "Symbolism", "desc": "Gestures, numbers, or images with specific in-group meaning" }
+    ],
+    "redFlags": [
+      "Messages that seem innocuous but generate strong reactions in certain groups",
+      "Terms with 'secret meanings'",
+      "Systematic plausible deniability"
+    ],
+    "caseStudies": [
+      {
+        "title": "Electoral campaigns",
+        "description": "A candidate uses terms that seem innocuous but are recognized by extremist groups as signals of support. When criticized: 'I didn't mean that!'",
+        "lesson": "Context and the reaction of the target audience reveal the true meaning."
+      }
+    ],
+    "defense": [
+      { "step": "Listen to the reactions", "action": "How are extremist groups responding?" },
+      { "step": "Seek the context", "action": "Does the term have a dual meaning?" },
+      { "step": "Assess the deniability", "action": "Is the denial plausible?" }
+    ],
+    "scenario": {
+      "title": "Speech",
+      "situation": "A candidate uses terms that seem normal but are recognized by extremist groups as signals. When criticized: 'But I said something completely ordinary!'",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Dog whistle: a coded message with plausible deniability", "correct": true, "explanation": "Two levels of meaning operating simultaneously." },
+        { "text": "An innocent phrase that was misunderstood", "correct": false, "explanation": "The target group's reaction reveals the true meaning." },
+        { "text": "An unjustified accusation", "correct": false, "explanation": "The coordinated reaction of certain groups indicates comprehension of the code." }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "icon": "🕯️",
+    "name": "Gaslighting",
+    "subtitle": "Denying Reality",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Making victims doubt their own perception of reality.",
+    "definition": "A manipulation technique that denies evident facts, minimizes reactions, and makes victims doubt their own judgment.",
+    "historicalContext": "The term comes from the film 'Gaslight' (1944), in which a husband manipulates his wife into believing she is going mad.",
+    "psychologicalMechanism": "Exploits reliance on external confirmation. When constantly contradicted, one begins to doubt oneself.",
+    "variants": [
+      { "name": "Denial", "desc": "'That never happened!'" },
+      { "name": "Minimization", "desc": "'You're overreacting!'" },
+      { "name": "Inversion", "desc": "'You're the one with problems!'" },
+      { "name": "Selective memory", "desc": "'I don't remember saying that'" }
+    ],
+    "redFlags": [
+      "Constant denial of evident facts",
+      "Phrases like 'you're too sensitive' or 'you imagined it all'",
+      "The victim begins to doubt their own memory"
+    ],
+    "caseStudies": [
+      {
+        "title": "Abusive relationships",
+        "description": "An abusive partner denies episodes of violence, minimizes the victim's reactions, and makes the victim feel 'crazy.'",
+        "lesson": "The systematic denial of reality is a form of violence."
+      }
+    ],
+    "defense": [
+      { "step": "Document", "action": "Keep records of facts and conversations" },
+      { "step": "Verify with others", "action": "Seek confirmation from third parties" },
+      { "step": "Recognize the pattern", "action": "Systematic denial is a technique, not a misunderstanding" }
+    ],
+    "scenario": {
+      "title": "Conversation",
+      "situation": "You say: 'Yesterday you said X.' They reply: 'I never said that! You imagined everything. You're paranoid.' It really did happen.",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Gaslighting: denying facts to make you doubt yourself", "correct": true, "explanation": "Systematic denial of reality." },
+        { "text": "A misunderstanding", "correct": false, "explanation": "When it is systematic, it is a technique." },
+        { "text": "A difference in perception", "correct": false, "explanation": "Total denial constitutes gaslighting." }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "icon": "🍒",
+    "name": "Cherry-Picking",
+    "subtitle": "Data Selection",
+    "category": "manipulation",
+    "catLabel": "Manipulation",
+    "summary": "Selecting only favorable data while ignoring everything else.",
+    "definition": "Selecting evidence that confirms a position while ignoring evidence that refutes it.",
+    "historicalContext": "The term comes from the idea of picking only the best cherries. Used to delay the recognition of risks (tobacco, climate change).",
+    "psychologicalMechanism": "Exploits confirmation bias: we find information that confirms our existing beliefs more credible.",
+    "variants": [
+      { "name": "Truncated time series", "desc": "Showing only a favorable time period" },
+      { "name": "Outliers as norm", "desc": "Presenting an exceptional case as representative" },
+      { "name": "Out-of-context quotes", "desc": "A phrase whose meaning changes when read in context" }
+    ],
+    "redFlags": [
+      "Graphs without a complete time axis",
+      "A statistic cited without context",
+      "Absence of dissenting data"
+    ],
+    "caseStudies": [
+      {
+        "title": "Tobacco",
+        "description": "The industry cited studies showing uncertainty, ignoring the growing consensus.",
+        "lesson": "Cherry-picking can create the illusion of debate."
+      }
+    ],
+    "defense": [
+      { "step": "Ask for the full dataset", "action": "What does the complete historical series show?" },
+      { "step": "Find the primary source", "action": "Locate the original study" },
+      { "step": "Identify what is missing", "action": "Which data are NOT being shown?" }
+    ],
+    "scenario": {
+      "title": "Press release",
+      "situation": "'Historic record! +150,000 new jobs!' No mention of the 200,000 jobs lost in the same period.",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Cherry-picking: a favorable indicator without context", "correct": true, "explanation": "The figure is true but incomplete." },
+        { "text": "Fake news — the figure is false", "correct": false, "explanation": "The figure could be entirely true." },
+        { "text": "Correct communication", "correct": false, "explanation": "Omitting the negative creates a misleading impression." }
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "icon": "🌊",
+    "name": "Astroturfing",
+    "subtitle": "Fake Grassroots Movement",
+    "category": "digital",
+    "catLabel": "Digital",
+    "summary": "Simulating a bottom-up movement that is actually coordinated from the top.",
+    "definition": "Creating movements, campaigns, or opinions that appear spontaneous but are actually orchestrated.",
+    "historicalContext": "A term from the 1980s, when corporations created groups of 'concerned citizens' to oppose environmental regulations.",
+    "psychologicalMechanism": "Exploits social proof: we tend to conform to what we perceive as the majority opinion.",
+    "variants": [
+      { "name": "Bot networks", "desc": "Coordinated automated accounts" },
+      { "name": "Troll farms", "desc": "Centers where individuals manage dozens of fake accounts" },
+      { "name": "Review bombing", "desc": "A wave of fake reviews" }
+    ],
+    "redFlags": [
+      "Newly created accounts with sudden high activity",
+      "Nearly identical language across different profiles",
+      "Coordinated timing"
+    ],
+    "caseStudies": [
+      {
+        "title": "IRA",
+        "description": "The Internet Research Agency managed hundreds of accounts posing as American activists, amplifying divisions.",
+        "lesson": "Astroturfing may aim only to undermine trust."
+      }
+    ],
+    "defense": [
+      { "step": "Inspect the profiles", "action": "Check creation date, number of posts, and consistency" },
+      { "step": "Look for patterns", "action": "Similar language, coordinated timing" },
+      { "step": "Value quality over quantity", "action": "Do not be impressed by numbers alone" }
+    ],
+    "scenario": {
+      "title": "Coordinated comments",
+      "situation": "Under a critical post, 100 profiles appear with nearly identical phrases. Many have 3–10 posts total and were all created in the same month.",
+      "question": "What does this indicate?",
+      "options": [
+        { "text": "Probable astroturfing: new profiles, identical messages", "correct": true, "explanation": "All the classic warning signs are present." },
+        { "text": "Concerned citizens", "correct": false, "explanation": "Real citizens are not this coordinated." },
+        { "text": "The content must be shareable", "correct": false, "explanation": "We cannot draw conclusions from coordinated behavior alone." }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "icon": "🚩",
+    "name": "False Flag",
+    "subtitle": "Covert Operations",
+    "category": "digital",
+    "catLabel": "Digital",
+    "summary": "Actions presented as coming from another party.",
+    "definition": "Operations carried out in a way that makes them appear to have been executed by a different actor.",
+    "historicalContext": "A naval term: sailing under a false flag. Historical examples include the Reichstag fire and the Gleiwitz incident.",
+    "psychologicalMechanism": "Exploits the need to respond to perceived threats: if we believe we are being attacked by X, we support action against X.",
+    "variants": [
+      { "name": "Clone sites", "desc": "Replicas of real websites with false content" },
+      { "name": "Infiltrated accounts", "desc": "Profiles pretending to belong to a group" },
+      { "name": "Provocations", "desc": "Orchestrated protests designed to delegitimize" }
+    ],
+    "redFlags": [
+      "An event that justifies actions already planned",
+      "Immediate attribution without investigation",
+      "A document that is 'too perfect'"
+    ],
+    "caseStudies": [
+      {
+        "title": "Operation Northwoods",
+        "description": "In 1962, US military chiefs proposed false flag operations against American civilians to be attributed to Cuba. The plan was rejected by Kennedy.",
+        "lesson": "False flags are documented historical plans."
+      }
+    ],
+    "defense": [
+      { "step": "Verify the domain", "action": "Is the website the official one?" },
+      { "step": "Wait for investigations", "action": "Do not accept immediate attributions" },
+      { "step": "Analyze who benefits", "action": "Who gains? Is it 'too convenient'?" }
+    ],
+    "scenario": {
+      "title": "Leaked document",
+      "situation": "A PDF circulates: an internal memo containing cynical strategies. Anonymous account, no verifiable letterhead, published one week before an election.",
+      "question": "How do you assess this?",
+      "options": [
+        { "text": "Suspicious: anonymous source, suspicious timing, no possible verification", "correct": true, "explanation": "The combination suggests possible fabrication." },
+        { "text": "If it's online, it has been verified", "correct": false, "explanation": "Publication does not require verification." },
+        { "text": "It fits what I already believed, so it's credible", "correct": false, "explanation": "Confirmation bias is exactly what forgers exploit." }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "icon": "🎬",
+    "name": "Deepfake",
+    "subtitle": "Video Manipulation",
+    "category": "digital",
+    "catLabel": "Digital",
+    "summary": "Creating artificial content indistinguishable from reality.",
+    "definition": "Content produced with AI that replaces a person's face, voice, or movements.",
+    "historicalContext": "The technology became accessible in 2017. Initially used for non-consensual pornographic content, it has since been applied to politics.",
+    "psychologicalMechanism": "'Seeing is believing': images carry greater perceived authority than text.",
+    "variants": [
+      { "name": "Face swap", "desc": "Replacement of the face" },
+      { "name": "Lip sync", "desc": "Lip synchronization to alter speech" },
+      { "name": "Voice cloning", "desc": "Replication of a person's voice" }
+    ],
+    "redFlags": [
+      "Unnatural facial movements",
+      "Imperfect audio-visual synchronization",
+      "Graphical artifacts around the face or hair"
+    ],
+    "caseStudies": [
+      {
+        "title": "Zelensky deepfake",
+        "description": "A deepfake video showed Zelensky ordering surrender. The quality was imperfect but still required an official denial.",
+        "lesson": "Political deepfakes are a present reality, not a future scenario."
+      }
+    ],
+    "defense": [
+      { "step": "Find the source", "action": "Where does this video come from?" },
+      { "step": "Analyze the details", "action": "Are the eyes, hands, and edges distorted?" },
+      { "step": "Wait for verification", "action": "For sensational videos, wait for independent confirmation" }
+    ],
+    "scenario": {
+      "title": "Sensational video",
+      "situation": "A video shows a leader insulting voters. Source: anonymous account. Quality looks good but not perfect.",
+      "question": "How do you approach this?",
+      "options": [
+        { "text": "Suspicious: anonymous source, no verification", "correct": true, "explanation": "The combination warrants caution." },
+        { "text": "If it looks realistic, it must be real", "correct": false, "explanation": "Deepfakes are designed to look real." },
+        { "text": "I'll share it with a disclaimer", "correct": false, "explanation": "Even with a disclaimer, you are amplifying unverified content." }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "icon": "🌐",
+    "name": "Influence Operations",
+    "subtitle": "Information Warfare",
+    "category": "digital",
+    "catLabel": "Digital",
+    "summary": "Coordinated campaigns to influence opinions and elections.",
+    "definition": "Campaigns coordinated by states or other actors to shape public opinion and electoral outcomes.",
+    "historicalContext": "Foreign interference has existed since the Cold War. The digital novelty is the scale and the ability to target citizens directly.",
+    "psychologicalMechanism": "These operations amplify pre-existing divisions rather than creating new ones.",
+    "variants": [
+      { "name": "Amplifying divisions", "desc": "Promoting polarizing content" },
+      { "name": "Voter suppression", "desc": "Discouraging certain segments from going to the polls" },
+      { "name": "Hack and leak", "desc": "Stealing and selectively publishing material" }
+    ],
+    "redFlags": [
+      "Sites that imitate existing media outlets",
+      "Identical narratives appearing in multiple languages simultaneously",
+      "Sources with large resources and zero transparency"
+    ],
+    "caseStudies": [
+      {
+        "title": "Clone networks",
+        "description": "Operations have created dozens of sites imitating European media outlets, publishing false articles.",
+        "lesson": "Always check the exact domain."
+      }
+    ],
+    "defense": [
+      { "step": "Verify the domain", "action": "Is this the official website?" },
+      { "step": "Analyze the history", "action": "Has this site existed for a long time?" },
+      { "step": "Be suspicious of perfection", "action": "Content perfectly aligned with your own views deserves extra skepticism" }
+    ],
+    "scenario": {
+      "title": "Suspicious website",
+      "situation": "'TheNationalNews-Today.com' publishes an explosive exposé. The domain was registered two months ago, and the 'About Us' page lists no real names.",
+      "question": "What should you verify?",
+      "options": [
+        { "text": "Domain, ownership, history, independent confirmation", "correct": true, "explanation": "A new domain, anonymity, and sensational content are all warning signs." },
+        { "text": "The content seems well-documented", "correct": false, "explanation": "Even well-written content can be false." },
+        { "text": "The number of shares proves it is important", "correct": false, "explanation": "Shares do not prove truth." }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "icon": "📱",
+    "name": "Flooding",
+    "subtitle": "Digital Flooding",
+    "category": "digital",
+    "catLabel": "Digital",
+    "summary": "Drowning debate in noise and toxicity.",
+    "definition": "Flooding comments, posts, and discussions with content that suffocates legitimate debate.",
+    "historicalContext": "A central technique of modern 'troll farms.'",
+    "psychologicalMechanism": "The noise exhausts those seeking serious information, who eventually disengage.",
+    "variants": [
+      { "name": "Spam", "desc": "Thousands of identical messages" },
+      { "name": "Coordinated trolling", "desc": "Systematic insults and mockery" },
+      { "name": "Hashtag hijacking", "desc": "Redirecting conversations by hijacking hashtags" }
+    ],
+    "redFlags": [
+      "A disproportionate volume of negative comments",
+      "Accounts that appear only on certain topics",
+      "Coordinated timing"
+    ],
+    "caseStudies": [
+      {
+        "title": "Organized commenting",
+        "description": "In some countries, armies of commenters systematically attack critical voices online.",
+        "lesson": "Volume does not reflect consensus."
+      }
+    ],
+    "defense": [
+      { "step": "Do not engage", "action": "Don't feed the flood" },
+      { "step": "Use tools", "action": "Filters, blocks, and reports" },
+      { "step": "Seek clean sources", "action": "Moderated platforms or threads" }
+    ],
+    "scenario": {
+      "title": "Invaded discussion",
+      "situation": "A serious discussion is flooded by 500 insulting comments within a few hours. New accounts, similar messages.",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Coordinated flooding: suffocating the debate", "correct": true, "explanation": "Volume and coordination indicate an operation." },
+        { "text": "Spontaneous reaction", "correct": false, "explanation": "Genuine spontaneity is not this coordinated." },
+        { "text": "The majority is against it", "correct": false, "explanation": "Volume is not consensus." }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "icon": "😨",
+    "name": "Fear Appeal",
+    "subtitle": "Appeal to Fear",
+    "category": "emotional",
+    "catLabel": "Emotional",
+    "summary": "Mobilizing through fear instead of argument.",
+    "definition": "A technique that uses fear to induce action without critical thinking.",
+    "historicalContext": "A cornerstone of advertising ('buy this or something bad will happen') and politics ('if not X, disaster will follow').",
+    "psychologicalMechanism": "Fear activates the sympathetic nervous system, bypassing reflective thinking.",
+    "variants": [
+      { "name": "Existential fear", "desc": "'If not X, it is the end'" },
+      { "name": "Personal fear", "desc": "'You or your loved ones...'" },
+      { "name": "Apocalypticism", "desc": "Every alternative is presented as catastrophe" }
+    ],
+    "redFlags": [
+      "Messages that generate intense anxiety",
+      "Extreme urgency",
+      "No analysis of alternatives"
+    ],
+    "caseStudies": [
+      {
+        "title": "Fear-based advertising",
+        "description": "Campaigns showing terrible consequences if you do not buy the product or service.",
+        "lesson": "Fear sells, but it does not inform."
+      }
+    ],
+    "defense": [
+      { "step": "Recognize the emotion", "action": "Am I feeling anxious? That may be intentional." },
+      { "step": "Slow down", "action": "Decisions made out of fear are often poor decisions" },
+      { "step": "Look for alternatives", "action": "Reality is more nuanced than the apocalypse being described" }
+    ],
+    "scenario": {
+      "title": "Message",
+      "situation": "'SHARE NOW or your daughter could be in danger! You only have a few hours!'",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Fear appeal + urgency: fear used to bypass critical thinking", "correct": true, "explanation": "Artificial fear and urgency are being weaponized." },
+        { "text": "A legitimate warning", "correct": false, "explanation": "Without sources, it is only manipulation." },
+        { "text": "Better to share it just in case", "correct": false, "explanation": "That is exactly what the technique is designed to make you do." }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "icon": "🏳️",
+    "name": "Flag-Waving",
+    "subtitle": "Appeal to Nationalism",
+    "category": "emotional",
+    "catLabel": "Emotional",
+    "summary": "Exploiting patriotism to legitimize causes.",
+    "definition": "Associating a cause with the flag, the nation, and national symbols to render it beyond criticism.",
+    "historicalContext": "A classic technique: those who oppose it 'do not love their country.'",
+    "psychologicalMechanism": "National identity runs deep. Opposing something wrapped in the flag feels almost like an act of betrayal.",
+    "variants": [
+      { "name": "National symbols", "desc": "Flags, national anthem, national colors" },
+      { "name": "Patriotism vs. treason", "desc": "Those who disagree are called 'anti-patriotic'" },
+      { "name": "History and glory", "desc": "Invoking national greatness" }
+    ],
+    "redFlags": [
+      "Arguments wrapped in the flag",
+      "Criticism equated with anti-patriotism",
+      "Excessive use of national symbols"
+    ],
+    "caseStudies": [
+      {
+        "title": "The Iraq War",
+        "description": "Criticism of the war was framed as 'not supporting the troops' or 'not loving America.'",
+        "lesson": "One can love one's country and still criticize its actions."
+      }
+    ],
+    "defense": [
+      { "step": "Separate", "action": "The cause and the country are two different things" },
+      { "step": "Recognize the technique", "action": "Is this an argument or an emotional appeal?" },
+      { "step": "Remember", "action": "Criticism does not equal treason" }
+    ],
+    "scenario": {
+      "title": "Debate",
+      "situation": "Someone criticizes a government policy. Their opponent: 'If you don't like this country, leave!'",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Flag-waving: patriotism used to shut down debate", "correct": true, "explanation": "Criticism is not anti-patriotism." },
+        { "text": "Legitimate national defense", "correct": false, "explanation": "Criticism is a fundamental part of democracy." },
+        { "text": "A valid argument", "correct": false, "explanation": "It is only an emotional appeal." }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "icon": "👥",
+    "name": "Beautiful People",
+    "subtitle": "Successful People",
+    "category": "emotional",
+    "catLabel": "Emotional",
+    "summary": "Associating beauty and success with a cause.",
+    "definition": "Showing attractive, happy, successful people associated with a product, candidate, or idea.",
+    "historicalContext": "A cornerstone of modern advertising. Extended to politics.",
+    "psychologicalMechanism": "Emotional transfer: if those people are happy and support X, then supporting X will make me happy too.",
+    "variants": [
+      { "name": "Beauty", "desc": "Attractive people associated with the cause" },
+      { "name": "Success", "desc": "Wealthy or famous people who endorse it" },
+      { "name": "Happiness", "desc": "Happy people using the product or voting for the candidate" }
+    ],
+    "redFlags": [
+      "Images of attractive people with no connection to quality",
+      "Happiness associated with products or policies",
+      "Celebrities endorsing without relevant expertise"
+    ],
+    "caseStudies": [
+      {
+        "title": "Political advertising",
+        "description": "Candidates surrounded by young, attractive, happy people in their campaign spots.",
+        "lesson": "The image says nothing about the proposals."
+      }
+    ],
+    "defense": [
+      { "step": "Separate image from content", "action": "What is being proposed, not who is proposing it" },
+      { "step": "Ask yourself", "action": "Is the person's attractiveness relevant to the issue?" },
+      { "step": "Look for the substance", "action": "Behind the image, what are the actual proposals?" }
+    ],
+    "scenario": {
+      "title": "Campaign",
+      "situation": "A political ad shows beautiful, happy people dancing with the party logo. No policies are discussed.",
+      "question": "Which technique is this?",
+      "options": [
+        { "text": "Beautiful people: positive emotions associated with the party, no content", "correct": true, "explanation": "Beauty and happiness say nothing about actual proposals." },
+        { "text": "A positive campaign", "correct": false, "explanation": "Without content, it is only emotional suggestion." },
+        { "text": "Legitimate marketing", "correct": false, "explanation": "Marketing without substance is manipulation." }
+      ]
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "q1",
+    "title": "📱 The Viral Post",
+    "situation": "A post says: \"Water contains Poison! The media won't tell you!\" 10,000 shares. Source: \".xyz\"",
+    "question": "What is your reaction?",
+    "options": [
+      { "text": "Share it immediately!", "score": 3 },
+      { "text": "Check a fact-check first", "score": 0 },
+      { "text": "Look for other sources", "score": 1 }
+    ]
+  },
+  {
+    "id": "q2",
+    "title": "🗳️ The Debate",
+    "situation": "A candidate says: \"My opponent is a total disaster!\" No evidence provided.",
+    "question": "What do you notice?",
+    "options": [
+      { "text": "Normal politics", "score": 2 },
+      { "text": "Generic accusations without proof", "score": 0 },
+      { "text": "I trust them because they're on TV", "score": 3 }
+    ]
+  },
+  {
+    "id": "q3",
+    "title": "🌍 Two News Stories",
+    "situation": "Outlet A: \"HISTORIC PROTEST!\" Outlet B: \"COMPLETE FLOP.\" Same event.",
+    "question": "How do you interpret this?",
+    "options": [
+      { "text": "One of them is lying", "score": 2 },
+      { "text": "Different framing", "score": 0 },
+      { "text": "I'll read whichever I like more", "score": 3 }
+    ]
+  },
+  {
+    "id": "q4",
+    "title": "🎯 A Strong Emotion",
+    "situation": "An article makes you angry. Impulse: share it immediately.",
+    "question": "What do you do?",
+    "options": [
+      { "text": "Share it immediately!", "score": 3 },
+      { "text": "Take 10 minutes to verify", "score": 0 },
+      { "text": "Wait until tomorrow", "score": 1 }
+    ]
+  },
+  {
+    "id": "q5",
+    "title": "🔍 The Mysterious Source",
+    "situation": "A video features an \"expert\" with no name or credentials.",
+    "question": "What do you think?",
+    "options": [
+      { "text": "If it's viral, it must be true", "score": 3 },
+      { "text": "Without a name, I don't trust it", "score": 0 },
+      { "text": "I'll check the comments", "score": 2 }
+    ]
+  },
+  {
+    "id": "q6",
+    "title": "⚔️ The Attack",
+    "situation": "A politician proposes a reform. The opponent says: \"He's been divorced!\"",
+    "question": "Is this a valid criticism?",
+    "options": [
+      { "text": "Yes, it shows what kind of person they are", "score": 2 },
+      { "text": "Irrelevant ad hominem", "score": 0 },
+      { "text": "Depends on the severity", "score": 3 }
+    ]
+  },
+  {
+    "id": "q7",
+    "title": "🧠 The List",
+    "situation": "A 45-minute video lists 100 alleged scandals without sources.",
+    "question": "How do you approach it?",
+    "options": [
+      { "text": "Many facts = something must be true", "score": 2 },
+      { "text": "I verify 2-3 points", "score": 0 },
+      { "text": "I watch everything then judge", "score": 3 }
+    ]
+  },
+  {
+    "id": "q8",
+    "title": "📢 The Urgency",
+    "situation": "\"SHARE NOW before they delete it!\"",
+    "question": "What do you do?",
+    "options": [
+      { "text": "Share it immediately!", "score": 3 },
+      { "text": "If it's true it'll be news tomorrow", "score": 0 },
+      { "text": "Save it and verify later", "score": 1 }
+    ]
+  }
+]

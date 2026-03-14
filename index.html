@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Propaganda Defense Guide — 33 Tecniche di Manipolazione</title>
+  <title>Propaganda Defense Guide — 35 Tecniche di Manipolazione</title>
 
   <!-- Tailwind CSS via CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -42,57 +42,57 @@
   </div>
 
   <nav class="flex-1 p-3 space-y-1 overflow-y-auto sidebar">
-    <div class="text-xs font-semibold text-slate-400 uppercase px-3 py-2">Navigazione</div>
+    <div id="section-nav" class="text-xs font-semibold text-slate-400 uppercase px-3 py-2">Navigazione</div>
 
     <button class="nav-item active w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-page="home">
-      <span class="text-lg">🏠</span> Panoramica
+      <span class="text-lg">🏠</span> <span data-label>Panoramica</span>
     </button>
 
     <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-page="techniques">
-      <span class="text-lg">📚</span> Tutte le Tecniche
-      <span class="ml-auto bg-amber-100 text-amber-800 text-xs px-2 py-0.5 rounded-full" id="techniques-count">33</span>
+      <span class="text-lg">📚</span> <span data-label>Tutte le Tecniche</span>
+      <span class="ml-auto bg-amber-100 text-amber-800 text-xs px-2 py-0.5 rounded-full" id="techniques-count">35</span>
     </button>
 
     <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-page="quiz">
-      <span class="text-lg">✅</span> Test Resistenza
+      <span class="text-lg">✅</span> <span data-label>Test Resistenza</span>
     </button>
 
     <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-page="about">
-      <span class="text-lg">ℹ️</span> Informazioni
+      <span class="text-lg">ℹ️</span> <span data-label>Informazioni</span>
     </button>
 
-    <div class="text-xs font-semibold text-slate-400 uppercase px-3 py-2 mt-4">Categorie</div>
+    <div id="section-cat" class="text-xs font-semibold text-slate-400 uppercase px-3 py-2 mt-4">Categorie</div>
 
     <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="attack">
-      <span>⚔️</span> Attacco
-      <span class="ml-auto text-xs text-slate-400" id="count-attack">3</span>
+      <span>⚔️</span> <span data-label>Attacco</span>
+      <span class="ml-auto text-xs text-slate-400" id="count-attack"></span>
     </button>
     <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="disinfo">
-      <span>📰</span> Disinformazione
-      <span class="ml-auto text-xs text-slate-400" id="count-disinfo">2</span>
+      <span>📰</span> <span data-label>Disinformazione</span>
+      <span class="ml-auto text-xs text-slate-400" id="count-disinfo"></span>
     </button>
     <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="framing">
-      <span>🖼️</span> Inquadratura
-      <span class="ml-auto text-xs text-slate-400" id="count-framing">6</span>
+      <span>🖼️</span> <span data-label>Inquadratura</span>
+      <span class="ml-auto text-xs text-slate-400" id="count-framing"></span>
     </button>
     <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="manipulation">
-      <span>🧠</span> Manipolazione
-      <span class="ml-auto text-xs text-slate-400" id="count-manipulation">14</span>
+      <span>🧠</span> <span data-label>Manipolazione</span>
+      <span class="ml-auto text-xs text-slate-400" id="count-manipulation"></span>
     </button>
     <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="digital">
-      <span>💻</span> Operazioni Digitali
-      <span class="ml-auto text-xs text-slate-400" id="count-digital">5</span>
+      <span>💻</span> <span data-label>Operazioni Digitali</span>
+      <span class="ml-auto text-xs text-slate-400" id="count-digital"></span>
     </button>
     <button class="nav-item w-full text-left px-3 py-2 rounded-r-lg flex items-center gap-2 text-sm text-slate-700 hover:bg-slate-50" data-filter="emotional">
-      <span>💔</span> Appelli Emotivi
-      <span class="ml-auto text-xs text-slate-400" id="count-emotional">3</span>
+      <span>💔</span> <span data-label>Appelli Emotivi</span>
+      <span class="ml-auto text-xs text-slate-400" id="count-emotional"></span>
     </button>
   </nav>
 
   <div class="p-4 border-t border-slate-200 bg-slate-50">
     <div class="flex items-center justify-between mb-2">
-      <span class="text-xs text-slate-500">Progresso</span>
-      <span class="text-xs font-medium" id="progress-text">0/33 esplorate</span>
+      <span id="progress-label" class="text-xs text-slate-500">Progresso</span>
+      <span class="text-xs font-medium" id="progress-text">0/35</span>
     </div>
     <div class="w-full bg-slate-200 rounded-full h-2">
       <div id="progress-bar" class="bg-amber-400 h-2 rounded-full transition-all duration-300" style="width: 0%"></div>
@@ -108,8 +108,12 @@
       <div class="flex items-center gap-4">
         <div class="flex items-center gap-2 text-sm text-slate-500">
           <span class="text-amber-500">⭐</span>
-          <span id="explored-count">0</span> tecniche esplorate
+          <span id="explored-count">0</span>
+          <span id="explored-suffix">tecniche esplorate</span>
         </div>
+        <button id="lang-switch" data-switch-to="en" class="text-xs font-semibold border border-slate-300 rounded-full px-3 py-1 hover:bg-slate-100 transition">
+          Switch to English
+        </button>
         <div class="w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center text-sm shadow">🛡️</div>
       </div>
     </div>
@@ -118,8 +122,7 @@
   <div id="content" class="p-6"></div>
 </main>
 
-<script src="js/data/techniques.js"></script>
-<script src="js/data/quiz-questions.js"></script>
+<script src="js/i18n.js"></script>
 <script src="js/state.js"></script>
 <script src="js/render.js"></script>
 <script src="js/quiz.js"></script>

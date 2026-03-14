@@ -1,0 +1,90 @@
+[
+  {
+    "id": "q1",
+    "title": "📱 Il post virale",
+    "situation": "Un post: \"L'acqua contiene Veleno! I media non ve lo dicono!\" 10.000 condivisioni. Fonte: \".xyz\"",
+    "question": "Qual è la tua reazione?",
+    "options": [
+      { "text": "Condivido subito!", "score": 3 },
+      { "text": "Cerco fact-check prima", "score": 0 },
+      { "text": "Cerco altre fonti", "score": 1 }
+    ]
+  },
+  {
+    "id": "q2",
+    "title": "🗳️ Il dibattito",
+    "situation": "Un candidato: \"L'avversario è un disastro totale!\" Nessuna prova.",
+    "question": "Cosa noti?",
+    "options": [
+      { "text": "Normale politica", "score": 2 },
+      { "text": "Accuse generiche senza prove", "score": 0 },
+      { "text": "Mi fido perché in TV", "score": 3 }
+    ]
+  },
+  {
+    "id": "q3",
+    "title": "🌍 Le due notizie",
+    "situation": "Testata A: \"PROTESTA STORICA!\" Testata B: \"FLOP TOTALE.\" Stesso evento.",
+    "question": "Come interpreti?",
+    "options": [
+      { "text": "Uno mente", "score": 2 },
+      { "text": "Framing diverso", "score": 0 },
+      { "text": "Guardo quella che mi piace", "score": 3 }
+    ]
+  },
+  {
+    "id": "q4",
+    "title": "🎯 L'emozione forte",
+    "situation": "Un articolo ti fa arrabbiare. Impulso: condividere subito.",
+    "question": "Cosa fai?",
+    "options": [
+      { "text": "Condivido subito!", "score": 3 },
+      { "text": "10 minuti per verificare", "score": 0 },
+      { "text": "Aspetto domani", "score": 1 }
+    ]
+  },
+  {
+    "id": "q5",
+    "title": "🔍 La fonte misteriosa",
+    "situation": "Un video con un \"esperto\" senza nome né qualifica.",
+    "question": "Cosa pensi?",
+    "options": [
+      { "text": "Se è virale è vero", "score": 3 },
+      { "text": "Senza nome non mi fido", "score": 0 },
+      { "text": "Controllo nei commenti", "score": 2 }
+    ]
+  },
+  {
+    "id": "q6",
+    "title": "⚔️ L'attacco",
+    "situation": "Un politico propone una riforma. L'avversario: \"È stato divorziato!\"",
+    "question": "È una critica valida?",
+    "options": [
+      { "text": "Sì, mostra che tipo è", "score": 2 },
+      { "text": "Ad hominem irrilevante", "score": 0 },
+      { "text": "Dipende dalla gravità", "score": 3 }
+    ]
+  },
+  {
+    "id": "q7",
+    "title": "🧠 La lista",
+    "situation": "Un video di 45 minuti elenca 100 scandali senza fonti.",
+    "question": "Come approcci?",
+    "options": [
+      { "text": "Tanti fatti = qualcosa di vero", "score": 2 },
+      { "text": "Verifico 2-3 punti", "score": 0 },
+      { "text": "Guardo tutto poi giudico", "score": 3 }
+    ]
+  },
+  {
+    "id": "q8",
+    "title": "📢 L'urgenza",
+    "situation": "\"CONDIVIDI ORA prima che lo cancellino!\"",
+    "question": "Cosa fai?",
+    "options": [
+      { "text": "Condivido subito!", "score": 3 },
+      { "text": "Se vero sarà notizia domani", "score": 0 },
+      { "text": "Salvo e verifico dopo", "score": 1 }
+    ]
+  }
+]

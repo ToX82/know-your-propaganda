@@ -1,0 +1,136 @@
+{
+  "lang": {
+    "current": "EN",
+    "switchLabel": "Passa all'Italiano",
+    "switchCode": "it"
+  },
+  "nav": {
+    "brand": "Propaganda",
+    "brandSub": "Defense Guide",
+    "sectionNav": "Navigation",
+    "sectionCat": "Categories",
+    "home": "Overview",
+    "techniques": "All Techniques",
+    "quiz": "Resistance Test",
+    "about": "About",
+    "progress": "Progress",
+    "exploredSuffix": "techniques explored",
+    "categories": {
+      "attack": "Attack",
+      "disinfo": "Disinformation",
+      "framing": "Framing",
+      "manipulation": "Manipulation",
+      "digital": "Digital Operations",
+      "emotional": "Emotional Appeals"
+    }
+  },
+  "home": {
+    "badge": "Complete Guide",
+    "title": "35 Propaganda Techniques — How to Recognize Them",
+    "description": "This guide teaches you to recognize manipulation techniques used in politics, media and advertising. Each technique includes historical case studies, psychological mechanisms and defense strategies.",
+    "ctaButton": "⚡ Test Your Resistance",
+    "stats": {
+      "techniques": "Techniques",
+      "categories": "Categories",
+      "questions": "Questions",
+      "explored": "Explored"
+    },
+    "progress": {
+      "techniquesLabel": "📚 Technique Progress",
+      "resistanceLabel": "🛡️ Resistance Level",
+      "riskScore": "Risk score: {score}/{max}",
+      "completeTest": "Complete the test",
+      "exploredOf": "{n} of {total} techniques explored"
+    },
+    "quickAccess": "Quick Access"
+  },
+  "techniques": {
+    "filters": {
+      "all": "All",
+      "attack": "⚔️ Attack",
+      "disinfo": "📰 Disinformation",
+      "framing": "🖼️ Framing",
+      "manipulation": "🧠 Manipulation",
+      "digital": "💻 Digital",
+      "emotional": "💔 Emotional"
+    }
+  },
+  "detail": {
+    "backButton": "← Back to techniques",
+    "exploredBadge": "⭐ Explored",
+    "sections": {
+      "definition": "📖 Definition",
+      "historical": "📜 Historical Context",
+      "psychological": "🧠 Psychological Mechanism",
+      "variants": "🎯 Variants",
+      "redFlags": "⚠️ Red Flags",
+      "caseStudies": "📚 Case Studies",
+      "defense": "🛡️ Defense Strategies",
+      "quiz": "❓ Test Your Understanding"
+    },
+    "quizIntro": "Put your understanding to the test",
+    "startQuiz": "Start Quiz",
+    "situation": "Situation:"
+  },
+  "quiz": {
+    "title": "🧪 Test Your Resistance",
+    "subtitle": "Lower score = better resistance!",
+    "questionOf": "Question {n} of {total}",
+    "completed": "✓ Completed",
+    "prev": "← Previous",
+    "next": "Next →",
+    "riskPoints": "/ {max} risk points",
+    "restart": "↺ Restart",
+    "levels": {
+      "start": {
+        "title": "Start the Test!",
+        "icon": "🎯",
+        "color": "text-slate-600",
+        "desc": "Complete the questionnaire."
+      },
+      "master": {
+        "title": "Master of Critical Thinking",
+        "icon": "🏆",
+        "color": "text-yellow-600",
+        "desc": "Excellent resistance!"
+      },
+      "defender": {
+        "title": "Vigilant Defender",
+        "icon": "🛡️",
+        "color": "text-green-600",
+        "desc": "Good work, room for improvement."
+      },
+      "aware": {
+        "title": "Aware Citizen",
+        "icon": "👁️",
+        "color": "text-orange-600",
+        "desc": "Some answers indicate vulnerabilities."
+      },
+      "trainee": {
+        "title": "Trainee",
+        "icon": "⚠️",
+        "color": "text-red-600",
+        "desc": "High risk. Study all the techniques."
+      }
+    }
+  },
+  "about": {
+    "infoTitle": "About",
+    "infoDesc": "This guide is based on academic research, journalism and media literacy education. It includes 35 techniques identified by the Institute for Propaganda Analysis, psychological literature and historical analysis.",
+    "sourcesTitle": "Sources",
+    "sources": [
+      "Institute for Propaganda Analysis (1937-1942)",
+      "RAND Corporation - \"Firehose of Falsehood\"",
+      "McCombs & Shaw - Agenda-Setting Theory",
+      "Herman & Chomsky - Manufacturing Consent",
+      "Aristotle - Logical Fallacies"
+    ],
+    "principlesTitle": "Key Principles",
+    "principles": [
+      "Ask yourself: \"Does this want to inform or manipulate me?\"",
+      "Identify who is speaking, on whose behalf, with what incentives.",
+      "Quantity of claims ≠ quality of evidence.",
+      "Sharing speed is not proof of truth."
+    ]
+  }
+}

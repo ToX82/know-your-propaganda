@@ -1,0 +1,136 @@
+{
+  "lang": {
+    "current": "IT",
+    "switchLabel": "Switch to English",
+    "switchCode": "en"
+  },
+  "nav": {
+    "brand": "Propaganda",
+    "brandSub": "Defense Guide",
+    "sectionNav": "Navigazione",
+    "sectionCat": "Categorie",
+    "home": "Panoramica",
+    "techniques": "Tutte le Tecniche",
+    "quiz": "Test Resistenza",
+    "about": "Informazioni",
+    "progress": "Progresso",
+    "exploredSuffix": "tecniche esplorate",
+    "categories": {
+      "attack": "Attacco",
+      "disinfo": "Disinformazione",
+      "framing": "Inquadratura",
+      "manipulation": "Manipolazione",
+      "digital": "Operazioni Digitali",
+      "emotional": "Appelli Emotivi"
+    }
+  },
+  "home": {
+    "badge": "Guida Completa",
+    "title": "33 Tecniche di Propaganda — Come Riconoscerle",
+    "description": "Questa guida ti insegna a riconoscere le tecniche di manipolazione usate in politica, media e pubblicità. Ogni tecnica include casi studio storici, meccanismi psicologici e strategie di difesa.",
+    "ctaButton": "⚡ Testa la Tua Resistenza",
+    "stats": {
+      "techniques": "Tecniche",
+      "categories": "Categorie",
+      "questions": "Domande",
+      "explored": "Esplorate"
+    },
+    "progress": {
+      "techniquesLabel": "📚 Progresso Tecniche",
+      "resistanceLabel": "🛡️ Livello Resistenza",
+      "riskScore": "Punteggio rischio: {score}/{max}",
+      "completeTest": "Completa il test",
+      "exploredOf": "{n} di {total} tecniche esplorate"
+    },
+    "quickAccess": "Accesso Rapido"
+  },
+  "techniques": {
+    "filters": {
+      "all": "Tutte",
+      "attack": "⚔️ Attacco",
+      "disinfo": "📰 Disinformazione",
+      "framing": "🖼️ Inquadratura",
+      "manipulation": "🧠 Manipolazione",
+      "digital": "💻 Digitale",
+      "emotional": "💔 Emotivo"
+    }
+  },
+  "detail": {
+    "backButton": "← Torna alle tecniche",
+    "exploredBadge": "⭐ Esplorata",
+    "sections": {
+      "definition": "📖 Definizione",
+      "historical": "📜 Contesto Storico",
+      "psychological": "🧠 Meccanismo Psicologico",
+      "variants": "🎯 Varianti",
+      "redFlags": "⚠️ Segnali di Allarme",
+      "caseStudies": "📚 Casi Studio",
+      "defense": "🛡️ Strategie di Difesa",
+      "quiz": "❓ Testa la Comprensione"
+    },
+    "quizIntro": "Metti alla prova la tua comprensione",
+    "startQuiz": "Inizia il Quiz",
+    "situation": "Situazione:"
+  },
+  "quiz": {
+    "title": "🧪 Test della Tua Resistenza",
+    "subtitle": "Punteggio più basso = migliore resistenza!",
+    "questionOf": "Domanda {n} di {total}",
+    "completed": "✓ Completata",
+    "prev": "← Precedente",
+    "next": "Successiva →",
+    "riskPoints": "/ {max} punti rischio",
+    "restart": "↺ Ricomincia",
+    "levels": {
+      "start": {
+        "title": "Inizia il Test!",
+        "icon": "🎯",
+        "color": "text-slate-600",
+        "desc": "Completa il questionario."
+      },
+      "master": {
+        "title": "Maestro del Pensiero Critico",
+        "icon": "🏆",
+        "color": "text-yellow-600",
+        "desc": "Ottima resistenza!"
+      },
+      "defender": {
+        "title": "Difensore Vigile",
+        "icon": "🛡️",
+        "color": "text-green-600",
+        "desc": "Buon lavoro, margine di miglioramento."
+      },
+      "aware": {
+        "title": "Cittadino Consapevole",
+        "icon": "👁️",
+        "color": "text-orange-600",
+        "desc": "Alcune risposte indicano vulnerabilità."
+      },
+      "trainee": {
+        "title": "Allievo da Formare",
+        "icon": "⚠️",
+        "color": "text-red-600",
+        "desc": "Alto rischio. Studia tutte le tecniche."
+      }
+    }
+  },
+  "about": {
+    "infoTitle": "Informazioni",
+    "infoDesc": "Questa guida si basa su ricerca accademica, giornalismo ed educazione alla media literacy. Include 33 tecniche identificate dall'Institute for Propaganda Analysis, dalla letteratura psicologica e dall'analisi storica.",
+    "sourcesTitle": "Fonti",
+    "sources": [
+      "Institute for Propaganda Analysis (1937-1942)",
+      "RAND Corporation - \"Firehose of Falsehood\"",
+      "McCombs & Shaw - Agenda-Setting Theory",
+      "Herman & Chomsky - Manufacturing Consent",
+      "Aristotele - Le fallacie logiche"
+    ],
+    "principlesTitle": "Principi Chiave",
+    "principles": [
+      "Chiediti: \"Questo vuole informarmi o manipolarmi?\"",
+      "Identifica chi parla, a nome di chi, con quali incentivi.",
+      "Quantità di affermazioni ≠ qualità delle prove.",
+      "La velocità di condivisione non è prova di verità."
+    ]
+  }
+}
