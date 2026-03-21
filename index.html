@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Propaganda Defense Guide — 35 Tecniche di Manipolazione</title>
+  <title>Know Your Propaganda — Anti-Fake Detective Academy</title>
+  <meta name="description" content="Learn to spot 35 propaganda techniques. Take the Resistance Test and earn your Agent rank.">
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -11,9 +12,11 @@
       theme: {
         extend: {
           colors: {
-            primary: '#f59e0b',
-            primaryDark: '#d97706',
-            neo: '#1a1a1a'
+            accent: { DEFAULT: '#f59e0b', light: '#fbbf24', dark: '#d97706' }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            mono: ['JetBrains Mono', 'ui-monospace', 'monospace']
           }
         }
       }
@@ -22,111 +25,111 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="min-h-screen">
+<body class="min-h-screen bg-gray-50 text-slate-800">
 
-<!-- Overlay (mobile only, when sidebar open) -->
-<div id="sidebar-overlay" class="fixed inset-0 bg-black/40 z-40 hidden md:hidden" aria-hidden="true"></div>
+<!-- Overlay -->
+<div id="sidebar-overlay" class="fixed inset-0 bg-black/30 backdrop-blur-sm z-40 hidden md:hidden" aria-hidden="true"></div>
 
-<!-- Sidebar: drawer on mobile, fixed on md+ -->
-<aside id="sidebar" class="sidebar-neo fixed left-0 top-0 h-full w-64 z-50 flex flex-col -translate-x-full md:translate-x-0 transition-transform duration-200 ease-out">
+<!-- Sidebar -->
+<aside id="sidebar" class="fixed left-0 top-0 h-full w-60 z-50 flex flex-col bg-white border-r border-gray-200 -translate-x-full md:translate-x-0 transition-transform duration-300 ease-out shadow-sm">
 
   <!-- Brand -->
-  <div class="neo-brand p-4">
-    <div class="flex items-center gap-3">
-      <div class="w-9 h-9 bg-amber-700 flex items-center justify-center text-lg">🛡️</div>
+  <div class="p-4 border-b border-gray-200 bg-gradient-to-r from-amber-50 to-white">
+    <a href="#home" class="flex items-center gap-3 group">
+      <div class="w-9 h-9 bg-gradient-to-br from-amber-400 to-amber-500 rounded-lg flex items-center justify-center text-base shadow-md shadow-amber-200 group-hover:shadow-amber-300 transition-shadow">🛡️</div>
       <div>
-        <div class="font-bold text-sm text-slate-900 tracking-tight">Propaganda</div>
-        <div class="text-xs text-amber-900 font-medium">Defense Guide</div>
+        <div class="font-bold text-sm text-slate-800 tracking-tight" data-brand>Know Your</div>
+        <div class="text-xs text-amber-600 font-semibold tracking-wide" data-brand-sub>Propaganda</div>
       </div>
-    </div>
+    </a>
   </div>
 
   <!-- Nav -->
-  <nav class="flex-1 p-2 overflow-y-auto sidebar">
-    <div id="section-nav" class="text-xs font-bold text-slate-400 uppercase tracking-widest px-3 py-2 mt-1">Navigazione</div>
+  <nav class="flex-1 px-3 py-4 overflow-y-auto sidebar-scroll">
+    <div id="section-nav" class="text-[10px] font-semibold text-slate-400 uppercase tracking-[0.15em] px-3 mb-2">Navigazione</div>
 
-    <button class="nav-item active w-full text-left px-3 py-2.5 flex items-center gap-2 text-sm text-slate-800 hover:bg-slate-100" data-page="home">
-      <span>🏠</span> <span data-label>Panoramica</span>
+    <button class="nav-item active" data-page="home">
+      <span class="nav-icon">🏠</span> <span data-label>Panoramica</span>
     </button>
-    <button class="nav-item w-full text-left px-3 py-2.5 flex items-center gap-2 text-sm text-slate-800 hover:bg-slate-100" data-page="techniques">
-      <span>📚</span> <span data-label>Tutte le Tecniche</span>
-      <span class="ml-auto count-badge" id="techniques-count">35</span>
+    <button class="nav-item" data-page="techniques">
+      <span class="nav-icon">📚</span> <span data-label>Tutte le Tecniche</span>
+      <span class="ml-auto bg-amber-100 text-amber-700 text-[10px] font-bold font-mono px-1.5 py-0.5 rounded" id="techniques-count">35</span>
     </button>
-    <button class="nav-item w-full text-left px-3 py-2.5 flex items-center gap-2 text-sm text-slate-800 hover:bg-slate-100" data-page="quiz">
-      <span>✅</span> <span data-label>Test Resistenza</span>
+    <button class="nav-item" data-page="quiz">
+      <span class="nav-icon">🕵️</span> <span data-label>Test Resistenza</span>
     </button>
-    <button class="nav-item w-full text-left px-3 py-2.5 flex items-center gap-2 text-sm text-slate-800 hover:bg-slate-100" data-page="about">
-      <span>ℹ️</span> <span data-label>Informazioni</span>
+    <button class="nav-item" data-page="about">
+      <span class="nav-icon">ℹ️</span> <span data-label>Informazioni</span>
     </button>
 
-    <div class="border-t-2 border-neo my-2"></div>
-    <div id="section-cat" class="text-xs font-bold text-slate-400 uppercase tracking-widest px-3 py-2">Categorie</div>
+    <div class="border-t border-gray-200 my-3"></div>
+    <div id="section-cat" class="text-[10px] font-semibold text-slate-400 uppercase tracking-[0.15em] px-3 mb-2">Categorie</div>
 
-    <button class="nav-item w-full text-left px-3 py-2.5 flex items-center gap-2 text-sm text-slate-800 hover:bg-slate-100" data-filter="attack">
-      <span>⚔️</span> <span data-label>Attacco</span>
-      <span class="ml-auto text-xs font-mono text-slate-500" id="count-attack"></span>
+    <button class="nav-item" data-filter="attack">
+      <span class="nav-icon">⚔️</span> <span data-label>Attacco</span>
+      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-attack"></span>
     </button>
-    <button class="nav-item w-full text-left px-3 py-2.5 flex items-center gap-2 text-sm text-slate-800 hover:bg-slate-100" data-filter="disinfo">
-      <span>📰</span> <span data-label>Disinformazione</span>
-      <span class="ml-auto text-xs font-mono text-slate-500" id="count-disinfo"></span>
+    <button class="nav-item" data-filter="disinfo">
+      <span class="nav-icon">📰</span> <span data-label>Disinformazione</span>
+      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-disinfo"></span>
     </button>
-    <button class="nav-item w-full text-left px-3 py-2.5 flex items-center gap-2 text-sm text-slate-800 hover:bg-slate-100" data-filter="framing">
-      <span>🖼️</span> <span data-label>Inquadratura</span>
-      <span class="ml-auto text-xs font-mono text-slate-500" id="count-framing"></span>
+    <button class="nav-item" data-filter="framing">
+      <span class="nav-icon">🖼️</span> <span data-label>Inquadratura</span>
+      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-framing"></span>
     </button>
-    <button class="nav-item w-full text-left px-3 py-2.5 flex items-center gap-2 text-sm text-slate-800 hover:bg-slate-100" data-filter="manipulation">
-      <span>🧠</span> <span data-label>Manipolazione</span>
-      <span class="ml-auto text-xs font-mono text-slate-500" id="count-manipulation"></span>
+    <button class="nav-item" data-filter="manipulation">
+      <span class="nav-icon">🧠</span> <span data-label>Manipolazione</span>
+      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-manipulation"></span>
     </button>
-    <button class="nav-item w-full text-left px-3 py-2.5 flex items-center gap-2 text-sm text-slate-800 hover:bg-slate-100" data-filter="digital">
-      <span>💻</span> <span data-label>Operazioni Digitali</span>
-      <span class="ml-auto text-xs font-mono text-slate-500" id="count-digital"></span>
+    <button class="nav-item" data-filter="digital">
+      <span class="nav-icon">💻</span> <span data-label>Operazioni Digitali</span>
+      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-digital"></span>
     </button>
-    <button class="nav-item w-full text-left px-3 py-2.5 flex items-center gap-2 text-sm text-slate-800 hover:bg-slate-100" data-filter="emotional">
-      <span>💔</span> <span data-label>Appelli Emotivi</span>
-      <span class="ml-auto text-xs font-mono text-slate-500" id="count-emotional"></span>
+    <button class="nav-item" data-filter="emotional">
+      <span class="nav-icon">💔</span> <span data-label>Appelli Emotivi</span>
+      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-emotional"></span>
     </button>
   </nav>
 
   <!-- Progress -->
-  <div class="neo-panel p-4 m-2 mt-0">
-    <div class="flex items-center justify-between mb-2">
-      <span id="progress-label" class="text-xs font-bold uppercase tracking-wider text-slate-500">Progresso</span>
-      <span class="text-xs font-mono font-bold text-slate-700" id="progress-text">0/35</span>
+  <div class="p-3 border-t border-gray-200">
+    <div class="flex items-center justify-between mb-1.5">
+      <span id="progress-label" class="text-[10px] font-semibold uppercase tracking-wider text-slate-400">Progresso</span>
+      <span class="text-[10px] font-mono font-bold text-slate-500" id="progress-text">0/35</span>
     </div>
-    <div class="neo-progress-track w-full h-3">
-      <div id="progress-bar" class="neo-progress-fill bg-amber-400" style="width: 0%"></div>
+    <div class="w-full h-1.5 bg-gray-100 rounded-full overflow-hidden">
+      <div id="progress-bar" class="h-full bg-gradient-to-r from-amber-400 to-amber-500 rounded-full transition-all duration-500" style="width:0%"></div>
     </div>
   </div>
 </aside>
 
 <!-- Main -->
-<main class="ml-0 md:ml-64 min-h-screen flex flex-col min-w-0 overflow-x-hidden">
-  <header class="sticky top-0 z-30 bg-white border-b-2 border-neo shadow-[0_4px_0_0_#1a1a1a] px-4 py-3 md:px-6">
-    <div class="flex items-center justify-between gap-2 flex-wrap">
-      <div class="flex items-center gap-2 min-w-0 flex-1">
-        <button id="sidebar-toggle" type="button" class="md:hidden p-2 -ml-2 rounded-md border-2 border-neo bg-white shadow-[2px_2px_0_#1a1a1a] hover:bg-slate-50 active:shadow-none active:translate-x-[1px] active:translate-y-[1px] transition-all flex-shrink-0" aria-label="Apri menu" aria-expanded="false" aria-controls="sidebar">
-          <svg class="w-5 h-5 text-slate-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+<main class="ml-0 md:ml-60 min-h-screen flex flex-col">
+  <header class="sticky top-0 z-30 bg-white/90 backdrop-blur-lg border-b border-gray-200 px-4 py-3 md:px-6">
+    <div class="flex items-center justify-between gap-3">
+      <div class="flex items-center gap-3 min-w-0 flex-1">
+        <button id="sidebar-toggle" type="button" class="md:hidden p-2 -ml-1 rounded-lg text-slate-500 hover:text-slate-800 hover:bg-gray-100 transition-colors" aria-label="Apri menu" aria-expanded="false" aria-controls="sidebar">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
         </button>
-        <h1 class="font-bold text-slate-900 tracking-tight truncate" id="page-title">Panoramica</h1>
+        <h1 class="font-bold text-slate-800 text-lg tracking-tight truncate" id="page-title">Panoramica</h1>
       </div>
-      <div class="flex items-center gap-2 md:gap-4 flex-shrink-0">
-        <div class="flex items-center gap-1.5 text-sm text-slate-500 font-mono">
+      <div class="flex items-center gap-3 flex-shrink-0">
+        <div class="hidden sm:flex items-center gap-1.5 text-xs text-slate-400 font-mono">
           <span class="text-amber-500">★</span>
           <span id="explored-count">0</span>
           <span id="explored-suffix">tecniche esplorate</span>
         </div>
-        <button id="lang-switch" data-switch-to="en" class="neo-btn-sm">
-          Switch to English
+        <button id="lang-switch" data-switch-to="en" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-gray-100 text-slate-600 hover:text-slate-800 hover:bg-gray-200 border border-gray-200 transition-all">
+          EN
         </button>
       </div>
     </div>
   </header>
 
-  <div id="content" class="p-4 md:p-6 flex-1 min-w-0"></div>
+  <div id="content" class="p-4 md:p-6 lg:p-8 flex-1 min-w-0"></div>
 </main>
 
 <script src="js/i18n.js"></script>

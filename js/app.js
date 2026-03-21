@@ -1,3 +1,4 @@
+/* ─── SIDEBAR ──────────────────────────────────────── */
 function openSidebar() {
   document.getElementById('sidebar').classList.add('translate-x-0');
   document.getElementById('sidebar-overlay').classList.remove('hidden');
@@ -22,16 +23,48 @@ function isSidebarOpen() {
   return document.getElementById('sidebar').classList.contains('translate-x-0');
 }
 
+/* ─── HASH ROUTING ─────────────────────────────────── */
+function getHashRoute() {
+  const hash = location.hash.slice(1);
+  if (!hash) return { page: 'home' };
+  const parts = hash.split('/');
+  if (parts[0] === 'detail' && parts[1]) return { page: 'detail', id: parseInt(parts[1], 10) };
+  if (parts[0] === 'techniques' && parts[1]) return { page: 'techniques', filter: parts[1] };
+  return { page: parts[0] || 'home' };
+}
+
+function updateHash(page, extra) {
+  let hash = '#' + page;
+  if (page === 'detail' && extra) hash += '/' + extra;
+  if (page === 'techniques' && extra && extra !== 'all') hash += '/' + extra;
+  if (location.hash !== hash) {
+    history.pushState(null, '', hash);
+  }
+}
+
+/* ─── NAVIGATION ───────────────────────────────────── */
 function navigateTo(page, filter) {
   if (!window.matchMedia('(min-width: 768px)').matches && isSidebarOpen()) {
     closeSidebar();
   }
   currentPage = page;
-  currentFilter = filter || currentFilter;
+  if (filter) currentFilter = filter;
+
+  // Update hash
+  if (page === 'detail' && currentTechnique) {
+    updateHash('detail', currentTechnique.id);
+  } else if (page === 'techniques' && filter && filter !== 'all') {
+    updateHash('techniques', filter);
+  } else {
+    updateHash(page);
+  }
+
+  // Update active nav
   document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
   const activeNav = document.querySelector('[data-page="' + page + '"]') || document.querySelector('[data-filter="' + filter + '"]');
   if (activeNav) activeNav.classList.add('active');
 
+  // Update title
   const u = _ui;
   const titles = {
     home: u.nav.home,
@@ -42,20 +75,43 @@ function navigateTo(page, filter) {
   };
   document.getElementById('page-title').textContent = titles[page] || page;
 
+  // Render content
   const content = document.getElementById('content');
   content.innerHTML = '';
-  content.className = 'p-4 md:p-6 flex-1 min-w-0 animate-fade-in';
+  content.className = 'p-4 md:p-6 lg:p-8 flex-1 min-w-0 animate-fade-in';
 
   if (page === 'home') renderHome();
   else if (page === 'techniques') renderTechniques();
   else if (page === 'detail') renderDetail();
   else if (page === 'quiz') renderQuiz();
   else if (page === 'about') renderAbout();
+
+  // Scroll to top
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function handleHashRoute() {
+  const route = getHashRoute();
+  if (route.page === 'detail' && route.id) {
+    const t = techniques.find(t => t.id === route.id);
+    if (t) {
+      currentTechnique = t;
+      exploredTechniques.add(t.id);
+      updateProgress();
+      navigateTo('detail');
+      return;
+    }
+  }
+  if (route.page === 'techniques' && route.filter) {
+    currentFilter = route.filter;
+  }
+  const validPages = ['home', 'techniques', 'quiz', 'about'];
+  navigateTo(validPages.includes(route.page) ? route.page : 'home', route.filter);
+}
+
+/* ─── LANGUAGE ─────────────────────────────────────── */
 async function switchLanguage(lang) {
   i18n.setLang(lang);
-  // Reset state on language change
   currentPage = 'home';
   currentTechnique = null;
   currentFilter = 'all';
@@ -64,19 +120,24 @@ async function switchLanguage(lang) {
   quizScores = {};
   currentQuizQuestion = 0;
   quizResultsVisible = false;
+  quizStarted = false;
+  quizStreak = 0;
+  quizMaxStreak = 0;
+  quizStartTime = null;
   techniqueQuizState = { answered: false, selected: null };
 
   await i18n.loadLocale(lang);
   updateStaticUI();
   updateCategoryCounts();
-  navigateTo('home');
+  handleHashRoute();
 }
 
+/* ─── INIT ─────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', async () => {
   const lang = i18n.getLang();
   await i18n.loadLocale(lang);
 
-  // Wire up nav
+  // Wire nav
   document.querySelectorAll('.nav-item[data-page]').forEach(el =>
     el.addEventListener('click', () => navigateTo(el.dataset.page))
   );
@@ -84,27 +145,24 @@ document.addEventListener('DOMContentLoaded', async () => {
     el.addEventListener('click', () => navigateTo('techniques', el.dataset.filter))
   );
 
-  // Sidebar toggle (mobile)
+  // Sidebar
   const sidebarToggle = document.getElementById('sidebar-toggle');
   const sidebarOverlay = document.getElementById('sidebar-overlay');
   if (sidebarToggle) {
-    sidebarToggle.addEventListener('click', () => {
-      if (isSidebarOpen()) closeSidebar();
-      else openSidebar();
-    });
+    sidebarToggle.addEventListener('click', () => isSidebarOpen() ? closeSidebar() : openSidebar());
   }
   if (sidebarOverlay) {
     sidebarOverlay.addEventListener('click', closeSidebar);
   }
 
-  // Close sidebar when resizing to desktop
   window.addEventListener('resize', () => {
-    if (window.matchMedia('(min-width: 768px)').matches && isSidebarOpen()) {
-      closeSidebar();
-    }
+    if (window.matchMedia('(min-width: 768px)').matches && isSidebarOpen()) closeSidebar();
   });
 
-  // Lang switcher
+  // Hash change
+  window.addEventListener('hashchange', handleHashRoute);
+
+  // Lang switch
   const langBtn = document.getElementById('lang-switch');
   if (langBtn) {
     langBtn.addEventListener('click', () => switchLanguage(langBtn.dataset.switchTo));
@@ -112,5 +170,5 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   updateStaticUI();
   updateCategoryCounts();
-  navigateTo('home');
+  handleHashRoute();
 });

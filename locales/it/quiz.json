@@ -1,185 +1,271 @@
 {
   "quiz_info": {
-    "titolo": "🛡️ Test di Resistenza alla Propaganda",
-    "sottotitolo": "Scopri quanto sei resistente alle tecniche di manipolazione informativa",
-    "istruzioni": "Per ogni situazione, scegli la reazione che più si avvicina al tuo comportamento reale. Alla fine scoprirai il tuo punteggio e i suggerimenti personalizzati.",
+    "titolo": "Quanto sei manipolabile?",
+    "sottotitolo": "10 scenari reali. Risposte oneste. Scopri i tuoi punti ciechi.",
+    "istruzioni": "Ogni scenario e' qualcosa che ti e' gia' capitato o ti capitera'. Non scegliere la risposta 'giusta' — scegli quella che faresti davvero, alle 23:47, stanco, con il pollice sul telefono. L'onesta' qui conta piu' della performance.",
     "punteggio": {
-      "0-8": "🦅 Guardiano dell'Informazione - Critico e consapevole",
-      "9-16": "🧐 Investigatore Curioso - Buona capacità di dubbio",
-      "17-24": "🎯 Bersaglio Occasionale - Alcune vulnerabilità",
-      "25-40": "📉 Ad alto rischio - Rivedere le abitudini informative"
+      "0-8": "Blindato — Il tuo rilevatore di fesserie funziona benissimo",
+      "9-16": "Scettico sano — Buon fiuto, qualche angolo cieco",
+      "17-24": "Esposto — Piu' vulnerabile di quanto pensi",
+      "25-40": "Terreno fertile — Le tecniche di manipolazione ti trovano ricettivo"
+    },
+    "narrative": {
+      "intro_message": "Ogni giorno scorri centinaia di contenuti. Alcuni sono informazione, altri sono progettati per fregarti — e la differenza non e' sempre ovvia.\n\nQuesto test ti mette davanti a 10 situazioni reali: post virali, dibattiti TV, messaggi di gruppo, video su YouTube. Roba che incontri ogni settimana.\n\nNon c'e' un voto e non e' un esame. E' uno specchio: ti mostra dove le tue difese tengono e dove hanno buchi. Alcune risposte ti sorprenderanno.",
+      "difficulty_curve": "Gli scenari diventano progressivamente piu' sottili. I primi testano l'istinto, gli ultimi il ragionamento."
+    },
+    "gamification": {
+      "levels": [
+        { "name": "Terreno fertile", "icon": "🌱", "min_score": 25, "max_score": 40 },
+        { "name": "Esposto", "icon": "🎯", "min_score": 17, "max_score": 24 },
+        { "name": "Scettico sano", "icon": "🔍", "min_score": 9, "max_score": 16 },
+        { "name": "Blindato", "icon": "🛡️", "min_score": 0, "max_score": 8 }
+      ],
+      "badges": [
+        { "id": "first_blood", "name": "Partenza pulita", "icon": "✅", "condition": "Rispondi correttamente alla prima domanda", "description": "Hai fiutato la trappola al primo colpo" },
+        { "id": "streak_3", "name": "In serie", "icon": "🔥", "condition": "3 risposte perfette consecutive", "description": "Tre di fila senza esitare" },
+        { "id": "streak_5", "name": "Cinque su cinque", "icon": "⚡", "condition": "5 risposte perfette consecutive", "description": "Cinque consecutive — il tuo pensiero critico e' in forma" },
+        { "id": "perfect", "name": "Punteggio pieno", "icon": "💎", "condition": "Punteggio 0 (tutte perfette)", "description": "Zero punti propaganda. Complimenti non ironici." },
+        { "id": "speed_demon", "name": "Istinto affilato", "icon": "⏱️", "condition": "Completa il quiz in meno di 3 minuti", "description": "Veloce e preciso — raro" },
+        { "id": "curious_mind", "name": "Vuole capire", "icon": "🧠", "condition": "Leggi tutti i bonus insight", "description": "Non ti basta la risposta, vuoi capire il perche'" },
+        { "id": "emotional_armor", "name": "Lucidita'", "icon": "🫀", "condition": "Rispondi correttamente a q4 e q8 (le trappole emotive)", "description": "Le emozioni non ti fanno perdere la testa" },
+        { "id": "pattern_breaker", "name": "Anticorpi logici", "icon": "🧩", "condition": "Rispondi correttamente a q7 e q10 (le trappole logiche)", "description": "Vedi oltre i pattern — il tuo cervello non cade nei bias" }
+      ],
+      "streak_messages": {
+        "2": "Due di fila.",
+        "3": "🔥 Tre di fila — badge 'In serie' sbloccato.",
+        "5": "⚡ Cinque consecutive. Il tuo pensiero critico e' in forma.",
+        "7": "Sette su sette. Sei sicuro di non barare?",
+        "10": "Dieci su dieci. Non hai un singolo punto cieco."
+      },
+      "bonus_points": {
+        "streak_3": 2,
+        "streak_5": 5,
+        "perfect_score": 10,
+        "speed_bonus": 3,
+        "all_insights_read": 3
+      }
     }
   },
   "questions": [
     {
       "id": "q1",
-      "title": "📱 Il post virale",
-      "situation": "Scorri il feed e vedi un post con 15.000 condivisioni: \"L'acqua del rubinetto contiene DISSITATO! Lo nascondono da anni!\" L'articolo linkato proviene da un sito con dominio \".xyz\" e l'autore è 'Ricercatore Indipendente'.",
-      "question": "Qual è la tua reazione istintiva?",
+      "title": "Il post virale",
+      "difficulty": "facile",
+      "category": "viralita'",
+      "visual_cue": "[Post social con 15K condivisioni, immagine sfocata di un rubinetto con alone rosso, titolo in maiuscolo, logo del sito pixelato, commenti entusiasti da profili con foto stock]",
+      "situation": "Stai scrollando il feed alle 23:47. Un post con 15.000 condivisioni: \"L'acqua del rubinetto contiene DISSITATO DI CROMO-7! Lo nascondono da ANNI!\" Il sito e' \"veritanascosta247.xyz\", l'autore si firma 'Dott. Ricercatore Indipendente'. Nei commenti, profili con foto stock scrivono \"IO LO SAPEVO!!!\".",
+      "question": "Il tuo pollice sta per premere 'Condividi'. Che fai?",
       "options": [
-        { "id": "a", "text": "Cerco fact-check su siti di fact-checking o font attendibili prima di qualsiasi azione", "score": 0, "explanation": "✅ Corretto! Verificare fonti istituzionali e fact-checking accreditati è la prima difesa. Il 'dissitato' non esiste in chimica - è un termine inventato per sembrare scientifico." },
-        { "id": "b", "text": "15.000 condivisioni significano che c'è qualcosa di vero", "score": 3, "explanation": "❌ Trappola! La viralità non implica veridicità. I contenuti che suscitano paura si diffondono più velocemente - è il principio su cui contano i manipolatori." },
-        { "id": "c", "text": "Condivido per avvertire amici e familiari del 'pericolo'", "score": 4, "explanation": "❌ Pericoloso! Anche con buone intenzioni, amplifichi la disinformazione. Il 68% delle bufale sanitarie si diffonde proprio così, attraverso persone che vogliono 'proteggere' gli altri." }
+        { "id": "a", "text": "Fermo il pollice. Apro Google e cerco 'dissitato di cromo-7' + fact-check", "score": 0, "explanation": "Primo risultato Google: 'Il dissitato di cromo-7 non esiste nella tavola periodica.' Ci hanno provato con un nome che suona chimico — e tu non ci sei cascato. Il tuo cervello vale piu' di 15.000 pollici." },
+        { "id": "b", "text": "15.000 persone non possono sbagliarsi tutte — qualcosa di vero ci sara'", "score": 3, "explanation": "Hai appena attivato il bias della 'prova sociale'. Sai quante persone hanno condiviso che la Terra e' piatta? Milioni. La viralita' misura l'emozione, non la verita'. Il 'dissitato' non esiste — letteralmente." },
+        { "id": "c", "text": "Condivido per avvertire la famiglia — meglio prevenire che curare", "score": 4, "explanation": "Con le migliori intenzioni, sei appena diventato un vettore di disinformazione. Il 68% delle bufale sanitarie si diffonde cosi': persone buone che non verificano. Il manipolatore ti ringrazia." },
+        { "id": "d", "text": "Commento 'Fonte?' sotto il post e aspetto una risposta", "score": 2, "explanation": "Chiedere la fonte e' meglio che condividere, ma aspettare che un sito chiamato 'veritanascosta247.xyz' ti dia prove e' come chiedere a un gatto di riportarti il bastone. Verifica tu attivamente." }
       ],
-      "bonus_insight": "💡 I domini .xyz, .tk, .ml sono spesso usati per siti di disinformazione perché gratuiti e poco regolamentati."
+      "bonus_insight": "Lo sapevi? I domini .xyz, .tk e .ml costano meno di un caffe' e non richiedono verifiche. Il 47% dei siti di disinformazione usa questi domini. Se l'URL sembra il nome Wi-Fi del vicino, probabilmente non e' Reuters."
     },
     {
       "id": "q2",
-      "title": "🗳️ Il dibattito televisivo",
-      "situation": "Durante un dibattito elettorale, il Candidato A afferma: 'Il mio avversario ha fatto fallire tre aziende!' Il Candidato B risponde: 'Tu invece hai evaso le tasse!' Nessuno dei due fornisce prove o fonti. Il moderatore non interviene.",
-      "question": "Come interpreti questo scambio?",
+      "title": "Il circo elettorale",
+      "difficulty": "facile",
+      "category": "politica",
+      "visual_cue": "[Studio TV: due politici urlano contemporaneamente, il moderatore guarda il telefono, il banner dice 'ESCLUSIVO — SCONTRO TOTALE', il volume e' al massimo]",
+      "situation": "Dibattito elettorale in prima serata. Candidato A: 'Il mio avversario ha fatto FALLIRE tre aziende!' Candidato B: 'Parla tu che hai EVASO LE TASSE!' Il moderatore sta twittando. Nessuno cita una singola fonte. Il pubblico applaude come fosse un concerto.",
+      "question": "Ti stai facendo un'opinione. Ma su cosa, esattamente?",
       "options": [
-        { "id": "a", "text": "Se uno dei due dicesse il falso, l'altro lo smentirebbe con prove", "score": 3, "explanation": "❌ Ragionamento fallace! In un confronto senza moderazione, entrambi possono mentire liberamente. L'assenza di smentita non è prova di verità." },
-        { "id": "b", "text": "Sono accuse reciproche senza evidenze: segnale di propaganda, non di dibattito", "score": 0, "explanation": "✅ Ottimo! Riconoscere l'assenza di prove è fondamentale. Un dibattito serio richiede affermazioni verificabili, non scambi di accuse." },
-        { "id": "c", "text": "Cerco successivamente verifiche indipendenti su entrambe le affermazioni", "score": 1, "explanation": "👍 Buona pratica! Non accontentarsi del dibattito ma verificare dopo è segno di pensiero critico attivo." }
+        { "id": "a", "text": "Su niente: sono accuse reciproche senza prove. Questo e' wrestling, non politica", "score": 0, "explanation": "Hai appena smascherato il 'teatro politico': tanto rumore, zero sostanza. Un dibattito serio ha dati, fonti, proposte concrete. Questo aveva solo decibel." },
+        { "id": "b", "text": "Se uno mentisse, l'altro lo inchioderebbe con le prove, no?", "score": 3, "explanation": "Stai assumendo che i politici in TV giochino leale. In un ring senza arbitro, entrambi possono bluffare. L'assenza di smentita con dati non e' mai una prova di verita'." },
+        { "id": "c", "text": "Domani verifico entrambe le affermazioni su fonti indipendenti", "score": 1, "explanation": "Non ti accontenti dello spettacolo e vai a controllare dopo. Sei il tipo di telespettatore che fa venire gli incubi agli spin doctor." },
+        { "id": "d", "text": "Il candidato che urla di piu' probabilmente ha torto", "score": 2, "explanation": "Anche questo e' un bias: giudicare dal tono invece che dal contenuto. A volte chi urla ha ragione, a volte chi sussurra mente. Il volume non e' un indicatore." }
       ],
-      "bonus_insight": "💡 Studi mostrano che il 73% delle affermazioni nei dibattiti politici contiene esagerazioni o inesattezze verificabili."
+      "bonus_insight": "Lo sapevi? Studi del Reuters Institute mostrano che il 73% delle affermazioni nei dibattiti elettorali contiene distorsioni verificabili. Quasi 3 frasi su 4 non sono completamente vere. Immagina un meteo accurato al 27%."
     },
     {
       "id": "q3",
-      "title": "🌍 Le due notizie contrastanti",
-      "situation": "Stesso giorno, stesso evento (una manifestazione climatica): Testata A titola 'PROTESTA STORICA: 500.000 IN STRADA!' mentre Testata B scrive 'FLOP TOTALE: poche migliaia disorientate'. Le foto sono diverse.",
-      "question": "Come ti avvicini a questa discrepanza?",
+      "title": "Lo stesso evento, due realta'",
+      "difficulty": "media",
+      "category": "framing",
+      "visual_cue": "[Due prime pagine affiancate: a sinistra 'PROTESTA STORICA: 500.000 IN STRADA!' con foto dall'alto di folla oceanica; a destra 'FLOP TOTALE: poche migliaia disorientate' con foto di piazza semivuota e piccioni]",
+      "situation": "Stesso giorno. Stessa manifestazione sul clima.\n\nTestata A: 'PROTESTA STORICA: 500.000 IN STRADA!' — foto aerea di una piazza gremita.\nTestata B: 'FLOP TOTALE: poche migliaia disorientate' — foto di un angolo vuoto con piccioni.\n\nEntrambe giurano di dire la verita'. Entrambe hanno 'prove fotografiche'.",
+      "question": "Due realta' parallele. Come navighi?",
       "options": [
-        { "id": "a", "text": "Leggo entrambi gli articoli e verifico le fonti delle cifre dichiarate", "score": 0, "explanation": "✅ Approccio eccellente! Le cifre ufficiali provengono da Questura/Comune. Confrontare fonti primarie rivela spesso la verità tra narrazioni opposte." },
-        { "id": "b", "text": "Una delle due mente deliberatamente", "score": 2, "explanation": "⚠️ Semplificazione eccessiva. Spesso non è 'menzogna' ma framing selettivo: orari diversi, zone diverse, fonti diverse. La realtà è più sfumata." },
-        { "id": "c", "text": "Mi affido alla testata che solitamente riflette le mie idee", "score": 4, "explanation": "❌ Bias di conferma! Questa tendenza ci espone alla 'bolla informativa': vediamo solo ciò che conferma le nostre convinzioni pregresse." }
+        { "id": "a", "text": "Leggo entrambe e cerco i numeri della Questura o fonti ufficiali terze", "score": 0, "explanation": "Hai cercato la fonte primaria invece di scegliere la narrativa preferita. I numeri ufficiali (Questura, Prefettura) sono imperfetti ma sono il punto di partenza piu' solido." },
+        { "id": "b", "text": "Una delle due mente chiaramente — devo solo capire quale", "score": 2, "explanation": "Spesso nessuna delle due 'mente' in senso stretto. Foto delle 8:00 vs foto delle 14:00, zona periferica vs piazza centrale, conteggio parziale vs stima ottimistica. Il framing non e' menzogna, e' selezione. Ed e' ancora piu' insidioso." },
+        { "id": "c", "text": "Mi fido della testata che seguo di solito — ha sempre ragione", "score": 4, "explanation": "Stai scegliendo la realta' che ti fa sentire a casa. Questo e' letteralmente come funzionano le bolle informative: finisci per vivere in un universo parallelo dove hai 'sempre ragione'. Spoiler: nessuno ha sempre ragione." },
+        { "id": "d", "text": "Cerco video amatoriali e foto geolocalizzate sui social", "score": 1, "explanation": "I contenuti user-generated con geotag e timestamp sono ottimi per triangolare. Attenzione: anche i video possono essere decontestualizzati (video vecchi spacciati per attuali)." }
       ],
-      "bonus_insight": "💡 Le foto possono mostrare momenti diversi: una piazza vuota alle 8:00 non smentisce una piazza piena alle 14:00. Verifica sempre i timestamps."
+      "bonus_insight": "Lo sapevi? Le foto mentono piu' delle parole. Una piazza vuota alle 8:00 non smentisce una piazza piena alle 14:00. L'angolazione fa tutto: grandangolo dal basso = folla oceanica, teleobiettivo dall'alto = 'quattro gatti'. Stessa piazza, stessa ora."
     },
     {
       "id": "q4",
-      "title": "🔥 L'articolo che fa arrabbiare",
-      "situation": "Leggi un articolo con un titolo shock: 'I ricchi rubano l'acqua ai poveri! SCANDALO!' Il pezzo contiene testimonianze emotive, nessun dato numerico, e finisce con 'Condividi per far sapere la verità!'",
-      "question": "Cosa noti e cosa fai?",
+      "title": "L'esca emotiva",
+      "difficulty": "media",
+      "category": "manipolazione emotiva",
+      "visual_cue": "[Articolo con headline rossa: 'I RICCHI RUBANO L'ACQUA AI POVERI — SCANDALO!!!', foto stock di bambino triste, pulsante 'CONDIVIDI PER GIUSTIZIA' lampeggiante, zero grafici nel testo]",
+      "situation": "Titolo da infarto: 'I RICCHI RUBANO L'ACQUA AI POVERI! SCANDALO!!!' L'articolo ha: una foto di bambino triste (stock photo, la riconosci), tre testimonianze strappalacrime, zero numeri, zero dati, zero fonti, e un finale: 'Se hai un cuore, CONDIVIDI ORA!'\n\nSenti la rabbia salire. Le dita formicolano.",
+      "question": "Le tue emozioni sono al massimo. Il pulsante 'Condividi' brilla. Che fai?",
       "options": [
-        { "id": "a", "text": "L'emozione forte è un segnale. Fammi controllare prima di condividere", "score": 0, "explanation": "✅ Riconoscere l'emozione come 'campanello d'allarme' è la mossa più importante. Chi manipola conta proprio sulla rabbia per bypassare il pensiero critico." },
-        { "id": "b", "text": "Manca ogni dato concreto e la richiesta di condivisione è sospetta, aspetto domani", "score": 1, "explanation": "👍 Notare l'assenza di dati e la pressione a condividere è ottimo. I contenuti seri non chiedono condivisioni emotive." },
-        { "id": "c", "text": "Condivido: se è vero bisogna farlo sapere subito", "score": 4, "explanation": "❌ Pericoloso! La combinazione 'emozione forte + urgenza + nessun dato' è il tris della manipolazione. Proprio il tipo di contenuto che dovresti verificare due volte." }
+        { "id": "a", "text": "Emozione forte + zero dati = allarme. Mi fermo, respiro, verifico domani a mente fredda", "score": 0, "explanation": "Hai riconosciuto che la rabbia e' il PRODOTTO, non l'effetto collaterale. Chi manipola progetta contenuti per farti sentire prima e pensare poi (o mai). Tu hai invertito l'ordine." },
+        { "id": "b", "text": "Noto che mancano dati concreti e la call-to-action e' sospettamente aggressiva", "score": 1, "explanation": "Hai notato il 'triangolo della manipolazione': emozione + assenza di prove + urgenza di condivisione. I contenuti seri non urlano 'CONDIVIDI ORA'. Al massimo dicono 'fonte: ISTAT, pag.47'." },
+        { "id": "c", "text": "Se e' vero e' gravissimo — condivido subito, poi verifico", "score": 4, "explanation": "Hai appena fatto esattamente cio' che il manipolatore voleva. La sequenza 'condividi ora, verifica poi' e' come sparare prima e chiedere dopo. Spoiler: non verificherai mai. Nessuno lo fa." },
+        { "id": "d", "text": "Cerco lo stesso argomento su testate nazionali per vedere se e' coperto", "score": 1, "explanation": "Se uno scandalo reale di questa portata esistesse, sarebbe su tutte le testate, non solo su 'giustiziaxtutti.blog'. L'assenza totale di copertura e' gia' un indizio enorme." }
       ],
-      "bonus_insight": "💡 I manipolatori usano la tecnica del 'bait-and-switch': ti arrabbiano per un titolo, poi il contenuto non prova nulla. Ma tu hai già condiviso."
+      "bonus_insight": "Lo sapevi? I manipolatori usano il 'bait-and-switch emotivo': ti arrabbiano col titolo, l'articolo non prova nulla, ma tu hai gia' condiviso prima di leggere. Il 59% delle persone condivide articoli leggendo solo il titolo."
     },
     {
       "id": "q5",
-      "title": "🔬 L'esperto misterioso",
-      "situation": "Un video di 5 minuti mostra un uomo in camice bianco che spiega come 'la medicina ufficiale nasconda la cura per il cancro'. Il canale ha 2 milioni di iscritti ma il video non indica nome, qualifica, o istituzione dell'esperto.",
-      "question": "Come valuti questa fonte?",
+      "title": "Il camice bianco",
+      "difficulty": "media",
+      "category": "falsa autorita'",
+      "visual_cue": "[Thumbnail YouTube: uomo con camice in laboratorio finto (mensole IKEA sullo sfondo), titolo 'LA CURA CHE TI NASCONDONO!!!', 2M iscritti, 847K visualizzazioni]",
+      "situation": "Video virale: un tizio in camice bianco, laboratorio alle spalle (le mensole sono KALLAX di IKEA, ma vabbe'), spiega con voce autorevole che 'la medicina ufficiale nasconde la vera cura per il cancro da 40 anni'. Il canale ha 2 milioni di iscritti. Il video non mostra mai: nome, cognome, laurea, specializzazione, ospedale, pubblicazioni.",
+      "question": "Due milioni di persone si fidano. E tu?",
       "options": [
-        { "id": "a", "text": "2 milioni di iscritti significano che qualcuno ha verificato", "score": 4, "explanation": "❌ Errore critico! I follower si comprano e l'algoritmo premia l'engagement, non la verità. Un canale può essere popolare e completamente inaffidabile." },
-        { "id": "b", "text": "Camice bianco ≠ competenza medica: richiedo nome e credenziali verificabili", "score": 0, "explanation": "✅ Perfetto! Il camice è un'uniforme accessibile a chiunque. Un vero esperto medico indica sempre nome, specializzazione e affiliazione istituzionale." },
-        { "id": "c", "text": "Leggo i commenti per vedere se qualcuno lo ha smentito", "score": 3, "explanation": "⚠️ Strategia debole. I commenti possono essere manipolati, i critici censurati, i bot usati per creare falso consenso. La fonte primaria resta anonima." }
+        { "id": "a", "text": "2 milioni di iscritti = qualcuno avra' verificato le credenziali", "score": 4, "explanation": "I follower si comprano (100.000 per poche centinaia di euro, se ti interessa il tariffario). L'algoritmo premia chi ti tiene incollato, non chi dice il vero. Flat Earth Society ha milioni di follower." },
+        { "id": "b", "text": "Camice bianco non vuol dire medico. Niente nome, niente credenziali = niente fiducia", "score": 0, "explanation": "Hai visto oltre il costume. Un camice costa 15 euro su Amazon. Un vero oncologo mette nome, cognome, affiliazione ospedaliera e cita studi peer-reviewed. Questo tizio ha le mensole IKEA." },
+        { "id": "c", "text": "Leggo i commenti per vedere se qualcuno l'ha smontato", "score": 3, "explanation": "I commenti critici vengono cancellati, i bot scrivono finti apprezzamenti, i troll attaccano chi dubita. Cercare la verita' nei commenti di YouTube e' come cercare una dieta sana al McDonald's." },
+        { "id": "d", "text": "Cerco il suo nome su PubMed o Google Scholar per verificare le pubblicazioni", "score": 0, "explanation": "Cercare pubblicazioni peer-reviewed e' la mossa da professionista. Problema: non troverai il suo nome perche'... non l'ha mai detto. E questo ti dice tutto." }
       ],
-      "bonus_insight": "💡 La 'teoria del complotto sulla cura nascosta' esiste dal 1800 per ogni malattia. Se esistesse, almeno un ricercatore l'avrebbe rivelata per il premio Nobel."
+      "bonus_insight": "Lo sapevi? La 'teoria della cura nascosta' esiste dal 1800 per ogni malattia. Se davvero esistesse, almeno uno dei 15 milioni di ricercatori nel mondo l'avrebbe rivelata. Per il Nobel, per la fama, per i soldi, o per semplice decenza umana."
     },
     {
       "id": "q6",
-      "title": "⚔️ L'attacco personale",
-      "situation": "Un politico presenta una riforma fiscale dettagliata con dati e proiezioni. Un avversario risponde: 'Questo tizio è stato condannato per frode fiscale 15 anni fa! Vuoi fidarti di lui?'",
-      "question": "Come analizzi questa critica?",
+      "title": "L'attacco alla persona",
+      "difficulty": "difficile",
+      "category": "fallacie logiche",
+      "visual_cue": "[Talk show: Politico A mostra grafici della riforma fiscale. Politico B ignora tutto e mostra una vecchia foto segnaletica. Il pubblico fischia. Scritta: 'CONDANNATO 15 ANNI FA']",
+      "situation": "Politico A presenta una riforma fiscale dettagliata: grafici, proiezioni, dati ISTAT, simulazioni. Sei mesi di lavoro con economisti. Politico B risponde: 'Tutto molto bello, ma questo signore e' stato condannato per frode fiscale 15 anni fa. Volete davvero fidarvi di un pregiudicato?' Il pubblico mormora. I grafici sono dimenticati.",
+      "question": "La riforma e' buona o cattiva?",
       "options": [
-        { "id": "a", "text": "Se lo attacca è perché non ha nulla da dire sulla riforma, non devo fidarmi di nessuno", "score": 2, "explanation": "⚠️ Non basta! È vero che l'attacco personale è una fallacia ('ad hominem'), ma ignorare del tutto il passato può impedire una valutazione completa: si rischia ingenuità." },
-        { "id": "b", "text": "La condanna passata mi fa dubitare dell'affidabilità complessiva", "score": 3, "explanation": "❌ Fallacia logica! Giudicare una proposta SOLO sulla base della persona che la espone è sbagliato: una buona riforma resta buona a prescindere da chi la racconta." },
-        { "id": "c", "text": "È un ad hominem che devia dal vero tema: la riforma va valutata per i suoi contenuti", "score": 0, "explanation": "✅ Corretto! L'attacco personale serve spesso a spostare l'attenzione dal merito. La riforma fiscale va analizzata nei suoi dettagli, non su chi la propone." }
+        { "id": "a", "text": "Ad hominem classico: la riforma si valuta per i contenuti, non per chi la propone", "score": 0, "explanation": "Hai riconosciuto la fallacia 'ad hominem'. Einstein era un pessimo marito. La relativita' funziona comunque. I grafici vanno letti, non ignorati perche' li mostra qualcuno con un passato discutibile." },
+        { "id": "b", "text": "La condanna passata mi fa dubitare della sua onesta' anche oggi", "score": 3, "explanation": "Politico B ha appena ucciso sei mesi di lavoro tecnico con una frase. Non ha analizzato un singolo numero, non ha contestato un singolo dato. Ha solo detto 'cattivo uomo = cattiva proposta'. E tu ci sei cascato." },
+        { "id": "c", "text": "Entrambi hanno ragione: la riforma va analizzata ma il passato conta", "score": 1, "explanation": "Il passato di una persona puo' essere rilevante in senso generale, ma qui e' stato usato per evitare di discutere i numeri. Torna ai grafici: sono quelli che contano." },
+        { "id": "d", "text": "Se la riforma e' scritta bene, e' irrilevante chi la propone", "score": 0, "explanation": "Una buona politica resta buona indipendentemente da chi la propone. Anche un orologio rotto ha ragione due volte al giorno. Giudicare le idee per le idee e' pensiero critico puro." }
       ],
-      "bonus_insight": "💡 L'ad hominem può contenere verità (la persona può avere difetti reali) ma rimane una fallacia quando viene usato per evitare di discutere l'argomento."
+      "bonus_insight": "Lo sapevi? L'ad hominem e' la fallacia preferita in politica perche' funziona: e' piu' facile ricordare 'quello condannato' che capire un grafico fiscale. Il cervello processa le emozioni 250ms prima della logica. 250 millisecondi che cambiano elezioni."
     },
     {
       "id": "q7",
-      "title": "📚 Il video 'inoppugnabile'",
-      "situation": "Un video di 90 minuti intitolato '100 prove che il governo mente' elenca 100 presunti scandali, ognuno illustrato in meno di un minuto. Nessuna fonte è citata, ma 'tutto torna' perché i pezzi sembrano incastrarsi.",
-      "question": "Come approcci questa mole di 'prove'?",
+      "title": "La valanga di 'prove'",
+      "difficulty": "difficile",
+      "category": "sovraccarico informativo",
+      "visual_cue": "[Video YouTube da 90 minuti: '100 PROVE che il GOVERNO MENTE!!!' con sfondo rosso, collage di politici, 2.3M visualizzazioni, musica drammatica]",
+      "situation": "Video da 90 minuti: '100 PROVE INCONFUTABILI che il GOVERNO MENTE!' Ogni 'prova' dura 50 secondi. Nessuna fonte citata. Ma il montaggio e' ipnotico: musica epica, zoom drammatici, voce narrante da film. Dopo 30 minuti, senti che 'tutto torna'. I pezzi si incastrano perfettamente. Troppo perfettamente.",
+      "question": "90 minuti, 100 'prove', zero fonti. Come reagisci?",
       "options": [
-        { "id": "a", "text": "Tante affermazioni = probabile che almeno qualcuna sia vera", "score": 3, "explanation": "❌ Trappola del 'Gish Gallop'! Inondare di affermazioni rende impossibile verificare tutto. Basta che una sola sia vera per dare credibilità indebita a tutte le altre." },
-        { "id": "b", "text": "Ne verifico alcune a campione: se ne trovo di false, il resto è sospetto", "score": 0, "explanation": "✅ Strategia intelligente! Il 'sampling' permette di valutare l'affidabilità complessiva. Se il 30-40% delle verifiche fallisce, l'intero contenuto è compromesso." },
-        { "id": "c", "text": "Guardo tutto e poi mi faccio un'idea completa", "score": 4, "explanation": "❌ Rischio di saturazione! Dopo 90 minuti di affermazioni senza prove, il cervello tende ad accettare passivamente. È esattamente ciò che il manipolatore vuole." }
+        { "id": "a", "text": "Con 100 affermazioni, almeno qualcuna sara' vera", "score": 3, "explanation": "Hai appena incontrato il Gish Gallop. Tecnica inventata dal creazionista Duane Gish: spara 100 affermazioni in modo che sia impossibile verificarle tutte. Se ne smenti 10, restano 90. Se ne smenti 50, 'ma le altre 50?'. Un gioco che non puoi vincere giocando secondo le sue regole." },
+        { "id": "b", "text": "Ne prendo 5 a caso e le verifico. Se 2-3 sono false, il resto e' sospetto", "score": 0, "explanation": "Il 'campionamento casuale' e' esattamente cio' che fanno i veri fact-checker. Se il 40% del campione e' falso, il contenuto e' compromesso. Non serve smontare tutte e 100. Intelligente." },
+        { "id": "c", "text": "Lo guardo tutto per farmi un'opinione completa", "score": 4, "explanation": "Dopo 90 minuti di bombardamento senza fonti, il tuo cervello entra in 'modalita' accettazione passiva'. E' un effetto neurologico documentato: la ripetizione crea familiarita', la familiarita' crea fiducia. Il manipolatore non vuole convincerti — vuole stordire il tuo senso critico." }
       ],
-      "bonus_insight": "💡 La tecnica del 'fiume di dati' è usata anche nei processi: inondare di prove deboli per sopraffare l'avversario. La quantità non è mai qualità."
+      "bonus_insight": "Lo sapevi? Smontare una singola bugia richiede 10 volte piu' tempo che raccontarla. 100 bugie da 50 secondi = 8.3 minuti. Smontarle tutte? Circa 83 minuti. E' la matematica della manipolazione."
     },
     {
       "id": "q8",
-      "title": "⏰ L'urgenza artificiale",
-      "situation": "Un messaggio circola sui gruppi: 'CONDIVIDI ORA prima che censurino questa informazione! Il governo sta per approvare una legge che VIETA di coltivare ortaggi in casa!'",
-      "question": "Come reagisci all'urgenza?",
+      "title": "Il messaggio di zia Carmela",
+      "difficulty": "difficile",
+      "category": "urgenza artificiale",
+      "visual_cue": "[Screenshot WhatsApp: messaggio inoltrato 47 volte, tutto in maiuscolo, emoji di allarme, 'NON TROVERAI QUESTO SUI MEDIA!!!']",
+      "situation": "WhatsApp, gruppo 'Famiglia Allargata' (47 messaggi non letti come al solito). Zia Carmela ha inoltrato: 'CONDIVIDI ORA prima che CENSURINO!!! Il governo sta per approvare STANOTTE una legge che VIETA di coltivare pomodori sul balcone!!! Non lo troverai sui MEDIA perche' e' TUTTO INSABBIATO!!!'\n\nIl messaggio e' stato inoltrato 47 volte.",
+      "question": "Zia Carmela aspetta che inoltri. Che fai?",
       "options": [
-        { "id": "a", "text": "Se fosse vero, sarebbe su tutti i giornali entro domani", "score": 0, "explanation": "✅ Ragionamento corretto! Le notizie vere non hanno bisogno di 'censura anticipata'. Se un governo approvasse una tale legge, sarebbe pubblica e verificabile." },
-        { "id": "b", "text": "Condivido subito: non si sa mai, meglio avvertire", "score": 4, "explanation": "❌ Proprio ciò che vuole il manipolatore! L'urgenza artificiale serve a bypassare il pensiero critico. Nessuna legge seria viene approvata in segreto e subito applicata." },
-        { "id": "c", "text": "Salvo il messaggio e cerco notizie ufficiali sulla presunta legge", "score": 1, "explanation": "👍 Buona pratica! Salvare anziché condividere è il primo passo. Verificare su fonti istituzionali (Gazzetta Ufficiale, siti governativi) è il secondo." }
+        { "id": "a", "text": "Se fosse vero, sarebbe su ogni TG, sito e giornale entro domani mattina", "score": 0, "explanation": "Nessun governo al mondo puo' approvare leggi in segreto di notte senza che nessun giornalista se ne accorga. La Gazzetta Ufficiale e' pubblica. Se 'non e' sui media', forse e' perche' non e' vera." },
+        { "id": "b", "text": "Meglio prevenire che curare — inoltro subito, al massimo poi smentisco", "score": 4, "explanation": "'Meglio prevenire' e' la frase che ha fatto circolare il 79% delle catene WhatsApp. Nessuno torna mai a smentire. Il messaggio vivra' per sempre nel gruppo, e tra 6 mesi qualcuno lo inoltrera' di nuovo come 'conferma'." },
+        { "id": "c", "text": "Cerco 'legge pomodori balcone' su siti istituzionali. Rispondo alla zia con il risultato", "score": 0, "explanation": "Salvi invece di inoltrare, verifichi su fonti ufficiali, e poi rispondi nel gruppo con i risultati. Il terzo passo — educare la zia — e' il piu' coraggioso di tutti." },
+        { "id": "d", "text": "Ignoro — tanto zia Carmela manda queste cose ogni settimana", "score": 2, "explanation": "Ignorare e' meglio che inoltrare, ma il messaggio continua a circolare tra gli altri 47 inoltri. Se hai 30 secondi, una veloce verifica e risposta nel gruppo puo' fermare la catena." }
       ],
-      "bonus_insight": "💡 L'urgenza è il campanello d'allarme numero uno. Le informazioni vere resistono alla verifica, quelle false hanno bisogno della tua fretta."
+      "bonus_insight": "Lo sapevi? L'urgenza artificiale e' il segnale d'allarme numero uno. Regola pratica: le informazioni vere resistono alla verifica, quelle false hanno bisogno della tua fretta. Se un messaggio ti dice 'CONDIVIDI SUBITO', quasi certamente non sopravvivrebbe a 5 minuti di Google."
     },
     {
       "id": "q9",
-      "title": "🎭 L'esperto 'ex'",
-      "situation": "Un video virale mostra un 'ex dirigente di azienda farmaceutica' che rivela segreti inquietanti sul settore. L'intervistatore lo presenta come 'coraggioso whistleblower'. Non ci sono dettagli su quale azienda, quando, o quale ruolo ricopriva.",
-      "question": "Come valuti questa testimonianza?",
+      "title": "Il pentito anonimo",
+      "difficulty": "difficile",
+      "category": "falsa autorita'",
+      "visual_cue": "[Intervista in controluce: sagoma con voce distorta, sottotitoli gialli, titolo 'EX DIRIGENTE PHARMA RIVELA TUTTO', molecole generiche sullo sfondo]",
+      "situation": "Video virale (3.7 milioni di views): sagoma in controluce, voce distorta. L'intervistatore lo presenta come 'ex dirigente di alto livello di un'azienda farmaceutica multinazionale — un coraggioso whistleblower che rischia la vita per la verita''. Per 22 minuti rivela segreti inquietanti. Ma: nessun nome di azienda, nessuna data, nessun ruolo specifico, nessun documento mostrato.",
+      "question": "Sagoma misteriosa + segreti esplosivi + zero verifiche possibili. Credibilita'?",
       "options": [
-        { "id": "a", "text": "Un 'ex' che parla ha più credibilità perché rischia rappresaglie", "score": 3, "explanation": "❌ Non necessariamente! Senza verificare chi fosse e quando, chiunque può spacciarsi per 'ex qualcosa'. I veri whistleblower forniscono documenti e nomi verificabili." },
-        { "id": "b", "text": "Cerco di scoprire dettagli specifici: quale azienda, quale ruolo, quali anni", "score": 0, "explanation": "✅ Approccio corretto! Un vero insider ha interesse a documentare la sua posizione: aggiunge credibilità senza compromettere la sicurezza." },
-        { "id": "c", "text": "Lo condivido come 'possibile verità' da tenere d'occhio", "score": 2, "explanation": "⚠️ Genera rumore informativo. Condividere contenuti non verificati come 'da tenere d'occhio' contribuisce alla diffusione di potenziali falsità." }
+        { "id": "a", "text": "Un 'ex' che parla ha piu' credibilita' — rischia rappresaglie", "score": 3, "explanation": "Senza nome, azienda, date o ruolo, chiunque puo' sedersi in controluce e dire 'ero un dirigente'. Sai cosa serve per fare questo video? Una sedia, una lampada alle spalle e un copione. Budget: zero." },
+        { "id": "b", "text": "Voglio dettagli verificabili: quale azienda, quale ruolo, quali anni, quali documenti", "score": 0, "explanation": "Un vero whistleblower (Snowden, Haugen, Assange) fornisce documenti verificabili, accetta le conseguenze legali e viene identificato. L'anonimato totale senza prove e' una bandiera rossa." },
+        { "id": "c", "text": "Condivido come 'possibile verita' da tenere d'occhio'", "score": 2, "explanation": "Condividere contenuti non verificati come 'da tenere d'occhio' e' il cavallo di Troia della disinformazione. Crei rumore informativo e dai credibilita' immeritata. Il dubbio si risolve con la verifica, non con la condivisione." },
+        { "id": "d", "text": "Se fosse vero, un giornalista investigativo l'avrebbe gia' pubblicato con le prove", "score": 1, "explanation": "I giornalisti investigativi vivono per queste storie. Se 'l'establishment' nasconde qualcosa da anni, uno su migliaia di giornalisti l'avrebbe scoperto e avrebbe vinto un Pulitzer." }
       ],
-      "bonus_insight": "💡 I veri whistleblower (come Edward Snowden o Frances Haugen) forniscono documenti verificabili e accettano le conseguenze legali. L'anonimato totale è sospetto."
+      "bonus_insight": "Lo sapevi? Confronto rapido: Edward Snowden ha fornito documenti NSA verificati e ha accettato conseguenze legali reali. Frances Haugen ha testimoniato al Congresso con documenti Facebook. L''ex dirigente' in controluce non ha fornito nulla di verificabile."
     },
     {
       "id": "q10",
-      "title": "🧩 Il puzzle perfetto",
-      "situation": "Un documentario collega tra loro eventi apparentemente non correlati (una morte sospetta, un meeting riservato, un acquisto azionario) per dimostrare una cospirazione. 'Troppe coincidenze per essere casuali!' afferma il narratore.",
-      "question": "Cosa pensi di questo ragionamento?",
+      "title": "Il puzzle perfetto",
+      "difficulty": "difficile",
+      "category": "pattern matching",
+      "visual_cue": "[Documentario: linee rosse collegano foto, date, nomi su una lavagna. Musica crescente. 'COINCIDENZA? IO NON CREDO.' Frecce ovunque, cerchi rossi]",
+      "situation": "Documentario su YouTube (4.8 milioni di views, produzione cinematografica). Il narratore collega su una lavagna: una morte sospetta di un ricercatore nel 2019, un meeting segreto tra CEO nel 2020, un brevetto depositato il giorno prima della pandemia, un acquisto azionario 'anomalo'. Musica epica crescente. 'TROPPE COINCIDENZE PER ESSERE CASUALI!'",
+      "question": "La lavagna con le linee rosse ti convince?",
       "options": [
-        { "id": "a", "text": "Verifico singolarmente ogni evento prima di accettare la connessione", "score": 0, "explanation": "✅ Metodo scientifico applicato! Ogni 'pezzo del puzzle' va verificato indipendentemente. Spesso uno solo si rivela falso e l'intera costruzione crolla." },
-        { "id": "b", "text": "Se il puzzle si incastra, manca solo qualche pezzo per essere completo", "score": 4, "explanation": "❌ Errore di ragionamento! Si possono collegare eventi non correlati costruendo false narrazioni. Il 'pattern matching' è un bias cognitivo molto forte." },
-        { "id": "c", "text": "La coincidenza non è prova: cerco le evidenze dirette del legame", "score": 1, "explanation": "👍 Ottimo approccio! Correlazione non implica causalità. Una vera cospirazione richiede prove di coordinamento, non solo di contemporaneità." }
+        { "id": "a", "text": "Verifico ogni singolo evento indipendentemente prima di accettare qualsiasi collegamento", "score": 0, "explanation": "Ogni pezzo del puzzle va verificato da solo. Spesso basta che uno sia falso o impreciso per far crollare l'intera costruzione. Il ricercatore e' morto di cause naturali? Il meeting era pubblico? Il brevetto e' stato depositato mesi prima? Verifica e guarda la 'cospirazione' sgretolarsi." },
+        { "id": "b", "text": "Se il puzzle si incastra cosi' bene, e' perche' c'e' un disegno dietro", "score": 4, "explanation": "Il tuo cervello e' una macchina per trovare schemi — anche dove non esistono. Vedi facce nelle prese elettriche, conigli nelle nuvole e cospirazioni in eventi casuali. In un mondo di 8 miliardi di persone, 'coincidenze incredibili' accadono ogni singolo giorno per pura statistica." },
+        { "id": "c", "text": "Coincidenza non vuol dire causalita'. Cerco prove dirette di coordinamento", "score": 1, "explanation": "Correlazione non implica causalita'. Due eventi che accadono nello stesso periodo non sono 'collegati' finche' non c'e' una prova di coordinamento intenzionale. Le vendite di gelati e gli annegamenti crescono entrambi in estate — complotto dei gelatai?" },
+        { "id": "d", "text": "La produzione cinematografica mi insospettisce — chi finanzia questo documentario?", "score": 1, "explanation": "Un documentario con produzione hollywoodiana costa decine di migliaia di euro. Chi paga? Un idealista? O qualcuno che guadagna dalle views? Seguire i soldi e' sempre una buona domanda." }
       ],
-      "bonus_insight": "💡 Il nostro cervello è programmato per trovare pattern. In un mondo di 8 miliardi di persone, 'coincidenze incredibili' accadono ogni giorno per pura statistica."
+      "bonus_insight": "Lo sapevi? Il cervello umano e' programmato per trovare pattern — vantaggio evolutivo (meglio scappare da un'ombra che ignorare un predatore). Ma nel mondo moderno, questo 'superpoter' diventa una vulnerabilita'. Le cospirazioni reali (Watergate, Panama Papers) vengono scoperte con documenti, non con musica epica e linee rosse su YouTube."
     }
   ],
   "final_feedback": {
-    "title": "📊 La tua resistenza alla propaganda",
-    "suggestionsLabel": "Suggerimenti",
+    "title": "I tuoi risultati",
+    "share_prompt": "Condividi il risultato e sfida qualcuno a fare meglio.",
+    "suggestionsLabel": "Cosa puoi fare",
     "resourcesLabel": "Risorse utili",
     "ranges": {
       "0-8 punti": {
-        "level": "🦅 Guardiano dell'Informazione",
-        "description": "Possiedi un'eccellente capacità di pensiero critico. Riconosci le tecniche di manipolazione e non ti lasci condizionare facilmente dalle emozioni. Continua così e aiuta gli altri a sviluppare la tua stessa consapevolezza.",
+        "level": "🛡️ Blindato",
+        "title_card": "━━━━━━━━━━━━━━━━━━━━━\n🛡️  BLINDATO\n━━━━━━━━━━━━━━━━━━━━━\nPensiero critico: eccellente\nPunti ciechi rilevati: nessuno\n━━━━━━━━━━━━━━━━━━━━━",
+        "description": "Il tuo pensiero critico funziona come dovrebbe. Riconosci le tecniche di manipolazione, non ti fai guidare dalle emozioni, e verifichi prima di reagire. Non e' comune — la maggior parte delle persone ha almeno qualche punto cieco. Il prossimo passo? Aiutare chi ti sta intorno a sviluppare le stesse capacita'.",
+        "shareable_report": "🛡️ QUANTO SEI MANIPOLABILE?\n━━━━━━━━━━━━━━━\nRisultato: BLINDATO\nPunteggio: {{score}}/40\nResistenza alla propaganda: eccellente\n━━━━━━━━━━━━━━━\nFai il test anche tu →",
         "suggestions": [
-          "Considera di formarti ulteriormente sul fact-checking",
-          "Condividi le tue competenze con amici e familiari",
-          "Resta aggiornato sulle nuove tecniche di disinformazione"
+          "Le tue difese sono solide — ora tienile aggiornate. Deepfake e contenuti generati dall'AI sono la prossima frontiera",
+          "Condividi queste competenze con chi ti sta intorno. Il pensiero critico si insegna",
+          "Considera il volontariato in organizzazioni di fact-checking"
         ]
       },
       "9-16 punti": {
-        "level": "🧐 Investigatore Curioso",
-        "description": "Hai buone basi di pensiero critico ma alcune tecniche di manipolazione possono ancora ingannarti. Il tuo istinto è buono, ma potresti rafforzare alcune difese specifiche.",
+        "level": "🔍 Scettico sano",
+        "title_card": "━━━━━━━━━━━━━━━━━━━━━\n🔍  SCETTICO SANO\n━━━━━━━━━━━━━━━━━━━━━\nPensiero critico: buono\nPunti ciechi rilevati: alcuni\n━━━━━━━━━━━━━━━━━━━━━",
+        "description": "Nella maggior parte dei casi, il tuo istinto ti guida bene. Ma alcune tecniche — specialmente quelle che lavorano sulle emozioni o sull'autorita' percepita — riescono ancora a passare. Non e' un difetto: queste tecniche sono progettate per fregare tutti. Sapere dove sei vulnerabile e' gia' meta' della difesa.",
+        "shareable_report": "🔍 QUANTO SEI MANIPOLABILE?\n━━━━━━━━━━━━━━━\nRisultato: SCETTICO SANO\nPunteggio: {{score}}/40\nResistenza alla propaganda: buona\nPunto debole: trappole emotive\n━━━━━━━━━━━━━━━\nFai il test anche tu →",
         "suggestions": [
-          "Pratica la regola dei '10 minuti' prima di condividere",
-          "Crea una lista di fonti affidabili da consultare abitualmente",
-          "Studia le principali fallacie logiche"
+          "Applica la regola dei 10 minuti: prima di reagire a un contenuto che ti fa arrabbiare, aspetta",
+          "Crea una checklist mentale: fonte? dati? urgenza? emozione? Se manca la fonte, fermati",
+          "Diversifica le tue fonti informative — se leggi solo testate 'amiche', sei in una bolla"
         ]
       },
       "17-24 punti": {
-        "level": "🎯 Bersaglio Occasionale",
-        "description": "Sei vulnerabile ad alcune tecniche di manipolazione, soprattutto quelle che fanno leva sulle emozioni. Non preoccuparti: il riconoscimento è il primo passo verso la difesa.",
+        "level": "🎯 Esposto",
+        "title_card": "━━━━━━━━━━━━━━━━━━━━━\n🎯  ESPOSTO\n━━━━━━━━━━━━━━━━━━━━━\nPensiero critico: da rafforzare\nPunti ciechi rilevati: diversi\n━━━━━━━━━━━━━━━━━━━━━",
+        "description": "Sei piu' vulnerabile di quanto probabilmente pensi. Non perche' sei 'credulone' — le tecniche di manipolazione sono progettate da professionisti per funzionare su tutti. Il fatto che tu abbia fatto questo test significa che vuoi migliorare, e questo e' gia' il 50% del lavoro. Rileggi le spiegazioni delle risposte: troverai pattern che ti aiuteranno nella vita reale.",
+        "shareable_report": "🎯 QUANTO SEI MANIPOLABILE?\n━━━━━━━━━━━━━━━\nRisultato: ESPOSTO\nPunteggio: {{score}}/40\nResistenza alla propaganda: da rafforzare\n━━━━━━━━━━━━━━━\nFai il test anche tu →",
         "suggestions": [
-          "Ogni volta che provi un'emozione forte online, fermati",
-          "Non fidarti mai di contenuti senza fonti verificabili",
-          "Iscriviti a una testata affidabile e confronta con altri siti di fact-checking"
+          "Regola #1: Se un contenuto ti fa arrabbiare, non condividerlo. Mai. Verifica prima, sempre",
+          "Regola #2: Se non c'e' fonte, non e' informazione — e' opinione",
+          "Installa un'estensione browser di fact-checking (NewsGuard, Media Bias/Fact Check)"
         ]
       },
       "25-40 punti": {
-        "level": "📉 Ad Alto Rischio",
-        "description": "Le tue difese contro la propaganda sono deboli. Questo non significa che tu 'creda a tutto', ma che le tue abitudini informative ti espongono a rischi significativi.",
+        "level": "🌱 Terreno fertile",
+        "title_card": "━━━━━━━━━━━━━━━━━━━━━\n🌱  TERRENO FERTILE\n━━━━━━━━━━━━━━━━━━━━━\nPensiero critico: da costruire\nPunti ciechi rilevati: significativi\n━━━━━━━━━━━━━━━━━━━━━",
+        "description": "Le tue difese sono basse, ma non e' perche' sei stupido. E' perche' le tecniche di manipolazione sono progettate da professionisti e tu non hai ancora gli strumenti per riconoscerle. Ora li hai. Questo test e' il primo passo: rileggi le spiegazioni di ogni risposta e vedrai quanto velocemente puoi migliorare.",
+        "shareable_report": "🌱 QUANTO SEI MANIPOLABILE?\n━━━━━━━━━━━━━━━\nRisultato: TERRENO FERTILE\nPunteggio: {{score}}/40\nResistenza alla propaganda: da costruire\n━━━━━━━━━━━━━━━\nFai il test anche tu →",
         "suggestions": [
-          "Inizia a verificare SEMPRE le fonti prima di condividere",
-          "Segui corsi online di educazione ai media",
-          "Usa strumenti di fact-checking come Open.europa, Pagella Politica, Facta",
-          "Diversifica le tue fonti informative"
+          "Regola d'oro: verifica sempre prima di condividere. Sempre. Ogni singola volta",
+          "Segui un corso di media literacy — ce ne sono di gratuiti su Coursera e edX",
+          "Usa Facta.news e Pagella Politica quotidianamente per allenarti a riconoscere le bufale",
+          "Disattiva le notifiche dei gruppi WhatsApp per ridurre la pressione dell'urgenza"
         ]
       }
     }
   },
   "resources": [
-    { "name": "Open.europa", "url": "https://open.europa.eu", "description": "Piattaforma europea di fact-checking" },
-    { "name": "Pagella Politica", "url": "https://www.pagellapolitica.it", "description": "Fact-checking italiano sulla politica" },
-    { "name": "Facta.news", "url": "https://www.facta.news", "description": "Fact-checking italiano su scienza e attualità" },
-    { "name": "Snopes", "url": "https://www.snopes.com", "description": "Database storico di bufale e leggende metropolitane" }
+    { "name": "Facta.news", "url": "https://www.facta.news", "description": "Fact-checking italiano su scienza e attualita'" },
+    { "name": "Pagella Politica", "url": "https://www.pagellapolitica.it", "description": "Verifica delle dichiarazioni dei politici italiani" },
+    { "name": "Open", "url": "https://www.open.online", "description": "Debunking quotidiano delle bufale virali" },
+    { "name": "EUvsDisinfo", "url": "https://euvsdisinfo.eu", "description": "Database europeo delle campagne di disinformazione" },
+    { "name": "Snopes", "url": "https://www.snopes.com", "description": "Archivio storico di bufale dal 1994" },
+    { "name": "NewsGuard", "url": "https://www.newsguardtech.com", "description": "Estensione browser che valuta l'affidabilita' dei siti di news" }
   ]
 }
