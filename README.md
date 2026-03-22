@@ -1,6 +1,6 @@
 # Propaganda Defense Guide
 
-A guide to recognizing manipulation techniques used in politics, media, and advertising. The project teaches 35 named techniques with definitions, psychological mechanisms, historical context, and concrete defense strategies. It also includes a self-assessment quiz (Resistance Test) to gauge how susceptible you are to common persuasion patterns.
+A guide to recognizing manipulation techniques used in politics, media, and advertising. The project teaches several named techniques with definitions, psychological mechanisms, historical context, and concrete defense strategies. It also includes a self-assessment quiz (Resistance Test) to gauge how susceptible you are to common persuasion patterns.
 
 No framework dependencies: plain HTML, CSS, and JavaScript. Content is driven by JSON locale files (English and Italian). Suitable for self-study, media literacy courses, or as a reference when analyzing public discourse.
 
@@ -16,7 +16,7 @@ The structure follows established work: the Institute for Propaganda Analysis (1
 
 ## What’s Inside
 
-- **35 techniques** in six categories:
+- **Several techniques** divided in categories:
   - **Attack** — Ad hominem, ridicule, demonization
   - **Disinformation** — Firehose of falsehood, chain letters, viral amplification
   - **Framing** — Framing, whataboutism, agenda setting, poisoning the well, card stacking, labeling

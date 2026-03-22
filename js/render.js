@@ -55,6 +55,9 @@ function renderHome() {
     ? u.progress.riskScore.replace('{score}', quizTotal).replace('{max}', maxQuiz)
     : u.progress.completeTest;
   const exploredText = u.progress.exploredOf.replace('{n}', explored).replace('{total}', total);
+  const homeTitle = (typeof u.title === 'string' && u.title.includes('{count}'))
+    ? u.title.replace('{count}', total)
+    : u.title;
 
   content.innerHTML = `
     <div class="max-w-5xl mx-auto">
@@ -63,7 +66,7 @@ function renderHome() {
         <div class="flex flex-col lg:flex-row gap-6">
           <div class="flex-1">
             <span class="inline-block text-[10px] font-bold uppercase tracking-widest text-amber-700 bg-amber-50 border border-amber-200 px-3 py-1 rounded-full mb-4">${u.badge}</span>
-            <h1 class="text-2xl md:text-3xl font-extrabold text-slate-800 mb-3 tracking-tight leading-tight">${u.title}</h1>
+            <h1 class="text-2xl md:text-3xl font-extrabold text-slate-800 mb-3 tracking-tight leading-tight">${homeTitle}</h1>
             <p class="text-slate-500 text-sm leading-relaxed mb-5 max-w-lg">${u.description}</p>
             <a href="#quiz" class="btn-primary">⚡ ${u.ctaButton}</a>
           </div>

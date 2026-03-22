@@ -33,6 +33,13 @@ function getHashRoute() {
   return { page: parts[0] || 'home' };
 }
 
+function updateMetaDescription() {
+  const meta = document.querySelector('meta[name="description"]');
+  if (meta && typeof techniques !== 'undefined') {
+    meta.setAttribute('content', 'Learn to spot ' + techniques.length + ' propaganda techniques. Take the Resistance Test and earn your Agent rank.');
+  }
+}
+
 function updateHash(page, extra) {
   let hash = '#' + page;
   if (page === 'detail' && extra) hash += '/' + extra;
@@ -129,6 +136,7 @@ async function switchLanguage(lang) {
   await i18n.loadLocale(lang);
   updateStaticUI();
   updateCategoryCounts();
+  updateMetaDescription();
   handleHashRoute();
 }
 
@@ -170,5 +178,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   updateStaticUI();
   updateCategoryCounts();
+  updateMetaDescription();
   handleHashRoute();
 });

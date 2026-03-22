@@ -28,7 +28,7 @@
   },
   "home": {
     "badge": "Complete Guide",
-    "title": "35 Propaganda Techniques — How to Recognize Them",
+    "title": "{count} Propaganda Techniques — How to Recognize Them",
     "description": "This guide teaches you to recognize manipulation techniques used in politics, media and advertising. Each technique includes historical case studies, psychological mechanisms and defense strategies.",
     "ctaButton": "⚡ Test Your Resistance",
     "stats": {
@@ -122,7 +122,7 @@
   },
   "about": {
     "infoTitle": "About",
-    "infoDesc": "This guide is based on academic research, journalism and media literacy education. It includes 35 techniques identified by the Institute for Propaganda Analysis, psychological literature and historical analysis.",
+    "infoDesc": "This guide is based on academic research, journalism and media literacy education. It includes several techniques identified by the Institute for Propaganda Analysis, psychological literature and historical analysis.",
     "sourcesTitle": "Sources",
     "sources": [
       "Institute for Propaganda Analysis (1937-1942)",

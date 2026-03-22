@@ -28,7 +28,7 @@
   },
   "home": {
     "badge": "Guida Completa",
-    "title": "33 Tecniche di Propaganda — Come Riconoscerle",
+    "title": "{count} Tecniche di Propaganda — Come Riconoscerle",
     "description": "Questa guida ti insegna a riconoscere le tecniche di manipolazione usate in politica, media e pubblicità. Ogni tecnica include casi studio storici, meccanismi psicologici e strategie di difesa.",
     "ctaButton": "⚡ Testa la Tua Resistenza",
     "stats": {
@@ -122,7 +122,7 @@
   },
   "about": {
     "infoTitle": "Informazioni",
-    "infoDesc": "Questa guida si basa su ricerca accademica, giornalismo ed educazione alla media literacy. Include 33 tecniche identificate dall'Institute for Propaganda Analysis, dalla letteratura psicologica e dall'analisi storica.",
+    "infoDesc": "Questa guida si basa su ricerca accademica, giornalismo ed educazione alla media literacy. Include diverse tecniche identificate dall'Institute for Propaganda Analysis, dalla letteratura psicologica e dall'analisi storica.",
     "sourcesTitle": "Fonti",
     "sources": [
       "Institute for Propaganda Analysis (1937-1942)",

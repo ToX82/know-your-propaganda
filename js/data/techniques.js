@@ -1037,5 +1037,125 @@ const techniques = [
         { text: 'Marketing legittimo', correct: false, explanation: 'Marketing senza contenuto è manipolazione.' }
       ]
     }
+  },
+  {
+    id: 36, icon: '⏳', name: 'Principio di Scarsità', subtitle: "L'Urgenza Artificiale", category: 'manipulation', catLabel: 'Manipolazione',
+    summary: "Creare urgenza artificiale per impedire la riflessione critica e forzare decisioni impulsive.",
+    definition: "Il principio di scarsità sfrutta l'avversione alla perdita: il cervello attribuisce più valore alle cose difficili da ottenere o in via di esaurimento. I manipolatori creano artificialmente questa condizione per cortocircuitare il pensiero razionale.",
+    historicalContext: "Teorizzato da Robert Cialdini nel 1984 come uno dei sei principi della persuasione. Usato da venditori, truffatori e in contesti di interrogatorio per accelerare decisioni a sfavore della vittima.",
+    psychologicalMechanism: "Attiva il bias di perdita avversiva (loss aversion): perdere qualcosa pesa psicologicamente circa il doppio rispetto al guadagno equivalente. L'urgenza bypassa la corteccia prefrontale e attiva risposte emotive rapide.",
+    variants: [
+      { name: 'Scarsità temporale', desc: '"Offerta scade tra un\'ora", countdown timer artificiali' },
+      { name: 'Scarsità quantitativa', desc: '"Solo 2 posti rimasti", "Ultimi pezzi disponibili"' },
+      { name: 'Esclusività', desc: '"Solo per i nostri clienti premium", accesso limitato fittizio' },
+      { name: 'Scarsità informativa', desc: '"Condividi prima che lo cancellino", documenti "segreti"' }
+    ],
+    redFlags: ['Presenza di countdown o scadenze improvvise', 'Pressione a decidere "ora" senza tempo per riflettere', 'Offerta che non sarà più disponibile se non agisci subito', 'Cuore che accelera: stai usando il cervello veloce'],
+    caseStudies: [{ title: 'Interrogatori e negoziazioni', description: '"Questa è la tua unica possibilità di collaborare" crea falsa scarsità dell\'opportunità, inducendo decisioni affrettate sotto stress.', lesson: 'Le offerte genuine sopravvivono al tempo. Se non puoi aspettare, è una trappola.' }],
+    defense: [
+      { step: 'Fermati', action: 'Il cuore accelera? È un segnale: qualcuno sta attivando il tuo Sistema 1' },
+      { step: 'Richiedi tempo', action: '"Ho bisogno di tempo per pensarci" — un\'offerta reale sarà ancora valida domani' },
+      { step: 'Verifica l\'urgenza', action: "L'urgenza è verificabile o è semplicemente affermata?" }
+    ],
+    scenario: {
+      title: 'Trattativa commerciale',
+      situation: '"Questo prezzo è valido solo oggi. Il mio responsabile mi ha dato l\'autorizzazione solo per questa mattina. Poi torna al prezzo pieno."',
+      question: 'Quale meccanismo sta usando il venditore?',
+      options: [
+        { text: 'Scarsità temporale per impedire la riflessione', correct: true, explanation: "L'urgenza artificiale serve a bypassare l'analisi razionale dell'offerta." },
+        { text: "Informazione trasparente sui limiti dell'offerta", correct: false, explanation: 'Una vera scadenza può esistere, ma va verificata — non accettata per fede.' },
+        { text: 'Tecnica di vendita legittima', correct: false, explanation: 'Anche se comune, la scarsità artificiale è manipolazione quando è falsa.' }
+      ]
+    }
+  },
+  {
+    id: 37, icon: '🤝', name: 'Principio di Reciprocità', subtitle: 'Il Debito Emotivo', category: 'manipulation', catLabel: 'Manipolazione',
+    summary: "Sfruttare il senso del dovere sociale: un favore non richiesto crea l'obbligo psicologico di ricambiare.",
+    definition: "Il principio di reciprocità è una norma sociale universale: se qualcuno ci fa un favore, ci sentiamo in debito e vogliamo ricambiare. I manipolatori usano piccoli doni o favori strategici per creare questo senso di obbligo e poi chiedere qualcosa di molto più grande in cambio.",
+    historicalContext: "Documentato da Robert Cialdini e dall'antropologia culturale come norma universale. Sfruttato sistematicamente nei processi di reclutamento di informatori, nelle sette e nelle tecniche di vendita aggressive.",
+    psychologicalMechanism: "L'obbligo di reciprocità è profondamente radicato evolutivamente: le comunità che cooperavano sopravvivevano meglio. Il senso di colpa per non ricambiare è un meccanismo di coercizione sociale che il manipolatore trasforma in leva.",
+    variants: [
+      { name: 'Regalo inaspettato', desc: 'Dono non richiesto prima di una richiesta importante' },
+      { name: 'Favore strategico', desc: 'Aiuto pratico che crea dipendenza emotiva' },
+      { name: 'Concessione apparente', desc: 'Riduzione della richiesta iniziale per sembrare ragionevoli' },
+      { name: 'Complimento-richiesta', desc: 'Elogio improvviso immediatamente prima di chiedere un favore scomodo' }
+    ],
+    redFlags: ['Regalo o favore non richiesto subito seguito da una richiesta', 'Senso di colpa se non "ricambi" qualcosa che non hai chiesto', 'Timing sospetto: favore e richiesta ravvicinati', 'La richiesta è molto più grande del favore ricevuto'],
+    caseStudies: [{ title: 'Reclutamento di informatori', description: 'I servizi di intelligence usano la reciprocità sistematicamente: prima piccoli favori (un visto, un\'informazione utile), poi richieste crescenti di informazioni riservate.', lesson: 'Hai il diritto di accettare un favore senza sentirti obbligato a ricambiare. La reciprocità è una norma sociale, non un contratto.' }],
+    defense: [
+      { step: 'Analizza il timing', action: 'Il favore è arrivato subito prima di una richiesta? Potrebbe non essere casuale.' },
+      { step: 'Separa i due eventi', action: '"Ho ricevuto X, ma non ho nessun obbligo di dare Y" — il debito è psicologico, non reale.' },
+      { step: 'Riconosci il diritto', action: 'Puoi accettare cortesia senza comprare nulla in cambio.' }
+    ],
+    scenario: {
+      title: 'Collega al lavoro',
+      situation: 'Un collega che non ti ha mai aiutato prima ti porta il caffè, ti fa un complimento sul tuo lavoro e poi ti chiede di coprirlo per un\'assenza non autorizzata.',
+      question: 'Quale principio viene sfruttato?',
+      options: [
+        { text: 'Reciprocità: piccolo favore per creare obbligo prima di una richiesta scomoda', correct: true, explanation: 'Il caffè e il complimento sono investimenti strategici, non gesti spontanei.' },
+        { text: 'Richiesta diretta tra colleghi', correct: false, explanation: 'Il timing e il contesto indicano manipolazione, non una semplice richiesta.' },
+        { text: 'Amicizia genuina', correct: false, explanation: 'La genuinità non dipende dalla prossimità temporale con una richiesta.' }
+      ]
+    }
+  },
+  {
+    id: 38, icon: '⚓', name: 'Effetto Ancora', subtitle: 'Il Punto di Partenza Truccato', category: 'manipulation', catLabel: 'Manipolazione',
+    summary: "La prima informazione ricevuta condiziona in modo sproporzionato tutte le valutazioni successive.",
+    definition: "L'effetto ancora (anchoring) descrive la tendenza del cervello a fare eccessivo affidamento sulla prima informazione disponibile. Una volta fissata l'ancora, tutte le valutazioni successive vengono misurate relativamente ad essa, anche se l'ancora è arbitraria o falsa.",
+    historicalContext: "Dimostrato da Kahneman e Tversky nel 1974 come uno dei principali bias cognitivi. Usato sistematicamente in negoziazioni, interrogatori, pubblicità e processi legali.",
+    psychologicalMechanism: "Il cervello usa la prima informazione come punto di riferimento per risparmiare energia cognitiva. L'aggiustamento successivo rispetto all'ancora è quasi sempre insufficiente: anche sapendo dell'effetto ancora, non riusciamo a correggere completamente.",
+    variants: [
+      { name: 'Ancora di prezzo', desc: 'Prezzo gonfiato iniziale per rendere quello reale "conveniente"' },
+      { name: 'Ancora estrema', desc: 'Richiesta assurda per fare sembrare ragionevole quella vera' },
+      { name: 'Ancora numerica', desc: 'Qualsiasi numero nella conversazione influenza le stime successive' },
+      { name: 'Ancora in interrogatorio', desc: 'Accuse gravissime iniziali per ottenere ammissioni "minori"' }
+    ],
+    redFlags: ['La conversazione inizia con un numero o una richiesta estrema', 'Ti senti sollevato quando arriva una proposta "ridotta"', 'Stai valutando quanto hai risparmiato, non se il prezzo è equo', 'La prima offerta era talmente irragionevole che qualsiasi altra sembra ragionevole'],
+    caseStudies: [{ title: 'Negoziazione degli ostaggi', description: "I negoziatori sanno che la prima cifra comunicata diventa l'ancora. Chi fa la prima offerta controlla il campo gravitazionale della trattativa.", lesson: "Ignora la prima offerta e valuta l'attuale per quello che è, non per il risparmio rispetto all'ancora." }],
+    defense: [
+      { step: "Ignora l'ancora", action: 'Se la prima cifra o richiesta era assurda, cancellala mentalmente prima di valutare la nuova.' },
+      { step: 'Fai un reset', action: '"Se non avessi sentito la prima proposta, questa mi sembrerebbe equa?"' },
+      { step: 'Stabilisci la tua ancora', action: 'In una negoziazione, fai tu la prima offerta per controllare il punto di riferimento.' }
+    ],
+    scenario: {
+      title: 'Acquisto auto',
+      situation: "Il concessionario mostra prima un'auto da 45.000€, poi ti propone quella che ti interessa a 28.000€. Ti sembra un ottimo affare.",
+      question: 'Quale meccanismo cognitivo sta sfruttando?',
+      options: [
+        { text: 'Effetto ancora: il prezzo alto iniziale fa sembrare conveniente quello reale', correct: true, explanation: "La valutazione di 28.000€ avviene in relazione ai 45.000€, non al valore reale dell'auto." },
+        { text: 'Sconto genuino', correct: false, explanation: "Un prezzo non diventa equo perché è inferiore a un'ancora arbitraria." },
+        { text: 'Confronto di mercato', correct: false, explanation: 'Il confronto viene fatto con un riferimento interno costruito dal venditore, non con il mercato reale.' }
+      ]
+    }
+  },
+  {
+    id: 39, icon: '🔍', name: 'Bias di Conferma', subtitle: 'La Bolla Cognitiva', category: 'manipulation', catLabel: 'Manipolazione',
+    summary: "Cercare e sopravvalutare le informazioni che confermano ciò che già crediamo, ignorando quelle che ci contraddicono.",
+    definition: "Il bias di conferma è la tendenza a cercare, interpretare e memorizzare le informazioni in modo da confermare le proprie credenze preesistenti. I manipolatori non devono mentire: basta filtrare la realtà per alimentare solo ciò che rafforza le convinzioni già presenti.",
+    historicalContext: "Documentato da Peter Wason nel 1960 e approfondito da Kahneman. È la base cognitiva su cui si costruisce la propaganda contemporanea: gli algoritmi dei social media lo amplificano automaticamente creando camere d'eco.",
+    psychologicalMechanism: "Il cervello usa le credenze preesistenti come filtro percettivo. Le informazioni coerenti vengono elaborate più facilmente (fluency cognitiva), quelle contraddittorie generano disagio (dissonanza cognitiva) e vengono scartate. Ci sentiamo \"intelligenti\" mentre in realtà seguiamo un percorso tracciato.",
+    variants: [
+      { name: "Camera d'eco", desc: 'Ambiente informativo dove circolano solo visioni simili' },
+      { name: 'Filtraggio algoritmico', desc: 'Algoritmi che amplificano contenuti già apprezzati' },
+      { name: 'Conferma selettiva', desc: 'Cercare attivamente solo fonti che confermano la propria posizione' },
+      { name: 'Lettura distorta', desc: 'Interpretare informazioni ambigue come conferma della propria tesi' }
+    ],
+    redFlags: ['Tutte le tue fonti la pensano esattamente come te', 'Ti senti "finalmente informato" rispetto a chi non capisce', 'Il contro-argomento ti sembra assurdo senza averlo analizzato', 'Le notizie che ricevi ti danno sempre ragione'],
+    caseStudies: [{ title: 'Propaganda e controllo informativo', description: 'I regimi autoritari non censurano solo: alimentano selettivamente i bias di conferma degli oppositori interni per renderli prevedibili e controllabili. Chi crede di essere "svegliato" segue esattamente il percorso tracciato.', lesson: 'Se tutto quello che leggi ti dà ragione, probabilmente stai vivendo in una bolla manipolata.' }],
+    defense: [
+      { step: 'Cerca il contraddittorio', action: 'Trova attivamente l\'argomento migliore contro la tua posizione' },
+      { step: 'Diversifica le fonti', action: 'Se tutte le tue fonti concordano, aggiungi voci dissonanti' },
+      { step: 'Chiediti chi ha tracciato il percorso', action: '"Chi beneficia del fatto che io creda a queste informazioni?"' }
+    ],
+    scenario: {
+      title: 'Social media',
+      situation: 'Ogni giorno il tuo feed mostra articoli che confermano le tue opinioni politiche. Ti senti sempre più sicuro di avere ragione e sempre più convinto che chi la pensa diversamente sia disinformato.',
+      question: 'Quale meccanismo sta avvenendo?',
+      options: [
+        { text: "Bias di conferma amplificato dall'algoritmo: camera d'eco che rafforza le convinzioni", correct: true, explanation: "L'algoritmo ottimizza per il coinvolgimento, non per l'accuratezza. La tua certezza crescente è un segnale di allarme." },
+        { text: 'Stai diventando più informato', correct: false, explanation: "L'informazione autentica espone anche a prospettive scomode." },
+        { text: 'Le tue fonti sono semplicemente accurate', correct: false, explanation: "La coerenza assoluta tra fonti diverse è rarità statistica — o selezione." }
+      ]
+    }
   }
 ];

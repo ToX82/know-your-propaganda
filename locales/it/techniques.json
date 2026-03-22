@@ -57,22 +57,22 @@
     "scenario": {
       "title": "Dibattito energetico",
       "situation": "Un ingegnere propone centrali nucleari. Un oppositore: \"Non possiamo ascoltarlo! Lavora per un'azienda del settore!\"",
-      "question": "Quale variante viene usata?",
+      "question": "Cosa manca in questa critica per essere un'obiezione argomentativa valida?",
       "options": [
         {
-          "text": "Ad hominem circostanziale",
+          "text": "Non viene contestato nessun aspetto tecnico della proposta — solo il ruolo professionale di chi la avanza",
           "correct": true,
-          "explanation": "Attacca i presunti interessi per evitare di discutere i meriti tecnici."
+          "explanation": "I conflitti d'interesse vanno dichiarati e pesati, ma non sostituiscono la confutazione tecnica. Una proposta può essere valida anche se avanzata da qualcuno con interessi nel settore."
         },
         {
-          "text": "Legittima preoccupazione sui conflitti d'interesse",
+          "text": "Il conflitto d'interesse è da solo sufficiente a invalidare l'analisi di un esperto",
           "correct": false,
-          "explanation": "I conflitti vanno dichiarati, ma non invalidano le argomentazioni."
+          "explanation": "No — la fonte va valutata, non ignorata. Sapere dell'interesse aiuta a leggere con spirito critico, non a scartare automaticamente."
         },
         {
-          "text": "Ad hominem abusivo",
+          "text": "L'oppositore non ha risposto, il che rende l'obiezione tecnicamente valida",
           "correct": false,
-          "explanation": "Non ci sono insulti diretti."
+          "explanation": "Il silenzio non è consenso. L'ingegnere potrebbe aver scelto di non rispondere a un'obiezione che non merita confutazione tecnica."
         }
       ]
     }
@@ -131,22 +131,22 @@
     "scenario": {
       "title": "Campagna di meme",
       "situation": "Per mesi, i social sono inondati di meme che mostrano un politico con il viso distorto. Non ci sono argomenti, solo derisione.",
-      "question": "Quale effetto ha?",
+      "question": "Perché questa campagna è più efficace di una critica diretta al politico?",
       "options": [
         {
-          "text": "Delegittimazione senza argomentazione",
+          "text": "Associa il politico al ridicolo prima che il pubblico possa valutare le sue posizioni nel merito",
           "correct": true,
-          "explanation": "Rende impopolare criticarlo."
+          "explanation": "Una volta che un'associazione emotiva è stabilita, è molto più difficile da cancellare di un argomento razionale. Il politico diventa 'quello dei meme' prima ancora che possa parlare."
         },
         {
-          "text": "È solo satira innocua",
+          "text": "Il pubblico che ride è più aperto ad ascoltare le argomentazioni che seguono",
           "correct": false,
-          "explanation": "La satira sistematica ha effetti misurabili sulla percezione."
+          "explanation": "Al contrario: il riso chiude il giudizio critico. Chi ha riso di qualcuno difficilmente lo rivaluta come interlocutore serio."
         },
         {
-          "text": "Se fa ridere, c'è un fondo di verità",
+          "text": "La satira produce sempre una reazione di difesa che espone il bersaglio",
           "correct": false,
-          "explanation": "L'umorismo può essere efficace anche completamente fuorviante."
+          "explanation": "Dipende dal contesto. Rispondere alla satira può sembrare mancanza di senso dell'umorismo, non difesa legittima."
         }
       ]
     }
@@ -219,22 +219,22 @@
     "scenario": {
       "title": "Discorso pubblico",
       "situation": "Un oratore: \"Questi parassiti non si fermeranno finché non avranno distrutto tutto ciò che amiamo. Sono una piaga che va estirpata.\"",
-      "question": "Quale tecnica riconosci?",
+      "question": "Quale funzione svolge il linguaggio animale e parassitario in questo discorso?",
       "options": [
         {
-          "text": "Demonizzazione: disumanizza il gruppo come parassiti da estirpare",
+          "text": "Rimuove la categoria 'avversario con cui dialogare' e la sostituisce con 'minaccia da eliminare'",
           "correct": true,
-          "explanation": "Linguaggio che prepara alla violenza rimuovendo l'umanità."
+          "explanation": "La disumanizzazione non è solo retorica: prepara psicologicamente il pubblico ad accettare misure che sarebbero inaccettabili se applicate a persone."
         },
         {
-          "text": "Retorica forte ma legittima",
+          "text": "Esprime una preoccupazione reale con enfasi emotiva, che è lecita nel discorso pubblico",
           "correct": false,
-          "explanation": "Parassiti ed estirpare sono termini di disumanizzazione."
+          "explanation": "L'enfasi è lecita; la disumanizzazione no. La differenza è che la prima amplifica un argomento, la seconda lo sostituisce."
         },
         {
-          "text": "Esagerazione retorica innocua",
+          "text": "Motiva il pubblico attraverso un appello al patriottismo e alla difesa della comunità",
           "correct": false,
-          "explanation": "La storia mostra che questo linguaggio precede la violenza."
+          "explanation": "La motivazione è un effetto secondario. L'obiettivo primario è ridefinire il gruppo bersaglio come non umano, eliminando ogni vincolo morale."
         }
       ]
     }
@@ -297,22 +297,22 @@
     "scenario": {
       "title": "Crisi internazionale",
       "situation": "In 48 ore: \"Non ci sono truppe\" (Lun), \"Esercitazioni difensive\" (Mar mattina), \"Il nemico ha provocato\" (Mar pomeriggio), \"Siamo stati attaccati\" (Mar sera).",
-      "question": "Quale pattern riconosci?",
+      "question": "Qual è il vero obiettivo di questa sequenza di dichiarazioni contraddittorie?",
       "options": [
         {
-          "text": "Firehose: narrative contraddittorie rapidissime",
+          "text": "Rendere impossibile stabilire una versione definitiva dei fatti — la confusione è il prodotto, non un effetto collaterale",
           "correct": true,
-          "explanation": "Contraddizioni evidenti in 48 ore."
+          "explanation": "Quando le narrative si contraddicono abbastanza velocemente, il pubblico smette di cercare la verità e sviluppa cinismo generalizzato. Il dubbio totale è più utile di una singola bugia credibile."
         },
         {
-          "text": "Evoluzione normale in crisi",
+          "text": "Aggiornare la posizione man mano che la situazione evolve: in una crisi è normale",
           "correct": false,
-          "explanation": "Versioni coerenti non cambiano così radicalmente."
+          "explanation": "L'aggiornamento legittimo ha una direzione e una logica. Qui le contraddizioni avvengono nell'arco di ore, senza nuovi fatti che le giustifichino."
         },
         {
-          "text": "Tweets manipolati",
+          "text": "Confondere il nemico con informazioni false per proteggere posizioni tattiche",
           "correct": false,
-          "explanation": "Il pattern è tipico del firehose."
+          "explanation": "Quello è il fine militare. In questo contesto il bersaglio è l'opinione pubblica interna e internazionale, non il nemico sul campo."
         }
       ]
     }
@@ -375,22 +375,22 @@
     "scenario": {
       "title": "Messaggio virale",
       "situation": "Ricevi: \"URGENTE! Nuova truffa bancaria! Condividi con tutti i tuoi contatti per proteggerli!\" Senza fonti.",
-      "question": "Cosa fai?",
+      "question": "Quale elemento del messaggio dovrebbe bloccarti prima di condividerlo?",
       "options": [
         {
-          "text": "Verifico prima di condividere",
+          "text": "L'urgenza combinata con l'assenza di fonti — i messaggi progettati per diffondersi veloci spesso lo sono perché non reggono all'esame lento",
           "correct": true,
-          "explanation": "L'urgenza è artificiale, la verifica è sempre possibile."
+          "explanation": "L'urgenza è un meccanismo di bypass del pensiero critico. Un avviso reale e rilevante può aspettare i 60 secondi necessari per verificarlo."
         },
         {
-          "text": "Condivido subito per proteggere",
+          "text": "L'assenza di firma istituzionale — ma questo non garantisce che il contenuto sia falso",
           "correct": false,
-          "explanation": "Potrebbe essere esso stesso una truffa o disinformazione."
+          "explanation": "Corretto che non garantisce falsità, ma la firma istituzionale è uno dei criteri di verifica, non il solo. L'assenza di fonti è più decisiva."
         },
         {
-          "text": "Condivido con avviso \"non verificato\"",
+          "text": "Il tema bancario è troppo tecnico per essere divulgato in questo formato",
           "correct": false,
-          "explanation": "Anche con avviso, amplifichi contenuti non verificati."
+          "explanation": "La semplicità del formato non è il problema. Molte informazioni utili sono semplici. Il problema è la struttura del messaggio, non la complessità del tema."
         }
       ]
     }
@@ -453,22 +453,22 @@
     "scenario": {
       "title": "Protesta di piazza",
       "situation": "10.000 persone manifestano, 50 creano scontri. Testata A: \"VIOLENZA IN CITTÀ\". Testata B: \"DIECIMILA IN PIAZZA\".",
-      "question": "Cosa differenzia i due approcci?",
+      "question": "Entrambe le testate riportano fatti verificabili. Come si spiega la percezione opposta che generano?",
       "options": [
         {
-          "text": "Framing diverso: stessi fatti, cornici opposte",
+          "text": "La scelta del dettaglio che diventa il titolo determina quale schema interpretativo il lettore porta a casa — i fatti sono gli stessi, le cornici no",
           "correct": true,
-          "explanation": "Entrambe vere, ma selezionano aspetti diversi."
+          "explanation": "Il framing non inventa fatti: seleziona quale fatto diventa figura e quale sfondo. 50 violenti sono un dato reale, come 10.000 manifestanti pacifici — ma il titolo sceglie quale dei due definisce l'evento."
         },
         {
-          "text": "Una mente sui numeri",
+          "text": "La testata A ha più risorse e può fare un reportage più completo e dettagliato",
           "correct": false,
-          "explanation": "Entrambe potrebbero essere fattualmente corrette."
+          "explanation": "Avere più risorse non implica un framing più accurato — può implicare una narrativa più elaborata e convincente, nel bene e nel male."
         },
         {
-          "text": "Testata A è obiettiva",
+          "text": "La testata B è di parte perché minimizza la violenza con la scelta numerica",
           "correct": false,
-          "explanation": "A nasconde 9.950 persone pacifiche."
+          "explanation": "Menzionare i 10.000 non minimizza i 50: dà contesto proporzionale. È la testata A a perdere il contesto, non la B a distorcere i fatti."
         }
       ]
     }
@@ -531,22 +531,22 @@
     "scenario": {
       "title": "Intervista difficile",
       "situation": "Giornalista: \"Il suo partito è stato condannato per finanziamenti illeciti.\" Politico: \"E il partito X? Loro hanno fatto peggio!\"",
-      "question": "Come rispondere?",
+      "question": "Quale effetto pratico ottiene il politico con questa risposta?",
       "options": [
         {
-          "text": "\"Possiamo parlare di tutto, ma ora: della condanna cosa dice?\"",
+          "text": "Sposta il piano del dibattito senza dover rispondere alla domanda specifica — il giornalista ora deve scegliere se inseguire il nuovo tema o insistere",
           "correct": true,
-          "explanation": "Non permette che sostituiscano la domanda."
+          "explanation": "La mossa funziona perché mette il giornalista in una posizione scomoda: insistere sembra accanimento, mollare significa aver perso il filo."
         },
         {
-          "text": "Discutere degli altri partiti",
+          "text": "Dimostra che l'accusa è infondata portando un caso comparabile",
           "correct": false,
-          "explanation": "È ciò che il whataboutism vuole."
+          "explanation": "Un caso comparabile non invalida l'accusa originale. Due torti non fanno una ragione: la condanna resta tale."
         },
         {
-          "text": "\"Tutti sono corrotti\"",
+          "text": "Riequilibra la conversazione evidenziando l'ipocrisia del giornalista",
           "correct": false,
-          "explanation": "Equivalenza morale è il risultato voluto."
+          "explanation": "Il giornalista non è accusato di nulla in questa conversazione. 'Anche gli altri lo fanno' è deflazione, non riequilibrio."
         }
       ]
     }
@@ -609,22 +609,22 @@
     "scenario": {
       "title": "Settimana mediatica",
       "situation": "Per una settimana, 15 minuti su 20 dedicati a un VIP accusato di frode. Una riforma elettorale approvata con 30 secondi di notte.",
-      "question": "Quale fenomeno osservi?",
+      "question": "Quale impatto ha questa distribuzione del tempo di trasmissione sulla capacità dei cittadini di votare in modo informato?",
       "options": [
         {
-          "text": "Agenda setting selettivo: focus su intrattenimento, silenzio su politica",
+          "text": "I cittadini non hanno ricevuto le informazioni necessarie per valutare una riforma che li riguarda direttamente",
           "correct": true,
-          "explanation": "La riforma ha impatto su milioni, il VIP su nessuno."
+          "explanation": "L'agenda dei media non decide solo cosa è interessante: decide cosa esiste nel dibattito pubblico. Una riforma sconosciuta è una riforma su cui non si forma opinione."
         },
         {
-          "text": "È normale, il VIP interessa di più",
+          "text": "Riflette le preferenze del pubblico: la notizia sul VIP era ciò che la gente voleva sentire",
           "correct": false,
-          "explanation": "Interessa perché presentato come importante."
+          "explanation": "Circolarità: il pubblico preferisce ciò a cui è esposto. Le preferenze del pubblico sono in parte costruite dall'agenda stessa."
         },
         {
-          "text": "La riforma era meno importante",
+          "text": "È una scelta editoriale legittima: le notizie hanno peso diverso e i direttori devono scegliere",
           "correct": false,
-          "explanation": "Le riforme elettorali hanno impatti decennali."
+          "explanation": "La discrezionalità editoriale è reale, ma non è neutrale. Le conseguenze politiche di questa scelta sono documentate e serie."
         }
       ]
     }
@@ -683,22 +683,22 @@
     "scenario": {
       "title": "Pre-evento",
       "situation": "Prima di una conferenza di un esperto, circola: \"Attenzione: ha legami con industrie interessate!\" Non specifica quali, né se influenzano la sua ricerca.",
-      "question": "Cosa riconosci?",
+      "question": "Cosa rende questo avviso potenzialmente manipolativo, anche se il contenuto fosse accurato?",
       "options": [
         {
-          "text": "Poisoning the well: pre-giudizio per influenzare la ricezione",
+          "text": "Installa un filtro di sospetto prima che il pubblico possa valutare l'argomentazione in modo autonomo",
           "correct": true,
-          "explanation": "L'informazione vaga arriva PRIMA per colorire tutto."
+          "explanation": "La sequenza conta: informare dopo che si è ascoltato permette di valutare; informare prima che si ascolti predetermina la valutazione. L'effetto è lo stesso del verdetto prima del processo."
         },
         {
-          "text": "Informazione utile per i partecipanti",
+          "text": "È informazione che il pubblico ha diritto a conoscere prima di valutare una fonte",
           "correct": false,
-          "explanation": "Senza specifiche, è pre-giudizio."
+          "explanation": "Vero in linea di principio — ma qui l'informazione è vaga ('legami con industrie') e non specifica quale influenza avrebbe sulla ricerca. La vaghezza intenzionale amplifica il sospetto senza permettergli di essere verificato."
         },
         {
-          "text": "Trasparenza necessaria",
+          "text": "Dimostra che la fonte non è affidabile, il che invalida automaticamente le sue tesi",
           "correct": false,
-          "explanation": "Trasparenza specifica legami, non accuse vaghe."
+          "explanation": "Una fonte con interessi può produrre ricerca valida. La verifica deve riguardare metodo e dati, non solo la fonte."
         }
       ]
     }
@@ -757,22 +757,22 @@
     "scenario": {
       "title": "Report vendita",
       "situation": "Un'azienda: \"Abbiamo venduto 1 milione di unità!\" Non menziona che erano previste 3 milioni.",
-      "question": "Quale tecnica?",
+      "question": "Il dato citato dall'azienda è falso?",
       "options": [
         {
-          "text": "Card stacking: dato vero ma contesto nascosto",
+          "text": "No — è verificabilmente vero, ma il contesto omesso ne inverte il significato reale",
           "correct": true,
-          "explanation": "Il milione è vero, ma incompleto senza il confronto con le previsioni."
+          "explanation": "Questa è la distinzione critica tra bugia e manipolazione: il dato regge alla verifica, ma produce un'impressione opposta alla realtà. È più difficile da smontare di una falsità diretta."
         },
         {
-          "text": "Fake news, il dato è falso",
+          "text": "Sì — presentare un dato senza contesto è equivalente a un'affermazione falsa",
           "correct": false,
-          "explanation": "Il dato potrebbe essere vero."
+          "explanation": "Legalmente e fatualmente no. Ma è eticamente disonesto. La distinzione è importante: le smentite funzionano su falsità, non su omissioni."
         },
         {
-          "text": "Comunicazione legittima",
+          "text": "Non è possibile dirlo — le previsioni di vendita interne non sono dati pubblici",
           "correct": false,
-          "explanation": "Omettere il contesto crea impressione fuorviante."
+          "explanation": "Non serve conoscere le previsioni esatte per capire che '1 milione su 3 previsti' ha un significato opposto a '1 milione in assoluto'. Il problema è la cornice mancante, non il dato nascosto."
         }
       ]
     }
@@ -831,22 +831,22 @@
     "scenario": {
       "title": "Dibattito",
       "situation": "Qualcuno propone una riforma fiscale. L'avversario: \"È tipico dei socialisti!\" Non discute la proposta.",
-      "question": "Cosa succede?",
+      "question": "Cosa ottiene l'avversario usando un'etichetta ideologica al posto di una critica?",
       "options": [
         {
-          "text": "Etichettamento: sostituisce l'argomentazione con un'etichetta",
+          "text": "Attiva reazioni identitarie nel pubblico senza dover entrare nel merito della proposta — chi odia 'i socialisti' la rifiuterà, chi li ama la sosterrà, senza aver letto una riga",
           "correct": true,
-          "explanation": "L'etichetta chiude il dibattito sulla proposta."
+          "explanation": "L'etichetta bypassa il ragionamento attivando l'identità. Una volta che una proposta è incasellata, viene valutata in base all'etichetta, non ai contenuti."
         },
         {
-          "text": "Analisi ideologica legittima",
+          "text": "Fornisce informazione utile sull'orientamento ideologico del proponente",
           "correct": false,
-          "explanation": "Non c'è analisi, solo etichetta."
+          "explanation": "Solo se l'etichetta fosse accurata e rilevante. Qui la proposta specifica non è analizzata, quindi non sappiamo se l'etichetta sia corretta o strumentale."
         },
         {
-          "text": "Informazione utile sull'orientamento",
+          "text": "Risparmia tempo: le etichette sono uno strumento efficiente per categorizzare le proposte politiche",
           "correct": false,
-          "explanation": "Senza argomentazione, è solo chiusura."
+          "explanation": "L'efficienza è un valore se non sacrifica l'accuratezza. Qui si sostituisce l'analisi con la categorizzazione — il risultato è più veloce ma meno informato."
         }
       ]
     }
@@ -905,22 +905,22 @@
     "scenario": {
       "title": "Campagna pubblicitaria",
       "situation": "\"Usato da milioni di italiani!\" Non specifica quanti milioni, né se funziona.",
-      "question": "Quale tecnica?",
+      "question": "Perché questo slogan è persuasivo nonostante non contenga informazioni verificabili?",
       "options": [
         {
-          "text": "Bandwagon: prova sociale vaga per indurre conformismo",
+          "text": "Fa leva sulla tendenza a conformarsi alla norma percepita: se 'tutti' usano qualcosa, il cervello lo interpreta come segnale di qualità senza cercarne la prova",
           "correct": true,
-          "explanation": "Numeri vaghi per suggerire consenso."
+          "explanation": "Il meccanismo evolutivo è reale: nella maggior parte dei casi, ciò che tutti fanno è un'indicazione ragionevole di sicurezza. I manipolatori sfruttano esattamente questa scorciatoia."
         },
         {
-          "text": "Testimonianza legittima",
+          "text": "Il numero alto suggerisce soddisfazione diffusa, che è evidenza indiretta di qualità",
           "correct": false,
-          "explanation": "Senza dati specifici, è suggestione."
+          "explanation": "Solo se 'milioni' fosse un numero preciso e verificabile, e se la soddisfazione fosse misurata. Il vago 'milioni' è costruito per suggerire questo senza permettere la verifica."
         },
         {
-          "text": "Informazione utile",
+          "text": "Non è persuasivo: senza prove il pubblico competente non si fida dei numeri vaghi",
           "correct": false,
-          "explanation": "Non dice nulla sulla qualità del prodotto."
+          "explanation": "Purtroppo no. Decenni di ricerche cognitive mostrano che il meccanismo della prova sociale funziona anche su persone informate e scettiche in altri ambiti."
         }
       ]
     }
@@ -979,22 +979,22 @@
     "scenario": {
       "title": "Slogan politico",
       "situation": "\"Vota per la vera libertà e il vero progresso!\" Nessuna spiegazione di cosa significhi \"vero\" o quali politiche concrete.",
-      "question": "Cosa riconosci?",
+      "question": "Perché termini come 'vera libertà' e 'vero progresso' sono efficaci nella comunicazione politica?",
       "options": [
         {
-          "text": "Glittering generalities: parole positive vuote senza contenuto",
+          "text": "Ognuno vi proietta il proprio significato preferito: creano consenso apparente su contenuti che non sono stati definiti e che persone diverse intendono in modo opposto",
           "correct": true,
-          "explanation": "Tutti amano libertà e progresso, ma senza definizioni sono vuote."
+          "explanation": "Questo è il meccanismo di Orwell delle 'parole-scudo': termini abbastanza vuoti da non poter essere contestati, abbastanza carichi da evocare adesione emotiva."
         },
         {
-          "text": "Slogan efficace e legittimo",
+          "text": "Comunicano l'orientamento valoriale del candidato, che è informazione politicamente rilevante",
           "correct": false,
-          "explanation": "Senza contenuto, è solo suggestione emotiva."
+          "explanation": "Solo se i valori fossero operazionalizzati in proposte. Senza contenuto, i valori dichiarati non dicono nulla su cosa farà il candidato."
         },
         {
-          "text": "Informazione sui valori",
+          "text": "Sono efficaci solo in campagna: poi gli elettori giudicano sui fatti",
           "correct": false,
-          "explanation": "Non informa sui contenuti."
+          "explanation": "Questa è una speranza, non la realtà. Le ricerche mostrano che le associazioni emotive stabilite in campagna resistono a lungo, anche di fronte a performance concrete."
         }
       ]
     }
@@ -1057,22 +1057,22 @@
     "scenario": {
       "title": "Endorsement",
       "situation": "Un famoso attore supporta una posizione su economia globale. Non ha formazione economica.",
-      "question": "Quale tecnica?",
+      "question": "Perché il supporto di un attore famoso a una posizione economica non vale come argomentazione?",
       "options": [
         {
-          "text": "Transfer: prestigio dell'attore trasferito alla posizione economica",
+          "text": "La credibilità in un dominio non si trasferisce automaticamente a un altro: eccellere recitando non implica competenza in macroeconomia",
           "correct": true,
-          "explanation": "La fama non è competenza economica."
+          "explanation": "Il cervello tende a generalizzare la credibilità ('è bravo in tutto') — questa è l'euristica che la tecnica sfrutta. Ma competenza e notorietà sono dimensioni ortogonali."
         },
         {
-          "text": "Testimonianza legittima",
+          "text": "Il pubblico può valutare autonomamente le sue argomentazioni se le esprime",
           "correct": false,
-          "explanation": "Senza competenza, è solo transfer di prestigio."
+          "explanation": "In teoria sì. In pratica, l'attore raramente argomenta: 'supporta'. Il peso sociale della sua approvazione precede qualsiasi analisi del merito."
         },
         {
-          "text": "Ognuno può avere opinioni",
+          "text": "La notorietà pubblica implica responsabilità: le sue parole hanno più impatto e quindi più valore",
           "correct": false,
-          "explanation": "Vero, ma l'uso della fama per legittimare è transfer."
+          "explanation": "L'impatto è reale, ma è social, non epistemico. Una cosa può avere grande effetto sull'opinione pubblica ed essere del tutto priva di valore argomentativo."
         }
       ]
     }
@@ -1131,22 +1131,22 @@
     "scenario": {
       "title": "Campagna sanitaria",
       "situation": "\"Mio cugino ha preso questo farmaco ed è guarito!\" Presentato come prova dell'efficacia, senza studi clinici.",
-      "question": "Cosa riconosci?",
+      "question": "Perché questa storia individuale non può dimostrare l'efficacia del farmaco?",
       "options": [
         {
-          "text": "Testimonial: un'anecdota presentata come prova generale",
+          "text": "Un singolo caso non è distinguibile dalla remissione spontanea, dall'effetto placebo o dalla coincidenza temporale",
           "correct": true,
-          "explanation": "Un caso non è statistica."
+          "explanation": "La medicina ha sviluppato trial clinici controllati esattamente perché le aneddoti — anche sincere — non permettono di isolare la variabile causale. Non c'è malafede: il meccanismo cognitivo è universale."
         },
         {
-          "text": "Informazione utile",
+          "text": "Le esperienze reali dei pazienti sono più affidabili degli studi di laboratorio perché vengono da persone vere",
           "correct": false,
-          "explanation": "Senza contesto statistico, è fuorviante."
+          "explanation": "Questa è l'intuizione opposta a quella corretta. Gli studi esistono per compensare esattamente il fatto che le esperienze individuali, per quanto reali, non controllano le altre variabili."
         },
         {
-          "text": "Testimonianza legittima",
+          "text": "Se la persona ha guarito, il farmaco funziona — è la prova più diretta possibile",
           "correct": false,
-          "explanation": "Legittima come esperienza, non come prova."
+          "explanation": "Molte malattie guariscono spontaneamente. La domanda non è 'il paziente ha guarito?' ma 'ha guarito più spesso di chi non ha preso il farmaco?' — e questo richiede un campione."
         }
       ]
     }
@@ -1205,22 +1205,22 @@
     "scenario": {
       "title": "Slogan onnipresente",
       "situation": "Per mesi, ogni canale ripete: \"Il problema è X!\" Non vengono presentati dati, ma tutti \"sanno\" che è vero.",
-      "question": "Quale effetto?",
+      "question": "Quale meccanismo psicologico fa sembrare vera una cosa ripetuta molte volte, indipendentemente dai fatti?",
       "options": [
         {
-          "text": "Illusione di verità per ripetizione",
+          "text": "La familiarità viene elaborata dal cervello come segnale di verità: elaborare qualcosa con facilità (perché l'abbiamo già sentito) è confuso con il riconoscere qualcosa di vero",
           "correct": true,
-          "explanation": "La familiarità crea illusione di verità."
+          "explanation": "Questo è il fenomeno documentato come 'illusione di verità' (Hasher, Goldstein, Toppino, 1977). Funziona anche quando le persone sono avvertite in anticipo che il contenuto potrebbe essere falso."
         },
         {
-          "text": "È diventato vero",
+          "text": "Se molte fonti diverse lo dicono, è perché si sono informate indipendentemente e concordano",
           "correct": false,
-          "explanation": "La ripetizione non crea verità."
+          "explanation": "In un ambiente mediatico interconnesso le fonti spesso si citano a vicenda o condividono la stessa fonte originale. La moltiplicazione delle voci non equivale a indipendenza delle fonti."
         },
         {
-          "text": "Informazione diffusa",
+          "text": "La ripetizione è problematica solo se il contenuto è falso: dipende dai fatti",
           "correct": false,
-          "explanation": "Senza dati, è solo ripetizione."
+          "explanation": "L'illusione di verità funziona indipendentemente dalla veridicità del contenuto. La ripetizione di contenuti veri non è neutra: li rende percepiti come 'più veri' di altri contenuti altrettanto veri ma meno ripetuti."
         }
       ]
     }
@@ -1279,22 +1279,22 @@
     "scenario": {
       "title": "Comizio",
       "situation": "Il candidato grida: \"Legge e ordine!\" La folla acclama. Non c'è discussione su quali leggi o quale ordine.",
-      "question": "Quale tecnica?",
+      "question": "Cosa sacrifica lo slogan rispetto a un programma politico articolato?",
       "options": [
         {
-          "text": "Slogan: formula che sostituisce il dettaglio",
+          "text": "Qualsiasi specificità: 'legge e ordine' può significare cose opposte e trovare uguale risonanza in persone con valori incompatibili",
           "correct": true,
-          "explanation": "Tre parole per questioni complesse."
+          "explanation": "Questa è l'utilità strategica dello slogan: è abbastanza vago da unire consensi che non potrebbero coesistere su proposte concrete. Chi vota 'legge e ordine' non sa cosa sta votando."
         },
         {
-          "text": "Programma politico chiaro",
+          "text": "Solo la lunghezza: il contenuto essenziale può essere comunicato in forma breve senza perdita informativa",
           "correct": false,
-          "explanation": "Non specifica nulla."
+          "explanation": "La lunghezza non è il problema. Il problema è che le parole-chiave dello slogan non mappano su politiche verificabili — la brevità copre questa assenza, non la risolve."
         },
         {
-          "text": "Legittima sintesi",
+          "text": "La credibilità: gli slogan funzionano solo con i sostenitori già convinti",
           "correct": false,
-          "explanation": "Sintesi senza contenuti è solo slogan."
+          "explanation": "Al contrario: ricerche sul framing mostrano che gli slogan sono efficaci anche su chi non era predisposto, purché le parole abbiano valenza emotiva positiva."
         }
       ]
     }
@@ -1353,22 +1353,22 @@
     "scenario": {
       "title": "Video virale",
       "situation": "Un video mostra \"Maria, 42 anni, casalinga\" che si lamenta del governo. Girato professionalmente, senza cognome né città.",
-      "question": "Cosa verificare?",
+      "question": "Quale dettaglio produttivo dovrebbe far dubitare dell'autenticità di questa testimonianza?",
       "options": [
         {
-          "text": "Identità, interessi nascosti, natura della produzione",
+          "text": "La qualità professionale del video e l'assenza di identificativi verificabili — le due cose insieme smentiscono la spontaneità che il format suggerisce",
           "correct": true,
-          "explanation": "Qualità professionale e anonimato suggeriscono orchestrazione."
+          "explanation": "Una testimonianza spontanea e autentica di solito o è girata in modo amatoriale, o include dettagli verificabili. Qui la produzione è curata e ogni elemento che permetterebbe la verifica è assente."
         },
         {
-          "text": "È una cittadina che esprime la sua opinione",
+          "text": "Il nome proprio: anche le persone comuni possono voler proteggere la privacy con un pseudonimo",
           "correct": false,
-          "explanation": "Potrebbe essere, ma va verificato."
+          "explanation": "Il nome è uno dei criteri, non l'unico. Ma la combinazione di assenza di cognome, città e qualità professionale del video è il segnale rilevante."
         },
         {
-          "text": "Non serve verificare, è una persona normale",
+          "text": "Il tema: i problemi con il governo interessano tutti, anche le persone comuni",
           "correct": false,
-          "explanation": "Il video professionale anonimo richiede cautela."
+          "explanation": "Il tema è irrilevante per valutare l'autenticità. Il problema non è quello di cui parla Maria, ma chi ha prodotto il video e con quale scopo."
         }
       ]
     }
@@ -1427,22 +1427,22 @@
     "scenario": {
       "title": "Campagna",
       "situation": "\"9 scienziati su 10 dicono che X è sicuro!\" Non specifica quali scienziati, né se hanno competenza o interessi.",
-      "question": "Cosa chiedere?",
+      "question": "Cosa manca per rendere questa affermazione verificabile?",
       "options": [
         {
-          "text": "Competenza, conflitti d'interesse, rappresentatività del campione",
+          "text": "Identità degli esperti, loro campo di competenza specifico su questo tema, potenziali conflitti d'interesse, e come è stato definito il campione",
           "correct": true,
-          "explanation": "Autorità senza contesto non è prova."
+          "explanation": "Senza questi elementi 'scienziati' è una categoria vuota. La stessa frase è stata usata in passato dall'industria del tabacco con medici pagati per dichiarare la sicurezza delle sigarette."
         },
         {
-          "text": "Se 9 su 10, deve essere vero",
+          "text": "Un numero più alto: '9 su 10' è già una maggioranza schiacciante che di per sé è convincente",
           "correct": false,
-          "explanation": "Dipende da chi sono i 10."
+          "explanation": "Un campione di 10 scienziati selezionati con un conflitto d'interesse vale meno di un campione di 3 indipendenti con competenza specifica. Il numero non compensa la qualità del campione."
         },
         {
-          "text": "Gli scienziati hanno sempre ragione",
+          "text": "Nulla: il consenso degli esperti è la forma più affidabile di prova disponibile",
           "correct": false,
-          "explanation": "Specialmente fuori dal loro campo."
+          "explanation": "Il consenso degli esperti è solido quando è il risultato di ricerca indipendente convergente. 'Scienziati' senza specificazione non costituisce consenso verificabile."
         }
       ]
     }
@@ -1501,22 +1501,22 @@
     "scenario": {
       "title": "Discorso",
       "situation": "\"Chi non è con noi è contro di noi! Non c'è terra di mezzo!\"",
-      "question": "Quale meccanismo?",
+      "question": "Quale categoria di persone questo messaggio cerca di rendere impossibile?",
       "options": [
         {
-          "text": "Eliminazione del centro: solo alleati o nemici",
+          "text": "Chi ha posizioni sfumate, critiche parziali o dubbi — in questo schema non esistono: sei alleato o nemico",
           "correct": true,
-          "explanation": "Costruisce identità rigida senza sfumature."
+          "explanation": "La polarizzazione ha un effetto pratico: chi non si schiera diventa sospetto. Questo riduce lo spazio per il dissenso moderato e spinge verso l'adesione totale o l'abbandono del campo."
         },
         {
-          "text": "Motivazione legittima",
+          "text": "Gli avversari politici dichiarati: è legittimo essere diretti e confrontarsi con chi si oppone",
           "correct": false,
-          "explanation": "Non richiede eliminazione delle posizioni intermedie."
+          "explanation": "Avere avversari è normale nel dibattito politico. Il problema non è l'esistenza di oppositori, ma l'eliminazione della possibilità di accordo parziale, compromesso o critica interna."
         },
         {
-          "text": "Retorica normale",
+          "text": "Chi non si è ancora schierato: la neutralità è una forma di complicità in certi contesti",
           "correct": false,
-          "explanation": "Normalizzare l'apocalittismo è parte del problema."
+          "explanation": "Questo è esattamente il tipo di argomento che la polarizzazione usa per forzare l'adesione. La neutralità e il dubbio sono posizioni legittime, non complicità."
         }
       ]
     }
@@ -1575,22 +1575,22 @@
     "scenario": {
       "title": "Video",
       "situation": "Un video di 45 minuti elenca 80 presunti scandali, uno dopo l'altro, senza fonti.",
-      "question": "Come approcci?",
+      "question": "Perché rispondere a tutte e 80 le affermazioni sarebbe una strategia perdente?",
       "options": [
         {
-          "text": "Verificare 2-3 punti a caso",
+          "text": "Richiede un tempo enormemente sproporzionato rispetto a quello usato per farle — e chi risponde appare costantemente in difensiva, il che fa sembrare le accuse credibili",
           "correct": true,
-          "explanation": "Se falsi, probabilmente tutto il contenuto è inaffidabile."
+          "explanation": "Questa è l'asimmetria fondamentale: creare un'affermazione richiede pochi secondi, smontarla richiede ricerca, fonti, spiegazione. Chi attacca ha un vantaggio strutturale nel dialogo."
         },
         {
-          "text": "Guardare tutto",
+          "text": "Alcune potrebbero essere vere — negarle tutte sarebbe contraddittorio",
           "correct": false,
-          "explanation": "45 minuti di affermazioni non verificate non valgono di più di 1 minuto."
+          "explanation": "Questo è un effetto voluto: mescolare alcune verità tra molte falsità aumenta la credibilità complessiva del mucchio e rende difficile la smentita selettiva."
         },
         {
-          "text": "Con così tanti, qualcosa di vero c'è",
+          "text": "Nessuna ragione — se le accuse sono false è possibile e doveroso smentirle tutte",
           "correct": false,
-          "explanation": "È l'errore che la tecnica vuole indurre."
+          "explanation": "In teoria sì. In pratica l'economia dell'attenzione non lo permette: 80 smentite non raggiungono mai lo stesso pubblico delle 80 affermazioni originali."
         }
       ]
     }
@@ -1649,22 +1649,22 @@
     "scenario": {
       "title": "Dibattito",
       "situation": "Tu: \"Dovremmo ridurre un po' le tasse.\" Avversario: \"Vuoi eliminare tutti i servizi pubblici!\"",
-      "question": "Quale tecnica?",
+      "question": "In che modo la risposta dell'avversario cambia la struttura del dibattito?",
       "options": [
         {
-          "text": "Straw man: distorce la proposta moderata in estrema",
+          "text": "Trasforma una proposta moderata in una posizione estrema mai avanzata — poi attacca quella posizione estrema invece della proposta originale",
           "correct": true,
-          "explanation": "Attacca una posizione che non è stata sostenuta."
+          "explanation": "Il vantaggio è doppio: la proposta originale non viene confutata, e chi l'ha avanzata deve ora difendersi da una posizione che non ha mai sostenuto."
         },
         {
-          "text": "Critica legittima",
+          "text": "Evidenzia le implicazioni logiche della proposta — una critica legittima anche se esagerata",
           "correct": false,
-          "explanation": "Non critica la proposta reale."
+          "explanation": "Le implicazioni logiche devono seguire la catena causale reale. 'Ridurre un po' le tasse' non implica logicamente 'eliminare tutti i servizi' — questo è un salto, non un'implicazione."
         },
         {
-          "text": "Conseguenza logica",
+          "text": "È critica legittima: le politiche fiscali hanno sempre effetti sui servizi pubblici",
           "correct": false,
-          "explanation": "Non è conseguenza, è distorsione."
+          "explanation": "Vero in astratto — ma 'un po'' e 'tutti' sono quantità incompatibili. L'obiezione distorce la proposta originale invece di analizzarne gli effetti reali."
         }
       ]
     }
@@ -1723,22 +1723,22 @@
     "scenario": {
       "title": "Intervista",
       "situation": "Giornalista: \"Le indagini sulla corruzione?\" Politico: \"Dovremmo parlare della nostra economia che va benissimo!\"",
-      "question": "Quale tecnica?",
+      "question": "Cosa rivela sulla domanda originale il fatto che il politico cambi argomento?",
       "options": [
         {
-          "text": "Red herring: distrazione con tema irrilevante",
+          "text": "Che non ha risposta alla domanda sulle indagini, o che preferisce non rispondervi — il cambio di argomento è di per sé informativo",
           "correct": true,
-          "explanation": "L'economia non risponde sulla corruzione."
+          "explanation": "In un'intervista chi risponde controlla cosa esce. Se cambia argomento, sta scegliendo. La scelta di evitare dice qualcosa sulla domanda evitata."
         },
         {
-          "text": "Focus su positività",
+          "text": "Che considera l'economia più urgente delle indagini in questo momento",
           "correct": false,
-          "explanation": "Non risponde alla domanda."
+          "explanation": "Questa sarebbe un'interpretazione caritatevole — e forse è ciò che il politico vorrebbe che si pensasse. Ma la domanda era specifica e la risposta non risponde."
         },
         {
-          "text": "Informazione utile",
+          "text": "Nulla: i politici hanno il diritto di scegliere su cosa concentrarsi in un'intervista",
           "correct": false,
-          "explanation": "Non è correlato alla domanda."
+          "explanation": "Diritto formale sì, ma il pubblico ha anche il diritto di notare l'evasione e di trarne le proprie conclusioni."
         }
       ]
     }
@@ -1797,22 +1797,22 @@
     "scenario": {
       "title": "Dibattito",
       "situation": "Un partito accusa l'altro di \"censurare il dibattito\". Contemporaneamente, espelle i dissidenti interni.",
-      "question": "Quale tecnica?",
+      "question": "Quale vantaggio strategico ottiene un partito accusando l'avversario esattamente di ciò che fa?",
       "options": [
         {
-          "text": "Projection: accusa altri di ciò che fai",
+          "text": "Se l'accusa diventa controversia pubblica, entrambi sembrano colpevoli — la responsabilità reale viene diluita nella confusione",
           "correct": true,
-          "explanation": "Accusa di censura mentre censura."
+          "explanation": "Questa è la funzione pratica: chi denuncia il partito originale ora sembra fare politica partigiana ('anche tu però'), e la notizia viene insabbiata nella contesa."
         },
         {
-          "text": "Legittima critica",
+          "text": "Serve a bilanciare il dibattito: anche l'avversario censura, e questo è rilevante",
           "correct": false,
-          "explanation": "Non quando chi accusa fa lo stesso."
+          "explanation": "Se l'avversario censura davvero, va denunciato — ma in quel caso è una critica separata e documentabile, non una risposta all'accusa in corso."
         },
         {
-          "text": "Entrambi hanno torto",
+          "text": "Rivela che il partito è consapevole del problema e cerca di affrontarlo pubblicamente",
           "correct": false,
-          "explanation": "La proiezione è una tecnica deliberata."
+          "explanation": "Al contrario: rivela che il partito ha scelto di rispondere con un contro-attacco invece di affrontare l'accusa specifica — il che suggerisce che non ha difesa su quella."
         }
       ]
     }
@@ -1871,22 +1871,22 @@
     "scenario": {
       "title": "Discorso",
       "situation": "Un candidato usa termini che sembrano normali ma sono riconosciuti da gruppi estremisti come segnali. Quando criticato: \"Ma se ho detto una frase normale!\"",
-      "question": "Quale tecnica?",
+      "question": "Perché la negabilità è parte strutturale di questa tecnica e non un effetto collaterale?",
       "options": [
         {
-          "text": "Dog whistle: messaggio codificato con negabilità",
+          "text": "Permette di comunicare a un pubblico specifico beneficiando della comprensione in codice, senza assumersi la responsabilità pubblica di quel messaggio",
           "correct": true,
-          "explanation": "Doppio livello di significato."
+          "explanation": "La negabilità è progettata, non accidentale. Il messaggio funziona a due livelli: chi conosce il codice riceve la comunicazione; chi non lo conosce sente qualcosa di innocuo."
         },
         {
-          "text": "Frase innocente fraintesa",
+          "text": "Il politico ha usato parole normali: la critica dimostra che chi accusa cerca segnali dove non esistono",
           "correct": false,
-          "explanation": "La reazione del gruppo target rivela il vero significato."
+          "explanation": "Questo è esattamente l'effetto voluto della negabilità. Ma 'normale' e 'codice' non si escludono: un termine può essere comune nel linguaggio ordinario e avere un significato specifico in un contesto ideologico."
         },
         {
-          "text": "Accusa ingiustificata",
+          "text": "I codici linguistici esistono in tutti i discorsi politici — non solo in quelli estremi",
           "correct": false,
-          "explanation": "La reazione coordinata di certi gruppi indica comprensione del codice."
+          "explanation": "Vero — ma non tutti i codici funzionano per attivare solidarietà con gruppi che sarebbe politicamente costoso nominare esplicitamente. La distinzione conta."
         }
       ]
     }
@@ -1949,22 +1949,22 @@
     "scenario": {
       "title": "Conversazione",
       "situation": "Tu: \"Ieri hai detto X.\" Loro: \"Non l'ho mai detto! Ti sei immaginato tutto. Sei paranoico.\" Era successo davvero.",
-      "question": "Quale tecnica?",
+      "question": "Qual è l'effetto a lungo termine di questa tattica ripetuta sistematicamente?",
       "options": [
         {
-          "text": "Gaslighting: nega fatti per far dubitare",
+          "text": "Erode la fiducia della vittima nella propria capacità di percepire e ricordare la realtà accuratamente",
           "correct": true,
-          "explanation": "Negazione sistematica della realtà."
+          "explanation": "Questo è il danno specifico: non solo la singola controversia viene vinta dal manipolatore, ma la vittima inizia a non fidarsi del proprio giudizio in futuro — rendendo più difficile ogni resistenza successiva."
         },
         {
-          "text": "Malinteso",
+          "text": "Crea conflitto, ma senza conseguenze concrete se la vittima sa con certezza cosa è successo",
           "correct": false,
-          "explanation": "Se sistematico, è tecnica."
+          "explanation": "Il problema è esattamente questo: dopo ripetizioni sistematiche, la certezza vacilla. La tattica erode dall'interno, non dall'esterno."
         },
         {
-          "text": "Differenza di percezione",
+          "text": "Risolve il malinteso: versioni diverse dei fatti si chiariscono col dialogo aperto",
           "correct": false,
-          "explanation": "La negazione totale è gaslighting."
+          "explanation": "Questa interpretazione si applica al conflitto genuino. Qui la struttura è unilaterale: una parte nega deliberatamente ciò che sa essere vero. Il dialogo non risolve la negazione intenzionale."
         }
       ]
     }
@@ -2023,22 +2023,22 @@
     "scenario": {
       "title": "Comunicato",
       "situation": "\"Record storico! +150.000 posti di lavoro!\" Non menziona che 200.000 persone hanno perso il lavoro nello stesso periodo.",
-      "question": "Quale tecnica?",
+      "question": "Il comunicato mente?",
       "options": [
         {
-          "text": "Cherry-picking: indicatore favorevole senza contesto",
+          "text": "No — il dato citato è verificabile e reale, ma l'omissione del contesto produce un'impressione opposta alla realtà complessiva",
           "correct": true,
-          "explanation": "Il dato è vero ma incompleto."
+          "explanation": "Questa distinzione è fondamentale per chi vuole fare fact-checking: la smentita diretta non funziona perché il dato è vero. Bisogna aggiungere contesto, non contraddire il dato."
         },
         {
-          "text": "Fake news",
+          "text": "Sì — presentare un dato senza contesto rilevante è equivalente a una falsità intenzionale",
           "correct": false,
-          "explanation": "Il dato potrebbe essere vero."
+          "explanation": "Eticamente può esserlo. Ma giuridicamente e praticamente la differenza conta: le smentite funzionano su falsità, non su omissioni. Smontare questo richiede completare la storia, non negarla."
         },
         {
-          "text": "Comunicazione corretta",
+          "text": "Non è possibile dirlo senza il comunicato completo",
           "correct": false,
-          "explanation": "Omettere il negativo crea impressione fuorviante."
+          "explanation": "In realtà possiamo già dire che il dato citato, senza il contesto dei 200.000 posti persi, produce una narrazione opposta alla realtà. Non serve il comunicato completo per identificare l'omissione critica."
         }
       ]
     }
@@ -2097,22 +2097,22 @@
     "scenario": {
       "title": "Commenti coordinati",
       "situation": "Sotto un post critico, 100 profili con frasi identiche. Molti hanno 3-10 post totali, creati nello stesso mese.",
-      "question": "Cosa indica?",
+      "question": "Perché la coordinazione dei profili è più rilevante del contenuto dei singoli commenti?",
       "options": [
         {
-          "text": "Probabile astroturfing: profili nuovi, messaggi identici",
+          "text": "Simula un consenso organico che non esiste: falsifica la percezione dell'opinione pubblica, non solo il singolo commento",
           "correct": true,
-          "explanation": "Tutti i segnali classici sono presenti."
+          "explanation": "Se 100 persone reali criticassero la stessa cosa con parole diverse, sarebbe segnale d'allarme. Cento profili con frasi identiche indica produzione coordinata — l'apparenza di grassroots senza la realtà."
         },
         {
-          "text": "Cittadini preoccupati",
+          "text": "Il contenuto è sbagliato: ciò che conta è confutarlo, non chi lo dice",
           "correct": false,
-          "explanation": "Cittadini reali non sono così coordinati."
+          "explanation": "Questo è vero per l'analisi del merito — ma la domanda è diversa: l'operazione non vuole convincere col ragionamento, vuole creare l'impressione di consenso diffuso."
         },
         {
-          "text": "Il contenuto è condivisibile",
+          "text": "I profili nuovi non implicano falsità: chiunque può aprire un account",
           "correct": false,
-          "explanation": "Non possiamo giudicare dal comportamento coordinato."
+          "explanation": "Vero per un singolo profilo. Ma la combinazione di account nuovi + messaggi identici + timing coordinato ha una probabilità statistica molto bassa di essere organica."
         }
       ]
     }
@@ -2171,22 +2171,22 @@
     "scenario": {
       "title": "Documento leaked",
       "situation": "Un PDF circola: memorandum interno con strategie ciniche. Account anonimo, senza intestazioni verificabili, una settimana prima delle elezioni.",
-      "question": "Come valuti?",
+      "question": "Quale elemento di questo scenario è il più significativo per valutare l'autenticità del documento?",
       "options": [
         {
-          "text": "Sospetto: anonimato, timing, nessuna verifica possibile",
+          "text": "Il timing rispetto alle elezioni — aumenta il movente per una fabbricazione proprio ora, indipendentemente dal contenuto",
           "correct": true,
-          "explanation": "La combinazione suggerisce possibile fabbricazione."
+          "explanation": "Il timing è il segnale più difficile da falsificare casualmente. Un documento autentico può emergere in qualsiasi momento. Uno costruito per massimizzare l'impatto comparirà in prossimità di una scadenza."
         },
         {
-          "text": "Se online, è stato verificato",
+          "text": "La crudezza delle strategie descritte — i documenti interni autentici spesso contengono questo tipo di linguaggio",
           "correct": false,
-          "explanation": "La pubblicazione non richiede verifica."
+          "explanation": "Vero — ma anche i falsi vengono costruiti così. La verosimiglianza del contenuto è esattamente ciò che un falsario cerca di massimizzare."
         },
         {
-          "text": "Coerente con ciò che penso, quindi credibile",
+          "text": "La diffusione online — un documento falso non riuscirebbe a circolare così tanto",
           "correct": false,
-          "explanation": "Il confirmation bias è sfruttato dai falsari."
+          "explanation": "Al contrario: i falsi progettati per massimizzare la diffusione spesso circolano di più dei documenti autentici, perché costruiti per fare notizia."
         }
       ]
     }
@@ -2245,22 +2245,22 @@
     "scenario": {
       "title": "Video sensazionale",
       "situation": "Un video mostra un leader che insulta gli elettori. Fonte: account anonimo. Qualità buona ma non perfetta.",
-      "question": "Come approcci?",
+      "question": "Aggiungere un disclaimer e ricondividere è una risposta responsabile?",
       "options": [
         {
-          "text": "Sospetto: fonte anonima, nessuna verifica",
+          "text": "No — amplifica la diffusione e i disclaimer vengono spesso ignorati o persi nelle ricondivisioni successive",
           "correct": true,
-          "explanation": "La combinazione richiede cautela."
+          "explanation": "Ricerche su misinformazione mostrano che i disclaimer non neutralizzano l'effetto del contenuto falso una volta visto. Ricondividere 'per smentire' è uno dei principali meccanismi di diffusione."
         },
         {
-          "text": "Se sembra realistico, è vero",
+          "text": "Sì — è responsabile informare il pubblico senza censurare, lasciando a ognuno la valutazione",
           "correct": false,
-          "explanation": "I deepfake sono progettati per sembrare reali."
+          "explanation": "Questa logica si applica ai contenuti ambigui. Per i deepfake sospetti, ogni ricondivisione aumenta l'esposizione e quindi il potenziale danno."
         },
         {
-          "text": "Condivido con disclaimer",
+          "text": "Dipende dalla qualità del video: se è alta, è probabilmente autentico",
           "correct": false,
-          "explanation": "Anche con disclaimer, amplifichi."
+          "explanation": "La qualità dei deepfake migliora costantemente. Nel 2024, strumenti accessibili producono risultati difficilmente distinguibili. La qualità non è criterio di autenticità."
         }
       ]
     }
@@ -2319,22 +2319,22 @@
     "scenario": {
       "title": "Sito sospetto",
       "situation": "\"IlGiornale-News.com\" pubblica un'inchiesta esplosiva. Dominio registrato due mesi fa, pagina \"chi siamo\" senza nomi reali.",
-      "question": "Cosa verificare?",
+      "question": "Il contenuto dell'inchiesta sembra ben documentato e specifico. È sufficiente per condividerla?",
       "options": [
         {
-          "text": "Dominio, proprietà, storico, conferme indipendenti",
+          "text": "No — la credibilità del contenuto e la credibilità della fonte sono domande separate; entrambe richiedono verifica",
           "correct": true,
-          "explanation": "Dominio recente, anonimato e contenuto sensazionale sono allarmi."
+          "explanation": "Le operazioni di influenza sofisticate producono contenuti accurati e ben documentati — proprio per eludere il fact-checking di primo livello. La fonte conta quanto i fatti riportati."
         },
         {
-          "text": "Il contenuto sembra ben documentato",
+          "text": "Sì — la qualità del contenuto è la prova migliore di serietà giornalistica",
           "correct": false,
-          "explanation": "Anche contenuti ben scritti possono essere falsi."
+          "explanation": "Questa è la trappola: un'operazione sofisticata costruisce credibilità editoriale per poi abusarne in momenti critici. La qualità media non garantisce l'integrità specifica."
         },
         {
-          "text": "Le condivisioni provano interesse",
+          "text": "Solo se altri media la riprendono — questo ne certifica l'autenticità",
           "correct": false,
-          "explanation": "Condivisioni non provano verità."
+          "explanation": "La ricondivisione aumenta la percezione di credibilità, non l'autenticità. Se la fonte originale è falsa, la moltiplicazione delle ricondivisioni non la rende vera."
         }
       ]
     }
@@ -2393,22 +2393,22 @@
     "scenario": {
       "title": "Discussione invasa",
       "situation": "Una discussione seria viene inondata da 500 commenti insultanti in poche ore. Account nuovi, messaggi simili.",
-      "question": "Quale tecnica?",
+      "question": "La presenza di 500 commenti contrari indica che la posizione criticata è sbagliata?",
       "options": [
         {
-          "text": "Flooding coordinato: soffoca il dibattito",
+          "text": "No — la quantità coordinata sostituisce la diversità: simula una maggioranza senza rappresentare opinioni reali indipendenti",
           "correct": true,
-          "explanation": "Volume e coordinazione indicano operazione."
+          "explanation": "In un sistema democratico il peso delle opinioni viene dalla loro indipendenza, non dalla loro quantità. Cento voci identiche valgono meno di dieci voci diverse."
         },
         {
-          "text": "Reazione spontanea",
+          "text": "Sì — in democrazia la maggioranza conta, anche nelle discussioni online",
           "correct": false,
-          "explanation": "Spontaneità non è così coordinata."
+          "explanation": "La democrazia conta voti di persone reali con opinioni formate autonomamente. Profili coordinati non sono 'persone reali' in questo senso — sono un'operazione."
         },
         {
-          "text": "La maggioranza è contro",
+          "text": "Dipende: se i commenti sono pertinenti al tema, rappresentano opinioni reali",
           "correct": false,
-          "explanation": "Il volume non è consenso."
+          "explanation": "La pertinenza al tema è una condizione necessaria ma non sufficiente. Anche le operazioni coordinate scrivono commenti pertinenti. Il segnale rilevante è la coordinazione, non il contenuto."
         }
       ]
     }
@@ -2467,22 +2467,22 @@
     "scenario": {
       "title": "Messaggio",
       "situation": "\"CONDIVIDI ORA o tua figlia potrebbe essere in pericolo! Hai solo poche ore!\"",
-      "question": "Quale tecnica?",
+      "question": "Quale meccanismo cognitivo sfrutta questo messaggio per ottenere condivisione immediata senza verifica?",
       "options": [
         {
-          "text": "Fear appeal + urgenza: paura per bypassare pensiero critico",
+          "text": "Attiva la paura per la sicurezza dei propri cari, che blocca la valutazione critica e spinge ad agire d'impulso",
           "correct": true,
-          "explanation": "Paura e urgenza artificiali."
+          "explanation": "La paura è una delle emozioni che più efficacemente bypassa il ragionamento deliberato. Messaggi costruiti su minacce ai figli sfruttano esattamente questo meccanismo."
         },
         {
-          "text": "Avviso legittimo",
+          "text": "Fornisce informazione urgente: quando c'è un pericolo reale, la velocità è più importante della verifica",
           "correct": false,
-          "explanation": "Senza fonti, è solo manipolazione."
+          "explanation": "Questa è l'idea che il messaggio vuole creare. Ma un avviso reale e rilevante per la sicurezza pubblica raggiunge attraverso canali ufficiali, non messaggi virali senza fonte."
         },
         {
-          "text": "Meglio condividere, non si sa mai",
+          "text": "Attiva la responsabilità sociale: chi non condivide si assume la colpa di un eventuale danno",
           "correct": false,
-          "explanation": "È esattamente ciò che la tecnica vuole."
+          "explanation": "Questo è un effetto secondario intenzionale: la colpa anticipata per non aver condiviso è un secondo meccanismo di pressione. Ma è costruito sulla paura, non è un meccanismo indipendente."
         }
       ]
     }
@@ -2541,22 +2541,22 @@
     "scenario": {
       "title": "Dibattito",
       "situation": "Qualcuno critica una politica governativa. L'avversario: \"Se non ti piace questo paese, vattene!\"",
-      "question": "Quale tecnica?",
+      "question": "Cosa fa questa risposta alla critica politica originale?",
       "options": [
         {
-          "text": "Flag-waving: patriottismo per chiudere il dibattito",
+          "text": "La ignora completamente — sposta il dibattito dalla valutazione di una politica specifica alla fedeltà nazionale del critico",
           "correct": true,
-          "explanation": "Critica non è antipatriottismo."
+          "explanation": "La mossa è efficace perché mette il critico in posizione difensiva su un terreno diverso: ora deve difendere il proprio patriottismo invece di continuare la critica."
         },
         {
-          "text": "Legittima difesa nazionale",
+          "text": "Risponde indirettamente: chi critica il governo ha una responsabilità pubblica che va evidenziata",
           "correct": false,
-          "explanation": "La critica è parte della democrazia."
+          "explanation": "La responsabilità pubblica della critica si verifica nei contenuti, non nell'identità nazionale. La risposta cambia il piano del discorso per evitare i contenuti."
         },
         {
-          "text": "Argomento valido",
+          "text": "È un argomento valido: la fedeltà alle istituzioni è un prerequisito della critica legittima in una democrazia",
           "correct": false,
-          "explanation": "È solo un'appello emotivo."
+          "explanation": "Al contrario: nelle democrazie la critica alle istituzioni è una delle forme più importanti di partecipazione civica. Condizionarla alla fedeltà è una forma di silenziamento."
         }
       ]
     }
@@ -2615,22 +2615,1366 @@
     "scenario": {
       "title": "Campagna",
       "situation": "Uno spot mostra persone bellissime e felici che ballano con il logo del partito. Nessuna politica discussa.",
-      "question": "Quale tecnica?",
+      "question": "Cosa dovrebbe chiedersi uno spettatore critico di questo spot che il spot non risponde?",
       "options": [
         {
-          "text": "Beautiful people: associa emozioni positive senza contenuti",
+          "text": "Quali sono le proposte concrete del partito — lo spot non risponde perché non vuole che tu te lo chieda prima di formarti un'impressione positiva",
           "correct": true,
-          "explanation": "Bellezza e felicità non dicono nulla sulle proposte."
+          "explanation": "Lo spot costruisce un'associazione emotiva (bellezza, felicità, musica, logo) progettata per precedere la valutazione razionale. La domanda 'ma cosa propongono?' non ha risposta nel messaggio."
         },
         {
-          "text": "Campagna positiva",
+          "text": "Se le persone sono attori pagati o sostenitori reali",
           "correct": false,
-          "explanation": "Senza contenuti, è solo suggestione."
+          "explanation": "È una domanda legittima, ma non la più critica. Anche con sostenitori reali, il problema rimane: nessuna proposta è comunicata."
         },
         {
-          "text": "Marketing legittimo",
+          "text": "Perché il partito non usa i propri leader invece di persone anonime",
           "correct": false,
-          "explanation": "Marketing senza contenuto è manipolazione."
+          "explanation": "I leader potrebbero evocare reazioni negative. La scelta di usare volti neutrali è deliberata — ma il problema fondamentale resta l'assenza di contenuto, non l'assenza dei leader."
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "icon": "⏳",
+    "name": "Principio di Scarsità",
+    "subtitle": "L'Urgenza Artificiale",
+    "category": "manipulation",
+    "catLabel": "Manipolazione",
+    "summary": "Creare urgenza artificiale per impedire la riflessione critica e forzare decisioni impulsive.",
+    "definition": "Il principio di scarsità sfrutta l'avversione alla perdita: il cervello attribuisce più valore alle cose difficili da ottenere o in via di esaurimento. I manipolatori creano artificialmente questa condizione per cortocircuitare il pensiero razionale.",
+    "historicalContext": "Teorizzato da Robert Cialdini nel 1984 come uno dei sei principi della persuasione. Usato da venditori, truffatori e in contesti di interrogatorio per accelerare decisioni a sfavore della vittima.",
+    "psychologicalMechanism": "Attiva il bias di perdita avversiva (loss aversion): perdere qualcosa pesa psicologicamente circa il doppio rispetto al guadagno equivalente. L'urgenza bypassa la corteccia prefrontale (pensiero lento, razionale) e attiva risposte emotive rapide.",
+    "variants": [
+      {
+        "name": "Scarsità temporale",
+        "desc": "\"Offerta scade tra un'ora\", countdown timer artificiali"
+      },
+      {
+        "name": "Scarsità quantitativa",
+        "desc": "\"Solo 2 posti rimasti\", \"Ultimi pezzi disponibili\""
+      },
+      {
+        "name": "Esclusività",
+        "desc": "\"Solo per i nostri clienti premium\", accesso limitato fittizio"
+      },
+      {
+        "name": "Scarsità informativa",
+        "desc": "\"Condividi prima che lo cancellino\", documenti \"segreti\""
+      }
+    ],
+    "redFlags": [
+      "Presenza di countdown o scadenze improvvise",
+      "Pressione a decidere \"ora\" senza tempo per riflettere",
+      "Offerta che non sarà più disponibile se non agisci subito",
+      "Cuore che accelera: stai usando il cervello veloce"
+    ],
+    "caseStudies": [
+      {
+        "title": "Interrogatori e negoziazioni",
+        "description": "\"Questa è la tua unica possibilità di collaborare\" crea falsa scarsità dell'opportunità, inducendo decisioni affrettate sotto stress.",
+        "lesson": "Le offerte genuine sopravvivono al tempo. Se non puoi aspettare, è una trappola."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Fermati",
+        "action": "Il cuore accelera? È un segnale: qualcuno sta attivando il tuo Sistema 1"
+      },
+      {
+        "step": "Richiedi tempo",
+        "action": "\"Ho bisogno di tempo per pensarci\" — un'offerta reale sarà ancora valida domani"
+      },
+      {
+        "step": "Verifica l'urgenza",
+        "action": "L'urgenza è verificabile o è semplicemente affermata?"
+      }
+    ],
+    "scenario": {
+      "title": "Trattativa commerciale",
+      "situation": "\"Questo prezzo è valido solo oggi. Il mio responsabile mi ha dato l'autorizzazione solo per questa mattina. Poi torna al prezzo pieno.\"",
+      "question": "Qual è il segnale più affidabile che questa scadenza non è reale?",
+      "options": [
+        {
+          "text": "Un'offerta genuinamente limitata può aspettare il tempo necessario per rifletterci — la pressione a decidere 'adesso' serve a impedire la riflessione, non a informarti su un limite reale",
+          "correct": true,
+          "explanation": "Le scadenze reali esistono — ma di solito vengono comunicate con anticipo e possono essere verificate. Una scadenza costruita sul momento è progettata per attivare l'impulso, non per informare."
+        },
+        {
+          "text": "Il venditore cita il responsabile: questo aggiunge credibilità alla scadenza",
+          "correct": false,
+          "explanation": "Al contrario: la catena gerarchica ('il mio responsabile ha detto') è una tecnica standard per rendere la scadenza esterna e non negoziabile. Raramente è verificabile sul momento."
+        },
+        {
+          "text": "Il prezzo: se fosse davvero conveniente, l'urgenza non sarebbe necessaria",
+          "correct": false,
+          "explanation": "Non è necessariamente vero — le offerte limitate genuine esistono. Il prezzo non è l'indicatore giusto; lo è la struttura della pressione temporale."
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "icon": "🤝",
+    "name": "Principio di Reciprocità",
+    "subtitle": "Il Debito Emotivo",
+    "category": "manipulation",
+    "catLabel": "Manipolazione",
+    "summary": "Sfruttare il senso del dovere sociale: un favore non richiesto crea l'obbligo psicologico di ricambiare.",
+    "definition": "Il principio di reciprocità è una norma sociale universale: se qualcuno ci fa un favore, ci sentiamo in debito e vogliamo ricambiare. I manipolatori usano piccoli doni o favori strategici per creare questo senso di obbligo e poi chiedere qualcosa di molto più grande in cambio.",
+    "historicalContext": "Documentato da Robert Cialdini e dall'antropologia culturale come norma universale. Sfruttato sistematicamente nei processi di reclutamento di informatori, nelle sette e nelle tecniche di vendita aggressive.",
+    "psychologicalMechanism": "L'obbligo di reciprocità è profondamente radicato evolutivamente: le comunità che cooperavano sopravvivevano meglio. Il senso di colpa per non ricambiare è un meccanismo di coercizione sociale che il manipolatore trasforma in leva.",
+    "variants": [
+      {
+        "name": "Regalo inaspettato",
+        "desc": "Dono non richiesto prima di una richiesta importante"
+      },
+      {
+        "name": "Favore strategico",
+        "desc": "Aiuto pratico che crea dipendenza emotiva"
+      },
+      {
+        "name": "Concessione apparente",
+        "desc": "Riduzione della richiesta iniziale per sembrare ragionevoli"
+      },
+      {
+        "name": "Complimento-richiesta",
+        "desc": "Elogio improvviso immediatamente prima di chiedere un favore scomodo"
+      }
+    ],
+    "redFlags": [
+      "Regalo o favore non richiesto subito seguito da una richiesta",
+      "Senso di colpa se non \"ricambi\" qualcosa che non hai chiesto",
+      "Timing sospetto: favore e richiesta ravvicinati",
+      "La richiesta è molto più grande del favore ricevuto"
+    ],
+    "caseStudies": [
+      {
+        "title": "Reclutamento di informatori",
+        "description": "I servizi di intelligence usano la reciprocità sistematicamente: prima piccoli favori (un visto, un'informazione utile), poi richieste crescenti di informazioni riservate.",
+        "lesson": "Hai il diritto di accettare un favore senza sentirti obbligato a ricambiare. La reciprocità è una norma sociale, non un contratto."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Analizza il timing",
+        "action": "Il favore è arrivato subito prima di una richiesta? Potrebbe non essere casuale."
+      },
+      {
+        "step": "Separa i due eventi",
+        "action": "\"Ho ricevuto X, ma non ho nessun obbligo di dare Y\" — il debito è psicologico, non reale."
+      },
+      {
+        "step": "Riconosci il diritto",
+        "action": "Puoi accettare cortesia senza comprare nulla in cambio."
+      }
+    ],
+    "scenario": {
+      "title": "Collega al lavoro",
+      "situation": "Un collega che non ti ha mai aiutato prima ti porta il caffè, ti fa un complimento sul tuo lavoro e poi ti chiede di coprirlo per un'assenza non autorizzata.",
+      "question": "Cosa dovresti ricordarti quando senti il senso di colpa per non aver ricambiato un favore non richiesto?",
+      "options": [
+        {
+          "text": "Un favore non richiesto non crea un obbligo reale: il debito che senti è una costruzione psicologica, non un contratto",
+          "correct": true,
+          "explanation": "La norma di reciprocità è potente e universale — ma si applica a scambi consensuali. Un favore strategico non è un regalo: è un investimento. Puoi accettare l'investimento senza pagare il rendimento atteso."
+        },
+        {
+          "text": "Che hai il diritto di ricambiare, ma puoi proporre qualcosa di diverso invece di quello che ti viene chiesto",
+          "correct": false,
+          "explanation": "Questo approccio accetta la premessa del debito. Ma il punto è che non ci sono debiti da estinguere — solo la pressione psicologica di una norma sfruttata strategicamente."
+        },
+        {
+          "text": "Che la relazione lavorativa potrebbe deteriorarsi se non accontenti il collega",
+          "correct": false,
+          "explanation": "Questa preoccupazione è reale in certi contesti, ma accettarla come ragione significa lasciarsi manipolare dal secondo strato della tecnica: la minaccia implicita alle relazioni."
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "icon": "⚓",
+    "name": "Effetto Ancora",
+    "subtitle": "Il Punto di Partenza Truccato",
+    "category": "manipulation",
+    "catLabel": "Manipolazione",
+    "summary": "La prima informazione ricevuta condiziona in modo sproporzionato tutte le valutazioni successive.",
+    "definition": "L'effetto ancora (anchoring) descrive la tendenza del cervello a fare eccessivo affidamento sulla prima informazione disponibile. Una volta fissata l'ancora, tutte le valutazioni successive vengono misurate relativamente ad essa, anche se l'ancora è arbitraria o falsa.",
+    "historicalContext": "Dimostrato da Kahneman e Tversky nel 1974 come uno dei principali bias cognitivi. Usato sistematicamente in negoziazioni, interrogatori, pubblicità e processi legali.",
+    "psychologicalMechanism": "Il cervello usa la prima informazione come punto di riferimento per risparmiare energia cognitiva. L'aggiustamento successivo rispetto all'ancora è quasi sempre insufficiente: anche sapendo dell'effetto ancora, non riusciamo a correggere completamente.",
+    "variants": [
+      {
+        "name": "Ancora di prezzo",
+        "desc": "Prezzo gonfiato iniziale per rendere quello reale \"conveniente\""
+      },
+      {
+        "name": "Ancora estrema",
+        "desc": "Richiesta assurda per fare sembrare ragionevole quella vera"
+      },
+      {
+        "name": "Ancora numerica",
+        "desc": "Qualsiasi numero nella conversazione influenza le stime successive"
+      },
+      {
+        "name": "Ancora in interrogatorio",
+        "desc": "Accuse gravissime iniziali per ottenere ammissioni \"minori\""
+      }
+    ],
+    "redFlags": [
+      "La conversazione inizia con un numero o una richiesta estrema",
+      "Ti senti sollevato quando arriva una proposta \"ridotta\"",
+      "Stai valutando quanto hai risparmiato, non se il prezzo è equo",
+      "La prima offerta era talmente irragionevole che qualsiasi altra sembra ragionevole"
+    ],
+    "caseStudies": [
+      {
+        "title": "Negoziazione degli ostaggi",
+        "description": "I negoziatori sanno che la prima cifra comunicata diventa l'ancora. Chi fa la prima offerta controlla il campo gravitazionale della trattativa.",
+        "lesson": "Ignora la prima offerta e valuta l'attuale per quello che è, non per il risparmio rispetto all'ancora."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Ignora l'ancora",
+        "action": "Se la prima cifra o richiesta era assurda, cancellala mentalmente prima di valutare la nuova."
+      },
+      {
+        "step": "Fai un reset",
+        "action": "\"Se non avessi sentito la prima proposta, questa mi sembrerebbe equa?\""
+      },
+      {
+        "step": "Stabilisci la tua ancora",
+        "action": "In una negoziazione, fai tu la prima offerta per controllare il punto di riferimento."
+      }
+    ],
+    "scenario": {
+      "title": "Acquisto auto",
+      "situation": "Il concessionario mostra prima un'auto da 45.000€, poi ti propone quella che ti interessa a 28.000€. Ti sembra un ottimo affare.",
+      "question": "Se non avessi visto la prima auto da 45.000€, come valuteresti i 28.000€?",
+      "options": [
+        {
+          "text": "In base al valore di mercato reale — non al risparmio rispetto a una cifra costruita dal venditore per diventare il tuo punto di riferimento",
+          "correct": true,
+          "explanation": "Questo è il 'reset' mentale che l'effetto ancora rende difficile. Il problema non è che 28.000€ siano troppi o troppo pochi in assoluto — è che vengono valutati in relazione a un'ancora arbitraria, non al mercato."
+        },
+        {
+          "text": "Non cambierebbe: un prezzo basso è conveniente indipendentemente dal contesto",
+          "correct": false,
+          "explanation": "Questo presuppone che 28.000€ siano 'bassi' — ma basso rispetto a cosa? All'ancora di 45.000€ o al valore reale? Senza il confronto di mercato, non sappiamo."
+        },
+        {
+          "text": "Sarebbe più difficile valutarlo senza un punto di riferimento",
+          "correct": false,
+          "explanation": "Il punto di riferimento corretto non è l'altra auto in showroom — è il prezzo di mercato dello stesso modello. Avere meno ancore significa dover cercare il riferimento giusto, non restare senza informazioni."
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "icon": "🔍",
+    "name": "Bias di Conferma",
+    "subtitle": "La Bolla Cognitiva",
+    "category": "manipulation",
+    "catLabel": "Manipolazione",
+    "summary": "Cercare e sopravvalutare le informazioni che confermano ciò che già crediamo, ignorando quelle che ci contraddicono.",
+    "definition": "Il bias di conferma è la tendenza a cercare, interpretare e memorizzare le informazioni in modo da confermare le proprie credenze preesistenti. I manipolatori non devono mentire: basta filtrare la realtà per alimentare solo ciò che rafforza le convinzioni già presenti.",
+    "historicalContext": "Documentato da Peter Wason nel 1960 e approfondito da Kahneman. È la base cognitiva su cui si costruisce la propaganda contemporanea: gli algoritmi dei social media lo amplificano automaticamente creando camere d'eco.",
+    "psychologicalMechanism": "Il cervello usa le credenze preesistenti come filtro percettivo. Le informazioni coerenti vengono elaborate più facilmente (fluency cognitiva), quelle contraddittorie generano disagio (dissonanza cognitiva) e vengono scartate. Ci sentiamo \"intelligenti\" mentre in realtà seguiamo un percorso tracciato.",
+    "variants": [
+      {
+        "name": "Camera d'eco",
+        "desc": "Ambiente informativo dove circolano solo visioni simili"
+      },
+      {
+        "name": "Filtraggio algoritmico",
+        "desc": "Algoritmi che amplificano contenuti già apprezzati"
+      },
+      {
+        "name": "Conferma selettiva",
+        "desc": "Cercare attivamente solo fonti che confermano la propria posizione"
+      },
+      {
+        "name": "Lettura distorta",
+        "desc": "Interpretare informazioni ambigue come conferma della propria tesi"
+      }
+    ],
+    "redFlags": [
+      "Tutte le tue fonti la pensano esattamente come te",
+      "Ti senti \"finalmente informato\" rispetto a chi non capisce",
+      "Il contro-argomento ti sembra assurdo senza averlo analizzato",
+      "Le notizie che ricevi ti danno sempre ragione"
+    ],
+    "caseStudies": [
+      {
+        "title": "Propaganda e controllo informativo",
+        "description": "I regimi autoritari non censurano solo: alimentano selettivamente i bias di conferma degli oppositori interni per renderli prevedibili e controllabili. Chi crede di essere \"svegliato\" segue esattamente il percorso tracciato.",
+        "lesson": "Se tutto quello che leggi ti dà ragione, probabilmente stai vivendo in una bolla manipolata."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Cerca il contraddittorio",
+        "action": "Trova attivamente l'argomento migliore contro la tua posizione"
+      },
+      {
+        "step": "Diversifica le fonti",
+        "action": "Se tutte le tue fonti concordano, aggiungi voci dissonanti"
+      },
+      {
+        "step": "Chiediti chi ha tracciato il percorso",
+        "action": "\"Chi beneficia del fatto che io creda a queste informazioni?\""
+      }
+    ],
+    "scenario": {
+      "title": "Social media",
+      "situation": "Ogni giorno il tuo feed mostra articoli che confermano le tue opinioni politiche. Ti senti sempre più sicuro di avere ragione e sempre più convinto che chi la pensa diversamente sia disinformato.",
+      "question": "La tua certezza crescente sulle tue posizioni politiche dopo mesi di questo feed è un segnale positivo o di allarme?",
+      "options": [
+        {
+          "text": "Di allarme: chi si informa su temi complessi con fonti diverse di solito riconosce più sfumature — non più certezze",
+          "correct": true,
+          "explanation": "La certezza crescente su temi strutturalmente complessi come la politica è statisticamente sospetta. Indica esposizione selettiva a informazioni che confermano, non apprendimento che complica."
+        },
+        {
+          "text": "Positivo: certezza basata su informazioni coerenti significa che hai sviluppato una visione documentata",
+          "correct": false,
+          "explanation": "La coerenza tra le fonti non indica accuratezza se le fonti sono state selezionate dall'algoritmo perché già concordano con te. La coerenza è un effetto del filtro, non della qualità."
+        },
+        {
+          "text": "Neutro: dipende dalla correttezza delle fonti che stai seguendo",
+          "correct": false,
+          "explanation": "Questa risposta presuppone che tu possa valutare la correttezza delle fonti dall'interno della bolla — ma è esattamente ciò che la bolla rende difficile."
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "icon": "⚖️",
+    "name": "Falso Dilemma",
+    "subtitle": "La Trappola Bianco o Nero",
+    "category": "framing",
+    "catLabel": "Inquadratura",
+    "summary": "Ridurre artificialmente una situazione complessa a soli due estremi opposti, eliminando tutte le alternative intermedie.",
+    "definition": "Il falso dilemma (black-and-white fallacy) è una fallacia logica che presenta una situazione come se esistessero solo due opzioni possibili — tipicamente una accettabile e una inaccettabile — eliminando deliberatamente lo spazio delle sfumature, delle posizioni intermedie e delle soluzioni alternative.",
+    "historicalContext": "Tecnica centrale nella retorica bellica e nei totalitarismi: 'Chi non è con noi è contro di noi' (Bush, 2001). Usata sistematicamente per eliminare le posizioni moderate e forzare la scelta di campo.",
+    "psychologicalMechanism": "Sfrutta la tendenza evolutiva del cervello alla categorizzazione binaria (sicuro/pericoloso). In situazioni di stress o urgenza percepita, il pensiero si semplifica. L'eliminazione delle alternative crea un falso senso di necessità della scelta.",
+    "variants": [
+      {
+        "name": "O con noi o contro di noi",
+        "desc": "Elimina qualsiasi posizione neutrale o critica"
+      },
+      {
+        "name": "Aut aut asimmetrico",
+        "desc": "Una delle due opzioni è chiaramente peggiore dell'altra"
+      },
+      {
+        "name": "False choice",
+        "desc": "Opzioni presentate come esaustive ma non lo sono"
+      },
+      {
+        "name": "Dilemma morale forzato",
+        "desc": "Situazione complessa ridotta a bene assoluto vs male assoluto"
+      }
+    ],
+    "redFlags": [
+      "Uso ripetuto di 'o... o...' senza terze opzioni",
+      "Chi non sceglie viene etichettato come traditore o codardo",
+      "Posizioni moderate presentate come impossibili o disoneste",
+      "Urgenza costruita per non permettere riflessione sulle alternative"
+    ],
+    "caseStudies": [
+      {
+        "title": "Retorica post-9/11",
+        "description": "La formula 'o sei con noi o sei con i terroristi' ha eliminato ogni spazio per una critica ragionata delle politiche antiterrorismo, equiparando il dissenso alla complicità.",
+        "lesson": "Le situazioni complesse raramente hanno solo due uscite. La terza opzione — spesso la più articolata — viene eliminata intenzionalmente."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Nomina la terza opzione",
+        "action": "Identifica esplicitamente le alternative omesse: 'Esistono anche le opzioni C, D ed E'"
+      },
+      {
+        "step": "Chiedi esaustività",
+        "action": "'Perché sarebbero solo queste due le opzioni possibili?'"
+      },
+      {
+        "step": "Rifiuta la premessa binaria",
+        "action": "Non accettare il campo di gioco: 'Non è una scelta binaria'"
+      }
+    ],
+    "scenario": {
+      "title": "Dibattito sulla sicurezza",
+      "situation": "Un politico: 'O approvi questa legge di sicurezza, o vuoi che i criminali siano liberi di agire. Non ci sono vie di mezzo.'",
+      "question": "Cosa rivela della realtà del problema il fatto che vengano presentate solo due opzioni?",
+      "options": [
+        {
+          "text": "Che chi parla ha interesse a impedire la discussione di alternative che potrebbero non portare all'obiettivo voluto",
+          "correct": true,
+          "explanation": "I dilemmi binari sono rarissimi nelle politiche pubbliche. Presentarne uno quasi sempre significa che l'alternativa 'o A o B' è costruita per escludere C, D, E — soluzioni che potrebbero essere più efficaci ma meno utili a chi fa la pressione."
+        },
+        {
+          "text": "Che il tema è davvero binario: sulla sicurezza non ci sono sfumature",
+          "correct": false,
+          "explanation": "Questa è esattamente la premessa che il dilemma vuole far accettare. In realtà le politiche di sicurezza hanno sempre trade-off, gradazioni e alternative — e sono tra i temi più dibattuti in democrazia."
+        },
+        {
+          "text": "Che il politico ha molta esperienza: semplificare è una qualità di governo",
+          "correct": false,
+          "explanation": "La semplificazione che aiuta la comprensione è diversa dalla semplificazione che elimina opzioni reali. Presentare solo due scelte su un tema complesso non è comunicazione efficace: è riduzione dello spazio decisionale."
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "icon": "💝",
+    "name": "Love Bombing",
+    "subtitle": "Il Bombardamento d'Amore",
+    "category": "manipulation",
+    "catLabel": "Manipolazione",
+    "summary": "Sommergere qualcuno di attenzioni, complimenti e affetto intensivi per creare dipendenza emotiva e abbattere le difese critiche.",
+    "definition": "Il love bombing è una tecnica di manipolazione in cui si inondate la vittima di attenzioni eccessive, lodi, affetto e disponibilità totale in modo deliberato e strategico. L'obiettivo è creare dipendenza emotiva, accelerare il legame affettivo e abbassare le difese critiche prima di iniziare a controllare o sfruttare la persona.",
+    "historicalContext": "Documentato inizialmente nelle dinamiche delle sette religiose degli anni '70 (Moon, Scientology). Oggi riconosciuto come fase iniziale delle relazioni narcisistiche e abusive, nonché tecnica di reclutamento nelle organizzazioni estremiste.",
+    "psychologicalMechanism": "Attiva i circuiti della dopamina con ricompense imprevedibili e intense. Il cervello associa la fonte di tutto quell'affetto a sicurezza e valore personale. Quando il bombardamento cessa — come avviene sempre — la dipendenza creata spinge a fare qualsiasi cosa per ritrovarlo.",
+    "variants": [
+      {
+        "name": "Romantico",
+        "desc": "Intensità esagerata nelle relazioni sentimentali: messaggi continui, dichiarazioni precoci, 'sei unico/a'"
+      },
+      {
+        "name": "Settario",
+        "desc": "La comunità ti accoglie con calore totale per isolarti dal mondo esterno"
+      },
+      {
+        "name": "Professionale",
+        "desc": "Superiore che loda eccessivamente per creare lealtà assoluta"
+      },
+      {
+        "name": "Digitale",
+        "desc": "Influencer o community che ti sommergono di validazione per creare dipendenza dalla piattaforma"
+      }
+    ],
+    "redFlags": [
+      "Intensità affettiva sproporzionata alla durata della relazione",
+      "Dichiarazioni d'amore o lealtà straordinariamente precoci",
+      "Tentativi di monopolizzare il tuo tempo e isolarti da altri affetti",
+      "Sensazione di essere 'finalmente capito/a' dopo pochissimo tempo",
+      "Il ritiro delle attenzioni viene usato come punizione"
+    ],
+    "caseStudies": [
+      {
+        "title": "Reclutamento nelle sette",
+        "description": "Il 'love bombing' è la prima fase del ciclo di controllo mentale documentato da Robert Lifton: accoglienza calorosa, senso di comunità totale, risposte a tutti i tuoi bisogni emotivi — prima che inizino le richieste.",
+        "lesson": "L'intensità affettiva insolita è un segnale d'allarme, non una conferma di unicità. Le relazioni sane si costruiscono gradualmente."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Misura la proporzione",
+        "action": "L'intensità affettiva è proporzionata al tempo che vi conoscete?"
+      },
+      {
+        "step": "Testa la continuità",
+        "action": "Prova a dire no a qualcosa: l'affetto resta o si trasforma in pressione?"
+      },
+      {
+        "step": "Mantieni i legami esistenti",
+        "action": "Diffidate di relazioni che vogliono monopolizzare il tuo tempo e isolarti"
+      }
+    ],
+    "scenario": {
+      "title": "Nuova relazione",
+      "situation": "Dopo due settimane, una persona ti manda messaggi ogni ora, ti chiama 'l'amore della mia vita', organizza ogni tuo weekend e dice che le persone della tua vita precedente 'non ti capivano come fa lei'.",
+      "question": "Perché l'intensità emotiva nelle prime settimane è un segnale di allarme anziché di compatibilità?",
+      "options": [
+        {
+          "text": "Crea dipendenza affettiva prima che si formi un giudizio realistico sull'altra persona — e l'isolamento progressivo rafforza questa dipendenza",
+          "correct": true,
+          "explanation": "Una relazione sana si costruisce sulla conoscenza reciproca progressiva. L'intensità rapidissima salta questa fase: crea un legame forte su basi inesistenti, poi lo usa come leva."
+        },
+        {
+          "text": "Significa che la persona è particolarmente empatica e attenta ai bisogni altrui",
+          "correct": false,
+          "explanation": "L'empatia autentica rispetta i tempi dell'altro. L'intensità unilaterale e la velocità con cui vengono definiti 'l'amore della vita' sono segnali di proiezione, non di conoscenza."
+        },
+        {
+          "text": "Dipende: alcune persone esprimono l'amore in modo più intenso di altre per carattere",
+          "correct": false,
+          "explanation": "Vero — ma qui non è solo l'intensità. È l'intensità combinata con l'isolamento sistematico dalle reti di supporto esistenti. Questa combinazione specifica è il pattern da riconoscere."
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "icon": "🕳️",
+    "name": "Sunk Cost Fallacy",
+    "subtitle": "La Trappola del Costo Irrecuperabile",
+    "category": "manipulation",
+    "catLabel": "Manipolazione",
+    "summary": "Continuare un'azione sbagliata perché 'abbiamo già investito troppo', ignorando i costi futuri e le alternative migliori.",
+    "definition": "La sunk cost fallacy (fallacia del costo irrecuperabile) è il bias cognitivo per cui continuiamo a investire tempo, denaro o energia in qualcosa che non funziona, solo perché abbiamo già investito molto in precedenza. I costi passati non recuperabili vengono trattati come ragione per non cambiare rotta, anche quando è razionalmente conveniente farlo.",
+    "historicalContext": "Documentato da Kahneman e Tversky nella teoria del prospetto. Sfruttato sistematicamente per mantenere le guerre ('non possiamo ritirarci, troppi soldati sono morti'), nei casinò, nelle relazioni abusive e nelle vendite a rate.",
+    "psychologicalMechanism": "Il cervello registra le perdite con intensità doppia rispetto ai guadagni equivalenti (loss aversion). Abbandonare un investimento sembra 'ammettere di aver sbagliato' — dolore psicologico che si evita continuando a investire, trasformando una perdita in spreco totale.",
+    "variants": [
+      {
+        "name": "Finanziario",
+        "desc": "Mantenere azioni in perdita: 'Ho già perso troppo per vendere ora'"
+      },
+      {
+        "name": "Relazionale",
+        "desc": "Restare in relazioni tossiche: 'Ho investito 10 anni in questa persona'"
+      },
+      {
+        "name": "Militare/politico",
+        "desc": "Continuare guerre o politiche fallimentari: 'Non possiamo ritirarci, sarebbero morti invano'"
+      },
+      {
+        "name": "Progettuale",
+        "desc": "Continuare progetti falliti: 'Abbiamo già speso troppo per fermarci'"
+      }
+    ],
+    "redFlags": [
+      "Giustificazione basata su 'ho già speso/investito troppo'",
+      "Decisioni future condizionate da perdite passate irrecuperabili",
+      "Difficoltà a cambiare rotta anche quando è razionalmente conveniente",
+      "Confusione tra 'ammettere l'errore' e 'sprecare l'investimento'"
+    ],
+    "caseStudies": [
+      {
+        "title": "Concorde",
+        "description": "Il governo britannico e francese continuò a finanziare il Concorde anche dopo aver capito che non sarebbe stato commercialmente redditizio, perché 'troppo era già stato investito'. Il costo totale fu enormemente maggiore di quanto sarebbe costato fermarsi.",
+        "lesson": "Il costo passato è irrecuperabile: la decisione corretta guarda sempre solo ai costi e benefici futuri."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Azzera il passato",
+        "action": "'Se partissi da zero oggi, farei questa scelta?' — il passato non conta per la decisione futura"
+      },
+      {
+        "step": "Calcola il futuro",
+        "action": "Valuta solo i costi e i benefici futuri, non quelli già sostenuti"
+      },
+      {
+        "step": "Separa errore da spreco",
+        "action": "Cambiare rotta non significa sprecare: significa smettere di moltiplicare l'errore"
+      }
+    ],
+    "scenario": {
+      "title": "Progetto aziendale",
+      "situation": "Un progetto ha già consumato €200.000 e 18 mesi di lavoro. Le analisi mostrano che non sarà mai redditizio. Il CEO dice: 'Non possiamo abbandonarlo ora, abbiamo già investito troppo.'",
+      "question": "Perché i 200.000 euro già spesi non dovrebbero influenzare questa decisione?",
+      "options": [
+        {
+          "text": "Perché quei soldi sono irrecuperabili: la decisione corretta si basa solo su costi e benefici futuri, non su quanto è già stato perso",
+          "correct": true,
+          "explanation": "Questo è il principio economico dei costi irrecuperabili. Continuare un progetto non redditizio per 'non sprecare' ciò che è già stato speso significa sprecare anche i costi futuri."
+        },
+        {
+          "text": "Perché non ci sono ancora prove definitive che il progetto fallirà — le proiezioni negative spesso si sbagliano",
+          "correct": false,
+          "explanation": "L'incertezza sulle proiezioni è reale, ma è un argomento separato. Se ci sono prove sufficienti di non redditività, l'investimento passato non lo rende più promettente."
+        },
+        {
+          "text": "Perché la responsabilità verso i dipendenti coinvolti è più importante del profitto",
+          "correct": false,
+          "explanation": "Anche questo è un argomento separato e legittimo — ma è diverso dal ragionamento sui costi irrecuperabili. Confondere le due cose è un errore cognitivo ulteriore."
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "icon": "✨",
+    "name": "Effetto Alone",
+    "subtitle": "Il Bagliore che Acceca",
+    "category": "manipulation",
+    "catLabel": "Manipolazione",
+    "summary": "Attribuire qualità positive in ogni ambito a una persona o prodotto sulla base di una singola caratteristica positiva.",
+    "definition": "L'effetto alone (halo effect) è un bias cognitivo per cui una singola caratteristica positiva (o negativa) di una persona o entità influenza la percezione globale in modo sproporzionato. Chi è fisicamente attraente viene percepito come più intelligente, onesto e competente. Chi ha successo in un campo viene considerato esperto in tutti gli altri.",
+    "historicalContext": "Scoperto da Edward Thorndike nel 1920 in studi militari: gli ufficiali valutavano i soldati attraenti come più intelligenti e affidabili. Oggi è la base del marketing aspirazionale, dell'influencer economy e del culto della personalità.",
+    "psychologicalMechanism": "Il cervello usa scorciatoie cognitive per valutare rapidamente: se una caratteristica è positiva, estende la valutazione positiva agli altri attributi non verificati (overgeneralizzazione). L'effetto contrario — il corno — funziona simmetricamente con caratteristiche negative.",
+    "variants": [
+      {
+        "name": "Bellezza-competenza",
+        "desc": "Persone attraenti percepite come più intelligenti e affidabili"
+      },
+      {
+        "name": "Successo-saggezza",
+        "desc": "Miliardari o celebrità considerati esperti di tutto"
+      },
+      {
+        "name": "Nazionale-qualità",
+        "desc": "Prodotti di certi Paesi percepiti come superiori in ogni settore"
+      },
+      {
+        "name": "Corno (effetto inverso)",
+        "desc": "Una caratteristica negativa contamina la percezione totale"
+      }
+    ],
+    "redFlags": [
+      "Fidarsi delle opinioni di qualcuno su argomenti distanti dalla loro competenza",
+      "Valutare la qualità di un argomento in base all'aspetto o al successo di chi lo propone",
+      "Credere a qualsiasi cosa dica qualcuno perché 'ha fatto bene X'",
+      "Ammirare o sfiduciare un intero brand per un singolo prodotto"
+    ],
+    "caseStudies": [
+      {
+        "title": "Celebrity endorsement",
+        "description": "Le aziende pagano cifre enormi per avere un attore o sportivo di successo associato al loro prodotto, anche se la persona non ha alcuna competenza nel settore. L'alone del successo si trasferisce al brand.",
+        "lesson": "Il successo in un campo non garantisce competenza in un altro. Separa sempre chi dice qualcosa da cosa dice."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Separa i domini",
+        "action": "'In cosa esattamente è esperto/a? Questo ambito rientra nella sua competenza verificata?'"
+      },
+      {
+        "step": "Valuta l'argomento",
+        "action": "Concentrati sul contenuto di ciò che viene detto, non su chi lo dice"
+      },
+      {
+        "step": "Cerca il curriculum specifico",
+        "action": "Un'esperienza di successo in X non trasferisce competenza in Y"
+      }
+    ],
+    "scenario": {
+      "title": "Consiglio di investimento",
+      "situation": "Un famoso attore promuove sui social un'opportunità di investimento in criptovalute. 'Se lui ha avuto successo nella vita, sa quello che fa.'",
+      "question": "Perché il ragionamento 'ha avuto successo nella vita, quindi sa quello che fa' è fallace?",
+      "options": [
+        {
+          "text": "Perché il successo in un dominio non trasferisce competenza in uno completamente diverso — eccellere nella recitazione non implica competenza in analisi finanziaria",
+          "correct": true,
+          "explanation": "Il cervello generalizza la credibilità ('bravo in tutto') — questa è l'euristica sfruttata. Ma la competenza è specifica: un chirurgo eccellente non è necessariamente un buon economista, e viceversa."
+        },
+        {
+          "text": "Perché si tratta di investimenti rischiosi e il consiglio di un attore va preso con cautela",
+          "correct": false,
+          "explanation": "Questo è parzialmente corretto ma non individua il meccanismo. Il problema non è solo la rischiosità: è che la notorietà non è credenziale per nessun tipo di investimento, rischioso o no."
+        },
+        {
+          "text": "Perché gli attori vengono pagati per promuovere prodotti e quindi non sono credibili",
+          "correct": false,
+          "explanation": "Questo sarebbe vero se ci fosse una sponsorizzazione dichiarata. Il problema qui è il ragionamento del follower ('ha avuto successo'), non necessariamente la condotta dell'attore."
+        }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "icon": "🌿",
+    "name": "Appeal to Nature",
+    "subtitle": "Il Fascino del Naturale",
+    "category": "framing",
+    "catLabel": "Inquadratura",
+    "summary": "Assumere che ciò che è 'naturale' sia automaticamente buono, sano o giusto, e che ciò che è 'artificiale' sia cattivo o pericoloso.",
+    "definition": "L'appello alla natura (appeal to nature) è una fallacia logica che afferma o implica che qualcosa sia buono, giusto o superiore perché è 'naturale', e cattivo o inferiore perché è 'artificiale' o 'sintetico'. Non considera che la naturalità di per sé non determina né la sicurezza né il valore morale di qualcosa.",
+    "historicalContext": "Radici nel romanticismo ottocentesco e nel rousseauiano 'buon selvaggio'. Oggi pilastro del marketing di prodotti biologici, integratori, medicina alternativa e movimenti antivaccini. Usato anche per giustificare conservatorismi sociali ('è contro natura').",
+    "psychologicalMechanism": "Sfrutta la diffidenza evolutiva verso il nuovo e l'ignoto, e l'associazione tra natura e purezza. Il marketing 'green' ha potenziato questo bias: 'naturale' è diventato sinonimo automatico di 'sicuro', 'sano', 'migliore' — indipendentemente dalla realtà.",
+    "variants": [
+      {
+        "name": "Marketing naturale",
+        "desc": "'Ingredienti 100% naturali' = automaticamente salutare"
+      },
+      {
+        "name": "Medicina alternativa",
+        "desc": "'Rimedi naturali' vs 'veleni chimici farmaceutici'"
+      },
+      {
+        "name": "Conservatorismo naturalistico",
+        "desc": "'È contro natura' per giustificare norme sociali"
+      },
+      {
+        "name": "Anti-tecnologia",
+        "desc": "'Il cibo non OGM è più sano' senza prove specifiche"
+      }
+    ],
+    "redFlags": [
+      "'Naturale' usato come sinonimo automatico di 'sicuro' o 'sano'",
+      "'Artificiale' o 'chimico' usati come insulti senza contesto specifico",
+      "Mancanza di evidenze specifiche, solo riferimento alla naturalità",
+      "Argomenti sociali basati su 'è contro natura'"
+    ],
+    "caseStudies": [
+      {
+        "title": "Arsenico e penicillina",
+        "description": "L'arsenico è perfettamente naturale ed è un veleno mortale. La penicillina è prodotta industrialmente e ha salvato centinaia di milioni di vite. La natura non è né buona né cattiva: è indifferente.",
+        "lesson": "La naturalità non determina sicurezza o efficacia. Ogni sostanza va valutata per le sue proprietà specifiche, non per la sua origine."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Richiedi prove specifiche",
+        "action": "'Naturale' non è una prova: quali evidenze scientifiche specifiche supportano la claim?"
+      },
+      {
+        "step": "Porta controesempi",
+        "action": "Veleni naturali, medicine sintetiche salvavita: la naturalità è irrilevante"
+      },
+      {
+        "step": "Separa origine da proprietà",
+        "action": "Valuta le proprietà dimostrate, non l'origine"
+      }
+    ],
+    "scenario": {
+      "title": "Integratore alimentare",
+      "situation": "Una pubblicità: 'Il nostro integratore è 100% naturale, nessun ingrediente chimico artificiale. Scegli la salute vera.' Nessuno studio citato.",
+      "question": "Quale assunzione non dimostrata è la base logica di questo messaggio pubblicitario?",
+      "options": [
+        {
+          "text": "Che 'naturale' significhi automaticamente 'sicuro ed efficace' — una correlazione che non esiste in chimica né in farmacologia",
+          "correct": true,
+          "explanation": "Il veleno più potente conosciuto (tossina botulinica) è naturale al 100%. L'arsenicoè naturale. La correlazione 'naturale = sicuro' non ha base scientifica ma ha una fortissima base intuitiva — che il messaggio sfrutta."
+        },
+        {
+          "text": "Che l'azienda non abbia condotto studi: forse li ha ma non li cita per motivi di spazio",
+          "correct": false,
+          "explanation": "Se esistessero studi favorevoli, il messaggio li userebbe — è il modo più efficace per vendere un integratore. L'assenza di citazione è un segnale, non un'incertezza da risolvere in modo caritatevole."
+        },
+        {
+          "text": "Che i consumatori non sappiano già che gli ingredienti naturali sono preferibili",
+          "correct": false,
+          "explanation": "Questa risposta accetta la premessa che gli ingredienti naturali siano preferibili — che è esattamente l'assunzione da mettere in discussione."
+        }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "icon": "🎿",
+    "name": "Piano Inclinato",
+    "subtitle": "Slippery Slope",
+    "category": "framing",
+    "catLabel": "Inquadratura",
+    "summary": "Sostenere che una piccola azione causerà inevitabilmente una catena di eventi negativi estremi, senza dimostrare il legame causale.",
+    "definition": "Il piano inclinato (slippery slope) è una fallacia logica che afferma che una singola azione porterà inevitabilmente a una serie di conseguenze negative a cascata — sempre più gravi — senza dimostrare perché ogni passo sia inevitabile. È usata per bloccare qualsiasi cambiamento, anche ragionevole, agitando scenari estremi.",
+    "historicalContext": "Usata sistematicamente contro le riforme sociali: diritti civili, suffragio femminile, matrimonio egualitario — ogni passo è stato presentato come prima pietra di un crollo civilizzatorio. Usata anche nella retorica bellica e nel conservatorismo giuridico.",
+    "psychologicalMechanism": "Sfrutta il bias del pessimismo e la paura dell'ignoto. La mente umana tende a estrapolare linearmente: se succede A, succederà B. L'argomentazione non richiede prove per ogni step — basta evocare scenari catastrofici abbastanza vividi.",
+    "variants": [
+      {
+        "name": "Morale",
+        "desc": "'Se legalizziamo X, poi vorranno legalizzare Y e poi Z'"
+      },
+      {
+        "name": "Politico",
+        "desc": "'Questa legge ci porterà al totalitarismo'"
+      },
+      {
+        "name": "Tecnologico",
+        "desc": "'Se usiamo questa tecnologia, perderemo il controllo su tutto'"
+      },
+      {
+        "name": "Concatenazione irreversibile",
+        "desc": "'Una volta iniziato non si potrà più fermare'"
+      }
+    ],
+    "redFlags": [
+      "Conseguenze presentate come inevitabili senza prove",
+      "Salti logici non dimostrati tra A e la catastrofe finale",
+      "Lo scenario finale è estremo e molto lontano dalla proposta iniziale",
+      "Nessuna considerazione di misure intermedie o possibilità di correzione"
+    ],
+    "caseStudies": [
+      {
+        "title": "Argomenti contro il suffragio femminile",
+        "description": "Il voto alle donne fu combattuto anche con argomenti da piano inclinato: avrebbe dissolto la famiglia, poi la morale, poi la civiltà. Nulla di tutto ciò avvenne.",
+        "lesson": "La storia mostra che le riforme non generano automaticamente le catastrofi previste. Valuta ogni passo per le sue specifiche conseguenze dimostrabili."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Chiedi le prove di ogni step",
+        "action": "'Perché A porta necessariamente a B? Dove è la dimostrazione?'"
+      },
+      {
+        "step": "Identifica i freni",
+        "action": "'Esistono meccanismi che impedirebbero la progressione verso lo scenario estremo?'"
+      },
+      {
+        "step": "Valuta la proposta specifica",
+        "action": "Giudica l'azione concreta, non lo scenario catastrofico ipotetico"
+      }
+    ],
+    "scenario": {
+      "title": "Regolamentazione dei dati",
+      "situation": "Proposta di legge sulla privacy dei dati. Oppositore: 'Se diamo al governo accesso a questi dati, poi vorrà tutto. Poi saremo una dittatura sorvegliata come la Corea del Nord.'",
+      "question": "Cosa manca all'argomentazione dell'oppositore per essere logicamente valida?",
+      "options": [
+        {
+          "text": "La dimostrazione dei meccanismi causali che portano da A (legge sulla privacy dei dati) a B, C, D e infine a Z (dittatura come la Corea del Nord)",
+          "correct": true,
+          "explanation": "Un piano inclinato può descrivere una sequenza reale — ma solo se si dimostra ogni passaggio. L'argomentazione salta da 'accesso ai dati' a 'dittatura totale' senza spiegare nessuno dei passi intermedi."
+        },
+        {
+          "text": "Nulla: la storia mostra che le leggi di sorveglianza spesso si espandono nel tempo",
+          "correct": false,
+          "explanation": "Questo è un argomento valido sulla propensione delle leggi di sorveglianza ad espandersi — ma la Corea del Nord è un salto qualitativo che richiederebbe una catena causale specifica, non un pattern generico."
+        },
+        {
+          "text": "Un esempio concreto di dittatura nata specificatamente da leggi sulla privacy dei dati",
+          "correct": false,
+          "explanation": "Un esempio aiuterebbe, ma non basta: esempi storici non dimostrano necessità logica. Ciò che manca è la catena causale che spiega perché questa legge specifica produrrebbe questo risultato specifico."
+        }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "icon": "🟰",
+    "name": "Falsa Equivalenza",
+    "subtitle": "Tutto è Uguale",
+    "category": "framing",
+    "catLabel": "Inquadratura",
+    "summary": "Presentare due posizioni come equivalenti e ugualmente valide quando esistono differenze sostanziali di prova, peso morale o fattuale.",
+    "definition": "La falsa equivalenza è una fallacia che tratta due posizioni o eventi come moralmente, logicamente o fattualmente equivalenti, ignorando differenze sostanziali nella qualità delle prove, nel peso morale o nel contesto. Produce una falsa neutralità che in realtà avvantaggia la posizione più debole o più estrema.",
+    "historicalContext": "Fondamento del 'giornalismo della falsa bilancia': dare uguale spazio al consenso scientifico e a posizioni marginali crea l'impressione di un dibattito inesistente. Usata per equiparare movimenti, violenze o responsabilità di intensità radicalmente diverse.",
+    "psychologicalMechanism": "Sfrutta il desiderio di equità e neutralità. Il cervello tende a vedere la 'via di mezzo' come moderata e saggia. La presentazione bilanciata viene percepita come obiettiva, anche quando i piatti della bilancia hanno pesi enormemente diversi.",
+    "variants": [
+      {
+        "name": "Falsa bilancia mediatica",
+        "desc": "Stesso spazio a esperti e negazionisti come se fossero pari"
+      },
+      {
+        "name": "Entrambi i lati",
+        "desc": "Equiparare violenze o responsabilità di intensità diversissima"
+      },
+      {
+        "name": "Equivalenza morale",
+        "desc": "'Tutti i politici sono uguali', 'tutte le ideologie portano allo stesso risultato'"
+      },
+      {
+        "name": "False analogie",
+        "desc": "Comparazioni superficialmente simili ma strutturalmente diverse"
+      }
+    ],
+    "redFlags": [
+      "Confronto tra posizioni con basi di prova radicalmente diverse",
+      "Presentazione di minoranze scientifiche come ugualmente valide al consenso",
+      "Equiparazione morale di azioni di gravità molto diversa",
+      "'Ci sono due lati' usato per evitare giudizi fondati su fatti"
+    ],
+    "caseStudies": [
+      {
+        "title": "Cambiamento climatico nei media",
+        "description": "Per anni i media hanno presentato il dibattito sul clima come '97% degli scienziati vs. alcuni scettici' con uguale tempo, creando la percezione di un dibattito scientifico aperto inesistente.",
+        "lesson": "Il bilanciamento giornalistico non richiede equiparare posizioni con prove radicalmente diverse. L'obiettività riguarda i fatti, non la simmetria formale."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Pesa le prove",
+        "action": "'Quante prove supportano ciascuna posizione? Sono comparabili?'"
+      },
+      {
+        "step": "Cerca le asimmetrie",
+        "action": "Identifica le differenze rilevanti che la finta equivalenza nasconde"
+      },
+      {
+        "step": "Rifiuta la falsa neutralità",
+        "action": "La neutralità non significa dare uguale peso a tutte le posizioni"
+      }
+    ],
+    "scenario": {
+      "title": "Dibattito vaccinale",
+      "situation": "Un talk show presenta due ospiti: un virologo con 30 anni di ricerca e un influencer antivaccini. Il conduttore: 'Ci sono due posizioni legittime su questo tema, diamoci ascolto.'",
+      "question": "Perché presentare due ospiti con posizioni opposte non equivale a un format giornalisticamente equilibrato?",
+      "options": [
+        {
+          "text": "L'equilibrio reale richiede peso proporzionale alle evidenze disponibili — non parità di tempo tra posizioni con basi epistemiche incomparabili",
+          "correct": true,
+          "explanation": "Dare lo stesso spazio a due posizioni crea nell'audience l'impressione che siano equivalenti. Questo è un tipo di distorsione opposta alla partigianeria: l'equiparazione dove non esiste equivalenza."
+        },
+        {
+          "text": "In democrazia ogni posizione merita di essere ascoltata: il format è corretto",
+          "correct": false,
+          "explanation": "Ascoltare è diverso dall'equiparare. Un format equilibrato sul piano scientifico non dà uguale spazio a piattismo e geografia — anche se entrambe sono 'posizioni'."
+        },
+        {
+          "text": "Dipende dalla qualità degli argomenti dell'influencer: se sono validi, il format è giustificato",
+          "correct": false,
+          "explanation": "La questione non è valutare l'influencer specifico: è che il format strutturalmente crea equivalenza prima ancora che gli argomenti vengano presentati."
+        }
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "icon": "🐐",
+    "name": "Capro Espiatorio",
+    "subtitle": "Scapegoating",
+    "category": "attack",
+    "catLabel": "Attacco",
+    "summary": "Attribuire colpe, problemi o crisi a un gruppo specifico per distrarre da cause reali e canalizzare la frustrazione collettiva.",
+    "definition": "Lo scapegoating è la pratica di attribuire la responsabilità di problemi complessi, crisi o fallimenti a un gruppo identificabile — etnico, sociale, professionale, religioso — semplificando artificialmente le cause, distraendo dall'analisi reale e creando un bersaglio unificante per la frustrazione collettiva.",
+    "historicalContext": "Pratica antichissima (il 'capro espiatorio' nella Bibbia). Meccanismo centrale di ogni genocidio e persecuzione: ebrei nella Germania nazista, kulaki in URSS, tutsi in Rwanda. Usato sistematicamente in crisi economiche per deviare la rabbia popolare verso minoranze.",
+    "psychologicalMechanism": "Il cervello cerca cause semplici a problemi complessi (causalità semplice). Un capro espiatorio fornisce: una causa comprensibile, un nemico identificabile, una soluzione illusoriamente semplice ('eliminiamo il problema eliminando loro') e un senso di coesione nel gruppo 'noi' contro 'loro'.",
+    "variants": [
+      {
+        "name": "Etnico/religioso",
+        "desc": "Minoranze come causa di crisi economiche o sociali"
+      },
+      {
+        "name": "Professionale",
+        "desc": "'I banchieri', 'i giornalisti', 'i politici' come causa di tutti i mali"
+      },
+      {
+        "name": "Geografico",
+        "desc": "'L'Europa', 'Roma', 'il Nord' come responsabili di tutto"
+      },
+      {
+        "name": "Ideologico",
+        "desc": "'I comunisti', 'i liberali' come spiegazione universale"
+      }
+    ],
+    "redFlags": [
+      "Problemi complessi con una sola causa identificata in un gruppo",
+      "Il gruppo accusato è già minoritario o vulnerabile",
+      "La 'soluzione' consiste nell'eliminare o escludere il gruppo",
+      "La narrativa aumenta nei periodi di crisi economica o sociale"
+    ],
+    "caseStudies": [
+      {
+        "title": "Weimar e l'iperinflazione",
+        "description": "L'iperinflazione tedesca del 1923 aveva cause strutturali complesse (riparazioni di guerra, politiche monetarie). La propaganda nazista la attribuì agli ebrei, creando il capro espiatorio che avrebbe alimentato l'Olocausto.",
+        "lesson": "Le crisi economiche reali hanno cause strutturali complesse. Chi offre un colpevole semplice e identificabile sta quasi sempre distorcendo la realtà."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Chiedi le cause reali",
+        "action": "'Quali prove specifiche dimostrano che questo gruppo è responsabile?'"
+      },
+      {
+        "step": "Cerca le cause strutturali",
+        "action": "I problemi sociali complessi hanno quasi sempre cause multiple e strutturali"
+      },
+      {
+        "step": "Nota il timing",
+        "action": "L'accusa aumenta nelle crisi? Chi beneficia politicamente da questo capro espiatorio?"
+      }
+    ],
+    "scenario": {
+      "title": "Crisi economica",
+      "situation": "Un leader: 'La disoccupazione è colpa degli immigrati che rubano il lavoro agli italiani. Prima di loro non c'era questo problema.'",
+      "question": "Perché questa spiegazione della disoccupazione è politicamente utile ma analiticamente debole?",
+      "options": [
+        {
+          "text": "Converte un problema strutturale complesso — con cause multiple su decenni — in un bersaglio visibile, identificabile e attaccabile",
+          "correct": true,
+          "explanation": "La semplicità è politicamente efficace: un nemico concreto è mobilitante, le cause strutturali non lo sono. Ma la semplicità viene al costo dell'accuratezza — e di politiche che non affrontano le cause reali."
+        },
+        {
+          "text": "Perché non cita fonti economiche: con dati a supporto, l'argomentazione potrebbe reggere",
+          "correct": false,
+          "explanation": "I dati sull'impatto dell'immigrazione sul mercato del lavoro sono contraddittori e dipendono fortemente dal contesto. La mancanza di fonti è un problema, ma non l'unico né il principale."
+        },
+        {
+          "text": "Perché è un'opinione dibattuta in economia: gli esperti non sono d'accordo",
+          "correct": false,
+          "explanation": "Il disaccordo tra economisti riguarda l'entità degli effetti, non il meccanismo semplificato presentato qui. Il problema è la riduzione di un sistema complesso a un capro espiatorio."
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "icon": "🔃",
+    "name": "DARVO",
+    "subtitle": "Nega, Attacca, Ribalta",
+    "category": "manipulation",
+    "catLabel": "Manipolazione",
+    "summary": "Quando confrontato con un comportamento, il manipolatore nega, attacca chi denuncia e si presenta come la vera vittima.",
+    "definition": "DARVO (Deny, Attack, Reverse Victim and Offender) è una sequenza di risposte manipolatorie: prima si nega il comportamento contestato, poi si attacca chi lo denuncia screditandolo, infine si ribaltano i ruoli presentandosi come la vera vittima. Riconosciuta dalla psicologa Jennifer Freyd come risposta tipica degli abusatori e delle istituzioni quando vengono confrontate con responsabilità.",
+    "historicalContext": "Teorizzata da Jennifer Freyd nel 1997 nello studio del trauma e dell'abuso. Riconosciuta come risposta istituzionale sistematica in scandali (abusi della Chiesa, violenze sportive, molestie corporate) e nelle dinamiche di abuso di potere.",
+    "psychologicalMechanism": "Inverte il carico della prova e trasferisce l'attenzione dall'atto alla motivazione di chi denuncia. Chi osserva tende a percepire la controaccusa come plausibile (effetto DARVO documentato: gli osservatori tendono a considerare meno credibili le vittime dopo una risposta DARVO).",
+    "variants": [
+      {
+        "name": "Istituzionale",
+        "desc": "Organizzazioni che attaccano chi denuncia abusi interni"
+      },
+      {
+        "name": "Relazionale",
+        "desc": "Partner che si presentano come vittime dopo aver causato danni"
+      },
+      {
+        "name": "Politico",
+        "desc": "Accusati che trasformano l'accusa in persecuzione politica"
+      },
+      {
+        "name": "SLAPP",
+        "desc": "Querele strategiche per intimidire e silenziare chi denuncia"
+      }
+    ],
+    "redFlags": [
+      "Risposta alla critica che non contiene mai una risposta alla critica stessa",
+      "L'accusato diventa sistematicamente la vittima dopo l'accusa",
+      "Attacchi alla credibilità o ai motivi di chi denuncia",
+      "La denuncia viene presentata come l'aggressione, non il comportamento denunciato"
+    ],
+    "caseStudies": [
+      {
+        "title": "Scandali istituzionali",
+        "description": "Il DARVO istituzionale è documentato in grandi scandali: nega le accuse, attacca i testimoni come 'bugiardi mossi da interessi', poi afferma che l'istituzione è la vera vittima di una campagna diffamatoria.",
+        "lesson": "La risposta DARVO non confuta il contenuto dell'accusa. Chiedi sempre: 'Qual è la risposta al comportamento specifico contestato?'"
+      }
+    ],
+    "defense": [
+      {
+        "step": "Identifica la sequenza",
+        "action": "Nega + Attacca + Ribalta = DARVO. Riconoscere la sequenza neutralizza l'effetto."
+      },
+      {
+        "step": "Riporta al comportamento specifico",
+        "action": "'Non stai rispondendo all'accusa specifica. Qual è la tua risposta a X?'"
+      },
+      {
+        "step": "Distingui critica da persecuzione",
+        "action": "Essere denunciati per un comportamento non equivale a essere perseguitati"
+      }
+    ],
+    "scenario": {
+      "title": "Denuncia in azienda",
+      "situation": "Una dipendente denuncia molestie. Il manager risponde: 'Non è successo nulla. Lei mi perseguita da mesi con false accuse. Sono io la vittima di una campagna per rovinarmi la carriera.'",
+      "question": "In questa risposta, in quale ordine compaiono le tre strategie manipolative?",
+      "options": [
+        {
+          "text": "Prima nega i fatti ('non è successo nulla'), poi attacca la credibilità di chi denuncia ('lei mi perseguita'), poi si presenta come vittima ('sono io la vittima')",
+          "correct": true,
+          "explanation": "L'ordine è strutturalmente necessario: la negazione è la base, l'attacco crea il frame alternativo, l'inversione vittima-carnefice è il risultato. Invertire l'ordine renderebbe la mossa meno efficace."
+        },
+        {
+          "text": "Prima attacca, poi nega: la negazione è più efficace dopo aver destabilizzato l'accusatore",
+          "correct": false,
+          "explanation": "In questo caso specifico la negazione viene prima. Ma soprattutto: la domanda chiede di riconoscere la struttura della risposta, non di ipotizzare sequenze alternative."
+        },
+        {
+          "text": "Non ci sono tre strategie separate: è un'unica risposta emotiva comprensibile da parte di chi si sente accusato ingiustamente",
+          "correct": false,
+          "explanation": "Questa interpretazione, se accettata, è esattamente l'effetto voluto dalla mossa. La struttura tripartita è documentata e sistematica, non una reazione emotiva caotica."
+        }
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "icon": "🪟",
+    "name": "Finestra di Overton",
+    "subtitle": "Spostare i Confini del Dicibile",
+    "category": "framing",
+    "catLabel": "Inquadratura",
+    "summary": "Rendere gradualmente accettabili idee prima impensabili, spostando progressivamente i confini del dibattito pubblico verso posizioni estreme.",
+    "definition": "La finestra di Overton descrive lo spettro delle idee politicamente accettabili in un dato momento. Spostandola gradualmente — attraverso proposta di idee estreme, poi meno estreme, poi accettabili — si può rendere mainstream ciò che era impensabile. Il meccanismo funziona anche involontariamente: chi propone posizioni estreme sposta il centro verso di sé.",
+    "historicalContext": "Teorizzata da Joseph Overton negli anni '90 per il Mackinac Center. Oggi centrale nell'analisi dei movimenti populisti e estremisti: introdurre gradualmente proposte radicali fino a renderle normalizzate nel discorso pubblico.",
+    "psychologicalMechanism": "Sfrutta l'adattamento percettivo e il meccanismo dell'ancora: esposto ripetutamente a posizioni estreme, il cervello ridefinisce il 'centro'. La mera discussione di un'idea — anche per confutarla — la normalizza parzialmente rendendola meno tabù.",
+    "variants": [
+      {
+        "name": "Spostamento verso l'estremo",
+        "desc": "Proposta progressiva di posizioni sempre più radicali"
+      },
+      {
+        "name": "Overton involontario",
+        "desc": "I media normalizzano posizioni estreme semplicemente discutendole"
+      },
+      {
+        "name": "Finestra accelerata",
+        "desc": "Crisi usate per rendere accettabili misure eccezionali in tempi brevi"
+      },
+      {
+        "name": "Ancoraggio del dibattito",
+        "desc": "Posizioni estreme che spostano il 'ragionevole' verso di sé"
+      }
+    ],
+    "redFlags": [
+      "Proposte impensabili un decennio fa ora discusse come ragionevoli",
+      "Le posizioni moderate sembrano sempre più simili alle posizioni estreme di ieri",
+      "La semplice discussione di un'idea la presenta come opzione legittima",
+      "Crisi usate per introdurre misure 'temporanee' che diventano permanenti"
+    ],
+    "caseStudies": [
+      {
+        "title": "Normalizzazione dell'estremismo",
+        "description": "Storici dei movimenti estremisti documentano come le proposte inizialmente rifiutate come impensabili vengano gradualmente normalizzate: prima discusse, poi considerate, poi implementate.",
+        "lesson": "Monitorare lo spostamento della finestra nel tempo è più importante che giudicare le singole proposte nel momento in cui appaiono."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Monitora lo spostamento nel tempo",
+        "action": "'Questa posizione era accettabile 10 anni fa? Cosa è cambiato nel dibattito, non nei fatti?'"
+      },
+      {
+        "step": "Non normalizzare attraverso la discussione",
+        "action": "Scegli come e quando discutere posizioni estreme: la discussione stessa può spostare la finestra"
+      },
+      {
+        "step": "Identifica chi beneficia dello spostamento",
+        "action": "'A chi conviene che questa proposta sia ora considerata ragionevole?'"
+      }
+    ],
+    "scenario": {
+      "title": "Discorso politico nel tempo",
+      "situation": "Proposte che 15 anni fa erano considerate estreme da tutti i partiti ora appaiono regolarmente nel dibattito mainstream come opzioni 'da considerare'. Nessun evento specifico le ha rese più valide.",
+      "question": "Cosa distingue questo spostamento da una normale evoluzione del dibattito politico?",
+      "options": [
+        {
+          "text": "L'assenza di nuovi argomenti o eventi che giustifichino il cambiamento — il confine si è spostato per esposizione ripetuta, non per ragionamento",
+          "correct": true,
+          "explanation": "L'evoluzione legittima del dibattito segue nuove evidenze o nuove esperienze collettive. Qui il cambio è avvenuto per normalizzazione progressiva: la ripetizione ha reso familiare ciò che era estremo, senza che nulla lo giustificasse."
+        },
+        {
+          "text": "È normale evoluzione: le posizioni politiche cambiano nel tempo in tutti i sistemi democratici",
+          "correct": false,
+          "explanation": "L'evoluzione esiste — ma qui manca la causa. Quando le posizioni cambiano senza un cambiamento nelle evidenze o nella realtà, la normalizzazione è il meccanismo più probabile."
+        },
+        {
+          "text": "Il fatto che partiti tradizionali abbiano adottato queste posizioni ne certifica la normalizzazione",
+          "correct": false,
+          "explanation": "La normalizzazione istituzionale è un effetto, non una certificazione di legittimità. I partiti tradizionali adottano posizioni estreme quando il terreno è già stato preparato — non sono i giudici della loro accettabilità."
+        }
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "icon": "🌀",
+    "name": "Spirale del Silenzio",
+    "subtitle": "La Maggioranza Silenziata",
+    "category": "manipulation",
+    "catLabel": "Manipolazione",
+    "summary": "Chi percepisce la propria opinione come minoritaria tende a tacere, amplificando artificialmente la visibilità delle posizioni dominanti.",
+    "definition": "La spirale del silenzio (Elisabeth Noelle-Neumann, 1974) descrive il processo per cui le persone che credono che la propria opinione sia minoritaria tendono a non esprimerla pubblicamente per paura dell'isolamento sociale. Questo silenzio amplifica ulteriormente la visibilità della posizione dominante, creando una spirale: chi dissente percepisce il proprio isolamento come crescente e si zittisce ulteriormente.",
+    "historicalContext": "Teorizzata da Elisabeth Noelle-Neumann nel 1974. Usata consapevolmente nella propaganda per creare la percezione di un consenso unanime inesistente. I social media hanno intensificato il meccanismo: il silenzio digitale è più visibile e misurabile.",
+    "psychologicalMechanism": "Sfrutta il bisogno evolutivo di appartenenza al gruppo. Il cervello monitora costantemente il 'clima di opinione' per evitare l'isolamento sociale — storicamente una minaccia alla sopravvivenza. La percezione di essere in minoranza attiva il meccanismo di autocensura.",
+    "variants": [
+      {
+        "name": "Pluralistica ignoranza",
+        "desc": "Tutti pensano privatamente X ma credono di essere i soli — nessuno lo dice"
+      },
+      {
+        "name": "Silenzio dei moderati",
+        "desc": "Le posizioni estreme sono più rumorose, i moderati tacciono"
+      },
+      {
+        "name": "Censura algoritmica percepita",
+        "desc": "La percezione (anche errata) di censura produce autocensura reale"
+      },
+      {
+        "name": "Maggioranza silenziosa costruita",
+        "desc": "Amplificazione artificiale di una posizione per farla sembrare dominante"
+      }
+    ],
+    "redFlags": [
+      "Sensazione di essere 'l'unico' a pensarla diversamente senza verifica reale",
+      "Consenso percepito come unanime su temi che storicamente dividono",
+      "Ambienti in cui esprimere dissenso ha costi sociali elevati",
+      "Media che presentano una posizione come 'ovviamente condivisa da tutti'"
+    ],
+    "caseStudies": [
+      {
+        "title": "Propaganda del consenso unanime",
+        "description": "I regimi autoritari usano la spirale del silenzio sistematicamente: mostrare folle entusiaste, eliminare ogni espressione di dissenso, far credere che l'appoggio sia unanime. Chi dissente si crede isolato e tace.",
+        "lesson": "Il silenzio non è consenso. La visibilità di un'opinione non corrisponde alla sua diffusione reale."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Verifica il clima reale",
+        "action": "'Il consenso che percepisco corrisponde a sondaggi, dati o conversazioni private?'"
+      },
+      {
+        "step": "Distingui rumore da diffusione",
+        "action": "Un'opinione rumorosa non è necessariamente maggioritaria"
+      },
+      {
+        "step": "Parla in privato",
+        "action": "Le conversazioni private rivelano spesso dissenso sommerso che il meccanismo della spirale nasconde"
+      }
+    ],
+    "scenario": {
+      "title": "Ambiente lavorativo",
+      "situation": "In riunione, il management presenta una decisione controversa. Nessuno obietta. Dopo, parlando con i colleghi individualmente, scopri che quasi tutti erano contrari ma pensavano di essere i soli.",
+      "question": "Se quasi tutti erano contrari, perché nessuno ha parlato in riunione?",
+      "options": [
+        {
+          "text": "Ognuno si è basato sul silenzio degli altri come segnale di consenso — rinforzando un'impressione di maggioranza che non esisteva",
+          "correct": true,
+          "explanation": "Il meccanismo è circolare: il tuo silenzio convince gli altri che sei d'accordo, il loro silenzio ti convince che sei l'unico contrario. La 'maggioranza' era un'illusione collettiva prodotta dalla paura dell'isolamento."
+        },
+        {
+          "text": "La gerarchia aziendale inibisce il dissenso: è la pressione del capo, non la percezione di isolamento",
+          "correct": false,
+          "explanation": "La gerarchia contribuisce, ma non spiega perché anche dopo ognuno credesse di essere solo. La pressione gerarchica crea silenzio; la spirale crea la convinzione che tutti siano d'accordo."
+        },
+        {
+          "text": "In riunione erano davvero d'accordo — parlando individualmente hanno cambiato idea per compiacere l'interlocutore",
+          "correct": false,
+          "explanation": "Questa interpretazione richiederebbe che tutte le conversazioni individuali producessero lo stesso cambio, il che è statisticamente improbabile. Il pattern coerente indica un meccanismo sistematico, non il cambiamento d'idea."
+        }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "icon": "🥊",
+    "name": "Moving the Goalposts",
+    "subtitle": "Spostare i Pali",
+    "category": "framing",
+    "catLabel": "Inquadratura",
+    "summary": "Cambiare i criteri di prova o di successo ogni volta che vengono soddisfatti, per evitare di ammettere di avere torto.",
+    "definition": "Spostare i pali (moving the goalposts) è una fallacia argomentativa in cui, dopo che una prova o condizione richiesta viene soddisfatta, i criteri vengono immediatamente cambiati o alzati per evitare di riconoscere la validità dell'argomentazione avversaria. È una forma di disonestà intellettuale che rende impossibile qualsiasi dibattito fondato.",
+    "historicalContext": "Presente in tutti i contesti di dibattito: scientifico, politico, legale, personale. Particolarmente documentata nel negazionismo scientifico, dove ogni nuova evidenza viene respinta con una nuova richiesta di prova più elevata — mai raggiungibile.",
+    "psychologicalMechanism": "Sfrutta l'asimmetria del dibattito: chi sposta i pali non deve mai fornire la propria prova, solo richiedere sempre più prove all'avversario. Protegge dalla dissonanza cognitiva evitando di ammettere di avere torto, a costo dell'onestà intellettuale.",
+    "variants": [
+      {
+        "name": "Escalation della prova",
+        "desc": "'Non basta uno studio, ne voglio cento' (dopo uno studio)"
+      },
+      {
+        "name": "Cambio dei criteri",
+        "desc": "'Non intendevo questo quando dicevo X — ora il criterio è Y'"
+      },
+      {
+        "name": "Negazionismo scientifico",
+        "desc": "Ogni nuova evidenza viene risposta con nuovi standard irraggiungibili"
+      },
+      {
+        "name": "Politico",
+        "desc": "Promesse ridefinite dopo il fallimento: 'Non era quello che intendevo'"
+      }
+    ],
+    "redFlags": [
+      "Ogni prova fornita viene immediatamente seguita da una nuova richiesta più alta",
+      "I criteri cambiano dopo che sono stati soddisfatti, non prima",
+      "Chi sposta i pali non fornisce mai i propri criteri in anticipo",
+      "L'obiettivo sembra essere il dibattito infinito, non la verifica"
+    ],
+    "caseStudies": [
+      {
+        "title": "Negazionismo del cambiamento climatico",
+        "description": "Prima: 'Non ci sono prove'. Poi: 'Uno studio non basta'. Poi: 'Il consenso non è unanime'. Poi: 'I modelli sono incerti'. I pali si spostano ogni volta che il criterio precedente viene soddisfatto.",
+        "lesson": "Stabilisci i criteri di prova prima di iniziare il dibattito. Se cambiano dopo, è spostamento dei pali."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Fissa i criteri in anticipo",
+        "action": "'Cosa ti convincerebbe? Stabiliscilo prima, non dopo'"
+      },
+      {
+        "step": "Documenta gli spostamenti",
+        "action": "Tieni traccia di quali criteri erano stati accettati e quando sono cambiati"
+      },
+      {
+        "step": "Nomina la mossa",
+        "action": "'Questo criterio non era quello iniziale. Stai spostando i pali'"
+      }
+    ],
+    "scenario": {
+      "title": "Dibattito scientifico",
+      "situation": "Studi A: 'Servono prove'. Fornisci uno studio. 'Un solo studio non basta'. Fornisci dieci studi. 'Potrebbero essere finanziati da interessi'. Fornisci studi indipendenti. 'I campioni sono troppo piccoli...'",
+      "question": "Cosa rivela della posizione di chi chiede prove il fatto che i criteri cambino ogni volta che vengono soddisfatti?",
+      "options": [
+        {
+          "text": "Che l'obiettivo non è raggiungere la verità ma mantenere indefinitamente la posizione di scetticismo, indipendentemente dalle prove fornite",
+          "correct": true,
+          "explanation": "Il cambiamento dei criteri è il segnale chiave: se il problema fosse la qualità delle prove, criteri nuovi verrebbero proposti in anticipo, non ogni volta che quelli esistenti vengono soddisfatti."
+        },
+        {
+          "text": "Che lo standard scientifico si è alzato nel tempo: è normale che le prove richieste siano più solide oggi che in passato",
+          "correct": false,
+          "explanation": "Lo standard può alzarsi — ma si alza in modo trasparente e uniforme, non ad hoc ogni volta che una prova specifica viene fornita. Qui il pattern è reattivo, non progressivo."
+        },
+        {
+          "text": "Che gli studi forniti avevano davvero dei limiti, il che giustifica le richieste ulteriori",
+          "correct": false,
+          "explanation": "Può essere vero che ogni studio abbia limiti — ma se i limiti vengono identificati solo dopo la presentazione, e se la richiesta cambia ad ogni risposta, il pattern non è critico: è evasivo."
+        }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "icon": "🎭",
+    "name": "Negging",
+    "subtitle": "Il Complimento che Ferisce",
+    "category": "manipulation",
+    "catLabel": "Manipolazione",
+    "summary": "Usare critiche velate o complimenti negativi per destabilizzare l'autostima altrui e creare dipendenza dall'approvazione del manipolatore.",
+    "definition": "Il negging è una tecnica manipolativa che consiste nel fare commenti ambigui, critiche velate o 'complimenti' che contengono una valutazione negativa implicita. L'obiettivo è abbassare l'autostima della vittima quanto basta per renderla insicura e bisognosa dell'approvazione del manipolatore, creando una dipendenza psicologica.",
+    "historicalContext": "Codificato nelle comunità PUA (pickup artists) degli anni 2000 come tecnica seduttiva. Oggi riconosciuto dagli psicologi come tecnica di abuso emotivo e controllo coercitivo nelle relazioni, non solo romantiche ma anche professionali e familiari.",
+    "psychologicalMechanism": "Destabilizza il sistema di valutazione di sé stessi rendendo il giudizio del manipolatore il punto di riferimento. Chi riceve negging entra in un ciclo di ricerca dell'approvazione: cerca di dimostrare il proprio valore a chi lo ha sminuito, aumentando la dipendenza dal suo giudizio.",
+    "variants": [
+      {
+        "name": "Complimento-critica",
+        "desc": "'Sei bella/o per i tuoi standard' — inserisce una gerarchia implicita"
+      },
+      {
+        "name": "Osservazione destabilizzante",
+        "desc": "'Sembri insicura/o quando parli in pubblico' detto senza richiesta"
+      },
+      {
+        "name": "Confronto svalutante",
+        "desc": "'L'altra persona lo faceva meglio di te'"
+      },
+      {
+        "name": "Critica mascherata da preoccupazione",
+        "desc": "'Ti dico questo per il tuo bene: non sei all'altezza'"
+      }
+    ],
+    "redFlags": [
+      "Commenti non richiesti sulla tua adeguatezza, aspetto o competenza",
+      "Complimenti che contengono sempre un'implicita riserva o confronto sfavorevole",
+      "Sensazione ricorrente di non essere mai 'abbastanza' con quella persona",
+      "Tentativi di recuperare approvazione cambiando comportamento"
+    ],
+    "caseStudies": [
+      {
+        "title": "Abuso emotivo nelle relazioni",
+        "description": "Il negging è documentato come fase precoce nelle relazioni narcisistiche abusive: prima il love bombing crea dipendenza, poi il negging sistematico abbassa l'autostima per consolidare il controllo.",
+        "lesson": "I commenti che abbassano sistematicamente la tua autostima non sono 'onestà' né 'preoccupazione' — sono controllo."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Nomina il meccanismo",
+        "action": "'Questo commento sembrava critico piuttosto che costruttivo — era tua intenzione?'"
+      },
+      {
+        "step": "Valida internamente",
+        "action": "Il tuo valore non dipende dall'approvazione di chi ti sminuisce"
+      },
+      {
+        "step": "Nota il pattern",
+        "action": "Un commento può essere un errore; un pattern sistematico è manipolazione"
+      }
+    ],
+    "scenario": {
+      "title": "Ambiente professionale",
+      "situation": "Il tuo manager dice spesso: 'Buon lavoro, per quello che puoi fare tu.' 'Sei migliorato, considerando da dove partivi.' Ogni settimana un commento simile. Ti ritrovi a lavorare sempre di più per dimostrargli il tuo valore.",
+      "question": "Perché questo tipo di feedback ti spinge a lavorare di più invece di farti sentire riconosciuto?",
+      "options": [
+        {
+          "text": "L'approvazione parziale genera un ciclo in cui cerchi costantemente di guadagnare il riconoscimento pieno che non arriva mai — e il manager mantiene il controllo sulla tua motivazione",
+          "correct": true,
+          "explanation": "Questo è il meccanismo del rinforzo intermittente: l'approvazione non garantita ma possibile è più motivante (e più dipendente) di quella costante. Il controllo sull'approvazione diventa controllo sulla persona."
+        },
+        {
+          "text": "Perché sei ambizioso e vuoi migliorarti professionalmente — il feedback ti stimola",
+          "correct": false,
+          "explanation": "L'ambizione genuina risponde a standard chiari e raggiungibili. Qui gli standard si spostano sistematicamente: ogni miglioramento viene minimizzato invece che riconosciuto."
+        },
+        {
+          "text": "Perché il tuo manager ha standard alti e tu vuoi rispettarli — è un rapporto di stima professionale",
+          "correct": false,
+          "explanation": "Gli standard alti si comunicano con obiettivi chiari e feedback specifico. Il pattern descritto non fornisce criteri di miglioramento — fornisce dimostrazione permanente di inadeguatezza parziale."
         }
       ]
     }
