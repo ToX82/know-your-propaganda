@@ -78,7 +78,9 @@ function navigateTo(page, filter) {
     techniques: u.nav.techniques,
     detail: currentTechnique ? currentTechnique.name : '',
     quiz: u.nav.quiz,
-    about: u.nav.about
+    about: u.nav.about,
+    analyzer: u.nav.analyzer || (typeof _lang !== 'undefined' && _lang === 'it' ? 'Analizzatore' : 'Analyzer'),
+    training: u.nav.training || (typeof _lang !== 'undefined' && _lang === 'it' ? 'Allenamento' : 'Training')
   };
   document.getElementById('page-title').textContent = titles[page] || page;
 
@@ -92,6 +94,8 @@ function navigateTo(page, filter) {
   else if (page === 'detail') renderDetail();
   else if (page === 'quiz') renderQuiz();
   else if (page === 'about') renderAbout();
+  else if (page === 'analyzer') renderAnalyzer();
+  else if (page === 'training') renderTraining();
 
   // Scroll to top
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -104,6 +108,8 @@ function handleHashRoute() {
     if (t) {
       currentTechnique = t;
       exploredTechniques.add(t.id);
+      KYP.saveExplored();
+      KYP.addLastVisited(t.id);
       updateProgress();
       navigateTo('detail');
       return;
@@ -112,7 +118,7 @@ function handleHashRoute() {
   if (route.page === 'techniques' && route.filter) {
     currentFilter = route.filter;
   }
-  const validPages = ['home', 'techniques', 'quiz', 'about'];
+  const validPages = ['home', 'techniques', 'quiz', 'about', 'analyzer', 'training'];
   navigateTo(validPages.includes(route.page) ? route.page : 'home', route.filter);
 }
 
@@ -123,6 +129,8 @@ async function switchLanguage(lang) {
   currentTechnique = null;
   currentFilter = 'all';
   exploredTechniques = new Set();
+  masteredTechniques = new Set();
+  lastVisited = [];
   quizSelections = {};
   quizScores = {};
   currentQuizQuestion = 0;
@@ -142,6 +150,7 @@ async function switchLanguage(lang) {
 
 /* ─── INIT ─────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', async () => {
+  KYP.loadAll();
   const lang = i18n.getLang();
   await i18n.loadLocale(lang);
 

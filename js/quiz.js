@@ -62,6 +62,11 @@ function confirmTechniqueQuiz() {
     }
   });
   document.getElementById('quiz-confirm-wrap').classList.add('hidden');
+
+  if (t.scenario.options[index].correct) {
+    masteredTechniques.add(t.id);
+    KYP.saveMastered();
+  }
 }
 
 /* ─── MAIN QUIZ ────────────────────────────────────── */
@@ -342,9 +347,10 @@ function nextQuiz() { if (currentQuizQuestion < quizQuestions.length - 1) { curr
 
 function completeQuiz() {
   quizResultsVisible = true;
+  const total = Object.values(quizScores).reduce((a, b) => a + b, 0);
+  KYP.saveQuizScore(total, getQuizMaxScore());
   const card = document.getElementById('quiz-card');
   if (card) {
-    const total = Object.values(quizScores).reduce((a, b) => a + b, 0);
     card.innerHTML = renderResultsPanel(total, getQuizMaxScore(), Object.keys(quizSelections).length);
   }
 }

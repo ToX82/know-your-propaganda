@@ -64,6 +64,12 @@
     <button class="nav-item" data-page="about">
       <span class="nav-icon">ℹ️</span> <span data-label>Informazioni</span>
     </button>
+    <button class="nav-item" data-page="analyzer">
+      <span class="nav-icon">🔍</span> <span data-label>Analizzatore</span>
+    </button>
+    <button class="nav-item" data-page="training">
+      <span class="nav-icon">🎯</span> <span data-label>Allenamento</span>
+    </button>
 
     <div class="border-t border-gray-200 my-3"></div>
     <div id="section-cat" class="text-[10px] font-semibold text-slate-400 uppercase tracking-[0.15em] px-3 mb-2">Categorie</div>
@@ -91,6 +97,10 @@
     <button class="nav-item" data-filter="emotional">
       <span class="nav-icon">💔</span> <span data-label>Appelli Emotivi</span>
       <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-emotional"></span>
+    </button>
+    <button class="nav-item" data-filter="cognitive">
+      <span class="nav-icon">🔬</span> <span data-label>Bias Cognitivi</span>
+      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-cognitive"></span>
     </button>
   </nav>
 
@@ -133,7 +143,9 @@
 </main>
 
 <script src="js/i18n.js"></script>
+<script src="js/storage.js"></script>
 <script src="js/state.js"></script>
+<script src="js/analyzer.js"></script>
 <script src="js/render.js"></script>
 <script src="js/quiz.js"></script>
 <script src="js/app.js"></script>

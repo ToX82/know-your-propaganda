@@ -2640,8 +2640,8 @@
     "icon": "⏳",
     "name": "Principio di Scarsità",
     "subtitle": "L'Urgenza Artificiale",
-    "category": "manipulation",
-    "catLabel": "Manipolazione",
+    "category": "cognitive",
+    "catLabel": "Bias Cognitivo",
     "summary": "Creare urgenza artificiale per impedire la riflessione critica e forzare decisioni impulsive.",
     "definition": "Il principio di scarsità sfrutta l'avversione alla perdita: il cervello attribuisce più valore alle cose difficili da ottenere o in via di esaurimento. I manipolatori creano artificialmente questa condizione per cortocircuitare il pensiero razionale.",
     "historicalContext": "Teorizzato da Robert Cialdini nel 1984 come uno dei sei principi della persuasione. Usato da venditori, truffatori e in contesti di interrogatorio per accelerare decisioni a sfavore della vittima.",
@@ -2719,8 +2719,8 @@
     "icon": "🤝",
     "name": "Principio di Reciprocità",
     "subtitle": "Il Debito Emotivo",
-    "category": "manipulation",
-    "catLabel": "Manipolazione",
+    "category": "cognitive",
+    "catLabel": "Bias Cognitivo",
     "summary": "Sfruttare il senso del dovere sociale: un favore non richiesto crea l'obbligo psicologico di ricambiare.",
     "definition": "Il principio di reciprocità è una norma sociale universale: se qualcuno ci fa un favore, ci sentiamo in debito e vogliamo ricambiare. I manipolatori usano piccoli doni o favori strategici per creare questo senso di obbligo e poi chiedere qualcosa di molto più grande in cambio.",
     "historicalContext": "Documentato da Robert Cialdini e dall'antropologia culturale come norma universale. Sfruttato sistematicamente nei processi di reclutamento di informatori, nelle sette e nelle tecniche di vendita aggressive.",
@@ -2798,8 +2798,8 @@
     "icon": "⚓",
     "name": "Effetto Ancora",
     "subtitle": "Il Punto di Partenza Truccato",
-    "category": "manipulation",
-    "catLabel": "Manipolazione",
+    "category": "cognitive",
+    "catLabel": "Bias Cognitivo",
     "summary": "La prima informazione ricevuta condiziona in modo sproporzionato tutte le valutazioni successive.",
     "definition": "L'effetto ancora (anchoring) descrive la tendenza del cervello a fare eccessivo affidamento sulla prima informazione disponibile. Una volta fissata l'ancora, tutte le valutazioni successive vengono misurate relativamente ad essa, anche se l'ancora è arbitraria o falsa.",
     "historicalContext": "Dimostrato da Kahneman e Tversky nel 1974 come uno dei principali bias cognitivi. Usato sistematicamente in negoziazioni, interrogatori, pubblicità e processi legali.",
@@ -2877,8 +2877,8 @@
     "icon": "🔍",
     "name": "Bias di Conferma",
     "subtitle": "La Bolla Cognitiva",
-    "category": "manipulation",
-    "catLabel": "Manipolazione",
+    "category": "cognitive",
+    "catLabel": "Bias Cognitivo",
     "summary": "Cercare e sopravvalutare le informazioni che confermano ciò che già crediamo, ignorando quelle che ci contraddicono.",
     "definition": "Il bias di conferma è la tendenza a cercare, interpretare e memorizzare le informazioni in modo da confermare le proprie credenze preesistenti. I manipolatori non devono mentire: basta filtrare la realtà per alimentare solo ciò che rafforza le convinzioni già presenti.",
     "historicalContext": "Documentato da Peter Wason nel 1960 e approfondito da Kahneman. È la base cognitiva su cui si costruisce la propaganda contemporanea: gli algoritmi dei social media lo amplificano automaticamente creando camere d'eco.",
@@ -3975,6 +3975,273 @@
           "text": "Perché il tuo manager ha standard alti e tu vuoi rispettarli — è un rapporto di stima professionale",
           "correct": false,
           "explanation": "Gli standard alti si comunicano con obiettivi chiari e feedback specifico. Il pattern descritto non fornisce criteri di miglioramento — fornisce dimostrazione permanente di inadeguatezza parziale."
+        }
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "icon": "😢",
+    "name": "Contagio Emotivo",
+    "subtitle": "La propagazione virale delle emozioni collettive",
+    "category": "emotional",
+    "catLabel": "Emotivo",
+    "summary": "Sfrutta la tendenza umana a sincronizzare le proprie emozioni con quelle delle persone circostanti, creando stati d'umore collettivi che favoriscono la ricezione di messaggi propagandistici.",
+    "definition": "Il contagio emotivo è il fenomeno per cui le emozioni si trasmettono da persona a persona quasi automaticamente, spesso senza consapevolezza critica. In propaganda, viene coltivato deliberatamente attraverso raduni di massa, immagini evocative e narrazioni che innescano risposte emotive uniformi in grandi gruppi.",
+    "historicalContext": "I raduni del partito nazista a Norimberga erano ingegnerizzati per massimizzare il contagio emotivo: luci, simboli, marce e discorsi ritmati sincronizzavano le reazioni della folla. Elias Canetti in 'Massa e potere' (1960) analizzò come la fusione emotiva nella massa abolisca il giudizio individuale.",
+    "psychologicalMechanism": "I neuroni specchio ci predispongono a imitare le espressioni emotive altrui. In un gruppo omogeneo e coinvolto emotivamente, la soglia critica si abbassa: le emozioni degli altri diventano la nostra bussola di realtà, soppiantando la valutazione razionale.",
+    "variants": [
+      {
+        "name": "Contagio via social media",
+        "desc": "Post e video virali che amplificano emozioni collettive su scala globale in poche ore."
+      },
+      {
+        "name": "Effetto folla",
+        "desc": "L'intensità emotiva aumenta proporzionalmente alla dimensione e all'omogeneità del gruppo."
+      },
+      {
+        "name": "Musica e ritmo",
+        "desc": "Inni, canti e ritmi sincroni inducono stati emotivi condivisi e senso di unità."
+      }
+    ],
+    "redFlags": [
+      "Comunicazioni progettate per suscitare emozioni forti prima di presentare fatti",
+      "Immagini o storie che elicitano paura, rabbia o euforia senza contesto",
+      "Senso di urgenza emotiva che impedisce la riflessione",
+      "Uso di linguaggio che descrive emozioni collettive ('tutti siamo indignati')"
+    ],
+    "caseStudies": [
+      {
+        "title": "Social media e le 'tempeste di indignazione'",
+        "description": "Studi sulla diffusione virale mostrano che i contenuti con alto carico emotivo negativo si propagano fino a 6 volte più velocemente di quelli neutri, creando ondate di indignazione collettiva spesso basate su informazioni parziali.",
+        "lesson": "La velocità di propagazione emotiva non è correlata alla veridicità dell'informazione."
+      },
+      {
+        "title": "Le convention politiche americane",
+        "description": "Le convention presidenziali USA sono progettate da esperti di event management per massimizzare l'intensità emotiva: illuminazione, musica, tempistica dei discorsi e reazioni della folla sono coreografate per creare contagio emotivo televisionabile.",
+        "lesson": "Un'emozione orchestrata non è una valutazione autentica."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Identifica il trigger",
+        "action": "Chiediti: questa emozione è stata indotta deliberatamente? Chi ne beneficia?"
+      },
+      {
+        "step": "Crea distanza fisica o temporale",
+        "action": "Allontanati dal contesto emotivamente carico prima di formare giudizi definitivi."
+      },
+      {
+        "step": "Verifica i fatti separatamente",
+        "action": "Controlla le informazioni su fonti indipendenti, lontano dall'atmosfera emotiva."
+      },
+      {
+        "step": "Riconosci il contagio",
+        "action": "Sapere che il contagio emotivo esiste è il primo passo per limitarne l'influenza."
+      }
+    ],
+    "scenario": {
+      "title": "La marcia della rabbia",
+      "situation": "Partecipi a un grande raduno pubblico. Musica drammatica, discorsi incalzanti e la presenza di migliaia di persone arrabbiate ti fanno sentire un'indignazione crescente verso un gruppo specifico. Dopo il raduno, senti un amico dire: 'Finalmente ho capito quanto sono pericolosi!'",
+      "question": "Cosa descrive meglio il meccanismo psicologico in atto?",
+      "options": [
+        {
+          "text": "L'amico ha elaborato informazioni nuove che hanno cambiato la sua visione razionale.",
+          "correct": false,
+          "explanation": "Il cambiamento è avvenuto in un contesto altamente emotivo, non attraverso una valutazione informativa."
+        },
+        {
+          "text": "L'intensità emotiva collettiva ha abbassato la soglia critica individuale, sincronizzando le reazioni del gruppo.",
+          "correct": true,
+          "explanation": "Esatto: il contagio emotivo in massa sopprime il giudizio individuale. L'emozione percepita come collettiva sembra 'conferma' di un fatto."
+        },
+        {
+          "text": "Il raduno ha fornito statistiche convincenti che giustificano la preoccupazione.",
+          "correct": false,
+          "explanation": "L'efficacia del raduno dipende proprio dall'emozione, non dai dati."
+        },
+        {
+          "text": "L'amico ha usato il pensiero critico per rivalutare le proprie credenze.",
+          "correct": false,
+          "explanation": "Un contesto ad alto carico emotivo è l'opposto di una condizione favorevole al pensiero critico."
+        }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "icon": "🌫️",
+    "name": "Cortina di Fumo",
+    "subtitle": "Distrarre l'attenzione dai problemi reali",
+    "category": "disinfo",
+    "catLabel": "Disinformazione",
+    "summary": "Tecnica che consiste nel creare deliberatamente rumore informativo — notizie sensazionali, scandali minori o controversie artificiali — per distogliere l'attenzione del pubblico da questioni scomode o damaging.",
+    "definition": "La cortina di fumo (in inglese 'smokescreen' o 'red herring') è l'arte di spostare l'agenda pubblica verso un tema alternativo quando quello attuale è sfavorevole. Può essere intenzionale (lancio di una notizia distrazione) o strutturale (sistemi mediatici che privilegiano la spettacolarità).",
+    "historicalContext": "Il termine deriva dall'uso militare di granate fumogene per nascondere movimenti di truppe. In politica, l'esempio classico è la 'guerra esterna' usata per distrarre dall'opposizione interna. Durante lo scandalo Watergate, Nixon tentò di deviare l'attenzione con annunci di politica estera. Nel XXI secolo, i social media hanno reso questa tecnica onnipresente.",
+    "psychologicalMechanism": "L'attenzione cognitiva è una risorsa limitata. Quando siamo sommersi da informazioni su un tema X, abbiamo meno capacità di elaborare il tema Y. La cortina di fumo sfrutta questa limitazione: non nega il problema, lo rende irrilevante per saturazione dell'attenzione.",
+    "variants": [
+      {
+        "name": "Whataboutism",
+        "desc": "Rispondere a una critica con 'e tu/loro cosa hai fatto?' per spostare il dibattito."
+      },
+      {
+        "name": "Notizia-bomba strategica",
+        "desc": "Lanciare una notizia sensazionale (vera o falsa) per eclissare un'altra notizia sfavorevole."
+      },
+      {
+        "name": "Sovraccarico informativo",
+        "desc": "Produrre tante notizie in poco tempo che nessuna riceva l'attenzione necessaria."
+      }
+    ],
+    "redFlags": [
+      "Annunci importanti che arrivano in momenti politicamente convenienti",
+      "Scandali su temi minori che esplodono quando si discute di questioni maggiori",
+      "Risposta alle critiche con 'ma anche gli altri...'",
+      "Notizie che spariscono prima di essere risolte, sostituite da nuove urgenze"
+    ],
+    "caseStudies": [
+      {
+        "title": "Il ciclo dei tweet distrazione",
+        "description": "Analisi dei tweet di leader politici hanno mostrato correlazioni statisticamente significative tra la pubblicazione di contenuti provocatori e il verificarsi di notizie sfavorevoli nelle stesse ore, suggerendo un uso deliberato del meccanismo.",
+        "lesson": "Chiediti: questa notizia arriva in un momento conveniente per qualcuno?"
+      },
+      {
+        "title": "Whataboutism nella guerra fredda",
+        "description": "L'URSS perfezionò il whataboutism come strumento diplomatico: a ogni critica sulle violazioni dei diritti umani, rispondeva con riferimenti alla segregazione razziale americana. La tecnica è tornata in uso nella propaganda contemporanea.",
+        "lesson": "Un 'anche loro' non risponde alla critica originale: la evita."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Mantieni il filo",
+        "action": "Annota la domanda originale e verifica se la risposta la affronta davvero."
+      },
+      {
+        "step": "Analizza il timing",
+        "action": "Chiediti se la nuova notizia emerge in un momento conveniente per qualcuno."
+      },
+      {
+        "step": "Distingui urgenza e importanza",
+        "action": "Una notizia può essere urgente (nuova) senza essere più importante di quella che distrae."
+      },
+      {
+        "step": "Usa l'agenda-setting consapevole",
+        "action": "Scegli attivamente su quali temi informarti, invece di seguire passivamente il flusso."
+      }
+    ],
+    "scenario": {
+      "title": "L'annuncio provvidenziale",
+      "situation": "Un ministro è al centro di un'inchiesta per corruzione che monopolizza i titoli dei giornali. Il giorno prima che venga pubblicato un rapporto esplosivo, il governo annuncia una grande operazione di polizia antidroga con conferenza stampa in diretta e immagini spettacolari. Il rapporto riceve poca copertura.",
+      "question": "Quale meccanismo descrive meglio quello che è accaduto?",
+      "options": [
+        {
+          "text": "I media hanno scelto la notizia più rilevante per il pubblico.",
+          "correct": false,
+          "explanation": "La rilevanza delle due notizie era comparabile; la scelta è stata influenzata dalla convenienza del timing."
+        },
+        {
+          "text": "Una notizia spettacolare è stata usata per saturare l'attenzione mediatica e ridurre la copertura di un'altra sfavorevole.",
+          "correct": true,
+          "explanation": "Questo è il meccanismo della cortina di fumo: non si nega l'informazione, la si rende invisibile per competizione dell'attenzione."
+        },
+        {
+          "text": "L'operazione antidroga dimostra che il governo sta lavorando bene nonostante l'inchiesta.",
+          "correct": false,
+          "explanation": "Le due questioni sono indipendenti; una buona azione non cancella una potenziale cattiva condotta."
+        },
+        {
+          "text": "Il pubblico ha dimostrato di preferire notizie di sicurezza pubblica a quelle politiche.",
+          "correct": false,
+          "explanation": "Non è una preferenza del pubblico, ma il risultato di scelte editoriali influenzate dal timing dell'annuncio."
+        }
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "icon": "🔮",
+    "name": "Profezia che si Autoavvera",
+    "subtitle": "Quando le previsioni creano la realtà che descrivono",
+    "category": "framing",
+    "catLabel": "Inquadratura",
+    "summary": "Meccanismo per cui una credenza o previsione, una volta diffusa, induce comportamenti che la rendono vera. In propaganda, viene usata per creare panico, instabilità o polarizzazione attraverso narrazioni su eventi futuri inevitabili.",
+    "definition": "Teorizzata dal sociologo Robert K. Merton nel 1948, la profezia che si autoavvera descrive come una definizione falsa della situazione evochi comportamenti che rendono la definizione originariamente falsa diventare vera. In propaganda, viene sfruttata per creare le condizioni di crisi che si intendeva prevenire o per giustificare misure autoritarie.",
+    "historicalContext": "Le corse agli sportelli bancari sono l'esempio classico: la voce che una banca sia in difficoltà (anche falsa) provoca ritiri di massa che la mettono realmente in difficoltà. In geopolitica, previsioni di inevitabile conflitto tra nazioni alimentano spirali di riarmo che rendono il conflitto più probabile. Carl Schmitt teorizzò come la definizione del nemico crei il nemico.",
+    "psychologicalMechanism": "Quando crediamo che un evento sia probabile, cambiamo comportamento per prepararci o prevenirlo — e spesso questi cambiamenti contribuiscono a causare l'evento. La propaganda sfrutta questo meccanismo creando narrazioni di 'inevitabilità' che portano alla mobilitazione collettiva verso uno scenario predetto.",
+    "variants": [
+      {
+        "name": "Panico morale",
+        "desc": "Diabolizzazione di un gruppo sociale che provoca reazioni di rigetto che confermano lo stereotipo."
+      },
+      {
+        "name": "Spirale del riarmo",
+        "desc": "La previsione di attacco nemico giustifica l'armamento, che l'altro interpreta come minaccia e si arma a sua volta."
+      },
+      {
+        "name": "Profezia di declino",
+        "desc": "Narrazioni di inevitabile declino economico o culturale che demotivano investimenti e accelerano il declino stesso."
+      }
+    ],
+    "redFlags": [
+      "Previsioni di 'inevitabilità' usate per giustificare misure d'emergenza",
+      "Narrazioni che presentano conflitti futuri come certi anziché come rischi",
+      "Definizioni di gruppi o nazioni come intrinsecamente pericolosi",
+      "Uso del linguaggio deterministico ('È solo questione di tempo', 'È inevitabile')"
+    ],
+    "caseStudies": [
+      {
+        "title": "Le corse agli sportelli e la crisi del 2008",
+        "description": "Durante la crisi finanziaria, la percezione che alcune banche fossero insolventi (anche prima che lo fossero) spinse investitori e correntisti a ritirare capitali, rendendo effettivamente insolventi istituzioni che erano in difficoltà ma non ancora in crisi. La narrativa della crisi accelerò la crisi stessa.",
+        "lesson": "Le narrazioni finanziarie non descrivono solo la realtà: la costruiscono."
+      },
+      {
+        "title": "La profezia del 'clash of civilizations'",
+        "description": "La tesi di Samuel Huntington (1993) sullo 'scontro di civiltà' fu usata da attori politici per inquadrare relazioni internazionali in termini di conflitto inevitabile tra Islam e Occidente, contribuendo a creare le condizioni politiche e culturali che rendevano tale scontro più probabile.",
+        "lesson": "Presentare un rischio come certezza non è analisi: è propaganda che costruisce la realtà che descrive."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Distingui previsione da certezza",
+        "action": "Un evento futuro è sempre condizionale. Chiedi quali condizioni renderebbero la previsione falsa."
+      },
+      {
+        "step": "Analizza gli incentivi del profeta",
+        "action": "Chi fa la previsione e cosa guadagna se diventa vera?"
+      },
+      {
+        "step": "Valuta l'effetto della narrazione stessa",
+        "action": "Chiedi: la diffusione di questa previsione aumenta o diminuisce la probabilità dell'evento?"
+      },
+      {
+        "step": "Cerca alternative alla narrazione deterministica",
+        "action": "Ogni scenario presentato come inevitabile ha scenari alternativi che i profeti non menzionano."
+      }
+    ],
+    "scenario": {
+      "title": "Il vicino pericoloso",
+      "situation": "Un politico afferma ripetutamente che una minoranza etnica del paese è 'intrinsecamente portata alla criminalità' e che un aumento della loro presenza porterà 'inevitabilmente' a un aumento della violenza. Molti concittadini iniziano a trattare con sospetto i membri di quel gruppo. I dati sulla criminalità rimangono invariati, ma le tensioni sociali aumentano.",
+      "question": "Quale effetto sta producendo la narrativa del politico?",
+      "options": [
+        {
+          "text": "Sta informando il pubblico su un rischio reale documentato da statistiche.",
+          "correct": false,
+          "explanation": "I dati non supportano la tesi; la narrativa crea una percezione scollegata dalla realtà."
+        },
+        {
+          "text": "Sta creando le condizioni sociali (sospetto, tensioni) che potrebbero generare i conflitti che descrive come inevitabili.",
+          "correct": true,
+          "explanation": "Esatto: definire un gruppo come pericoloso altera il comportamento sociale verso quel gruppo, creando tensioni reali a partire da una premessa falsa."
+        },
+        {
+          "text": "Sta esercitando il suo diritto alla libertà di parola senza effetti concreti.",
+          "correct": false,
+          "explanation": "Le narrazioni politiche hanno effetti comportamentali documentati; non sono senza conseguenze."
+        },
+        {
+          "text": "Sta descrivendo con precisione una tendenza demografica.",
+          "correct": false,
+          "explanation": "I dati sulla criminalità rimangono invariati: la narrazione è disconnessa dalla realtà empirica."
         }
       ]
     }

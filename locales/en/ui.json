@@ -15,6 +15,8 @@
     "techniques": "All Techniques",
     "quiz": "Resistance Test",
     "about": "About",
+    "analyzer": "Analyzer",
+    "training": "Training",
     "progress": "Progress",
     "exploredSuffix": "techniques explored",
     "categories": {
@@ -23,7 +25,8 @@
       "framing": "Framing",
       "manipulation": "Manipulation",
       "digital": "Digital Operations",
-      "emotional": "Emotional Appeals"
+      "emotional": "Emotional Appeals",
+      "cognitive": "Cognitive Biases"
     }
   },
   "home": {
@@ -35,8 +38,10 @@
       "techniques": "Techniques",
       "categories": "Categories",
       "questions": "Questions",
-      "explored": "Explored"
+      "explored": "Explored",
+      "mastered": "Mastered"
     },
+    "lastVisited": "Recently Visited",
     "progress": {
       "techniquesLabel": "📚 Technique Progress",
       "resistanceLabel": "🛡️ Resistance Level",
@@ -54,8 +59,24 @@
       "framing": "🖼️ Framing",
       "manipulation": "🧠 Manipulation",
       "digital": "💻 Digital",
-      "emotional": "💔 Emotional"
+      "emotional": "💔 Emotional",
+      "cognitive": "🔬 Cognitive"
     }
+  },
+  "analyzer": {
+    "title": "🔍 Analyze a Text",
+    "subtitle": "Paste a text and discover which propaganda techniques it might contain.",
+    "placeholder": "Paste an article, speech or post here…",
+    "analyze": "Analyze",
+    "noResult": "No techniques detected. The text appears neutral or too short.",
+    "deepAnalysis": "🔎 Deep analysis on Perplexity"
+  },
+  "training": {
+    "title": "🎯 Technique of the Day",
+    "subtitle": "A new technique to master every day.",
+    "mastered": "⭐ Already mastered!",
+    "startQuiz": "Start Quiz",
+    "openDetail": "Read full guide"
   },
   "detail": {
     "backButton": "← Back to techniques",

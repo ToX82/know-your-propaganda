@@ -2640,8 +2640,8 @@
     "icon": "⏳",
     "name": "Scarcity Principle",
     "subtitle": "Artificial Urgency",
-    "category": "manipulation",
-    "catLabel": "Manipulation",
+    "category": "cognitive",
+    "catLabel": "Cognitive Bias",
     "summary": "Creating artificial urgency to prevent critical reflection and force impulsive decisions.",
     "definition": "The scarcity principle exploits loss aversion: the brain assigns more value to things that are hard to get or running out. Manipulators artificially create this condition to short-circuit rational thinking.",
     "historicalContext": "Theorized by Robert Cialdini in 1984 as one of the six principles of persuasion. Used by salespeople, fraudsters, and in interrogation contexts to accelerate decisions against the victim's interest.",
@@ -2719,8 +2719,8 @@
     "icon": "🤝",
     "name": "Reciprocity Principle",
     "subtitle": "The Emotional Debt",
-    "category": "manipulation",
-    "catLabel": "Manipulation",
+    "category": "cognitive",
+    "catLabel": "Cognitive Bias",
     "summary": "Exploiting the sense of social obligation: an unsolicited favor creates the psychological need to reciprocate.",
     "definition": "The principle of reciprocity is a universal social norm: if someone does us a favor, we feel indebted and want to give something back. Manipulators use small gifts or strategic favors to create this sense of obligation and then ask for something much larger in return.",
     "historicalContext": "Documented by Robert Cialdini and cultural anthropology as a universal norm. Systematically exploited in informant recruitment, cults, and aggressive sales techniques.",
@@ -2798,8 +2798,8 @@
     "icon": "⚓",
     "name": "Anchoring Effect",
     "subtitle": "The Rigged Starting Point",
-    "category": "manipulation",
-    "catLabel": "Manipulation",
+    "category": "cognitive",
+    "catLabel": "Cognitive Bias",
     "summary": "The first piece of information received disproportionately conditions all subsequent evaluations.",
     "definition": "The anchoring effect describes the brain's tendency to rely excessively on the first available information. Once the anchor is set, all subsequent evaluations are measured relative to it, even if the anchor is arbitrary or false.",
     "historicalContext": "Demonstrated by Kahneman and Tversky in 1974 as one of the main cognitive biases. Used systematically in negotiations, interrogations, advertising, and legal proceedings.",
@@ -2877,8 +2877,8 @@
     "icon": "🔍",
     "name": "Confirmation Bias",
     "subtitle": "The Cognitive Bubble",
-    "category": "manipulation",
-    "catLabel": "Manipulation",
+    "category": "cognitive",
+    "catLabel": "Cognitive Bias",
     "summary": "Seeking and overvaluing information that confirms what we already believe, ignoring information that contradicts us.",
     "definition": "Confirmation bias is the tendency to search for, interpret, and remember information in ways that confirm pre-existing beliefs. Manipulators don't need to lie: they just filter reality to feed only what reinforces already-held convictions.",
     "historicalContext": "Documented by Peter Wason in 1960 and developed by Kahneman. It is the cognitive foundation on which contemporary propaganda is built: social media algorithms amplify it automatically, creating echo chambers.",
@@ -3975,6 +3975,273 @@
           "text": "Because your manager has high standards and you want to meet them — it is a relationship of professional esteem",
           "correct": false,
           "explanation": "High standards are communicated with clear objectives and specific feedback. The described pattern does not provide criteria for improvement — it provides permanent demonstration of partial inadequacy."
+        }
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "icon": "😢",
+    "name": "Emotional Contagion",
+    "subtitle": "The viral spread of collective emotions",
+    "category": "emotional",
+    "catLabel": "Emotional",
+    "summary": "Exploits the human tendency to synchronise one's emotions with those of surrounding people, creating collective moods that favour the reception of propagandistic messages.",
+    "definition": "Emotional contagion is the phenomenon by which emotions are transmitted from person to person almost automatically, often without critical awareness. In propaganda, it is deliberately cultivated through mass gatherings, evocative imagery and narratives that trigger uniform emotional responses in large groups.",
+    "historicalContext": "Nazi party rallies at Nuremberg were engineered to maximise emotional contagion: lighting, symbols, marches and rhythmic speeches synchronised crowd reactions. Elias Canetti in 'Crowds and Power' (1960) analysed how emotional fusion within a mass abolishes individual judgement.",
+    "psychologicalMechanism": "Mirror neurons predispose us to mimic others' emotional expressions. In an emotionally homogeneous and engaged group, the critical threshold drops: others' emotions become our compass for reality, supplanting rational evaluation.",
+    "variants": [
+      {
+        "name": "Social media contagion",
+        "desc": "Viral posts and videos that amplify collective emotions globally within hours."
+      },
+      {
+        "name": "Crowd effect",
+        "desc": "Emotional intensity increases proportionally to the size and homogeneity of the group."
+      },
+      {
+        "name": "Music and rhythm",
+        "desc": "Anthems, chants and synchronised rhythms induce shared emotional states and a sense of unity."
+      }
+    ],
+    "redFlags": [
+      "Communications designed to stir strong emotions before presenting facts",
+      "Images or stories eliciting fear, anger or euphoria without context",
+      "Sense of emotional urgency that prevents reflection",
+      "Language that describes collective emotions ('we are all outraged')"
+    ],
+    "caseStudies": [
+      {
+        "title": "Social media and 'outrage storms'",
+        "description": "Studies on viral diffusion show that content with high negative emotional charge spreads up to six times faster than neutral content, creating waves of collective indignation often based on partial information.",
+        "lesson": "The speed of emotional propagation is not correlated with the truthfulness of the information."
+      },
+      {
+        "title": "American political conventions",
+        "description": "US presidential conventions are designed by event management experts to maximise emotional intensity: lighting, music, speech timing and crowd reactions are choreographed to create televised emotional contagion.",
+        "lesson": "An orchestrated emotion is not an authentic evaluation."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Identify the trigger",
+        "action": "Ask yourself: was this emotion deliberately induced? Who benefits from it?"
+      },
+      {
+        "step": "Create physical or temporal distance",
+        "action": "Step away from the emotionally charged context before forming definitive judgements."
+      },
+      {
+        "step": "Verify facts independently",
+        "action": "Check information on independent sources, away from the emotional atmosphere."
+      },
+      {
+        "step": "Recognise contagion",
+        "action": "Knowing that emotional contagion exists is the first step to limiting its influence."
+      }
+    ],
+    "scenario": {
+      "title": "The march of anger",
+      "situation": "You attend a large public rally. Dramatic music, relentless speeches and thousands of angry people make you feel a growing indignation towards a specific group. After the rally, you hear a friend say: 'I finally understand how dangerous they are!'",
+      "question": "What best describes the psychological mechanism at work?",
+      "options": [
+        {
+          "text": "Your friend processed new information that rationally changed their view.",
+          "correct": false,
+          "explanation": "The change happened in a highly emotional context, not through an informational evaluation."
+        },
+        {
+          "text": "The collective emotional intensity lowered individual critical thresholds, synchronising the group's reactions.",
+          "correct": true,
+          "explanation": "Correct: emotional contagion in a mass suppresses individual judgement. The emotion perceived as collective appears to 'confirm' a fact."
+        },
+        {
+          "text": "The rally provided convincing statistics justifying concern.",
+          "correct": false,
+          "explanation": "The effectiveness of the rally relies precisely on emotion, not data."
+        },
+        {
+          "text": "Your friend used critical thinking to reassess their beliefs.",
+          "correct": false,
+          "explanation": "A high-emotion context is the opposite of conditions favourable to critical thinking."
+        }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "icon": "🌫️",
+    "name": "Smokescreen",
+    "subtitle": "Diverting attention from real problems",
+    "category": "disinfo",
+    "catLabel": "Disinformation",
+    "summary": "Technique that consists of deliberately creating informational noise — sensational news, minor scandals or artificial controversies — to divert public attention from uncomfortable or damaging issues.",
+    "definition": "A smokescreen (also known as a 'red herring') is the art of shifting the public agenda towards an alternative topic when the current one is unfavourable. It can be intentional (launching a distraction story) or structural (media systems that privilege spectacle).",
+    "historicalContext": "The term derives from the military use of smoke grenades to conceal troop movements. In politics, the classic example is the 'foreign war' used to distract from domestic opposition. During the Watergate scandal, Nixon attempted to divert attention with foreign policy announcements. In the 21st century, social media have made this technique ubiquitous.",
+    "psychologicalMechanism": "Cognitive attention is a limited resource. When overwhelmed with information about topic X, we have less capacity to process topic Y. The smokescreen exploits this limitation: it does not deny the problem, it renders it irrelevant through attention saturation.",
+    "variants": [
+      {
+        "name": "Whataboutism",
+        "desc": "Responding to criticism with 'but what about you/them?' to shift the debate."
+      },
+      {
+        "name": "Strategic news bomb",
+        "desc": "Launching a sensational story (true or false) to eclipse another unfavourable one."
+      },
+      {
+        "name": "Information overload",
+        "desc": "Producing so many stories in a short time that none receives adequate attention."
+      }
+    ],
+    "redFlags": [
+      "Important announcements arriving at politically convenient moments",
+      "Minor scandals exploding when major issues are being discussed",
+      "Responses to criticism with 'but others also...'",
+      "Stories that disappear before being resolved, replaced by new urgencies"
+    ],
+    "caseStudies": [
+      {
+        "title": "The distraction tweet cycle",
+        "description": "Analysis of political leaders' tweets has shown statistically significant correlations between posting provocative content and the occurrence of unfavourable news at the same time, suggesting deliberate use of the mechanism.",
+        "lesson": "Ask yourself: does this story arrive at a convenient moment for someone?"
+      },
+      {
+        "title": "Whataboutism in the Cold War",
+        "description": "The USSR perfected whataboutism as a diplomatic tool: to every criticism of human rights violations, it responded with references to American racial segregation. The technique has returned in contemporary propaganda.",
+        "lesson": "A 'they also' does not address the original criticism: it avoids it."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Keep the thread",
+        "action": "Note the original question and verify whether the response actually addresses it."
+      },
+      {
+        "step": "Analyse the timing",
+        "action": "Ask yourself whether the new story emerges at a convenient moment for someone."
+      },
+      {
+        "step": "Distinguish urgency from importance",
+        "action": "A story can be urgent (new) without being more important than the one it distracts from."
+      },
+      {
+        "step": "Use conscious agenda-setting",
+        "action": "Actively choose which topics to follow, rather than passively following the flow."
+      }
+    ],
+    "scenario": {
+      "title": "The providential announcement",
+      "situation": "A minister is at the centre of a corruption inquiry that monopolises newspaper headlines. The day before an explosive report is due to be published, the government announces a major anti-drug police operation with a live press conference and spectacular images. The report receives little coverage.",
+      "question": "Which mechanism best describes what happened?",
+      "options": [
+        {
+          "text": "The media chose the story most relevant to the public.",
+          "correct": false,
+          "explanation": "The relevance of the two stories was comparable; the choice was influenced by the convenience of the timing."
+        },
+        {
+          "text": "A spectacular story was used to saturate media attention and reduce coverage of an unfavourable one.",
+          "correct": true,
+          "explanation": "This is the smokescreen mechanism: the information is not denied, it is rendered invisible through competition for attention."
+        },
+        {
+          "text": "The anti-drug operation shows the government is working well despite the inquiry.",
+          "correct": false,
+          "explanation": "The two matters are independent; a good action does not cancel out a potentially bad one."
+        },
+        {
+          "text": "The public has shown a preference for public safety news over political news.",
+          "correct": false,
+          "explanation": "This is not a public preference, but the result of editorial choices influenced by the timing of the announcement."
+        }
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "icon": "🔮",
+    "name": "Self-Fulfilling Prophecy",
+    "subtitle": "When predictions create the reality they describe",
+    "category": "framing",
+    "catLabel": "Framing",
+    "summary": "Mechanism by which a belief or prediction, once disseminated, induces behaviours that make it come true. In propaganda, it is used to create panic, instability or polarisation through narratives about inevitable future events.",
+    "definition": "Theorised by sociologist Robert K. Merton in 1948, the self-fulfilling prophecy describes how a false definition of a situation evokes behaviour that makes the originally false definition come true. In propaganda, it is exploited to create the conditions of crisis that were supposedly being prevented, or to justify authoritarian measures.",
+    "historicalContext": "Bank runs are the classic example: the rumour that a bank is in difficulty (even if false) provokes mass withdrawals that put it genuinely in difficulty. In geopolitics, predictions of inevitable conflict between nations fuel arms races that make conflict more likely. Carl Schmitt theorised how defining the enemy creates the enemy.",
+    "psychologicalMechanism": "When we believe an event is probable, we change behaviour to prepare for or prevent it — and often these changes contribute to causing the event. Propaganda exploits this mechanism by creating narratives of 'inevitability' that lead to collective mobilisation towards a predicted scenario.",
+    "variants": [
+      {
+        "name": "Moral panic",
+        "desc": "Demonisation of a social group that provokes rejection reactions confirming the stereotype."
+      },
+      {
+        "name": "Arms race spiral",
+        "desc": "Predicting an enemy attack justifies armament, which the other interprets as a threat and arms in turn."
+      },
+      {
+        "name": "Decline prophecy",
+        "desc": "Narratives of inevitable economic or cultural decline that demotivate investment and accelerate decline itself."
+      }
+    ],
+    "redFlags": [
+      "Predictions of 'inevitability' used to justify emergency measures",
+      "Narratives that present future conflicts as certain rather than as risks",
+      "Definitions of groups or nations as intrinsically dangerous",
+      "Use of deterministic language ('It is only a matter of time', 'It is inevitable')"
+    ],
+    "caseStudies": [
+      {
+        "title": "Bank runs and the 2008 crisis",
+        "description": "During the financial crisis, the perception that some banks were insolvent (even before they were) prompted investors and depositors to withdraw capital, making genuinely insolvent institutions that were in difficulty but not yet in crisis. The narrative of crisis accelerated the crisis itself.",
+        "lesson": "Financial narratives do not merely describe reality: they construct it."
+      },
+      {
+        "title": "The 'clash of civilisations' prophecy",
+        "description": "Samuel Huntington's 1993 thesis on the 'clash of civilisations' was used by political actors to frame international relations in terms of inevitable conflict between Islam and the West, helping create the political and cultural conditions that made such a clash more likely.",
+        "lesson": "Presenting a risk as certainty is not analysis: it is propaganda that constructs the reality it describes."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Distinguish prediction from certainty",
+        "action": "A future event is always conditional. Ask what conditions would make the prediction false."
+      },
+      {
+        "step": "Analyse the prophet's incentives",
+        "action": "Who makes the prediction and what do they gain if it comes true?"
+      },
+      {
+        "step": "Evaluate the effect of the narrative itself",
+        "action": "Ask: does spreading this prediction increase or decrease the probability of the event?"
+      },
+      {
+        "step": "Seek alternatives to the deterministic narrative",
+        "action": "Every scenario presented as inevitable has alternative scenarios that the prophets do not mention."
+      }
+    ],
+    "scenario": {
+      "title": "The dangerous neighbour",
+      "situation": "A politician repeatedly claims that an ethnic minority in the country is 'inherently prone to crime' and that an increase in their presence will 'inevitably' lead to increased violence. Many citizens begin treating members of that group with suspicion. Crime statistics remain unchanged, but social tensions rise.",
+      "question": "What effect is the politician's narrative producing?",
+      "options": [
+        {
+          "text": "They are informing the public about a real risk documented by statistics.",
+          "correct": false,
+          "explanation": "The data do not support the claim; the narrative creates a perception disconnected from reality."
+        },
+        {
+          "text": "They are creating the social conditions (suspicion, tensions) that could generate the conflicts described as inevitable.",
+          "correct": true,
+          "explanation": "Correct: defining a group as dangerous alters social behaviour towards that group, creating real tensions from a false premise."
+        },
+        {
+          "text": "They are exercising their right to free speech without concrete effects.",
+          "correct": false,
+          "explanation": "Political narratives have documented behavioural effects; they are not without consequences."
+        },
+        {
+          "text": "They are accurately describing a demographic trend.",
+          "correct": false,
+          "explanation": "Crime statistics remain unchanged: the narrative is disconnected from empirical reality."
         }
       ]
     }

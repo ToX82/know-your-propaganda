@@ -17,7 +17,11 @@ function updateCategoryCounts() {
 
 function updateStaticUI() {
   const u = _ui;
-  const navMap = { home: u.nav.home, techniques: u.nav.techniques, quiz: u.nav.quiz, about: u.nav.about };
+  const navMap = {
+    home: u.nav.home, techniques: u.nav.techniques,
+    quiz: u.nav.quiz, about: u.nav.about,
+    analyzer: u.nav.analyzer, training: u.nav.training
+  };
   Object.entries(navMap).forEach(([page, label]) => {
     const el = document.querySelector('[data-page="' + page + '"] [data-label]');
     if (el) el.textContent = label;
@@ -47,7 +51,9 @@ function renderHome() {
   const u = _ui.home;
   const content = document.getElementById('content');
   const explored = exploredTechniques.size;
+  const mastered = masteredTechniques.size;
   const total = techniques.length;
+  const catCount = new Set(techniques.map(t => t.category)).size;
   const quizTotal = Object.values(quizScores).reduce((a, b) => a + b, 0);
   const maxQuiz = (typeof getQuizMaxScore === 'function' ? getQuizMaxScore() : quizQuestions.length * 3);
 
@@ -59,6 +65,11 @@ function renderHome() {
     ? u.title.replace('{count}', total)
     : u.title;
 
+  // Last visited section
+  const recentTechs = lastVisited
+    .map(id => techniques.find(t => t.id === id))
+    .filter(Boolean);
+
   content.innerHTML = `
     <div class="max-w-5xl mx-auto">
       <!-- Hero -->
@@ -68,17 +79,20 @@ function renderHome() {
             <span class="inline-block text-[10px] font-bold uppercase tracking-widest text-amber-700 bg-amber-50 border border-amber-200 px-3 py-1 rounded-full mb-4">${u.badge}</span>
             <h1 class="text-2xl md:text-3xl font-extrabold text-slate-800 mb-3 tracking-tight leading-tight">${homeTitle}</h1>
             <p class="text-slate-500 text-sm leading-relaxed mb-5 max-w-lg">${u.description}</p>
-            <a href="#quiz" class="btn-primary">⚡ ${u.ctaButton}</a>
+            <div class="flex flex-wrap gap-3">
+              <button onclick="navigateTo('quiz')" class="btn-primary">⚡ ${u.ctaButton}</button>
+              <button onclick="navigateTo('training')" class="btn-secondary">🎯 ${(_ui.nav && _ui.nav.training) || 'Training'}</button>
+            </div>
           </div>
           <div class="grid grid-cols-2 gap-3 lg:w-64 shrink-0">
             ${[
-              { val: total, label: u.stats.techniques },
-              { val: '6', label: u.stats.categories },
-              { val: quizQuestions.length, label: u.stats.questions },
-              { val: explored, label: u.stats.explored, accent: true }
+              { val: total,    label: u.stats.techniques },
+              { val: catCount, label: u.stats.categories },
+              { val: explored, label: u.stats.explored, accent: true },
+              { val: mastered, label: u.stats.mastered || (_lang === 'it' ? 'Padroneggiate' : 'Mastered'), accent2: true }
             ].map(s => `
               <div class="card-inset p-4 text-center">
-                <div class="text-2xl font-extrabold font-mono ${s.accent ? 'text-amber-600' : 'text-slate-800'}">${s.val}</div>
+                <div class="text-2xl font-extrabold font-mono ${s.accent ? 'text-amber-600' : s.accent2 ? 'text-emerald-600' : 'text-slate-800'}">${s.val}</div>
                 <div class="text-[10px] text-slate-400 uppercase tracking-wider mt-1 font-semibold">${s.label}</div>
               </div>
             `).join('')}
@@ -110,6 +124,26 @@ function renderHome() {
         </div>
       </div>
 
+      ${recentTechs.length > 0 ? `
+      <!-- Recently visited -->
+      <div class="flex items-center gap-3 mb-4">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-slate-400">${(_ui.home && _ui.home.lastVisited) || (_lang === 'it' ? 'Visitate di recente' : 'Recently Visited')}</h2>
+        <div class="flex-1 h-px bg-gray-200"></div>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-6">
+        ${recentTechs.map(t => `
+          <div class="card card-interactive p-3" onclick="openTechnique(${t.id})">
+            <div class="flex items-center gap-2 mb-1.5">
+              <span class="text-lg">${t.icon}</span>
+              <span class="${categoryColors[t.category] || ''} text-[10px] px-1.5 py-0.5">${t.catLabel}</span>
+              ${masteredTechniques.has(t.id) ? '<span class="ml-auto text-emerald-500 text-xs">⭐</span>' : '<span class="ml-auto text-amber-400 text-xs">★</span>'}
+            </div>
+            <h3 class="font-semibold text-xs text-slate-800 leading-tight">${t.name}</h3>
+          </div>
+        `).join('')}
+      </div>
+      ` : ''}
+
       <!-- Quick access -->
       <div class="flex items-center gap-3 mb-4">
         <h2 class="text-xs font-bold uppercase tracking-widest text-slate-400">${u.quickAccess}</h2>
@@ -117,11 +151,15 @@ function renderHome() {
       </div>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
         ${techniques.slice(0, 6).map(t => `
-          <div class="card card-interactive p-4" onclick="openTechnique(${t.id})">
+          <div class="card card-interactive p-4 ${masteredTechniques.has(t.id) ? 'ring-1 ring-emerald-300 ring-offset-1 ring-offset-gray-50' : exploredTechniques.has(t.id) ? 'ring-1 ring-amber-300 ring-offset-1 ring-offset-gray-50' : ''}"
+               onclick="openTechnique(${t.id})">
             <div class="flex items-start gap-3 mb-2">
               <span class="text-xl">${t.icon}</span>
-              <div class="min-w-0">
-                <span class="${categoryColors[t.category]} text-[10px] px-2 py-0.5">${t.catLabel}</span>
+              <div class="min-w-0 flex-1">
+                <div class="flex items-center gap-1.5 flex-wrap">
+                  <span class="${categoryColors[t.category] || ''} text-[10px] px-2 py-0.5">${t.catLabel}</span>
+                  ${masteredTechniques.has(t.id) ? '<span class="text-[10px] font-bold text-emerald-600">⭐</span>' : exploredTechniques.has(t.id) ? '<span class="text-[10px] font-bold text-amber-500">★</span>' : ''}
+                </div>
                 <h3 class="font-semibold text-sm mt-1 text-slate-800">${t.name}</h3>
               </div>
             </div>
@@ -151,14 +189,14 @@ function renderTechniques() {
       <!-- Grid -->
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
         ${filtered.map(t => `
-          <div class="card card-interactive p-4 ${exploredTechniques.has(t.id) ? 'ring-1 ring-amber-300 ring-offset-1 ring-offset-gray-50' : ''}"
+          <div class="card card-interactive p-4 ${masteredTechniques.has(t.id) ? 'ring-1 ring-emerald-300 ring-offset-1 ring-offset-gray-50' : exploredTechniques.has(t.id) ? 'ring-1 ring-amber-300 ring-offset-1 ring-offset-gray-50' : ''}"
                onclick="openTechnique(${t.id})">
             <div class="flex items-start gap-3 mb-2">
               <span class="text-xl">${t.icon}</span>
               <div class="flex-1 min-w-0">
-                <div class="flex items-center gap-2">
-                  <span class="${categoryColors[t.category]} text-[10px] px-2 py-0.5">${t.catLabel}</span>
-                  ${exploredTechniques.has(t.id) ? '<span class="text-amber-500 text-[10px] font-bold">★</span>' : ''}
+                <div class="flex items-center gap-2 flex-wrap">
+                  <span class="${categoryColors[t.category] || ''} text-[10px] px-2 py-0.5">${t.catLabel}</span>
+                  ${masteredTechniques.has(t.id) ? '<span class="text-[10px] font-bold text-emerald-600">⭐</span>' : exploredTechniques.has(t.id) ? '<span class="text-[10px] font-bold text-amber-500">★</span>' : ''}
                 </div>
                 <h3 class="font-semibold text-sm mt-1 text-slate-800">${t.name}</h3>
                 <p class="text-[11px] text-slate-400">${t.subtitle}</p>
@@ -176,6 +214,8 @@ function renderTechniques() {
 function openTechnique(id) {
   currentTechnique = techniques.find(t => t.id === id);
   exploredTechniques.add(id);
+  KYP.saveExplored();
+  KYP.addLastVisited(id);
   updateProgress();
   navigateTo('detail');
 }
@@ -317,6 +357,220 @@ function renderAbout() {
       </div>
     </div>
   `;
+}
+
+/* ─── ANALYZER ─────────────────────────────────────── */
+function renderAnalyzer() {
+  const isIT = _lang === 'it';
+  const u = (_ui.analyzer) || {};
+  const content = document.getElementById('content');
+  const title    = u.title    || (isIT ? '🔍 Analizza un Testo' : '🔍 Analyze a Text');
+  const subtitle = u.subtitle || (isIT ? 'Incolla un testo e scopri quali tecniche di propaganda potrebbe contenere.' : 'Paste a text and discover which propaganda techniques it might contain.');
+  const placeholder = u.placeholder || (isIT ? 'Incolla qui un articolo, discorso o post…' : 'Paste an article, speech or post here…');
+  const btnLabel = u.analyze  || (isIT ? 'Analizza' : 'Analyze');
+  const noResult = u.noResult || (isIT ? 'Nessuna tecnica rilevata. Il testo sembra neutro o troppo breve.' : 'No techniques detected. The text appears neutral or too short.');
+  const perplexLabel = u.deepAnalysis || (isIT ? '🔎 Analisi approfondita su Perplexity' : '🔎 Deep analysis on Perplexity');
+
+  content.innerHTML = `
+    <div class="max-w-3xl mx-auto">
+      <div class="card p-6 mb-5">
+        <h1 class="text-xl font-extrabold text-slate-800 mb-1">${title}</h1>
+        <p class="text-sm text-slate-500 mb-5">${subtitle}</p>
+        <textarea id="analyzer-input" rows="6"
+          class="w-full text-sm text-slate-700 bg-gray-50 border border-gray-200 rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-amber-300 resize-y transition"
+          placeholder="${placeholder}"></textarea>
+        <div class="mt-3 flex justify-end">
+          <button onclick="runAnalysis()" class="btn-primary">${btnLabel}</button>
+        </div>
+      </div>
+      <div id="analyzer-results"></div>
+    </div>
+  `;
+}
+
+function runAnalysis() {
+  const isIT = _lang === 'it';
+  const u = (_ui.analyzer) || {};
+  const noResult = u.noResult || (isIT ? 'Nessuna tecnica rilevata. Il testo sembra neutro o troppo breve.' : 'No techniques detected. The text appears neutral or too short.');
+  const perplexLabel = u.deepAnalysis || (isIT ? '🔎 Analisi approfondita su Perplexity' : '🔎 Deep analysis on Perplexity');
+  const text = (document.getElementById('analyzer-input') || {}).value || '';
+  const results = Analyzer.analyze(text);
+  const container = document.getElementById('analyzer-results');
+  if (!container) return;
+
+  if (!results.length) {
+    container.innerHTML = `<div class="card p-5 text-center text-sm text-slate-400">${noResult}</div>`;
+    return;
+  }
+
+  const perplexUrl = Analyzer.buildPerplexityUrl(text, results);
+  container.innerHTML = `
+    <div class="space-y-3">
+      ${results.map((r, rank) => `
+        <div class="card card-interactive p-4" onclick="openTechnique(${r.technique.id})">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="w-6 h-6 rounded-full bg-amber-100 text-amber-700 text-xs font-bold font-mono flex items-center justify-center shrink-0">${rank + 1}</span>
+            <span class="text-xl">${r.technique.icon}</span>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="${categoryColors[r.technique.category] || ''} text-[10px] px-2 py-0.5">${r.technique.catLabel}</span>
+                <span class="font-semibold text-sm text-slate-800">${r.technique.name}</span>
+              </div>
+            </div>
+            <div class="text-right shrink-0">
+              <span class="text-xs font-mono font-bold text-amber-600">${r.score}pt</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed pl-9">${r.technique.summary}</p>
+          ${r.matches.length > 0 ? `<div class="mt-2 pl-9 flex flex-wrap gap-1">${r.matches.slice(0, 6).map(m => `<span class="text-[10px] bg-amber-50 border border-amber-200 text-amber-700 px-1.5 py-0.5 rounded font-mono">${m.word}</span>`).join('')}</div>` : ''}
+        </div>
+      `).join('')}
+      <div class="card p-4 mt-4 flex items-center justify-between gap-4">
+        <p class="text-xs text-slate-400">${isIT ? 'Vuoi un\'analisi più approfondita?' : 'Want a deeper analysis?'}</p>
+        <a href="${perplexUrl}" target="_blank" rel="noopener noreferrer" class="btn-secondary text-xs shrink-0">${perplexLabel}</a>
+      </div>
+    </div>
+  `;
+}
+
+/* ─── TRAINING ──────────────────────────────────────── */
+function getDailyTechnique() {
+  if (!techniques || !techniques.length) return null;
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const diff = now - start;
+  const oneDay = 1000 * 60 * 60 * 24;
+  const dayOfYear = Math.floor(diff / oneDay);
+  return techniques[dayOfYear % techniques.length];
+}
+
+function renderTraining() {
+  const isIT = _lang === 'it';
+  const u = (_ui.training) || {};
+  const content = document.getElementById('content');
+  const t = getDailyTechnique();
+
+  const title    = u.title    || (isIT ? '🎯 Tecnica del Giorno' : '🎯 Technique of the Day');
+  const subtitle = u.subtitle || (isIT ? 'Ogni giorno una nuova tecnica da padroneggiare.' : 'A new technique to master every day.');
+  const masteredLabel = u.mastered || (isIT ? '⭐ Già padroneggiata!' : '⭐ Already mastered!');
+  const startLabel = u.startQuiz || (isIT ? 'Inizia il Quiz' : 'Start Quiz');
+  const openLabel = u.openDetail || (isIT ? 'Leggi la guida completa' : 'Read full guide');
+
+  if (!t) {
+    content.innerHTML = `<div class="max-w-xl mx-auto card p-6 text-center text-slate-400">—</div>`;
+    return;
+  }
+
+  const isMastered = masteredTechniques.has(t.id);
+  const isExplored = exploredTechniques.has(t.id);
+  const today = new Date().toLocaleDateString(_lang === 'it' ? 'it-IT' : 'en-US', { weekday: 'long', day: 'numeric', month: 'long' });
+
+  content.innerHTML = `
+    <div class="max-w-2xl mx-auto">
+      <div class="card p-6 mb-5">
+        <div class="flex items-center gap-2 mb-5">
+          <span class="text-[10px] font-bold uppercase tracking-widest text-amber-700 bg-amber-50 border border-amber-200 px-3 py-1 rounded-full">${title}</span>
+          <span class="text-[10px] text-slate-400 font-mono">${today}</span>
+        </div>
+
+        <div class="flex items-start gap-4 mb-5">
+          <span class="text-4xl">${t.icon}</span>
+          <div>
+            <div class="flex items-center gap-2 mb-1 flex-wrap">
+              <span class="${categoryColors[t.category] || ''} text-[10px] px-2 py-0.5">${t.catLabel}</span>
+              ${isMastered ? `<span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full">${masteredLabel}</span>` : ''}
+            </div>
+            <h1 class="text-2xl font-extrabold text-slate-800 tracking-tight">${t.name}</h1>
+            <p class="text-sm text-amber-700 font-medium mt-0.5">${t.subtitle}</p>
+          </div>
+        </div>
+
+        <p class="text-sm text-slate-600 leading-relaxed mb-5">${t.summary}</p>
+
+        <div class="flex flex-wrap gap-3">
+          <button onclick="openTechnique(${t.id})" class="btn-primary">${openLabel}</button>
+        </div>
+      </div>
+
+      <!-- Inline quiz for daily training -->
+      <div class="card p-5">
+        <h2 class="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-4">❓ ${isIT ? 'Testa la tua comprensione' : 'Test your understanding'}</h2>
+        <div id="training-quiz-container">
+          <div class="card-inset p-5 text-center">
+            <div class="text-2xl mb-2">🎯</div>
+            <h3 class="font-bold text-slate-800 mb-1">${t.scenario.title}</h3>
+            <p class="text-xs text-slate-400 mb-4">${isIT ? 'Metti alla prova la tua comprensione' : 'Put your understanding to the test'}</p>
+            <button onclick="startTrainingQuiz()" class="btn-primary">${startLabel}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function startTrainingQuiz() {
+  techniqueQuizState = { answered: false, selected: null };
+  const t = getDailyTechnique();
+  if (!t) return;
+  const u = _ui.detail;
+  document.getElementById('training-quiz-container').innerHTML = `
+    <div class="card p-5 space-y-4">
+      <div class="card-inset p-4">
+        <p class="text-sm text-slate-600"><strong class="text-slate-800">${u.situation}</strong> ${t.scenario.situation}</p>
+      </div>
+      <h4 class="font-semibold text-sm text-slate-800">${t.scenario.question}</h4>
+      <div class="space-y-2" id="training-quiz-options">
+        ${t.scenario.options.map((opt, i) => `
+          <button type="button" onclick="selectTrainingOption(${i}, ${t.id})"
+            class="quiz-option">
+            <span class="font-bold font-mono mr-2 text-amber-600">${String.fromCharCode(65 + i)}.</span>${opt.text}
+          </button>
+        `).join('')}
+      </div>
+      <div id="training-confirm-wrap" class="hidden">
+        <button type="button" onclick="confirmTrainingQuiz(${t.id})" class="btn-primary">${u.confirmAnswer}</button>
+      </div>
+    </div>
+  `;
+}
+
+function selectTrainingOption(index) {
+  if (techniqueQuizState.answered) return;
+  techniqueQuizState.selected = index;
+  document.querySelectorAll('#training-quiz-options .quiz-option').forEach((opt, i) => {
+    if (i === index) { opt.style.background = '#fffbeb'; opt.style.borderColor = '#fcd34d'; }
+    else { opt.style.background = ''; opt.style.borderColor = ''; }
+  });
+  document.getElementById('training-confirm-wrap').classList.remove('hidden');
+}
+
+function confirmTrainingQuiz(techId) {
+  if (techniqueQuizState.answered || techniqueQuizState.selected === null) return;
+  techniqueQuizState.answered = true;
+  const index = techniqueQuizState.selected;
+  const t = techniques.find(x => x.id === techId);
+  if (!t) return;
+
+  document.querySelectorAll('#training-quiz-options .quiz-option').forEach((opt, i) => {
+    opt.classList.add('answered');
+    opt.style.background = '';
+    opt.style.borderColor = '';
+    if (t.scenario.options[i].correct) opt.classList.add('correct');
+    else if (i === index) opt.classList.add('incorrect');
+    else opt.classList.add('neutral-answered');
+    if (i === index || t.scenario.options[i].correct) {
+      const exp = document.createElement('p');
+      exp.className = 'mt-2 text-xs pl-6 ' + (t.scenario.options[i].correct ? 'text-emerald-700' : 'text-red-600');
+      exp.textContent = (t.scenario.options[i].correct ? '✓ ' : '✗ ') + t.scenario.options[i].explanation;
+      opt.appendChild(exp);
+    }
+  });
+  document.getElementById('training-confirm-wrap').classList.add('hidden');
+
+  if (t.scenario.options[index].correct) {
+    masteredTechniques.add(techId);
+    KYP.saveMastered();
+  }
 }
 
 /* ─── UTILS ────────────────────────────────────────── */

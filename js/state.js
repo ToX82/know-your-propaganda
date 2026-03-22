@@ -3,6 +3,8 @@ let currentPage = 'home';
 let currentTechnique = null;
 let currentFilter = 'all';
 let exploredTechniques = new Set();
+let masteredTechniques = new Set();
+let lastVisited = [];
 let quizScores = {};
 let quizSelections = {};
 let currentQuizQuestion = 0;
@@ -19,5 +21,6 @@ let quizStartTime = null;
 // Category colors
 const categoryColors = {
   attack: 'cat-attack', disinfo: 'cat-disinfo', framing: 'cat-framing',
-  manipulation: 'cat-manipulation', digital: 'cat-digital', emotional: 'cat-emotional'
+  manipulation: 'cat-manipulation', digital: 'cat-digital', emotional: 'cat-emotional',
+  cognitive: 'cat-cognitive'
 };

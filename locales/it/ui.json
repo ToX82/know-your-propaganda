@@ -15,6 +15,8 @@
     "techniques": "Tutte le Tecniche",
     "quiz": "Test Resistenza",
     "about": "Informazioni",
+    "analyzer": "Analizzatore",
+    "training": "Allenamento",
     "progress": "Progresso",
     "exploredSuffix": "tecniche esplorate",
     "categories": {
@@ -23,7 +25,8 @@
       "framing": "Inquadratura",
       "manipulation": "Manipolazione",
       "digital": "Operazioni Digitali",
-      "emotional": "Appelli Emotivi"
+      "emotional": "Appelli Emotivi",
+      "cognitive": "Bias Cognitivi"
     }
   },
   "home": {
@@ -35,8 +38,10 @@
       "techniques": "Tecniche",
       "categories": "Categorie",
       "questions": "Domande",
-      "explored": "Esplorate"
+      "explored": "Esplorate",
+      "mastered": "Padroneggiate"
     },
+    "lastVisited": "Visitate di Recente",
     "progress": {
       "techniquesLabel": "📚 Progresso Tecniche",
       "resistanceLabel": "🛡️ Livello Resistenza",
@@ -54,8 +59,24 @@
       "framing": "🖼️ Inquadratura",
       "manipulation": "🧠 Manipolazione",
       "digital": "💻 Digitale",
-      "emotional": "💔 Emotivo"
+      "emotional": "💔 Emotivo",
+      "cognitive": "🔬 Cognitivo"
     }
+  },
+  "analyzer": {
+    "title": "🔍 Analizza un Testo",
+    "subtitle": "Incolla un testo e scopri quali tecniche di propaganda potrebbe contenere.",
+    "placeholder": "Incolla qui un articolo, discorso o post…",
+    "analyze": "Analizza",
+    "noResult": "Nessuna tecnica rilevata. Il testo sembra neutro o troppo breve.",
+    "deepAnalysis": "🔎 Analisi approfondita su Perplexity"
+  },
+  "training": {
+    "title": "🎯 Tecnica del Giorno",
+    "subtitle": "Ogni giorno una nuova tecnica da padroneggiare.",
+    "mastered": "⭐ Già padroneggiata!",
+    "startQuiz": "Inizia il Quiz",
+    "openDetail": "Leggi la guida completa"
   },
   "detail": {
     "backButton": "← Torna alle tecniche",
