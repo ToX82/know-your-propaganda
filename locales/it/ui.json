@@ -65,11 +65,10 @@
   },
   "analyzer": {
     "title": "🔍 Analizza un Testo",
-    "subtitle": "Incolla un testo e scopri quali tecniche di propaganda potrebbe contenere.",
+    "subtitle": "Incolla un testo e analizzalo su Perplexity per rilevare tecniche di propaganda.",
     "placeholder": "Incolla qui un articolo, discorso o post…",
-    "analyze": "Analizza",
-    "noResult": "Nessuna tecnica rilevata. Il testo sembra neutro o troppo breve.",
-    "deepAnalysis": "🔎 Analisi approfondita su Perplexity"
+    "analyze": "🔎 Analizza su Perplexity",
+    "prompt": "Analizza questo testo <testo>{text}</testo>. Usa le seguenti regole <regole>{rulesUrl}</regole> per evidenziare l'uso di propaganda, sottolineando tutte le tecniche utilizzate. Infine, assegna un voto da 0 a 10 all'uso della propaganda nel testo, dove 10 significa \"Ottimo! Nessun uso di propaganda rilevato\" e 0 significa \"Attenzione: testo puramente propagandistico\"."
   },
   "training": {
     "title": "🎯 Tecnica del Giorno",

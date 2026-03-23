@@ -361,76 +361,29 @@ function renderAbout() {
 
 /* ─── ANALYZER ─────────────────────────────────────── */
 function renderAnalyzer() {
-  const isIT = _lang === 'it';
-  const u = (_ui.analyzer) || {};
+  const u = _ui.analyzer;
   const content = document.getElementById('content');
-  const title    = u.title    || (isIT ? '🔍 Analizza un Testo' : '🔍 Analyze a Text');
-  const subtitle = u.subtitle || (isIT ? 'Incolla un testo e scopri quali tecniche di propaganda potrebbe contenere.' : 'Paste a text and discover which propaganda techniques it might contain.');
-  const placeholder = u.placeholder || (isIT ? 'Incolla qui un articolo, discorso o post…' : 'Paste an article, speech or post here…');
-  const btnLabel = u.analyze  || (isIT ? 'Analizza' : 'Analyze');
-  const noResult = u.noResult || (isIT ? 'Nessuna tecnica rilevata. Il testo sembra neutro o troppo breve.' : 'No techniques detected. The text appears neutral or too short.');
-  const perplexLabel = u.deepAnalysis || (isIT ? '🔎 Analisi approfondita su Perplexity' : '🔎 Deep analysis on Perplexity');
-
   content.innerHTML = `
     <div class="max-w-3xl mx-auto">
-      <div class="card p-6 mb-5">
-        <h1 class="text-xl font-extrabold text-slate-800 mb-1">${title}</h1>
-        <p class="text-sm text-slate-500 mb-5">${subtitle}</p>
+      <div class="card p-6">
+        <h1 class="text-xl font-extrabold text-slate-800 mb-1">${u.title}</h1>
+        <p class="text-sm text-slate-500 mb-5">${u.subtitle}</p>
         <textarea id="analyzer-input" rows="6"
           class="w-full text-sm text-slate-700 bg-gray-50 border border-gray-200 rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-amber-300 resize-y transition"
-          placeholder="${placeholder}"></textarea>
+          placeholder="${u.placeholder}"></textarea>
         <div class="mt-3 flex justify-end">
-          <button onclick="runAnalysis()" class="btn-primary">${btnLabel}</button>
+          <button onclick="runAnalysis()" class="btn-primary">${u.analyze}</button>
         </div>
       </div>
-      <div id="analyzer-results"></div>
     </div>
   `;
 }
 
 function runAnalysis() {
-  const isIT = _lang === 'it';
-  const u = (_ui.analyzer) || {};
-  const noResult = u.noResult || (isIT ? 'Nessuna tecnica rilevata. Il testo sembra neutro o troppo breve.' : 'No techniques detected. The text appears neutral or too short.');
-  const perplexLabel = u.deepAnalysis || (isIT ? '🔎 Analisi approfondita su Perplexity' : '🔎 Deep analysis on Perplexity');
   const text = (document.getElementById('analyzer-input') || {}).value || '';
-  const results = Analyzer.analyze(text);
-  const container = document.getElementById('analyzer-results');
-  if (!container) return;
-
-  if (!results.length) {
-    container.innerHTML = `<div class="card p-5 text-center text-sm text-slate-400">${noResult}</div>`;
-    return;
-  }
-
-  const perplexUrl = Analyzer.buildPerplexityUrl(text, results);
-  container.innerHTML = `
-    <div class="space-y-3">
-      ${results.map((r, rank) => `
-        <div class="card card-interactive p-4" onclick="openTechnique(${r.technique.id})">
-          <div class="flex items-center gap-3 mb-2">
-            <span class="w-6 h-6 rounded-full bg-amber-100 text-amber-700 text-xs font-bold font-mono flex items-center justify-center shrink-0">${rank + 1}</span>
-            <span class="text-xl">${r.technique.icon}</span>
-            <div class="flex-1 min-w-0">
-              <div class="flex items-center gap-2 flex-wrap">
-                <span class="${categoryColors[r.technique.category] || ''} text-[10px] px-2 py-0.5">${r.technique.catLabel}</span>
-                <span class="font-semibold text-sm text-slate-800">${r.technique.name}</span>
-              </div>
-            </div>
-            <div class="text-right shrink-0">
-              <span class="text-xs font-mono font-bold text-amber-600">${r.score}pt</span>
-            </div>
-          </div>
-          <p class="text-xs text-slate-400 leading-relaxed pl-9">${r.technique.summary}</p>
-          ${r.matches.length > 0 ? `<div class="mt-2 pl-9 flex flex-wrap gap-1">${r.matches.slice(0, 6).map(m => `<span class="text-[10px] bg-amber-50 border border-amber-200 text-amber-700 px-1.5 py-0.5 rounded font-mono">${m.word}</span>`).join('')}</div>` : ''}
-        </div>
-      `).join('')}
-      <div class="card p-4 mt-4 flex items-center justify-between gap-4">
-        <p class="text-xs text-slate-400">${isIT ? 'Vuoi un\'analisi più approfondita?' : 'Want a deeper analysis?'}</p>
-        <a href="${perplexUrl}" target="_blank" rel="noopener noreferrer" class="btn-secondary text-xs shrink-0">${perplexLabel}</a>
-      </div>
-    </div>
-  `;
+  if (!text.trim()) return;
+  const url = Analyzer.buildPerplexityUrl(text);
+  window.open(url, '_blank', 'noopener,noreferrer');
 }
 
 /* ─── TRAINING ──────────────────────────────────────── */
