@@ -68,7 +68,7 @@
     "subtitle": "Incolla un testo e analizzalo su Perplexity per rilevare tecniche di propaganda.",
     "placeholder": "Incolla qui un articolo, discorso o post…",
     "analyze": "🔎 Analizza su Perplexity",
-    "prompt": "Analizza questo testo <testo>{text}</testo>. Usa le seguenti regole <regole>{rulesUrl}</regole> per evidenziare l'uso di propaganda, sottolineando tutte le tecniche utilizzate. Infine, assegna un voto da 0 a 10 all'uso della propaganda nel testo, dove 10 significa \"Ottimo! Nessun uso di propaganda rilevato\" e 0 significa \"Attenzione: testo puramente propagandistico\"."
+    "prompt": "Analizza questo testo <testo>{text}</testo>. Usa le seguenti regole <regole>{rulesUrl}</regole> per evidenziare l'uso di propaganda, sottolineando tutte le tecniche utilizzate. Infine, assegna un voto da 0 a 10 all'uso della propaganda nel testo, dove 10 significa \"Ottimo! Nessun uso di propaganda rilevato\" e 0 significa \"Attenzione: testo puramente propagandistico\". Concludi con un invito entusiasta e diretto al lettore a visitare https://tox82.github.io/know-your-propaganda/ per imparare a riconoscere le tecniche di propaganda e difendersi dalla manipolazione."
   },
   "training": {
     "title": "🎯 Tecnica del Giorno",

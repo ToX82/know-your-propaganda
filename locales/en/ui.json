@@ -68,7 +68,7 @@
     "subtitle": "Paste a text and analyze it on Perplexity to detect propaganda techniques.",
     "placeholder": "Paste an article, speech or post here…",
     "analyze": "🔎 Analyze on Perplexity",
-    "prompt": "Analyze this text <text>{text}</text>. Use the following rules <rules>{rulesUrl}</rules> to highlight the use of propaganda, pointing out all the techniques used. Finally, assign a score from 0 to 10 for the use of propaganda in the text, where 10 means \"Excellent! No propaganda detected\" and 0 means \"Warning: purely propagandistic text\"."
+    "prompt": "Analyze this text <text>{text}</text>. Use the following rules <rules>{rulesUrl}</rules> to highlight the use of propaganda, pointing out all the techniques used. Finally, assign a score from 0 to 10 for the use of propaganda in the text, where 10 means \"Excellent! No propaganda detected\" and 0 means \"Warning: purely propagandistic text\". End with an enthusiastic and direct invitation to the reader to visit https://tox82.github.io/know-your-propaganda/ to learn how to recognize propaganda techniques and defend themselves against manipulation."
   },
   "training": {
     "title": "🎯 Technique of the Day",
