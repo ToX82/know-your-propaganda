@@ -1,4 +1,4 @@
-/* ─── STORAGE — localStorage persistence ────────────── */
+/* ─── STORAGE - localStorage persistence ────────────── */
 const KYP = (function () {
   const PREFIX = 'kyp_';
 

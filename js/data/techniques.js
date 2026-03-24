@@ -98,7 +98,7 @@ const techniques = [
   {
     id: 4, icon: '📰', name: 'Firehose of Falsehood', subtitle: 'Diluvio di Menzogne', category: 'disinfo', catLabel: 'Disinformazione',
     summary: 'Inondare lo spazio informativo con un volume tale di messaggi contraddittori da rendere impossibile il fact-checking.',
-    definition: 'Modello di propaganda che bombarda il pubblico con molti messaggi falsi e contraddittori — scommettendo che le correzioni non riescano a tenere il passo.',
+    definition: 'Modello di propaganda che bombarda il pubblico con molti messaggi falsi e contraddittori - scommettendo che le correzioni non riescano a tenere il passo.',
     historicalContext: 'Teorizzato da RAND Corporation nel 2016 per le operazioni russe durante l\'annessione della Crimea. A differenza della propaganda sovietica, accetta contraddizioni evidenti.',
     psychologicalMechanism: 'Sfrutta l\'"illusione di verità" (ripetere fa sembrare vero) e la "fatigue cognitiva" (troppe informazioni contraddittorie = smetto di verificare).',
     variants: [
@@ -338,7 +338,7 @@ const techniques = [
   // === MANIPOLAZIONE ===
   {
     id: 12, icon: '🐑', name: 'Bandwagon', subtitle: 'Effetto Gregge', category: 'manipulation', catLabel: 'Manipolazione',
-    summary: '"Tutti lo fanno!" — Sfruttare il desiderio di conformismo sociale.',
+    summary: '"Tutti lo fanno!" - Sfruttare il desiderio di conformismo sociale.',
     definition: 'Tecnica che sfrutta la prova sociale: se "tutti" fanno o pensano qualcosa, dovrebbe essere giusto/vero/desiderabile.',
     historicalContext: 'Uno dei sette trucchi principali identificati dall\'Institute for Propaganda Analysis nel 1937. Usato in pubblicità e politica.',
     psychologicalMechanism: 'Sfrutta il bisogno di appartenenza e la paura di essere esclusi. Tendiamo a conformarci a ciò che percepiamo come norma sociale.',
@@ -348,7 +348,7 @@ const techniques = [
       { name: 'Falso consenso', desc: 'Gonfiare i numeri del supporto' }
     ],
     redFlags: ['Inviti a unirsi alla maggioranza', 'Numeri di supporto non verificabili', 'Pressione sociale implicita'],
-    caseStudies: [{ title: 'Elezione del 1936', description: 'Il "Literary Digest" previde la vittoria di Landon basandosi su milioni di questionari — ma il campione era sbilanciato. Il bandwagon si rivelò sbagliato.', lesson: 'La maggioranza può avere torto.' }],
+    caseStudies: [{ title: 'Elezione del 1936', description: 'Il "Literary Digest" previde la vittoria di Landon basandosi su milioni di questionari - ma il campione era sbilanciato. Il bandwagon si rivelò sbagliato.', lesson: 'La maggioranza può avere torto.' }],
     defense: [
       { step: 'Verifica i numeri', action: 'Il "tutti" è reale o immaginario?' },
       { step: 'Valuta su merito', action: 'Anche se tutti lo facessero, è giusto?' },
@@ -494,7 +494,7 @@ const techniques = [
       { name: 'Slogan contrastivo', desc: '"Loro distruggono, noi costruiamo"' }
     ],
     redFlags: ['Frasi molto brevi che riassumono questioni complesse', 'Facili da gridare, impossibili da discutere', 'Sostituiscono argomentazioni'],
-    caseStudies: [{ title: 'Slogan in dittatura', description: '"Un popolo, un impero, un leader" — riassume e semplifica una complessa ideologia totalitaria in tre parole.', lesson: 'Gli slogan bypassano il pensiero critico.' }],
+    caseStudies: [{ title: 'Slogan in dittatura', description: '"Un popolo, un impero, un leader" - riassume e semplifica una complessa ideologia totalitaria in tre parole.', lesson: 'Gli slogan bypassano il pensiero critico.' }],
     defense: [
       { step: 'Espandi', action: '"Cosa significa concretamente questo slogan?"' },
       { step: 'Cerca il dettaglio', action: 'Dietro la frase semplice, qual è il programma?' },
@@ -1054,7 +1054,7 @@ const techniques = [
     caseStudies: [{ title: 'Interrogatori e negoziazioni', description: '"Questa è la tua unica possibilità di collaborare" crea falsa scarsità dell\'opportunità, inducendo decisioni affrettate sotto stress.', lesson: 'Le offerte genuine sopravvivono al tempo. Se non puoi aspettare, è una trappola.' }],
     defense: [
       { step: 'Fermati', action: 'Il cuore accelera? È un segnale: qualcuno sta attivando il tuo Sistema 1' },
-      { step: 'Richiedi tempo', action: '"Ho bisogno di tempo per pensarci" — un\'offerta reale sarà ancora valida domani' },
+      { step: 'Richiedi tempo', action: '"Ho bisogno di tempo per pensarci" - un\'offerta reale sarà ancora valida domani' },
       { step: 'Verifica l\'urgenza', action: "L'urgenza è verificabile o è semplicemente affermata?" }
     ],
     scenario: {
@@ -1063,7 +1063,7 @@ const techniques = [
       question: 'Quale meccanismo sta usando il venditore?',
       options: [
         { text: 'Scarsità temporale per impedire la riflessione', correct: true, explanation: "L'urgenza artificiale serve a bypassare l'analisi razionale dell'offerta." },
-        { text: "Informazione trasparente sui limiti dell'offerta", correct: false, explanation: 'Una vera scadenza può esistere, ma va verificata — non accettata per fede.' },
+        { text: "Informazione trasparente sui limiti dell'offerta", correct: false, explanation: 'Una vera scadenza può esistere, ma va verificata - non accettata per fede.' },
         { text: 'Tecnica di vendita legittima', correct: false, explanation: 'Anche se comune, la scarsità artificiale è manipolazione quando è falsa.' }
       ]
     }
@@ -1084,7 +1084,7 @@ const techniques = [
     caseStudies: [{ title: 'Reclutamento di informatori', description: 'I servizi di intelligence usano la reciprocità sistematicamente: prima piccoli favori (un visto, un\'informazione utile), poi richieste crescenti di informazioni riservate.', lesson: 'Hai il diritto di accettare un favore senza sentirti obbligato a ricambiare. La reciprocità è una norma sociale, non un contratto.' }],
     defense: [
       { step: 'Analizza il timing', action: 'Il favore è arrivato subito prima di una richiesta? Potrebbe non essere casuale.' },
-      { step: 'Separa i due eventi', action: '"Ho ricevuto X, ma non ho nessun obbligo di dare Y" — il debito è psicologico, non reale.' },
+      { step: 'Separa i due eventi', action: '"Ho ricevuto X, ma non ho nessun obbligo di dare Y" - il debito è psicologico, non reale.' },
       { step: 'Riconosci il diritto', action: 'Puoi accettare cortesia senza comprare nulla in cambio.' }
     ],
     scenario: {
@@ -1154,7 +1154,7 @@ const techniques = [
       options: [
         { text: "Bias di conferma amplificato dall'algoritmo: camera d'eco che rafforza le convinzioni", correct: true, explanation: "L'algoritmo ottimizza per il coinvolgimento, non per l'accuratezza. La tua certezza crescente è un segnale di allarme." },
         { text: 'Stai diventando più informato', correct: false, explanation: "L'informazione autentica espone anche a prospettive scomode." },
-        { text: 'Le tue fonti sono semplicemente accurate', correct: false, explanation: "La coerenza assoluta tra fonti diverse è rarità statistica — o selezione." }
+        { text: 'Le tue fonti sono semplicemente accurate', correct: false, explanation: "La coerenza assoluta tra fonti diverse è rarità statistica - o selezione." }
       ]
     }
   }

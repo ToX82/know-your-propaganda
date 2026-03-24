@@ -8,7 +8,7 @@ No framework dependencies: plain HTML, CSS, and JavaScript. Content is driven by
 
 ## Why This Exists
 
-Propaganda does not require lies. It often works through selection (what is shown, what is omitted), framing (how it is presented), and repetition. The goal here is to name these patterns so they can be identified in real content—news, ads, speeches, social feeds—and to offer clear, actionable ways to resist them.
+Propaganda does not require lies. It often works through selection (what is shown, what is omitted), framing (how it is presented), and repetition. The goal here is to name these patterns so they can be identified in real content-news, ads, speeches, social feeds-and to offer clear, actionable ways to resist them.
 
 The structure follows established work: the Institute for Propaganda Analysis (1937–1942), RAND’s “firehose of falsehood” model, agenda-setting and framing research, and classical treatments of logical fallacies. The techniques are organized so that recognition comes first; defense follows from understanding the mechanism.
 
@@ -17,12 +17,12 @@ The structure follows established work: the Institute for Propaganda Analysis (1
 ## What’s Inside
 
 - **Several techniques** divided in categories:
-  - **Attack** — Ad hominem, ridicule, demonization
-  - **Disinformation** — Firehose of falsehood, chain letters, viral amplification
-  - **Framing** — Framing, whataboutism, agenda setting, poisoning the well, card stacking, labeling
-  - **Manipulation** — Bandwagon, glittering generalities, transfer, testimonial, repetition, slogan, plain folks, appeal to authority, polarization, Gish gallop, straw man, red herring, projection, dog whistle, gaslighting, cherry-picking
-  - **Digital operations** — Astroturfing, false flag, deepfake, influence operations, flooding
-  - **Emotional appeals** — Fear appeal, flag-waving, beautiful people
+  - **Attack** - Ad hominem, ridicule, demonization
+  - **Disinformation** - Firehose of falsehood, chain letters, viral amplification
+  - **Framing** - Framing, whataboutism, agenda setting, poisoning the well, card stacking, labeling
+  - **Manipulation** - Bandwagon, glittering generalities, transfer, testimonial, repetition, slogan, plain folks, appeal to authority, polarization, Gish gallop, straw man, red herring, projection, dog whistle, gaslighting, cherry-picking
+  - **Digital operations** - Astroturfing, false flag, deepfake, influence operations, flooding
+  - **Emotional appeals** - Fear appeal, flag-waving, beautiful people
 
 For each technique the guide provides:
 
@@ -92,11 +92,11 @@ Content lives in the `locales` JSON files; technique IDs and structure are in `j
 
 The selection and naming of techniques draw on:
 
-- **Institute for Propaganda Analysis** (1937–1942) — Seven classic devices (bandwagon, card stacking, glittering generalities, etc.)
-- **RAND Corporation** — “Firehose of Falsehood” and modern disinformation
-- **McCombs & Shaw** — Agenda-setting
-- **Herman & Chomsky** — Manufacturing consent and framing
-- **Aristotle and informal logic** — Fallacies (e.g. ad hominem, appeal to authority)
+- **Institute for Propaganda Analysis** (1937–1942) - Seven classic devices (bandwagon, card stacking, glittering generalities, etc.)
+- **RAND Corporation** - “Firehose of Falsehood” and modern disinformation
+- **McCombs & Shaw** - Agenda-setting
+- **Herman & Chomsky** - Manufacturing consent and framing
+- **Aristotle and informal logic** - Fallacies (e.g. ad hominem, appeal to authority)
 
 The guide is intended for education and critical literacy, not as a legal or clinical tool.
 

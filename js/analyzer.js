@@ -1,4 +1,4 @@
-/* ─── ANALYZER — Perplexity-based text analysis ─────── */
+/* ─── ANALYZER - Perplexity-based text analysis ─────── */
 const Analyzer = (function () {
 
   return {

@@ -2,15 +2,15 @@
   "quiz_info": {
     "titolo": "How manipulable are you?",
     "sottotitolo": "10 real scenarios. Honest answers. Discover your blind spots.",
-    "istruzioni": "Every scenario is something that's already happened to you or will. Don't pick the 'right' answer — pick what you'd actually do at 11:47 PM, tired, thumb on your phone. Honesty matters more than performance here.",
+    "istruzioni": "Every scenario is something that's already happened to you or will. Don't pick the 'right' answer - pick what you'd actually do at 11:47 PM, tired, thumb on your phone. Honesty matters more than performance here.",
     "punteggio": {
-      "0-8": "Bulletproof — Your BS detector works just fine",
-      "9-16": "Healthy sceptic — Good instincts, a few blind spots",
-      "17-24": "Exposed — More vulnerable than you think",
-      "25-40": "Fertile ground — Manipulation techniques find you receptive"
+      "0-8": "Bulletproof - Your BS detector works just fine",
+      "9-16": "Healthy sceptic - Good instincts, a few blind spots",
+      "17-24": "Exposed - More vulnerable than you think",
+      "25-40": "Fertile ground - Manipulation techniques find you receptive"
     },
     "narrative": {
-      "intro_message": "Every day you scroll through hundreds of pieces of content. Some are information, others are designed to fool you — and the difference isn't always obvious.\n\nThis test puts you in front of 10 real situations: viral posts, TV debates, group messages, YouTube videos. Stuff you encounter every week.\n\nThere's no grade and it's not an exam. It's a mirror: it shows you where your defences hold and where they have holes. Some answers will surprise you.",
+      "intro_message": "Every day you scroll through hundreds of pieces of content. Some are information, others are designed to fool you - and the difference isn't always obvious.\n\nThis test puts you in front of 10 real situations: viral posts, TV debates, group messages, YouTube videos. Stuff you encounter every week.\n\nThere's no grade and it's not an exam. It's a mirror: it shows you where your defences hold and where they have holes. Some answers will surprise you.",
       "difficulty_curve": "Scenarios get progressively more subtle. The first ones test instinct, the last ones test reasoning."
     },
     "gamification": {
@@ -23,16 +23,16 @@
       "badges": [
         { "id": "first_blood", "name": "Clean start", "icon": "✅", "condition": "Answer the first question correctly", "description": "You spotted the trap on the first try" },
         { "id": "streak_3", "name": "On a roll", "icon": "🔥", "condition": "3 perfect answers in a row", "description": "Three in a row without hesitation" },
-        { "id": "streak_5", "name": "Five for five", "icon": "⚡", "condition": "5 perfect answers in a row", "description": "Five consecutive — your critical thinking is in shape" },
+        { "id": "streak_5", "name": "Five for five", "icon": "⚡", "condition": "5 perfect answers in a row", "description": "Five consecutive - your critical thinking is in shape" },
         { "id": "perfect", "name": "Full marks", "icon": "💎", "condition": "Score 0 (all perfect)", "description": "Zero propaganda points. Non-ironic congratulations." },
-        { "id": "speed_demon", "name": "Sharp instinct", "icon": "⏱️", "condition": "Complete the quiz in under 3 minutes", "description": "Fast and accurate — rare" },
-        { "id": "curious_mind", "name": "Wants to understand", "icon": "🧠", "condition": "Read all bonus insights", "description": "The answer isn't enough — you want to know why" },
+        { "id": "speed_demon", "name": "Sharp instinct", "icon": "⏱️", "condition": "Complete the quiz in under 3 minutes", "description": "Fast and accurate - rare" },
+        { "id": "curious_mind", "name": "Wants to understand", "icon": "🧠", "condition": "Read all bonus insights", "description": "The answer isn't enough - you want to know why" },
         { "id": "emotional_armor", "name": "Clear-headed", "icon": "🫀", "condition": "Answer q4 and q8 correctly (emotional traps)", "description": "Emotions don't make you lose your head" },
-        { "id": "pattern_breaker", "name": "Logic antibodies", "icon": "🧩", "condition": "Answer q7 and q10 correctly (logical traps)", "description": "You see beyond patterns — your brain doesn't fall for bias" }
+        { "id": "pattern_breaker", "name": "Logic antibodies", "icon": "🧩", "condition": "Answer q7 and q10 correctly (logical traps)", "description": "You see beyond patterns - your brain doesn't fall for bias" }
       ],
       "streak_messages": {
         "2": "Two in a row.",
-        "3": "🔥 Three in a row — 'On a roll' badge unlocked.",
+        "3": "🔥 Three in a row - 'On a roll' badge unlocked.",
         "5": "⚡ Five consecutive. Your critical thinking is in shape.",
         "7": "Seven out of seven. Sure you're not cheating?",
         "10": "Ten out of ten. You don't have a single blind spot."
@@ -56,9 +56,9 @@
       "situation": "You're scrolling at 11:47 PM. A post with 15,000 shares: \"Tap water contains CHROMIUM DISSITATE-7! They've been HIDING it for YEARS!\" The site is \"hiddentruth247.xyz\", the author signs as 'Dr. Independent Researcher'. In the comments, stock photo profiles write \"I KNEW IT!!!\".",
       "question": "Your thumb is hovering over 'Share'. What do you do?",
       "options": [
-        { "id": "a", "text": "Stop thumb. Open Google and search 'chromium dissitate-7' + fact-check", "score": 0, "explanation": "Top Google result: 'Chromium dissitate-7 does not exist on the periodic table.' They tried with a chemical-sounding name — and you didn't bite. Your brain is worth more than 15,000 thumbs." },
-        { "id": "b", "text": "15,000 people can't ALL be wrong — there must be something to it", "score": 3, "explanation": "You just activated the 'social proof' bias. Know how many people have shared that the Earth is flat? Millions. Virality measures emotion, not truth. 'Dissitate' doesn't exist — literally." },
-        { "id": "c", "text": "I share to warn my family — better safe than sorry!", "score": 4, "explanation": "With the best intentions, you just became a disinformation vector. 68% of health hoaxes spread this way: good people who don't verify. The manipulator thanks you." },
+        { "id": "a", "text": "Stop thumb. Open Google and search 'chromium dissitate-7' + fact-check", "score": 0, "explanation": "Top Google result: 'Chromium dissitate-7 does not exist on the periodic table.' They tried with a chemical-sounding name - and you didn't bite. Your brain is worth more than 15,000 thumbs." },
+        { "id": "b", "text": "15,000 people can't ALL be wrong - there must be something to it", "score": 3, "explanation": "You just activated the 'social proof' bias. Know how many people have shared that the Earth is flat? Millions. Virality measures emotion, not truth. 'Dissitate' doesn't exist - literally." },
+        { "id": "c", "text": "I share to warn my family - better safe than sorry!", "score": 4, "explanation": "With the best intentions, you just became a disinformation vector. 68% of health hoaxes spread this way: good people who don't verify. The manipulator thanks you." },
         { "id": "d", "text": "I comment 'Source?' under the post and wait for a reply", "score": 2, "explanation": "Asking for a source is better than sharing, but waiting for 'hiddentruth247.xyz' to provide evidence is like asking a cat to fetch. You verify actively." }
       ],
       "bonus_insight": "Did you know? .xyz, .tk and .ml domains cost less than a coffee and require no verification. 47% of disinformation sites use these domains. If the URL looks like your neighbour's Wi-Fi password, it's probably not Reuters."
@@ -68,7 +68,7 @@
       "title": "The election circus",
       "difficulty": "easy",
       "category": "politics",
-      "visual_cue": "[TV studio: two politicians shouting simultaneously, the moderator checking their phone, the banner reads 'EXCLUSIVE — TOTAL CLASH', volume at maximum]",
+      "visual_cue": "[TV studio: two politicians shouting simultaneously, the moderator checking their phone, the banner reads 'EXCLUSIVE - TOTAL CLASH', volume at maximum]",
       "situation": "Prime-time election debate. Candidate A: 'My opponent ran THREE companies into the ground!' Candidate B: 'Oh yeah? YOU evaded TAXES!' The moderator is tweeting. Neither cites a single source. The studio audience applauds like it's a rock concert.",
       "question": "You're forming an opinion. But based on what, exactly?",
       "options": [
@@ -85,12 +85,12 @@
       "difficulty": "medium",
       "category": "framing",
       "visual_cue": "[Two front pages side by side: left has 'HISTORIC PROTEST: 500,000 IN THE STREETS!' with aerial crowd photo; right has 'TOTAL FLOP: a few thousand wandering around' with near-empty square and pigeons]",
-      "situation": "Same day. Same climate protest. Two different outlets.\n\nOutlet A: 'HISTORIC PROTEST: 500,000 IN THE STREETS!' — aerial photo of a packed square.\nOutlet B: 'TOTAL FLOP: a few thousand wandering around' — photo of an empty corner with pigeons.\n\nBoth swear they're telling the truth. Both have 'photographic evidence'.",
+      "situation": "Same day. Same climate protest. Two different outlets.\n\nOutlet A: 'HISTORIC PROTEST: 500,000 IN THE STREETS!' - aerial photo of a packed square.\nOutlet B: 'TOTAL FLOP: a few thousand wandering around' - photo of an empty corner with pigeons.\n\nBoth swear they're telling the truth. Both have 'photographic evidence'.",
       "question": "Two parallel realities. How do you navigate?",
       "options": [
         { "id": "a", "text": "I read both and check police or official third-party estimates", "score": 0, "explanation": "You went for the primary source instead of picking your favourite narrative. Official counts (police, city officials) are imperfect but the most solid starting point." },
-        { "id": "b", "text": "One of them is clearly lying — I just need to figure out which", "score": 2, "explanation": "Often neither is 'lying' strictly speaking. 8AM photo vs 2PM photo, side street vs main square, partial count vs optimistic estimate. Framing isn't lying — it's selection. And it's even more insidious." },
-        { "id": "c", "text": "I trust the outlet I usually follow — they're always right", "score": 4, "explanation": "You're choosing the reality that feels like home. This is literally how information bubbles work: you end up in a parallel universe where you're 'always right'. Spoiler: nobody is always right." },
+        { "id": "b", "text": "One of them is clearly lying - I just need to figure out which", "score": 2, "explanation": "Often neither is 'lying' strictly speaking. 8AM photo vs 2PM photo, side street vs main square, partial count vs optimistic estimate. Framing isn't lying - it's selection. And it's even more insidious." },
+        { "id": "c", "text": "I trust the outlet I usually follow - they're always right", "score": 4, "explanation": "You're choosing the reality that feels like home. This is literally how information bubbles work: you end up in a parallel universe where you're 'always right'. Spoiler: nobody is always right." },
         { "id": "d", "text": "I search for amateur videos and geotagged photos on social media", "score": 1, "explanation": "User-generated content with geotags and timestamps is great for triangulation. But watch out: even videos can be decontextualised (old footage passed off as current)." }
       ],
       "bonus_insight": "Did you know? Photos lie more than words. An empty square at 8AM doesn't disprove a full square at 2PM. Angle changes everything: wide-angle from below = ocean of people, telephoto from above = 'four people and a dog'. Same square, same time."
@@ -100,13 +100,13 @@
       "title": "The emotional bait",
       "difficulty": "medium",
       "category": "emotional manipulation",
-      "visual_cue": "[Article with red headline: 'THE RICH ARE STEALING WATER FROM THE POOR — SCANDAL!!!', stock photo of a sad child, flashing 'SHARE FOR JUSTICE' button, zero graphs in the text]",
+      "visual_cue": "[Article with red headline: 'THE RICH ARE STEALING WATER FROM THE POOR - SCANDAL!!!', stock photo of a sad child, flashing 'SHARE FOR JUSTICE' button, zero graphs in the text]",
       "situation": "Heart-attack headline: 'THE RICH ARE STEALING WATER FROM THE POOR! SCANDAL!!!' The article has: a sad child photo (stock image, you recognise it), three tearful testimonials, zero numbers, zero data, zero sources, and a finale: 'If you have a heart, SHARE NOW!'\n\nYou feel the anger rising. Your fingers are tingling.",
       "question": "Your emotions are maxed out. The 'Share' button is glowing. What do you do?",
       "options": [
         { "id": "a", "text": "Strong emotion + zero data = red alert. I stop, breathe, and verify tomorrow with a clear head", "score": 0, "explanation": "You recognised that anger is the PRODUCT, not the side effect. Manipulators design content to make you feel first and think later (or never). You reversed the order." },
         { "id": "b", "text": "I notice the lack of concrete data and the suspiciously aggressive call-to-action", "score": 1, "explanation": "You spotted the 'manipulation triangle': emotion + no evidence + share pressure. Serious content doesn't scream 'SHARE NOW'. At most it says 'source: ONS, page 47'." },
-        { "id": "c", "text": "If it's true it's outrageous — I share now, I'll verify later", "score": 4, "explanation": "You just did exactly what the manipulator wanted. The sequence 'share now, verify later' is like shooting first and asking questions after. Spoiler: you'll never verify. Nobody does." },
+        { "id": "c", "text": "If it's true it's outrageous - I share now, I'll verify later", "score": 4, "explanation": "You just did exactly what the manipulator wanted. The sequence 'share now, verify later' is like shooting first and asking questions after. Spoiler: you'll never verify. Nobody does." },
         { "id": "d", "text": "I search for the same topic on major outlets to see if it's covered", "score": 1, "explanation": "If a real scandal of this magnitude existed, it would be on every outlet, not just 'justiceforall.blog'. The total absence of coverage is already a massive clue." }
       ],
       "bonus_insight": "Did you know? Manipulators use 'emotional bait-and-switch': they anger you with the headline, the article proves nothing, but you've already shared before reading. 59% of people share articles after reading only the headline."
@@ -154,7 +154,7 @@
       "options": [
         { "id": "a", "text": "With 100 claims, at least some must be true", "score": 3, "explanation": "You just met the Gish Gallop. A technique invented by creationist Duane Gish: fire 100 claims so it's impossible to check them all. Debunk 10, 90 remain. Debunk 50, 'but what about the other 50?' A game you can't win playing by their rules." },
         { "id": "b", "text": "I pick 5 at random and fact-check them. If 2-3 are false, the rest is suspect", "score": 0, "explanation": "Random sampling is exactly what real fact-checkers do. If 40% of the sample is false, the content is compromised. You don't need to debunk all 100. Smart." },
-        { "id": "c", "text": "I watch it all to form a complete and informed opinion", "score": 4, "explanation": "After 90 minutes of sourceless bombardment, your brain enters 'passive acceptance mode'. It's a documented neurological effect: repetition creates familiarity, familiarity creates trust. The manipulator doesn't want to convince you — they want to exhaust your critical thinking." }
+        { "id": "c", "text": "I watch it all to form a complete and informed opinion", "score": 4, "explanation": "After 90 minutes of sourceless bombardment, your brain enters 'passive acceptance mode'. It's a documented neurological effect: repetition creates familiarity, familiarity creates trust. The manipulator doesn't want to convince you - they want to exhaust your critical thinking." }
       ],
       "bonus_insight": "Did you know? Debunking a single lie takes 10 times longer than telling it. 100 lies at 50 seconds = 8.3 minutes. Debunking them all? About 83 minutes. It's the mathematics of manipulation."
     },
@@ -168,9 +168,9 @@
       "question": "Auntie Karen is waiting for you to forward it. What do you do?",
       "options": [
         { "id": "a", "text": "If it were true, it would be on every news site, TV channel and paper by tomorrow morning", "score": 0, "explanation": "No government in the world can pass laws secretly overnight without a single journalist noticing. The official gazette is public. If it's 'not in the media', maybe it's because it isn't true." },
-        { "id": "b", "text": "Better safe than sorry — I forward it now, I can always correct it later", "score": 4, "explanation": "'Better safe than sorry' is the phrase behind 79% of WhatsApp chains. Nobody ever comes back to correct it. The message will live forever in that group, and in 6 months someone will forward it again as 'confirmation'." },
-        { "id": "c", "text": "I search 'balcony tomato ban law' on official sites. Reply to the group with the result", "score": 0, "explanation": "You save instead of forwarding, verify on official sources, then reply to the group with the results. The third step — educating Auntie Karen — is the bravest of all." },
-        { "id": "d", "text": "I ignore it — Auntie Karen sends these things every week", "score": 2, "explanation": "Ignoring is better than forwarding, but the message keeps circulating through the other 47 forwards. If you've got 30 seconds, a quick check and reply can break the chain." }
+        { "id": "b", "text": "Better safe than sorry - I forward it now, I can always correct it later", "score": 4, "explanation": "'Better safe than sorry' is the phrase behind 79% of WhatsApp chains. Nobody ever comes back to correct it. The message will live forever in that group, and in 6 months someone will forward it again as 'confirmation'." },
+        { "id": "c", "text": "I search 'balcony tomato ban law' on official sites. Reply to the group with the result", "score": 0, "explanation": "You save instead of forwarding, verify on official sources, then reply to the group with the results. The third step - educating Auntie Karen - is the bravest of all." },
+        { "id": "d", "text": "I ignore it - Auntie Karen sends these things every week", "score": 2, "explanation": "Ignoring is better than forwarding, but the message keeps circulating through the other 47 forwards. If you've got 30 seconds, a quick check and reply can break the chain." }
       ],
       "bonus_insight": "Did you know? Artificial urgency is red flag number one. Rule of thumb: true information can wait for verification; false information needs your haste. If a message tells you 'SHARE NOW', it almost certainly wouldn't survive 5 minutes of Googling."
     },
@@ -180,10 +180,10 @@
       "difficulty": "hard",
       "category": "false authority",
       "visual_cue": "[Interview in silhouette: person's outline with distorted voice, yellow subtitles, title 'EX PHARMA EXEC REVEALS ALL', generic molecules in the background]",
-      "situation": "Viral video (3.7 million views): silhouette against a backlight, distorted voice. The interviewer introduces them as 'a former senior executive at a multinational pharmaceutical company — a courageous whistleblower risking their life for the truth'. For 22 minutes, they reveal disturbing secrets. But: no company name, no dates, no specific role, no documents shown.",
+      "situation": "Viral video (3.7 million views): silhouette against a backlight, distorted voice. The interviewer introduces them as 'a former senior executive at a multinational pharmaceutical company - a courageous whistleblower risking their life for the truth'. For 22 minutes, they reveal disturbing secrets. But: no company name, no dates, no specific role, no documents shown.",
       "question": "Mysterious silhouette + explosive secrets + zero verification. Credibility?",
       "options": [
-        { "id": "a", "text": "An 'ex' who speaks out has more credibility — they risk retaliation", "score": 3, "explanation": "Without a name, company, dates or role, anyone can sit in silhouette and say 'I was an executive'. Know what you need to make this video? A chair, a lamp behind you, and a script. Budget: zero." },
+        { "id": "a", "text": "An 'ex' who speaks out has more credibility - they risk retaliation", "score": 3, "explanation": "Without a name, company, dates or role, anyone can sit in silhouette and say 'I was an executive'. Know what you need to make this video? A chair, a lamp behind you, and a script. Budget: zero." },
         { "id": "b", "text": "I want verifiable details: which company, which role, which years, which documents", "score": 0, "explanation": "A real whistleblower (Snowden, Haugen, Assange) provides verifiable documents, accepts legal consequences, and gets identified. Total anonymity with no evidence is a red flag." },
         { "id": "c", "text": "I share as a 'possible truth to keep an eye on'", "score": 2, "explanation": "Sharing unverified content as 'worth watching' is disinformation's Trojan horse. You create noise and give undeserved credibility. Doubt is resolved by verification, not by sharing." },
         { "id": "d", "text": "If it were true, an investigative journalist would have already published with evidence", "score": 1, "explanation": "Investigative journalists live for stories like these. If 'the establishment' has been hiding something for years, one of thousands of journalists would have cracked it and won a Pulitzer." }
@@ -200,11 +200,11 @@
       "question": "Does the corkboard with the red lines convince you?",
       "options": [
         { "id": "a", "text": "I verify each individual event independently before accepting any connection", "score": 0, "explanation": "Each puzzle piece must be verified on its own. Often just one turns out to be false or imprecise and the entire construction collapses. Did the researcher die of natural causes? Was the meeting public? Was the patent filed months earlier? Verify and watch the 'conspiracy' crumble." },
-        { "id": "b", "text": "If the puzzle fits this well, there must be a design behind it", "score": 4, "explanation": "Your brain is a pattern-finding machine — even where no patterns exist. You see faces in power sockets, rabbits in clouds, and conspiracies in random events. In a world of 8 billion people, 'incredible coincidences' happen every single day by pure statistics." },
-        { "id": "c", "text": "Coincidence doesn't mean causation. I look for direct evidence of coordination", "score": 1, "explanation": "Correlation does not imply causation. Two events happening at the same time aren't 'connected' until there's proof of intentional coordination. Ice cream sales and drownings both rise in summer — ice cream conspiracy?" },
-        { "id": "d", "text": "The cinematic production makes me suspicious — who's funding this documentary?", "score": 1, "explanation": "A documentary with Hollywood-level production costs tens of thousands. Who's paying? An idealist? Or someone earning from views and monetisation? Following the money is always a good question." }
+        { "id": "b", "text": "If the puzzle fits this well, there must be a design behind it", "score": 4, "explanation": "Your brain is a pattern-finding machine - even where no patterns exist. You see faces in power sockets, rabbits in clouds, and conspiracies in random events. In a world of 8 billion people, 'incredible coincidences' happen every single day by pure statistics." },
+        { "id": "c", "text": "Coincidence doesn't mean causation. I look for direct evidence of coordination", "score": 1, "explanation": "Correlation does not imply causation. Two events happening at the same time aren't 'connected' until there's proof of intentional coordination. Ice cream sales and drownings both rise in summer - ice cream conspiracy?" },
+        { "id": "d", "text": "The cinematic production makes me suspicious - who's funding this documentary?", "score": 1, "explanation": "A documentary with Hollywood-level production costs tens of thousands. Who's paying? An idealist? Or someone earning from views and monetisation? Following the money is always a good question." }
       ],
-      "bonus_insight": "Did you know? The human brain is wired to find patterns — an evolutionary advantage (better to flee a shadow than ignore a predator). But in the modern world, this 'superpower' becomes a vulnerability. Real conspiracies (Watergate, Panama Papers) are uncovered with documents, not with epic music and red lines on YouTube."
+      "bonus_insight": "Did you know? The human brain is wired to find patterns - an evolutionary advantage (better to flee a shadow than ignore a predator). But in the modern world, this 'superpower' becomes a vulnerability. Real conspiracies (Watergate, Panama Papers) are uncovered with documents, not with epic music and red lines on YouTube."
     }
   ],
   "final_feedback": {
@@ -216,10 +216,10 @@
       "0-8 punti": {
         "level": "🛡️ Bulletproof",
         "title_card": "━━━━━━━━━━━━━━━━━━━━━\n🛡️  BULLETPROOF\n━━━━━━━━━━━━━━━━━━━━━\nCritical thinking: excellent\nBlind spots detected: none\n━━━━━━━━━━━━━━━━━━━━━",
-        "description": "Your critical thinking works the way it should. You recognise manipulation techniques, you don't let emotions drive you, and you verify before reacting. That's not common — most people have at least a few blind spots. Next step? Help those around you develop the same skills.",
+        "description": "Your critical thinking works the way it should. You recognise manipulation techniques, you don't let emotions drive you, and you verify before reacting. That's not common - most people have at least a few blind spots. Next step? Help those around you develop the same skills.",
         "shareable_report": "🛡️ HOW MANIPULABLE ARE YOU?\n━━━━━━━━━━━━━━━\nResult: BULLETPROOF\nScore: {{score}}/40\nPropaganda resistance: excellent\n━━━━━━━━━━━━━━━\nTake the test yourself →",
         "suggestions": [
-          "Your defences are solid — now keep them updated. Deepfakes and AI-generated content are the next frontier",
+          "Your defences are solid - now keep them updated. Deepfakes and AI-generated content are the next frontier",
           "Share these skills with those around you. Critical thinking can be taught",
           "Consider volunteering with fact-checking organisations"
         ]
@@ -227,22 +227,22 @@
       "9-16 punti": {
         "level": "🔍 Healthy sceptic",
         "title_card": "━━━━━━━━━━━━━━━━━━━━━\n🔍  HEALTHY SCEPTIC\n━━━━━━━━━━━━━━━━━━━━━\nCritical thinking: good\nBlind spots detected: a few\n━━━━━━━━━━━━━━━━━━━━━",
-        "description": "In most cases, your instincts guide you well. But some techniques — especially those working on emotions or perceived authority — still get through. That's not a flaw: these techniques are designed to fool everyone. Knowing where you're vulnerable is already half the defence.",
+        "description": "In most cases, your instincts guide you well. But some techniques - especially those working on emotions or perceived authority - still get through. That's not a flaw: these techniques are designed to fool everyone. Knowing where you're vulnerable is already half the defence.",
         "shareable_report": "🔍 HOW MANIPULABLE ARE YOU?\n━━━━━━━━━━━━━━━\nResult: HEALTHY SCEPTIC\nScore: {{score}}/40\nPropaganda resistance: good\nWeak spot: emotional traps\n━━━━━━━━━━━━━━━\nTake the test yourself →",
         "suggestions": [
           "Apply the 10-minute rule: before reacting to content that makes you angry, wait",
           "Build a mental checklist: source? data? urgency? emotion? If there's no source, stop",
-          "Diversify your news sources — if you only read 'friendly' outlets, you're in a bubble"
+          "Diversify your news sources - if you only read 'friendly' outlets, you're in a bubble"
         ]
       },
       "17-24 punti": {
         "level": "🎯 Exposed",
         "title_card": "━━━━━━━━━━━━━━━━━━━━━\n🎯  EXPOSED\n━━━━━━━━━━━━━━━━━━━━━\nCritical thinking: needs strengthening\nBlind spots detected: several\n━━━━━━━━━━━━━━━━━━━━━",
-        "description": "You're more vulnerable than you probably think. Not because you're 'gullible' — manipulation techniques are designed by professionals to work on everyone. The fact that you took this test means you want to improve, and that's already 50% of the work. Re-read the answer explanations: you'll find patterns that will help in real life.",
+        "description": "You're more vulnerable than you probably think. Not because you're 'gullible' - manipulation techniques are designed by professionals to work on everyone. The fact that you took this test means you want to improve, and that's already 50% of the work. Re-read the answer explanations: you'll find patterns that will help in real life.",
         "shareable_report": "🎯 HOW MANIPULABLE ARE YOU?\n━━━━━━━━━━━━━━━\nResult: EXPOSED\nScore: {{score}}/40\nPropaganda resistance: needs strengthening\n━━━━━━━━━━━━━━━\nTake the test yourself →",
         "suggestions": [
           "Rule #1: If content makes you angry, don't share it. Ever. Verify first, always",
-          "Rule #2: If there's no source, it's not information — it's opinion",
+          "Rule #2: If there's no source, it's not information - it's opinion",
           "Install a browser fact-checking extension (NewsGuard, Media Bias/Fact Check)"
         ]
       },
@@ -263,7 +263,7 @@
   "resources": [
     { "name": "Full Fact", "url": "https://fullfact.org", "description": "UK's leading independent fact-checking charity" },
     { "name": "Snopes", "url": "https://www.snopes.com", "description": "Hoax archive since 1994" },
-    { "name": "Poynter IFCN", "url": "https://ifcncodeofprinciples.poynter.org", "description": "International Fact-Checking Network — global standards" },
+    { "name": "Poynter IFCN", "url": "https://ifcncodeofprinciples.poynter.org", "description": "International Fact-Checking Network - global standards" },
     { "name": "EUvsDisinfo", "url": "https://euvsdisinfo.eu", "description": "European database of disinformation campaigns" },
     { "name": "NewsGuard", "url": "https://www.newsguardtech.com", "description": "Browser extension that rates news site reliability" },
     { "name": "Media Bias/Fact Check", "url": "https://mediabiasfactcheck.com", "description": "Rates outlets on political bias and factual accuracy" }

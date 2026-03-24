@@ -1,3 +1,6 @@
+window.slugMaps = { it: null, en: null };
+let initialHashHandled = false;
+
 /* ─── SIDEBAR ──────────────────────────────────────── */
 function openSidebar() {
   document.getElementById('sidebar').classList.add('translate-x-0');
@@ -21,15 +24,28 @@ function closeSidebar() {
 
 function isSidebarOpen() {
   return document.getElementById('sidebar').classList.contains('translate-x-0');
-}
+};
 
 /* ─── HASH ROUTING ─────────────────────────────────── */
 function getHashRoute() {
   const hash = location.hash.slice(1);
+  console.log('getHashRoute - hash:', hash);
+
   if (!hash) return { page: 'home' };
   const parts = hash.split('/');
+  console.log('getHashRoute - parts:', parts);
+
+  if (parts.length >= 3 && i18n.supported.includes(parts[0]) && parts[1] === 'technique' && parts[2]) {
+    const lang = parts[0];
+    const slug = parts[2];
+    console.log('getHashRoute - matched technique route:', { page: 'detail', lang, slug });
+    return { page: 'detail', lang, slug };
+  }
+
   if (parts[0] === 'detail' && parts[1]) return { page: 'detail', id: parseInt(parts[1], 10) };
   if (parts[0] === 'techniques' && parts[1]) return { page: 'techniques', filter: parts[1] };
+
+  console.log('getHashRoute - default route:', { page: parts[0] || 'home' });
   return { page: parts[0] || 'home' };
 }
 
@@ -41,9 +57,17 @@ function updateMetaDescription() {
 }
 
 function updateHash(page, extra) {
-  let hash = '#' + page;
-  if (page === 'detail' && extra) hash += '/' + extra;
-  if (page === 'techniques' && extra && extra !== 'all') hash += '/' + extra;
+  let hash = '';
+
+  if (page === 'technique') {
+    const lang = _lang || 'it';
+    hash = `#${lang}/technique/${extra}`;
+  } else {
+    hash = '#' + page;
+    if (page === 'detail' && extra) hash += '/' + extra;
+    if (page === 'techniques' && extra && extra !== 'all') hash += '/' + extra;
+  }
+
   if (location.hash !== hash) {
     history.pushState(null, '', hash);
   }
@@ -59,7 +83,8 @@ function navigateTo(page, filter) {
 
   // Update hash
   if (page === 'detail' && currentTechnique) {
-    updateHash('detail', currentTechnique.id);
+    const slug = window.slugify(currentTechnique.name);
+    updateHash('technique', slug);
   } else if (page === 'techniques' && filter && filter !== 'all') {
     updateHash('techniques', filter);
   } else {
@@ -103,26 +128,42 @@ function navigateTo(page, filter) {
 
 function handleHashRoute() {
   const route = getHashRoute();
-  if (route.page === 'detail' && route.id) {
-    const t = techniques.find(t => t.id === route.id);
+  console.log('handleHashRoute - Route:', route, 'initialHashHandled:', initialHashHandled);
+
+  if (route.page === 'detail' && route.slug) {
+    console.log('Processing technique slug route. Current lang:', _lang, 'Route lang:', route.lang, 'Slug:', route.slug);
+
+    if (route.lang && route.lang !== _lang) {
+      console.log('Switching language from', _lang, 'to', route.lang);
+      switchLanguage(route.lang);
+      return;
+    }
+
+    const t = window.findTechniqueBySlug(_lang, route.slug);
     if (t) {
       currentTechnique = t;
       exploredTechniques.add(t.id);
       KYP.saveExplored();
       KYP.addLastVisited(t.id);
       updateProgress();
+
+      initialHashHandled = true;
       navigateTo('detail');
       return;
+    } else {
+      console.error('Technique not found for slug:', route.slug);
     }
   }
+
   if (route.page === 'techniques' && route.filter) {
     currentFilter = route.filter;
   }
+
   const validPages = ['home', 'techniques', 'quiz', 'about', 'analyzer', 'training'];
   navigateTo(validPages.includes(route.page) ? route.page : 'home', route.filter);
+  initialHashHandled = true;
 }
 
-/* ─── LANGUAGE ─────────────────────────────────────── */
 async function switchLanguage(lang) {
   i18n.setLang(lang);
   currentPage = 'home';
@@ -142,6 +183,7 @@ async function switchLanguage(lang) {
   techniqueQuizState = { answered: false, selected: null };
 
   await i18n.loadLocale(lang);
+  window.slugMaps[lang] = window.createSlugMap(techniques, lang);
   updateStaticUI();
   updateCategoryCounts();
   updateMetaDescription();
@@ -153,14 +195,19 @@ document.addEventListener('DOMContentLoaded', async () => {
   KYP.loadAll();
   const lang = i18n.getLang();
   await i18n.loadLocale(lang);
+  window.slugMaps[lang] = window.createSlugMap(techniques, lang);
 
   // Wire nav
-  document.querySelectorAll('.nav-item[data-page]').forEach(el =>
-    el.addEventListener('click', () => navigateTo(el.dataset.page))
-  );
-  document.querySelectorAll('.nav-item[data-filter]').forEach(el =>
-    el.addEventListener('click', () => navigateTo('techniques', el.dataset.filter))
-  );
+  document.querySelectorAll('.nav-item[data-page]').forEach(function(el) {
+    el.addEventListener('click', function() {
+      navigateTo(el.dataset.page);
+    });
+  });
+  document.querySelectorAll('.nav-item[data-filter]').forEach(function(el) {
+    el.addEventListener('click', function() {
+      navigateTo('techniques', el.dataset.filter);
+    });
+  });
 
   // Sidebar
   const sidebarToggle = document.getElementById('sidebar-toggle');
@@ -182,7 +229,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Lang switch
   const langBtn = document.getElementById('lang-switch');
   if (langBtn) {
-    langBtn.addEventListener('click', () => switchLanguage(langBtn.dataset.switchTo));
+    langBtn.addEventListener('click', function() {
+      switchLanguage(langBtn.dataset.switchTo);
+    });
   }
 
   updateStaticUI();

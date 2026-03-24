@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Know Your Propaganda — Anti-Fake Detective Academy</title>
+  <title>Know Your Propaganda - Anti-Fake Detective Academy</title>
   <meta name="description" content="Learn to spot propaganda techniques. Take the Resistance Test and earn your Agent rank.">
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -56,7 +56,7 @@
     </button>
     <button class="nav-item" data-page="techniques">
       <span class="nav-icon">📚</span> <span data-label>Tutte le Tecniche</span>
-      <span class="ml-auto bg-amber-100 text-amber-700 text-[10px] font-bold font-mono px-1.5 py-0.5 rounded" id="techniques-count">—</span>
+      <span class="ml-auto bg-amber-100 text-amber-700 text-[10px] font-bold font-mono px-1.5 py-0.5 rounded" id="techniques-count">-</span>
     </button>
     <button class="nav-item" data-page="quiz">
       <span class="nav-icon">🕵️</span> <span data-label>Test Resistenza</span>
@@ -108,7 +108,7 @@
   <div class="p-3 border-t border-gray-200">
     <div class="flex items-center justify-between mb-1.5">
       <span id="progress-label" class="text-[10px] font-semibold uppercase tracking-wider text-slate-400">Progresso</span>
-      <span class="text-[10px] font-mono font-bold text-slate-500" id="progress-text">0/—</span>
+      <span class="text-[10px] font-mono font-bold text-slate-500" id="progress-text">0/-</span>
     </div>
     <div class="w-full h-1.5 bg-gray-100 rounded-full overflow-hidden">
       <div id="progress-bar" class="h-full bg-gradient-to-r from-amber-400 to-amber-500 rounded-full transition-all duration-500" style="width:0%"></div>
@@ -142,6 +142,7 @@
   <div id="content" class="p-4 md:p-6 lg:p-8 flex-1 min-w-0"></div>
 </main>
 
+<script src="js/utils.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/storage.js"></script>
 <script src="js/state.js"></script>

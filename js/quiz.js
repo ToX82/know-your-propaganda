@@ -479,7 +479,7 @@ function renderResultsPanel(score, maxScore, answeredCount) {
           <div class="card p-4 mb-5">
             <h4 class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-3">${quizFinalFeedback.resourcesLabel || 'Risorse utili'}</h4>
             <ul class="space-y-2">
-              ${resources.map(r => `<li class="text-sm"><a href="${r.url}" target="_blank" rel="noopener" class="text-amber-700 hover:text-amber-800 transition-colors font-medium underline decoration-amber-300 underline-offset-2">${r.name}</a> <span class="text-slate-400">— ${r.description}</span></li>`).join('')}
+              ${resources.map(r => `<li class="text-sm"><a href="${r.url}" target="_blank" rel="noopener" class="text-amber-700 hover:text-amber-800 transition-colors font-medium underline decoration-amber-300 underline-offset-2">${r.name}</a> <span class="text-slate-400">- ${r.description}</span></li>`).join('')}
             </ul>
           </div>
         ` : ''}

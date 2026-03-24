@@ -7,8 +7,10 @@ function updateProgress() {
 
 function updateCategoryCounts() {
   const counts = {};
-  techniques.forEach(t => counts[t.category] = (counts[t.category] || 0) + 1);
-  Object.keys(counts).forEach(cat => {
+  techniques.forEach(function(t) {
+    counts[t.category] = (counts[t.category] || 0) + 1;
+  });
+  Object.keys(counts).forEach(function(cat) {
     const el = document.getElementById('count-' + cat);
     if (el) el.textContent = counts[cat];
   });
@@ -22,11 +24,15 @@ function updateStaticUI() {
     quiz: u.nav.quiz, about: u.nav.about,
     analyzer: u.nav.analyzer, training: u.nav.training
   };
-  Object.entries(navMap).forEach(([page, label]) => {
+  Object.entries(navMap).forEach(function(entry) {
+    var page = entry[0];
+    var label = entry[1];
     const el = document.querySelector('[data-page="' + page + '"] [data-label]');
     if (el) el.textContent = label;
   });
-  Object.entries(u.nav.categories).forEach(([cat, label]) => {
+  Object.entries(u.nav.categories).forEach(function(entry) {
+    var cat = entry[0];
+    var label = entry[1];
     const el = document.querySelector('[data-filter="' + cat + '"] [data-label]');
     if (el) el.textContent = label;
   });
@@ -44,7 +50,7 @@ function updateStaticUI() {
   const exploredSuffix = document.getElementById('explored-suffix');
   if (exploredSuffix) exploredSuffix.textContent = u.nav.exploredSuffix;
   document.documentElement.lang = _lang;
-}
+};
 
 /* ─── HOME ─────────────────────────────────────────── */
 function renderHome() {
@@ -152,7 +158,7 @@ function renderHome() {
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
         ${techniques.slice(0, 6).map(t => `
           <div class="card card-interactive p-4 ${masteredTechniques.has(t.id) ? 'ring-1 ring-emerald-300 ring-offset-1 ring-offset-gray-50' : exploredTechniques.has(t.id) ? 'ring-1 ring-amber-300 ring-offset-1 ring-offset-gray-50' : ''}"
-               onclick="openTechnique(${t.id})">
+                onclick="openTechnique(${t.id})">
             <div class="flex items-start gap-3 mb-2">
               <span class="text-xl">${t.icon}</span>
               <div class="min-w-0 flex-1">
@@ -190,7 +196,7 @@ function renderTechniques() {
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
         ${filtered.map(t => `
           <div class="card card-interactive p-4 ${masteredTechniques.has(t.id) ? 'ring-1 ring-emerald-300 ring-offset-1 ring-offset-gray-50' : exploredTechniques.has(t.id) ? 'ring-1 ring-amber-300 ring-offset-1 ring-offset-gray-50' : ''}"
-               onclick="openTechnique(${t.id})">
+                onclick="openTechnique(${t.id})">
             <div class="flex items-start gap-3 mb-2">
               <span class="text-xl">${t.icon}</span>
               <div class="flex-1 min-w-0">
@@ -218,6 +224,30 @@ function openTechnique(id) {
   KYP.addLastVisited(id);
   updateProgress();
   navigateTo('detail');
+}
+
+function openTechniqueBySlug(slug) {
+  const t = window.findTechniqueBySlug(_lang, slug);
+  if (t) {
+    currentTechnique = t;
+    exploredTechniques.add(t.id);
+    KYP.saveExplored();
+    KYP.addLastVisited(t.id);
+    updateProgress();
+    navigateTo('detail');
+  }
+}
+
+window.openTechniqueBySlug = function(slug) {
+  const t = window.findTechniqueBySlug(_lang, slug);
+  if (t) {
+    currentTechnique = t;
+    exploredTechniques.add(t.id);
+    KYP.saveExplored();
+    KYP.addLastVisited(t.id);
+    updateProgress();
+    navigateTo('detail');
+  }
 }
 
 function renderDetail() {
@@ -346,7 +376,7 @@ function renderAbout() {
       <div class="card overflow-hidden">
         <div class="bg-slate-800 px-5 py-3 text-[10px] font-bold uppercase tracking-widest text-slate-300">${u.sourcesTitle}</div>
         <ul class="p-5 space-y-2">
-          ${u.sources.map(s => `<li class="text-sm text-slate-500 flex items-start gap-2"><span class="text-slate-300">—</span><span>${s}</span></li>`).join('')}
+          ${u.sources.map(s => `<li class="text-sm text-slate-500 flex items-start gap-2"><span class="text-slate-300">-</span><span>${s}</span></li>`).join('')}
         </ul>
       </div>
       <div class="card overflow-hidden">
@@ -410,7 +440,7 @@ function renderTraining() {
   const openLabel = u.openDetail || (isIT ? 'Leggi la guida completa' : 'Read full guide');
 
   if (!t) {
-    content.innerHTML = `<div class="max-w-xl mx-auto card p-6 text-center text-slate-400">—</div>`;
+    content.innerHTML = `<div class="max-w-xl mx-auto card p-6 text-center text-slate-400">-</div>`;
     return;
   }
 
