@@ -187,7 +187,9 @@ async function switchLanguage(lang) {
   updateStaticUI();
   updateCategoryCounts();
   updateMetaDescription();
-  handleHashRoute();
+
+  // Navigate to home page in the new language
+  navigateTo('home');
 }
 
 /* ─── INIT ─────────────────────────────────────────── */

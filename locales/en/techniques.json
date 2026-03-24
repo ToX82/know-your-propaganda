@@ -38,20 +38,37 @@
         "title": "Galileo",
         "description": "Branded a 'heretic' rather than having his astronomical arguments refuted on their merits.",
         "lesson": "Personal flaws do not invalidate arguments."
+      },
+      {
+        "title": "Climate debate (2015)",
+        "description": "Public debate between a scientist and a politician. The scientist presented IPCC charts and scientific data. The politician responded: 'But he lied 3 times in 2010! How can we trust his predictions?'. The audience focused entirely on the scientist's past, completely ignoring the climate data presented.",
+        "lesson": "Ad hominem destroys scientific debate: it stops discussing the validity of the data and focuses on the messenger's personal credibility."
+      },
+      {
+        "title": "Pharmaceutical controversies (2010-2020)",
+        "description": "In debates about vaccines or medications, researchers with decades of peer-reviewed publications were attacked personally. 'This doctor received funding from Big Pharma!' - an accusation that doesn't enter the merits of the clinical studies. The public, confused by the personal attacks, could no longer evaluate the scientific data.",
+        "lesson": "Attacking the source doesn't refute the data: the numbers remain valid even when the author is flawed."
       }
     ],
     "defense": [
       {
         "step": "Recognize",
-        "action": "Identify when the discussion shifts from facts to the person"
+        "action": "Does the argument suddenly change?"
       },
       {
         "step": "Separate",
-        "action": "Isolate the argument from personal attributes"
+        "action": "Isolate the argument from personal attributes",
+        "example": "Even if the speaker has personal flaws or a troubled past, the data presented may still be valid. Evaluate the numbers, not the character."
       },
       {
         "step": "Ask",
-        "action": "'What does this have to do with the specific proposal?'"
+        "action": "'What does this have to do with the specific proposal?'",
+        "example": "When citing the past: 'Their past is another issue. Let's discuss this specific data/proposal: is it correct or not?'"
+      },
+      {
+        "step": "Shift focus back",
+        "action": "Return to facts with: 'Regardless of who says it, is this figure true?'",
+        "example": "If a political opponent has a conviction but the tax charts are correct: 'Even with a past conviction, these ONS/official stats are accurate?'"
       }
     ],
     "scenario": {
@@ -112,12 +129,22 @@
         "title": "The power of memes",
         "description": "Studies show that candidates systematically ridiculed in memes are perceived as less competent, regardless of their actual positions.",
         "lesson": "Memes are political communication with measurable effects."
+      },
+      {
+        "title": "Memes of Berlusconi (1994-2011)",
+        "description": "For nearly two decades, Silvio Berlusconi's figure was subject to systematic ridicule campaigns: 'Bunga Bunga', photoshopped images, out-of-context gaffe compilations. Memes portrayed him as a comic character, making it difficult for the public to take his political proposals seriously.",
+        "lesson": "Ridicule can survive for decades: once the comic association is established, every subsequent argument is filtered through that image."
+      },
+      {
+        "title": "Anti-mask memes (2020-2022)",
+        "description": "During the COVID-19 pandemic, people who wore masks or got vaccinated were systematically ridiculed on social media: memes about 'domesticated rabbits', satirical videos, grotesque images. The ridicule focused on physical appearance and behavior, completely ignoring the scientific debate about the effectiveness of the measures.",
+        "lesson": "Scientific ridicule is particularly dangerous: ridiculing health measures based on studies can influence public health decisions."
       }
     ],
     "defense": [
       {
         "step": "Separate",
-        "action": "'It makes me laugh' does not mean 'they are wrong'"
+        "action": "'It makes me laugh' does not mean 'they're wrong'"
       },
       {
         "step": "Check the source",
@@ -126,6 +153,11 @@
       {
         "step": "Reverse test",
         "action": "How would you react if the same technique were used against 'your side'?"
+      },
+      {
+        "step": "Seek substance",
+        "action": "Ask yourself: 'Where are the arguments?'",
+        "example": "If content has only memes and laughs but zero arguments, it's not criticism - it's exclusion from debate."
       }
     ],
     "scenario": {
@@ -194,8 +226,18 @@
       },
       {
         "title": "Nazi propaganda",
-        "description": "Jews were represented as rats 'infesting' society. The removal of humanity made the 'Final Solution' possible.",
+        "description": "Jews were portrayed as rats 'infesting' society. The removal of humanity made the 'Final Solution' possible.",
         "lesson": "Words precede actions."
+      },
+      {
+        "title": "US deportations (1930s-1950s)",
+        "description": "American media portrayed Mexicans as 'insects' and 'parasites' to justify mass deportations. The entomological language removed all human empathy, presenting Mexican families as infestations to be eliminated.",
+        "lesson": "Scientific language applied to human beings is always demonization: it reduces the victim to a problem to be solved."
+      },
+      {
+        "title": "Gulf War (1990-1991)",
+        "description": "Before the Gulf War, American propaganda portrayed Iraqi soldiers as 'beasts' and 'savages'. Saddam Hussein was presented as 'the new Hitler'. Dehumanization simplified public support for the invasion and accepted civilian casualties as necessary.",
+        "lesson": "Demonization prepares the ground for military actions that would be unacceptable without the 'beastification' of the enemy."
       }
     ],
     "defense": [
@@ -214,6 +256,11 @@
       {
         "step": "Reject the language",
         "action": "Do not use or accept terms that dehumanize"
+      },
+      {
+        "step": "Alert others",
+        "action": "Signal dehumanizing language as danger",
+        "example": "'This language describing a group as animal or disease is the same used before genocides. We must stop it.'"
       }
     ],
     "scenario": {
@@ -278,6 +325,16 @@
         "title": "MH17",
         "description": "After the shootdown, 15 different explanations were proposed within days: Ukrainian missile, fighter jet, CIA plot...",
         "lesson": "A plurality of explanations can be more effective than a single lie."
+      },
+      {
+        "title": "Crimean annexation (2014)",
+        "description": "During the annexation of Crimea, Russian authorities provided rapidly evolving narratives: 'there are no Russian troops' → 'routine exercises' → 'local self-defense forces' → 'volunteers'. Each version contradicted the previous one, making it impossible for international media to establish a definitive version of the facts.",
+        "lesson": "Deliberate contradiction is not a mistake: it's a technique. The goal is not truth, but permanent confusion."
+      },
+      {
+        "title": "US 2020 election: 'fraud' contradictions",
+        "description": "After the election, parallel narratives circulated: 'machines changed votes' → 'dead people from COVID voted' → 'Chinese spies inserted ballots' → 'physical ballot fraud'. There wasn't one version of the fraud, but multiple and often contradictory ones. The effect was systematic doubt, not a focused investigation.",
+        "lesson": "Electoral firehose doesn't require a real fraud: creating enough confusion is sufficient for the public to doubt everything."
       }
     ],
     "defense": [
@@ -292,6 +349,16 @@
       {
         "step": "Identify patterns",
         "action": "Recognize multiple and contradictory narratives"
+      },
+      {
+        "step": "Signal contradictions",
+        "action": "Publicly note version changes",
+        "example": "'Yesterday they said X, today they say the opposite. Is someone lying? Or is this a saturation technique? Let's ask for proof.'"
+      },
+      {
+        "step": "Avoid urgency",
+        "action": "Refuse to decide based on first news",
+        "example": "'I don't know what happened, but I see contradictory versions. Let's wait for facts to settle before judging.'"
       }
     ],
     "scenario": {
@@ -356,6 +423,16 @@
         "title": "WhatsApp chains",
         "description": "During epidemics and elections, unverified message chains spread exponentially, bypassing fact-checkers.",
         "lesson": "The speed of sharing outpaces the speed of verification."
+      },
+      {
+        "title": "Brazil 2018: WhatsApp and elections",
+        "description": "Chain messages and emotionally loaded content circulated on a large scale among contacts, with reports of organized dissemination of misleading information. The mechanism exploited peer trust and forwarding speed, typical of viral chains rather than journalism.",
+        "lesson": "The 'forward to all' + urgency structure replicates classic chains: verification arrives after the message has already reached millions."
+      },
+      {
+        "title": "Health hoaxes in pandemic",
+        "description": "Fake recipes, alerts about supposed 'cures' or 'don't vaccinate' spread in family chats and neighborhood groups with immediate alert formula. Each forward socially legitimized the hoax before institutional communications.",
+        "lesson": "Health chains work because they mix health fears with moral obligation to 'warn others'."
       }
     ],
     "defense": [
@@ -370,6 +447,16 @@
       {
         "step": "Break the chain",
         "action": "Reply with a fact-check if possible"
+      },
+      {
+        "step": "Use fact-checkers",
+        "action": "Verify quickly with specialized sites",
+        "example": "In the UK: Full Fact, FactCheck.org. In the US: Snopes, PolitiFact. Copy the key phrase from the message and paste it into the fact-checker."
+      },
+      {
+        "step": "Identify the structure",
+        "action": "Recognize typical chain signals",
+        "example": "Signals: ALL CAPS + multiple emojis + 'SHARE NOW' + absence of source. This structure is designed to bypass critical thinking."
       }
     ],
     "scenario": {
@@ -433,7 +520,17 @@
       {
         "title": "Immigration",
         "description": "Outlet A: 'security crisis' (invasion, illegals). Outlet B: 'humanitarian emergency' (refugees, hope).",
-        "lesson": "No need to lie: the selection constructs different realities."
+        "lesson": "No need to lie: selection constructs different realities."
+      },
+      {
+        "title": "Israel-Palestine war (2023-2024)",
+        "description": "The same war was framed in opposite ways: 'terrorism' vs 'military resistance', 'unilateral attacks' vs 'self-defense', 'civilians killed' vs 'casualties in operation'. Each media selected terms that aligned with their own geopolitical perspective, creating two parallel realities.",
+        "lesson": "War framing is powerful: it determines who are 'terrorists', who are 'civilians', who are 'occupiers' - and therefore who deserves defense and who doesn't."
+      },
+      {
+        "title": "Climate protests (2019-2023)",
+        "description": "Student demonstrations were presented as 'illegal strike paralyzing traffic' (disorder frame) or as 'democratic movement for the future' (rights frame). Media using the 'disorder' frame selected interviews with frustrated commuters; those using the 'rights' frame interviewed activists and scientists.",
+        "lesson": "Framing determines which interviewees are selected and therefore which perspectives are amplified."
       }
     ],
     "defense": [
@@ -448,6 +545,16 @@
       {
         "step": "Seek alternative frames",
         "action": "How is it being presented elsewhere?"
+      },
+      {
+        "step": "Decode the details",
+        "action": "Ask yourself: 'What is put in the foreground and what is omitted?'",
+        "example": "News: '50 violent protesters at the demonstration'. Question: 'And the other 9,950? Why are only the 50 in the headline?'"
+      },
+      {
+        "step": "Recognize the intent",
+        "action": "What reactions does the framing aim to generate?",
+        "example": "If the headline uses fear, anger, or protection: 'Who gets angry defends?', 'Who is afraid protects?' - you understand what the author wants you to do."
       }
     ],
     "scenario": {
@@ -512,6 +619,16 @@
         "title": "Soviet responses",
         "description": "Criticism of treatment of dissidents answered with: 'And Black people in America?' Legitimate critiques used to shut down debate.",
         "lesson": "Valid criticisms can be used as shields to deflect other valid criticisms."
+      },
+      {
+        "title": "FIFA scandal (2015)",
+        "description": "In an interview about FIFA corruption, the interviewee responded continuously: 'But what about the IOC? And the NBA? And other sports federations? They're all corrupt!'. The specific accusation against FIFA was lost; the interview followed the deflection toward other scandals.",
+        "lesson": "Whataboutism is effective because it shifts attention: the interview ends up talking about everything except FIFA."
+      },
+      {
+        "title": "War in Ukraine (2022-)",
+        "description": "Debates about the war present constant deflections: 'But what about US wars in Iraq? And the occupation of Palestine? And NATO bombings?'. The technique shifts the debate from specific facts about Ukraine to a general comparison of 'who did what worse in the past'.",
+        "lesson": "Geopolitical whataboutism serves to avoid evaluating current actions: it sends everything back to 'who did worse in the past'."
       }
     ],
     "defense": [
@@ -526,6 +643,16 @@
       {
         "step": "Return to the point",
         "action": "'Now: is this decision right or wrong?'"
+      },
+      {
+        "step": "Refuse deflection",
+        "action": "Insist on the original accusation",
+        "example": "'You're changing the subject to avoid answering. Answer the specific question: are the data correct or not?'"
+      },
+      {
+        "step": "Separate the wrongs",
+        "action": "Two wrongs don't make a right",
+        "example": "'Even if others did worse, this doesn't justify your mistake. Let's discuss your case, not theirs.'"
       }
     ],
     "scenario": {
@@ -588,8 +715,18 @@
     "caseStudies": [
       {
         "title": "Saturation",
-        "description": "During weeks of scandal coverage, important legislation passes unnoticed.",
+        "description": "During weeks of scandal coverage, important legislation passed unnoticed.",
         "lesson": "What is not said is more important than what is said."
+      },
+      {
+        "title": "Brexit (2016-2020)",
+        "description": "During Brexit negotiations, the UK government used agenda setting: less prominent news about EU problems were published while headlines focused on more emotional but less relevant topics (sovereignty, border control). The public didn't receive balanced information to decide.",
+        "lesson": "Strategic agenda setting can saturate attention on secondary topics to hide critical information."
+      },
+      {
+        "title": "Financial crises (2008, 2020-2023)",
+        "description": "During banking and COVID crises, significant laws (bailouts, bail-in, digital surveillance) were passed or discussed in low-attention moments (weekends, nights, holidays) while the public agenda was dominated by personal scandals or polarized debates.",
+        "lesson": "Timing is part of agenda setting: passing impactful laws when no one is watching is a form of control."
       }
     ],
     "defense": [
@@ -604,6 +741,21 @@
       {
         "step": "Look for buried news",
         "action": "Read minor sections too"
+      },
+      {
+        "step": "Recognize the timing",
+        "action": "Notice when inconvenient news are published 'under the radar'",
+        "example": "If a controversial law is passed Friday night without media coverage, it's agenda setting: 'why wasn't this discussed during the week?'"
+      },
+      {
+        "step": "Seek the buried",
+        "action": "Dedicate time to news not in the headlines",
+        "example": "Go beyond the front pages and major headlines. The inner sections, local news, in-depth reporting often contain important news that was ignored."
+      },
+      {
+        "step": "Compare attention",
+        "action": "Ask yourself: 'Does this news receive coverage proportional to its importance?'",
+        "example": "A private scandal covered for weeks vs a structural reform mentioned for 30 seconds: this is agenda setting in action."
       }
     ],
     "scenario": {
@@ -664,6 +816,16 @@
         "title": "Political debates",
         "description": "Before a debate, negative news about a candidate is spread, so every word they say is viewed with suspicion.",
         "lesson": "Preemptive damage is hard to repair."
+      },
+      {
+        "title": "Campaign 'Credibility Attacks' (2020)",
+        "description": "During the US presidential campaign, a super PAC distributed negative announcements about Biden days before each debate: 'Biden is losing his memory', 'He's in cognitive decline', 'He has no energy for the job'. The media repeated these negative frames, creating preemptive suspicion before Biden could respond.",
+        "lesson": "Large-scale poisoning the well works because other media repeat the attacks without verifying them, installing doubt in the public."
+      },
+      {
+        "title": "Leak of 'compromising documents' (2016)",
+        "description": "Before the US elections, WikiLeaks published presumed compromising documents about Hillary Clinton. Even though most documents were insignificant or decontextualized, the damage was done: the narrative of 'Clinton is corrupt and dangerous' was already installed in the public debate before every debate.",
+        "lesson": "Temporal poisoning the well is particularly effective: once a negative narrative is installed, it's very difficult to uninstall."
       }
     ],
     "defense": [
@@ -678,6 +840,21 @@
       {
         "step": "Verify the accusations",
         "action": "Is the preemptively spread information actually true?"
+      },
+      {
+        "step": "Wait before forming opinion",
+        "action": "Form an opinion first, then listen to the argument",
+        "example": "'I already have opinions about this expert, but I'll listen to the data first. I'll decide after seeing the numbers, not before.'"
+      },
+      {
+        "step": "Separate the levels",
+        "action": "Evaluate source reliability separately from the content",
+        "example": "'Even if these accusations are true, are the scientific data presented correct? Can I trust the numbers, regardless of who presents them?'"
+      },
+      {
+        "step": "Seek context",
+        "action": "Verify if negative information is complete and contextualized",
+        "example": "'Are these conflicts of interest documented? Do they relate to public positions? Or are they vague and unverifiable?'"
       }
     ],
     "scenario": {
@@ -738,6 +915,16 @@
         "title": "Corporate reports",
         "description": "Annual reports that celebrate successes but don't mention failures or risks.",
         "lesson": "Completeness requires including what we don't like too."
+      },
+      {
+        "title": "Real estate developments (2015-2022)",
+        "description": "Developers present charts showing real estate price increases (+15% annually) selecting only the most exclusive neighborhoods and growth years. They omit: neighborhoods in decline, inflation adjustments, income comparisons. The presentation creates impression of real estate boom that the complete picture doesn't support.",
+        "lesson": "Economic card stacking works by showing only 'good' data and hiding the complete context that would change the perception."
+      },
+      {
+        "title": "Stock market charts",
+        "description": "Stock charts shown starting from a local minimum or ending at a maximum, without complete time axis, to make growth or decline appear more dramatic than the entire series would.",
+        "lesson": "Always ask for the complete series and the scale: same data, different crop = different story."
       }
     ],
     "defense": [
@@ -752,6 +939,21 @@
       {
         "step": "Note what's missing",
         "action": "What is NOT being said?"
+      },
+      {
+        "step": "Request the complete picture",
+        "action": "Explicitly ask for missing data",
+        "example": "'You only show positive data, but what are the negatives? What is the failure rate? What is the complete context?'"
+      },
+      {
+        "step": "Seek complete series",
+        "action": "Don't settle for an isolated chart",
+        "example": "'This chart starts from a local minimum and ends at a maximum. I want to see the full historical series to understand the real trend.'"
+      },
+      {
+        "step": "Verify meta-analyses",
+        "action": "Look for systematic reviews that include all studies",
+        "example": "'I don't trust one isolated study. Is there a meta-analysis (which analyzes ALL available studies) that confirms or refutes this conclusion?'"
       }
     ],
     "scenario": {
@@ -812,6 +1014,21 @@
         "title": "Cold War",
         "description": "'Communist' was used to delegitimize any progressive position without discussing its merits.",
         "lesson": "Labels shut down debate."
+      },
+      {
+        "title": "Armed conflicts: 'terrorist'",
+        "description": "Non-state actors using violence have been called 'terrorists' or 'freedom fighters' depending on the geopolitical alliance of the narrator. The same action receives opposite labels.",
+        "lesson": "When the label depends on who's telling the story, it's not describing a neutral fact: it's taking a position."
+      },
+      {
+        "title": "'Woke' and 'Conservative' labels (2020-2024)",
+        "description": "In US cultural debates, terms like 'woke' and 'conservative' are used as labels that substitute analysis. A proposal on racial representation can be dismissed as 'woke' without discussing data on inequalities. A proposal on academic freedom can be dismissed as 'conservative' without analyzing content.",
+        "lesson": "Modern identity labels work like historical ones: they close the debate by activating group loyalties instead of analyzing content."
+      },
+      {
+        "title": "'Populist' vs 'Elitist' labels (2015-2024)",
+        "description": "In European elections, popular movements have been labeled as 'populists' or 'sovereignists' to discredit their political proposals. At the same time, economic elites and establishment media have been labeled as 'elitists' by anti-system movements. Labels substitute debate on concrete policies.",
+        "lesson": "Ideological labeling blocks analysis: once a label is applied, the proposal is evaluated based on the label, not the content."
       }
     ],
     "defense": [
@@ -826,6 +1043,21 @@
       {
         "step": "Reject the simplification",
         "action": "Reality is more complex than labels"
+      },
+      {
+        "step": "Request operational definitions",
+        "action": "Ask: 'What does it mean CONCRETELY in this context?'",
+        "example": "'When you say 'socialist', what exactly do you mean? Supporter of which specific politics? What do they propose concretely?'"
+      },
+      {
+        "step": "Analyze the proposal, not the label",
+        "action": "Judge the content, not the term used to describe it",
+        "example": "'I don't care if we label this proposal as 'right-wing' or 'left-wing'. Are the figures correct? Does it work? Does it help the country? This is what matters.'"
+      },
+      {
+        "step": "Replace label with facts",
+        "action": "Translate the label into concrete proposals",
+        "example": "'Instead of saying 'It's fascist!', ask yourself: 'What specific actions seem fascist to you? What measures does it propose? What is the exact goal?'"
       }
     ],
     "scenario": {
@@ -895,11 +1127,26 @@
       },
       {
         "step": "Evaluate on merit",
-        "action": "Even if everyone did it, would it be right?"
+        "action": "Even if everyone does it, is it right?"
       },
       {
         "step": "Remember history",
         "action": "The majority has often supported wrong things"
+      },
+      {
+        "step": "Seek the number's source",
+        "action": "Ask yourself: 'Who measured this majority?'",
+        "example": "'Did someone do a scientific poll? Or is this an invented number to create the herd effect? Reliable polls have public methodology.'"
+      },
+      {
+        "step": "Reject social pressure",
+        "action": "Ask yourself: 'Do I follow because I'm convinced or because I don't want to be the exception?'",
+        "example": "'All my friends use this product. But does it work for me? Does it meet my needs? My needs don't depend on what others do.'"
+      },
+      {
+        "step": "Apply the criterion",
+        "action": "Evaluate the option based on facts, not popularity",
+        "example": "'It doesn't matter if 2 million use X. Is it suitable for me? Is it safe? Does it do what it promises? The answer to these questions matters, not the number of users.'"
       }
     ],
     "scenario": {
@@ -958,14 +1205,29 @@
     "caseStudies": [
       {
         "title": "Election campaigns",
-        "description": "'For freedom!', 'For real progress!' Without defining what these words mean in the platform.",
+        "description": "'For real change!' and 'For true progress!' Without defining what these words mean in the platform.",
         "lesson": "Everyone loves freedom, but defines it differently."
+      },
+      {
+        "title": "Independence declarations and constitutions",
+        "description": "Concepts like 'freedom' and 'equality' have required centuries of debate to be operationalized in laws. In campaigns, the same terms can be used as slogans without indicating specific measures, services or concrete rights.",
+        "lesson": "Noble words become glittering generalities when verifiable definitions are missing from the program."
+      },
+      {
+        "title": "'Change' and 'Renew' campaign slogans",
+        "description": "Candidates use vague terms like 'change' and 'renew' that project positive meanings (progress, improvement) without specifying what will change concretely. 'Change for the better' can mean opposite policies for different voters; ambiguity is the point.",
+        "lesson": "Electoral glittering generalities allow everyone to feel represented without obligating the candidate to specific proposals that might alienate part of the electorate."
+      },
+      {
+        "title": "Brand 'Inclusivity' and 'Sustainability' campaigns",
+        "description": "Companies use terms like 'inclusive', 'sustainable', 'ethical' without publishing specific reports on ESG criteria, diversity, carbon footprint. Positive words activate values but offer no criteria for verifying them. Consumers project their own values onto the brand instead of evaluating actual commitment.",
+        "lesson": "Greenwashing and agenda branding use glittering generalities to avoid verifiable accountability: the words sound committed but are not measurable."
       }
     ],
     "defense": [
       {
         "step": "Ask for definitions",
-        "action": "'What does freedom specifically mean in this program?'"
+        "action": "'What exactly does freedom mean in this program?'"
       },
       {
         "step": "Seek specifics",
@@ -974,6 +1236,21 @@
       {
         "step": "Note the absence",
         "action": "What is NOT being said?"
+      },
+      {
+        "step": "Ask: 'For whom?'",
+        "action": "These values concretely benefit which groups?",
+        "example": "'This 'freedom' is for companies or for citizens? Who gains? Who loses?'"
+      },
+      {
+        "step": "Request concrete actions",
+        "action": "What specific laws, measures or policies implement these values?",
+        "example": "'Instead of 'vote for freedom', ask yourself: 'what restrictions will be removed by this law? What new freedoms will be introduced? For whom?'"
+      },
+      {
+        "step": "Translate to policies",
+        "action": "Translate the abstract value into legislative provisions",
+        "example": "'Instead of 'vote for freedom', ask yourself: 'what specific restrictions will be eliminated? What new freedoms will be introduced? For which groups?'"
       }
     ],
     "scenario": {
@@ -1043,15 +1320,30 @@
     "defense": [
       {
         "step": "Verify relevance",
-        "action": "Does the authority have expertise ON THIS topic?"
+        "action": "Does the authority have expertise on this topic?"
       },
       {
         "step": "Separate",
-        "action": "Does the cause have its own merits, independent of who supports it?"
+        "action": "Does the cause have its own merits, regardless of who supports it?"
       },
       {
         "step": "Recognize the association",
         "action": "Are they using a symbol to legitimize something unrelated?"
+      },
+      {
+        "step": "Seek the real expert",
+        "action": "Who is a verifiable expert on THIS argument?",
+        "example": "'This actor plays doctors, but do they have a medical degree? Are there peer-reviewed publications under their name? Who are the real oncologists speaking about them?'"
+      },
+      {
+        "step": "Evaluate the argument, not the source",
+        "action": "Who speaks is not an argument",
+        "example": "'I don't care that a famous person says it. Are the data correct? Is the evidence solid? Does the logic hold? Let's do a check.'"
+      },
+      {
+        "step": "Recognize the technique",
+        "action": "Notice when the background does all the work of the argument",
+        "example": "'If I removed the flag/the anthem/the music, would anything remain of this speech? If no, then the transfer is doing the work.'"
       }
     ],
     "scenario": {
@@ -1116,7 +1408,7 @@
     ],
     "defense": [
       {
-        "step": "Seek data",
+        "step": "Seek the data",
         "action": "What do the statistics say, not just the stories?"
       },
       {
@@ -1125,7 +1417,22 @@
       },
       {
         "step": "Remember",
-        "action": "Anecdote is not data; a story is not a statistic"
+        "action": "The anecdote is not data, the story is not statistics"
+      },
+      {
+        "step": "Look for controlled trials",
+        "action": "What clinical trials or research confirm?",
+        "example": "'This person was cured - that's a single case. Are there clinical trials on a large scale showing efficacy? What success rates? What side effects?'"
+      },
+      {
+        "step": "Evaluate representativeness",
+        "action": "Does this case represent the average or the exception?",
+        "example": "'Out of 10,000 people, 1 had this experience. Does it represent 99.9% or 0.01%? The anecdote is the basis of the exception, not the rule.'"
+      },
+      {
+        "step": "Recognize selection bias",
+        "action": "Did they select positive cases and ignore negative ones?",
+        "example": "'They only show who's satisfied. And who's not? And who had side effects or didn't recover? If they don't appear, it's selection, not information.'"
       }
     ],
     "scenario": {
@@ -1413,7 +1720,7 @@
     "defense": [
       {
         "step": "Verify competence",
-        "action": "Do they have expertise ON THIS topic?"
+        "action": "Do they have expertise on this topic?"
       },
       {
         "step": "Seek consensus",
@@ -2544,14 +2851,24 @@
     ],
     "caseStudies": [
       {
-        "title": "Insurance and health advertising",
-        "description": "Ads that show accidents or serious illness to push immediate purchase of coverage or screening, often without quantitative context on your real individual risk.",
-        "lesson": "Fear often sells more than probability: the message amplifies perceived harm, not just risk."
+        "title": "White coat advertising",
+        "description": "Ads where actors play doctors or labs seem documentary: the white coat and clinical setting transfer scientific credibility to the product, even when the indication isn't from a health authority or a published study.",
+        "lesson": "The uniform and setting are transfer: they don't equal peer review."
       },
       {
-        "title": "Post-9/11 debate",
-        "description": "Rhetoric of \"imminent threat\" was used to justify laws and interventions on compressed timelines; criticism of speed or proportion was framed as weakness in the face of danger.",
-        "lesson": "Emotional urgency can compress democratic debate: that is fear appeal applied to politics."
+        "title": "Rallies with flag or blessing",
+        "description": "Candidates holding rallies with flags, hymns or religious figures on stage: the national or sacred symbol contaminates the emotional acceptance toward the person and their promises, regardless of numbers or costs.",
+        "lesson": "Ask what would remain of the proposal without the symbolic background."
+      },
+      {
+        "title": "Athlete celebrity endorsements",
+        "description": "Products are associated with sports champions (football, tennis, Formula 1) to transfer positive attributes (winner, determined, champion) to the product. The athlete has no expertise on the product; mere presence creates transferred credibility. It's the logic of commercial endorsement.",
+        "lesson": "Athletic transfer works because the brain automatically associates sporting success with quality, even when the two things are completely unrelated."
+      },
+      {
+        "title": "Politics with religious figures",
+        "description": "Candidates get photographed in churches, with religious leaders, during election campaigns. Association with sacred symbols transfers morality and approval without the candidate having to provide proof of their positions. Mere presence next to religious figures legitimizes the candidacy.",
+        "lesson": "Religious transfer is particularly insidious because faith is a deep value and criticism of the candidate appears as an attack on religious values, not their politics."
       }
     ],
     "defense": [
@@ -2702,14 +3019,24 @@
     ],
     "caseStudies": [
       {
-        "title": "Campaign spots without a platform",
-        "description": "Video with music, smiles, and diverse groups that \"represent the country\" without numbers on jobs, health, or deficits. The effect is aspiration: \"I want to be like those happy people\".",
-        "lesson": "Beautiful people is pure transfer: happiness on screen is not evidence of policy."
+        "title": "Literary Digest 1936 vs Gallup",
+        "description": "The Literary Digest predicted Landon's victory over Roosevelt using millions of postcards, but the sample was biased (respondents weren't representative). The 'everyone says Landon' narrative was a false statistical bandwagon.",
+        "lesson": "A poorly measured majority is not social proof: it's sampling error."
       },
       {
-        "title": "Fashion and cosmetics advertising",
-        "description": "Models photographed with products that did not create their look (lighting, makeup, editing). The visual effect is attributed to the brand.",
-        "lesson": "Same pattern: an aesthetic attribute sold as the outcome of a consumer choice."
+        "title": "'Best seller' and '#1' advertising",
+        "description": "Products are promoted as 'the most sold' or 'chosen by professionals' without public methodology: creates a herd effect that pushes people to buy to avoid being outside the perceived norm.",
+        "lesson": "Commercial bandwagon exploits the fear of being the exception, not just the desire for quality."
+      },
+      {
+        "title": "Cryptocurrencies (2017-2022)",
+        "description": "During the crypto boom, media constantly report 'millions investing', 'everyone is talking about it', 'the future is here'. The digital bandwagon exploits FOMO (Fear Of Missing Out) to drive impulsive investments, ignoring risks and volatility. Even when prices crash 80%, the bandwagon 'everyone is winning' persists.",
+        "lesson": "Financial bandwagon is particularly dangerous: social pressure to participate can override rational risk assessment."
+      },
+      {
+        "title": "Social Media Trends (TikTok, Instagram)",
+        "description": "Platforms show '10 million views', 'everyone uses it', 'trending worldwide' to drive adoption of apps, products or trends. The algorithm amplifies the bandwagon: more views = more visibility = more people doing it. Quality or safety become secondary to the number of users.",
+        "lesson": "Algorithmic bandwagon exploits visibility as proof of quality, creating a digital herd effect on a global scale."
       }
     ],
     "defense": [
@@ -4215,14 +4542,24 @@
     ],
     "caseStudies": [
       {
-        "title": "The distraction tweet cycle",
-        "description": "Analysis of political leaders' tweets has shown statistically significant correlations between posting provocative content and the occurrence of unfavourable news at the same time, suggesting deliberate use of the mechanism.",
-        "lesson": "Ask yourself: does this story arrive at a convenient moment for someone?"
+        "title": "Fake 'testimonial' ads",
+        "description": "Campaigns where 'satisfied customers' were actors or interviews were staged: the form of authentic testimonial was imitated to gain confidence without controlled study.",
+        "lesson": "The 'real person' format doesn't imply independent verification."
       },
       {
-        "title": "Whataboutism in the Cold War",
-        "description": "The USSR perfected whataboutism as a diplomatic tool: to every criticism of human rights violations, it responded with references to American racial segregation. The technique has returned in contemporary propaganda.",
-        "lesson": "A 'they also' does not address the original criticism: it avoids it."
+        "title": "Political conventions: personal stories in primetime",
+        "description": "Structured speeches around a touching anecdote (superbeat disease, family) to humanize the candidate before numerical promises. The emotional impact precedes the 'how will you fund?' question.",
+        "lesson": "Political testimonial selects the case that works narratively, not a representative case."
+      },
+      {
+        "title": "Health testimonies on social media (2015-2023)",
+        "description": "Stories of 'miraculous cures' or 'severe reactions' circulate on TikTok and Instagram. A video shows a person claiming to have been cured of a disease or having severe side effects after a medication. Millions of views create the illusion of causality, while clinical trials may show the opposite.",
+        "lesson": "Digital testimonial is dangerous because videos go viral much faster than scientific refutations, creating public health damage."
+      },
+      {
+        "title": "Financial testimonial campaigns (Fintech)",
+        "description": "Lending platforms show videos of people claiming to have obtained loans quickly with 'unbelievable' rates. The personal story is presented as proof that the service works, while real rates and contractual terms aren't mentioned. The anecdote substitutes complete information.",
+        "lesson": "Financial testimonial exploits trust in personal stories to hide real risks and costs of financial products."
       }
     ],
     "defense": [

@@ -36,27 +36,45 @@
     "caseStudies": [
       {
         "title": "Galileo e il processo del 1633",
-        "description": "La Chiesa reagì alle tesi copernicane concentrandosi sullo status di Galileo (sospetto di eresia, disobbedienza) più che su osservazioni e calcoli confrontabili pubblicamente. L'attacco alla persona e alla sua obbedienza sostituì il dibattito astronomico sul merito.",
+        "description": "La Chiesa reagì alle tesi copernicane concentrandosi sullo status di Galileo (sospetto di eresia, disobbedienza) più che su osservazioni e calcoli confrontabili pubblicamente. L'attaco alla persona e alla sua obbedienza sostituì il dibattito astronomico sul merito.",
         "lesson": "Smontare la reputazione non smonta i dati: servono prove sul contenuto, non sul carattere."
       },
       {
         "title": "Show trial di Mosca (anni 1930)",
         "description": "Oppositori politici furono presentati come \"spie\" e \"traditori\" prima ancora che le accuse materiali fossero discusse; la colpa era identità e fedeltà, non una catena probatoria su atti specifici. L'ad hominem istituzionale chiuse il dibattito pubblico.",
-        "lesson": "Quando l'accusa è \"chi sei\" invece di \"cosa hai fatto\", la tecnica è proprio l'attacco alla persona."
+        "lesson": "Quando l'accusa è \"chi sei\" invece di \"cosa hai fatto\", la tecnica è proprio l'attaco alla persona."
+      },
+      {
+        "title": "Debattito sul clima (2015)",
+        "description": "Dibattito pubblico tra uno scienziato e un politico. Lo scienziato presenta grafici IPCC e dati scientifici. Il politico risponde: 'Ma lui ha voliato 3 volte nel 2010! Come possiamo fidarci delle sue previsioni?'. Il pubblico si concentra sul passato dello scienziato, ignorando completamente i dati climatici presentati.",
+        "lesson": "L'ad hominem distrugge il dibattito scientifico: non si discute più la validità dei dati, ma la credibilità personale del messaggero."
+      },
+      {
+        "title": "Controversie farmaceutiche (2010-2020)",
+        "description": "In dibattiti su vaccini o farmaci, ricercatori con decenni di pubblicazioni peer-reviewed sono stati attaccati personalmente. 'Questo medico ha ricevuto finanziamenti dalla Big Pharma!' - una accusa che non entra nel merito degli studi clinici. Il pubblico, confuso dalle accuse personali, non riesce più a valutare i dati scientifici.",
+        "lesson": "Attaccare la fonte non confuta i dati: i numeri restano validi anche quando l'autore è imperfetto."
       }
     ],
     "defense": [
       {
         "step": "Riconosci",
-        "action": "Identifica quando il discorso passa dai fatti alla persona"
+        "action": "Identifica quando il discorso passa dai fatti alla persona",
+        "example": "Noti frasi come: 'Sei un idiota se credi a questo' o 'Certo che dici questo, sei pagato!' invece di argomenti sul contenuto."
       },
       {
         "step": "Separa",
-        "action": "Isola l'argomentazione dagli attributi personali"
+        "action": "Isola l'argomentazione dagli attributi personali",
+        "example": "Anche se chi parla ha problemi personali o passati, i dati presentati possono essere comunque validi. Valuta i numeri, non il carattere."
       },
       {
         "step": "Richiedi",
-        "action": "\"Cosa c'entra questo con la proposta specifica?\""
+        "action": "\"Cosa c'entra questo con la proposta specifica?\"",
+        "example": "Quando citano il passato: 'Il suo passato è un'altra questione. Parliamo di questo dato/proposta specifica: è corretto o no?'"
+      },
+      {
+        "step": "Sposta il focus",
+        "action": "Torna ai fatti con: 'Indipendentemente da chi lo dice, questa cifra è vera?'",
+        "example": "Se un avversario politico è stato condannato ma i grafici fiscali sono corretti: 'Anche se ha una condanna passata, questi dati ISTAT sono accurati?'"
       }
     ],
     "scenario": {
@@ -122,20 +140,38 @@
         "title": "Soprannomi presidenziali USA (2016)",
         "description": "In campagna elettorale, avversari furono etichettati con epiteti memorabili pensati per circolare nei media e nei meme più che per descrivere programmi. L'attenzione si spostò dal merito delle proposte alla gara di battute.",
         "lesson": "La derisione può essere efficace elettoralmente proprio perché bypassa il confronto sulle politiche concrete."
+      },
+      {
+        "title": "Meme di Berlusconi (1994-2011)",
+        "description": "Per quasi due decenni, la figura di Silvio Berlusconi fu oggetto di campagne di ridicolizzazione sistematiche: 'Bunga Bunga', foto photoshopate, montaggi di gaffe fuori contesto. I meme lo ridussero a personaggio comico, rendendo difficile per il pubblico prendere sul serio le sue proposte politiche.",
+        "lesson": "La ridicolizzazione può sopravvivere per decenni: una volta stabilita l'associazione comica, ogni argomentazione successiva viene filtrata attraverso quell'immagine."
+      },
+      {
+        "title": "Meme anti-mask (2020-2022)",
+        "description": "Durante la pandemia COVID-19, persone che portavano mascherine o si vaccinavano furono derise sistematicamente sui social: memes su 'conigli addomesticati', videos satirici, immagini grottesche. La ridicolizzazione si concentrava sull'aspetto fisico e sui comportamenti, ignorando completamente il dibattito scientifico sull'efficacia delle misure.",
+        "lesson": "La ridicolizzazione scientifica è particolarmente pericolosa: deridere misure sanitarie basate su studi può influenzare le decisioni di salute pubblica."
       }
     ],
     "defense": [
       {
         "step": "Separa",
-        "action": "\"Mi fa ridere\" non significa \"ha torto\""
+        "action": "\"Mi fa ridere\" non significa \"ha torto\"",
+        "example": "Puoi trovare divertente un meme su un politico e comunque essere d'accordo con le sue proposte. L'umorismo non confuta le idee."
       },
       {
         "step": "Verifica la fonte",
-        "action": "Chi produce i contenuti che ti fanno ridere?"
+        "action": "Chi produce i contenuti che ti fanno ridere?",
+        "example": "Ricercate l'autore del meme o account. Ha una storia di contenuti solo satirici o è un'operazione politica coordinata?"
       },
       {
         "step": "Test inverso",
-        "action": "Come reagiresti se la stessa tecnica fosse usata sul \"tuo\" campo?"
+        "action": "Come reagiresti se la stessa tecnica fosse usata sul \"tuo\" campo?",
+        "example": "Se qualcuno deride la tua squadra o candidato preferito, diventa più facile riconoscere il meccanismo quando è usato contro altri."
+      },
+      {
+        "step": "Cerca sostanza",
+        "action": "Chiediti: 'Dove sono le argomentazioni?'",
+        "example": "Se un contenuto ha solo meme e risate ma zero argomenti, non è critica - è esclusione dal dibattito."
       }
     ],
     "scenario": {
@@ -206,24 +242,43 @@
         "title": "Propaganda nazista",
         "description": "Gli ebrei rappresentati come ratti che \"infestano\" la società. La rimozione dell'umanità permise la \"soluzione finale\".",
         "lesson": "Le parole precedono le azioni."
+      },
+      {
+        "title": "Deportazioni USA (1930-1950s)",
+        "description": "I media americani rappresentarono i messicani come 'insetti' e 'parassiti' per giustificare le deportazioni di massa. Il linguaggio entomologico rimuoveva ogni empatia umana, presentando le famiglie messicane come infestazioni da eliminare.",
+        "lesson": "Il linguaggio scientifico applicato a persone umane è sempre demonizzazione: riduce la vittima a problema da risolvere."
+      },
+      {
+        "title": "Guerra del Golfo (1990-1991)",
+        "description": "Prima della guerra del Golfo, la propaganda americana rappresentò i soldati irachiani come 'bestie' e 'brutti'. Saddam Hussein fu presentato come 'il nuovo Hitler'. La disumanizzazione semplificò il supporto pubblico all'invasione e accettò le vittime civili come necessarie.",
+        "lesson": "La demonizzazione prepara il terreno per azioni militari che sarebbero inaccettabili senza la 'bestializzazione' del nemico."
       }
     ],
     "defense": [
       {
         "step": "Riconosci la disumanizzazione",
-        "action": "Nota quando l'avversario perde attributi umani nel discorso"
+        "action": "Nota quando l'avversario perde attributi umani nel discorso",
+        "example": "Segnali come 'parassiti', 'animali', 'piaga', 'scarafaggi' o termini che rimuovono la dignità umana."
       },
       {
         "step": "Ricorda la storia",
-        "action": "La demonizzazione ha preceduto ogni genocidio"
+        "action": "La demonizzazione ha preceduto ogni genocidio",
+        "example": "Prima di ogni massacro di massa (Armenia, Ruanda, Holocausto) i bersagli sono stati descritti come minacce biologiche o morali, non come esseri umani."
       },
       {
         "step": "Cerca la complessità",
-        "action": "Nessun gruppo è monolitico o assolutamente malvagio"
+        "action": "Nessun gruppo è monolitico o assolutamente malvagio",
+        "example": "Chiediti: 'Conosco qualcuno di questo gruppo che è una persona normale con preoccupazioni comuni?' La realtà non è mai 'noi contro mostri'."
       },
       {
         "step": "Rifiuta il linguaggio",
-        "action": "Non usare né accettare termini che disumanizzano"
+        "action": "Non usare né accettare termini che disumanizzano",
+        "example": "Quando senti termini disumanizzanti, sostituiscili mentalmente: 'Queste persone' invece di 'Questi parassiti'. Cambia la prospettiva."
+      },
+      {
+        "step": "Allerta gli altri",
+        "action": "Segnala il linguaggio disumanizzante come pericolo",
+        "example": "'Questo linguaggio che descrive un gruppo come animale o malattia è lo stesso usato prima dei genocidi. Dobbiamo fermarci.'"
       }
     ],
     "scenario": {
@@ -293,20 +348,43 @@
         "title": "Crisi COVID-19 e \"cure\" contraddittorie",
         "description": "Nella prima ondata circolarono in parallelo messaggi discordanti (es. farmaci inefficaci presentati come miracolosi, negazione del virus accanto a teorie di laboratorio), spesso amplificati da account e canali diversi. L'effetto fu confusione su cosa fosse verificabile, non un unico racconto stabile da confutare.",
         "lesson": "Il firehose non richiede coerenza interna: richiede volume e persistenza finché il pubblico rinuncia a controllare tutto."
+      },
+      {
+        "title": "Annessione Crimea (2014)",
+        "description": "Durante l'annessione della Crimea, le autorità russe fornirono narrazioni in rapida evoluzione: 'non ci sono truppe russe' → 'esercitazioni di routine' → 'forze di autodifesa locale' → 'volontari'. Ogni versione contraddiceva la precedente, rendendo impossibile per i media internazionali stabilire una versione definitiva dei fatti.",
+        "lesson": "La contraddizione deliberata non è un errore: è una tecnica. L'obiettivo non è la verità, ma la confusione permanente."
+      },
+      {
+        "title": "Elezioni USA 2020: \"fraude\" contraddittoria",
+        "description": "Dopo le elezioni, circolarono narrazioni parallele: 'le macchine hanno cambiato i voti' → 'voti morti per COVID' → 'spie cinesi hanno inserito' → 'frodi fisici'. Non c'era un'unica versione della frode, ma molteplici e spesso contraddittorie. L'effetto fu creare dubbio sistematico, non un'inchiesta focalizzata.",
+        "lesson": "Il firehose elettorale non richiede una frode vera: basta creare confusione sufficiente perché il pubblico dubiti di tutto."
       }
     ],
     "defense": [
       {
         "step": "Rallenta",
-        "action": "Non reagire in tempo reale"
+        "action": "Non reagire in tempo reale",
+        "example": "Se una notizia emergente ti colpisce emotivamente, regola pratica: attesa 24-48 ore prima di formare un'opinione definitiva. Le smentite arrivano sempre dopo."
       },
       {
         "step": "Triangola",
-        "action": "Cerca conferme da fonti indipendenti"
+        "action": "Cerca conferme da fonti indipendenti",
+        "example": "Confronta almeno 3 fonti: una governativa, una internazionale, una fact-checking. Se concordano, è più probabile che sia attendibile."
       },
       {
         "step": "Identifica i pattern",
-        "action": "Riconosci narrative multiple e contraddittorie"
+        "action": "Riconosci narrative multiple e contraddittorie",
+        "example": "Se vedi 5 versioni diverse in 2 giorni, chiediti: 'Perché nessuno riesce a stabilire la verità? Questo è il segno del firehose.'"
+      },
+      {
+        "step": "Segnala la contraddizione",
+        "action": "Pubblicamente nota i cambi di versione",
+        "example": "'Ieri dicevano X, oggi dicono opposto. Qualcuno mente? O è una tecnica di saturazione? Chiediamo prove.'"
+      },
+      {
+        "step": "Evita l'urgenza",
+        "action": "Rifiuta di decidere basandoti sulla prima notizia",
+        "example": "'Non so cosa sia successo, ma vedo versioni contraddittorie. Aspetto che i fatti si stabiliscano prima di giudicare.'"
       }
     ],
     "scenario": {
@@ -381,15 +459,28 @@
     "defense": [
       {
         "step": "Ferma",
-        "action": "Non inoltrare automaticamente"
+        "action": "Non inoltrare automaticamente",
+        "example": "Conta fino a 10 prima di premere 'inoltra'. 10 secondi di attivazione del pensiero critico possono impedire la diffusione di disinformazione."
       },
       {
         "step": "Verifica",
-        "action": "Cerca fonti indipendenti"
+        "action": "Cerca fonti indipendenti",
+        "example": "Cerca il nome del sito o dell'autore su Google. Se è la prima volta che lo senti, è un campanello d'allarme: le notizie vere emergono da fonti già conosciute."
       },
       {
         "step": "Rompi la catena",
-        "action": "Rispondi con fact-check se possibile"
+        "action": "Rispondi con fact-check se possibile",
+        "example": "In un gruppo WhatsApp: 'Non inoltrate - ho verificato, è falso. Ecco il link al fact-checking: [inserire link].'"
+      },
+      {
+        "step": "Usa i fact-checker",
+        "action": "Verifica rapidamente con siti specializzati",
+        "example": "In Italia: Facta.news, Pagella Politica, Open. Copia la frase chiave del messaggio e incollala nel fact-checker."
+      },
+      {
+        "step": "Identifica la struttura",
+        "action": "Riconosci i segnali tipici della catena",
+        "example": "Segnali: TUTTO MAIUSCOLO + emoji multiple + 'CONDIVIDI ORA' + assenza di fonte. Questa struttura è progettata per bypassare il pensiero critico."
       }
     ],
     "scenario": {
@@ -459,20 +550,43 @@
         "title": "Scioperi e \"ordine pubblico\"",
         "description": "Uno stesso sciopero è stato coperto enfatizzando disagi ai pendolari (frame conflitto/disordine) o rivendicazioni salariali (frame lavoro/giustizia). La scelta del titolo principale ha orientato chi fosse visto come vittima o responsabile.",
         "lesson": "Chi controlla la prima cornice spesso controlla chi merita empatia nel racconto."
+      },
+      {
+        "title": "Guerra di Israele-Palestina (2023-2024)",
+        "description": "La stessa guerra è stata framata in modo opposto: 'terrorismo' vs 'resistenza militare', 'attacchi unilaterali' vs 'autodifesa', 'civili uccisi' vs 'morti in operazione'. Ogni media seleziona termini che allineano con la propria prospettiva geopolitica, creando due realtà parallele.",
+        "lesson": "Il framing bellico è potente: determina chi sono 'terroristi', chi 'civili', chi 'occupanti' - e quindi chi merita difesa e chi no."
+      },
+      {
+        "title": "Proteste per il clima (2019-2023)",
+        "description": "Manifestazioni studentesche sono state presentate come 'sciopero illegale che paralizza il traffico' (frame disordine) o come 'movimento democratico per il futuro' (frame diritti). I media che usano il frame 'disordine' spesso selezionano interviste a pendolari frustrati; quelli che usano il frame 'diritti' intervistano attivisti e scienziati.",
+        "lesson": "Il framing determina quali interviste vengono selezionati e quindi quali prospettive vengono amplificate."
       }
     ],
     "defense": [
       {
         "step": "Identifica la cornice",
-        "action": "Come viene presentato l'evento?"
+        "action": "Come viene presentato l'evento?",
+        "example": "Chiediti: 'Quale parola chiave definisce l'evento? 'Crisi di sicurezza' vs 'Emergenza umanitaria' - la scelta non è neutra.'"
       },
       {
         "step": "Analizza il linguaggio",
-        "action": "I termini sono neutri o carichi?"
+        "action": "I termini sono neutri o carichi?",
+        "example": "Cerca aggettivi emotivi: 'invasione', 'orrore', 'disastro' vs flusso migratorio, situazione, evento. Nota la differenza."
       },
       {
         "step": "Cerca cornici alternative",
-        "action": "Come viene presentato altrove?"
+        "action": "Come viene presentato altrove?",
+        "example": "Leggi la stessa notizia su almeno 2-3 fonti diverse. Se una titola 'Invasione' e l'altra 'Flusso migratorio', entrambe usano il framing."
+      },
+      {
+        "step": "Decodifica i dettagli",
+        "action": "Chiediti: 'Cosa viene messo in primo piano e cosa viene omesso?'",
+        "example": "Notizia: '50 violenti alle proteste'. Domanda: 'E gli altri 9.950? Perché solo i 50 sono nel titolo?'"
+      },
+      {
+        "step": "Riconosci l'intento",
+        "action": "Quali reazioni vuole generare il framing?",
+        "example": "Se il titolo usa paura, rabbia o protezione: 'Chi si arrabbia difende?', 'Chi ha paura si protegge?' - capisci cosa l'autore vuole che tu faccia."
       }
     ],
     "scenario": {
@@ -535,27 +649,50 @@
     "caseStudies": [
       {
         "title": "Diplomazia sovietica (Guerra Fredda)",
-        "description": "A critiche su diritti civili in URSS, la contro-argomentazione tipica era un riferimento al razzismo o alle disuguaglianze negli Stati Uniti. Anche dove le critiche erano fondate, l'effetto retorico era spostare il tema: da \"cosa succede qui\" a \"chi sei tu per parlare\".",
+        "description": "A critiche su diritti civili in URSS, la contro-argomentazione tipica era un riferimento al razzismo o alle disuguaglianze negli Stati Uniti: non negavano sempre i fatti, spostavano il bersaglio: da \"cosa succede qui\" a \"chi sei tu per parlare\".",
         "lesson": "Il whataboutism usa verità parziali altrui come scudo per non rispondere sul merito dell'accusa locale."
       },
       {
         "title": "Dibattito domestico: corruzione",
         "description": "Un giornalista chiede a un politico di rispondere su inchieste sul suo partito; il politico replica citando casi di altri partiti senza affrontare documenti o testimonianze sul caso posto. L'intervista finisce sul confronto tra \"chi è peggio\".",
         "lesson": "Se la risposta elenca colpe altrui senza confutare i fatti dell'accusa iniziale, è deflessione."
+      },
+      {
+        "title": "Scandalo FIFA (2015)",
+        "description": "In un'intervista sulla corruzione FIFA, l'interrogato risponde continuamente: \"Ma e il Comitato Olimpico? E la NBA? E le altre federazioni sportive? Tutti hanno corrotto!\" L'accusa specifica sulla FIFA viene persa; l'intervista segue la deflessione verso altri scandali.",
+        "lesson": "Il whataboutism è efficace perché sposta l'attenzione: l'intervista finisce a parlare di tutto tranne che della FIFA."
+      },
+      {
+        "title": "Guerra in Ucraina (2022-)",
+        "description": "Dibattiti sulla guerra presentano continuamente deflessioni: 'Ma e le guerre degli USA in Iraq? E l'occupazione della Palestina? E i bombardamenti NATO?'. La tecnica sposta il dibattito dai fatti specifici dell'Ucraina a un confronto generale di 'chi ha fatto cosa'.",
+        "lesson": "Il whataboutism geopolitico serve a evitare di valutare le azioni attuali: rimanda tutto a 'chi ha fatto peggio in passato'."
       }
     ],
     "defense": [
       {
         "step": "Riconosci",
-        "action": "\"Hai risposto alla domanda o ne hai fatta un'altra?\""
+        "action": "\"Hai risposto alla domanda o ne hai fatta un'altra?\"",
+        "example": "Nota frasi come: 'Ma e il partito X? Loro hanno fatto peggio!' - questo sposta il tema senza rispondere."
       },
       {
         "step": "Separa",
-        "action": "\"Possiamo parlare delle due cose separatamente?\""
+        "action": "\"Possiamo parlare delle due cose separatamente?\"",
+        "example": "'Ok, discuteremo anche di quel caso. Ma ora parliamo di questa accusa specifica: è vera o falsa? Non cambiamo argomento.'"
       },
       {
         "step": "Torna al punto",
-        "action": "\"Ora: questa decisione è giusta o sbagliata?\""
+        "action": "\"Ora: questa decisione è giusta o sbagliata?\"",
+        "example": "'Non mi interessa cosa hanno fatto altri in passato. Voglio sapere: questa riforma specifica è buona o cattiva per il paese?'"
+      },
+      {
+        "step": "Rifiuta la deflessione",
+        "action": "Insisti sull'accusa originale",
+        "example": "'Tu stai cambiando argomento per evitare di rispondere. Rispondi alla domanda specifica: i dati sono corretti o no?'"
+      },
+      {
+        "step": "Separa le colpe",
+        "action": "Due torti non fanno una ragione",
+        "example": "'Anche se altri hanno fatto peggio, questo non giustifica il tuo errore. Discutiamo del tuo caso, non degli altrui.'"
       }
     ],
     "scenario": {
@@ -625,6 +762,16 @@
         "title": "Leggi approvate sotto copertura minima",
         "description": "In più paesi, riforme tecniche (lavoro, sorveglianza, appalti) sono state calendarizzate o segnalate in slot di minor ascolto mentre i titoli erano monopolizzati da cronaca o gossip politico.",
         "lesson": "L'agenda setting include il timing: quando si parla di qualcosa conta quanto se se ne parla."
+      },
+      {
+        "title": "Brexit (2016-2020)",
+        "description": "Durante i negoziati Brexit, il governo UK usò l'agenda setting: notizie minori su problematiche dell'UE venivano pubblicate mentre i titoli si concentravano su argomenti più emozionanti ma meno rilevanti (sovranità, controllo confini). Il pubblico non ricevette informazioni bilanciate per decidere.",
+        "lesson": "L'agenda setting strategica può saturare l'attenzione su temi secondari per nascondere informazioni critiche."
+      },
+      {
+        "title": "Crisi finanziarie (2008, 2020-2023)",
+        "description": "Durante crisi bancarie e COVID, leggi significative (risanatamenti, bail-in, sorveglianza digitale) venivano approvate o discusse in momenti di bassa attenzione (weekend, notti, festività) mentre l'agenda pubblica era dominata da scandali personali o dibattiti polarizzanti.",
+        "lesson": "Il timing è parte dell'agenda setting: approvare leggi impattanti quando nessuno guarda è una forma di controllo."
       }
     ],
     "defense": [
@@ -639,6 +786,21 @@
       {
         "step": "Cerca notizie sepolte",
         "action": "Leggi anche sezioni minori"
+      },
+      {
+        "step": "Riconosci il timing",
+        "action": "Nota quando le notizie scomode vengono pubblicate 'di nascosto'",
+        "example": "Se una legge controversa viene approvata venerdì sera senza copertura mediatica, è agenda setting: 'perché non se ne parla durante la settimana?'"
+      },
+      {
+        "step": "Cerca i sepoliti",
+        "action": "Dedicati tempo a notizie non in prima pagina",
+        "example": "Vai oltre le prime pagine e i titoli principali. Le sezioni interne, cronaca locale, approfondimenti contengono spesso notizie importanti ignorate."
+      },
+      {
+        "step": "Confronta l'attenzione",
+        "action": "Chiediti: 'Questa notizia riceve una copertura proporzionale alla sua importanza?'",
+        "example": "Uno scandalo privato coperto per settimane vs una riforma strutturale menzionata 30 secondi: questo è agenda setting in azione."
       }
     ],
     "scenario": {
@@ -697,13 +859,23 @@
     "caseStudies": [
       {
         "title": "Anticipazione di \"scandali\" in campagna",
-        "description": "Poche ore prima di un confronto in TV, circolano leak o accuse non verificate su un candidato. Anche se poi smentite, il sospetto è stato installato prima che il pubblico ascolti le sue proposte: ogni frase viene filtrata attraverso \"forse è vero\".",
+        "description": "Poche ore prima di un confronto in TV, circolano leak o accuse non verificate su un candidato. Anche se poi smentite, il sospetto era stato installato prima che il pubblico ascoltasse le sue proposte: ogni frase viene filtrata attraverso \"forse è vero\".",
         "lesson": "La sequenza temporale è parte della tecnica: colpire prima che la fonte parli è diverso da criticare dopo."
       },
       {
         "title": "Etichettare l'esperto prima della conferenza",
         "description": "Comunicati che definiscono un relatore \"venduto alle lobby\" senza citare contratti o dati, diffusi appena si annuncia l'evento. Chi partecipa ha già un'ipotesi di colpa prima di aver sentito metodo e risultati.",
         "lesson": "Avvelenare il pozzo non dimostra errori nel lavoro: rende più difficile valutarlo con equilibrio."
+      },
+      {
+        "title": "Campagna \"Credibility Attacks\" (2020)",
+        "description": "Durante la campagna presidenziale USA, un super PAC diffuse annunci negativi su Biden giorni prima di ogni dibattito: 'Biden sta perdendo memoria', 'È in declino cognitivo', 'Non ha energia per il lavoro'. I media ripetevano questi frame negativi, creando sospetto preventivo prima che Biden potesse rispondere.",
+        "lesson": "Il poisoning the well su larga scala funziona perché gli altrui media ripetono gli attacchi senza verificarli, installando il dubbio nel pubblico."
+      },
+      {
+        "title": "Leak di \"documenti compromettenti\" (2016)",
+        "description": "Prima delle elezioni USA, WikiLeaks pubblicò presunti documenti compromettenti su Hillary Clinton. Anche se la maggior parte dei documenti fu insignificante o decontestualizzata, il danno fu fatto: la narrativa di 'Clinton corrotta e pericolosa' era già installata nel dibattito pubblico prima di ogni dibattito.",
+        "lesson": "Il poisoning the well temporale è particolarmente efficace: una volta installata una narrazione negativa, è molto difficile da disinstallare."
       }
     ],
     "defense": [
@@ -718,6 +890,21 @@
       {
         "step": "Verifica le accuse",
         "action": "Le informazioni preventivamente diffuse sono vere?"
+      },
+      {
+        "step": "Attendi dopo aver ascoltato",
+        "action": "Formati un'opinione prima, poi ascolta l'argomentazione",
+        "example": "'Ho già delle opinioni su questo esperto, ma ascolto prima i dati. Deciderò dopo aver visto i numeri, non prima.'"
+      },
+      {
+        "step": "Separa i livelli",
+        "action": "Valuta l'affidabilità della fonte separata dai contenuti",
+        "example": "'Anche se queste accuse fossero vere, i dati scientifici presentati sono corretti? Posso fidarmi dei numeri, indipendentemente da chi li presenta?'"
+      },
+      {
+        "step": "Cerca contesto",
+        "action": "Verifica se le informazioni negative sono complete e contestualizzate",
+        "example": "'Questi conflitti d'interesse sono documentati? Fanno parte di posizioni pubbliche? O sono vaghi e non verificati?'"
       }
     ],
     "scenario": {
@@ -751,7 +938,7 @@
     "category": "framing",
     "catLabel": "Inquadratura",
     "summary": "Si mostrano solo dati o episodi che supportano la tesi; si omettono statistiche, contesti o controesempi che la indebolirebbero.",
-    "definition": "Il card stacking può essere tutto vero nel letterale e fuorviante nel complesso: una serie di successi senza fallimenti, un trend tagliato negli anni giusti, una citazione senza il resto del discorso. Difficile da smontare con una \"bugia\" singola, perché ogni pezzo regge in isolamento: manca il quadro.",
+    "definition": "Il card stacking può essere tutto vero nel letterale e fuorviante nel complesso: una serie di successi senza fallimenti, un trend tagliato negli anni giusti, una citazione senza il resto del discorso. Difficile da smontare con una \"bugia\" singola, perché ogni pezzo regge in isolamento: manca il quadro completo.",
     "historicalContext": "L'Institute for Propaganda Analysis (1937-1942) elencò il \"card stacking\" tra i sette trucchi base: mescolare solo carte favorevoli al tavolo. Nei decenni successivi, inchieste su tabacco, amianto e clima mostrarono come industrie e portavoce selezionassero studi favorevoli o ignorassero metanalisi contrarie pur citando dati veri. Non è sempre menzogna: è omissione strategica.",
     "psychologicalMechanism": "Sfrutta il confirmation bias e l'illusione di completezza: se vediamo molti dati, assumiamo che il quadro sia completo.",
     "variants": [
@@ -783,6 +970,16 @@
         "title": "Grafici di mercato o finanza",
         "description": "Un trend viene mostrato partendo da un minimo locale o terminando su un massimo, senza asse temporale completo, per far sembrare crescita o calo più netti di quanto sia la serie intera.",
         "lesson": "Chiedere sempre la serie completa e la scala: stessi dati, crop diverso = storia diversa."
+      },
+      {
+        "title": "Sviluppi immobiliari (2015-2022)",
+        "description": "Sviluppatori presentano grafici di aumento dei prezzi immobiliari (+15% annuo) selezionando solo i quartieri più esclusivi e gli anni di crescita. Omettono: quartieri in calo, correzioni per inflazione, confronti con redditi. La presentazione crea impressione di boom immobiliare che il quadro completo non supporta.",
+        "lesson": "Il card stacking economico funziona mostrando solo i dati 'buoni' e nascondendo il contesto completo che camberebbe la percezione."
+      },
+      {
+        "title": "Report aziendali (Quarterly Reports)",
+        "description": "Le aziende pubblicano report trimestrali celebrando i successi: ricavi in crescita, nuovi clienti acquisiti, espansioni di mercato. Raramente includono nello stesso spazio: perdite, clienti persi, ritardi, problemi operativi. Il quadro parziale crea impressione di azienda in salute mascherando vulnerabilità reali.",
+        "lesson": "La selezione dei dati positivi è card stacking: ogni numero è 'vero', ma il quadro è fuorviante."
       }
     ],
     "defense": [
@@ -797,6 +994,21 @@
       {
         "step": "Nota cosa manca",
         "action": "Cosa NON viene detto?"
+      },
+      {
+        "step": "Richiedi il quadro completo",
+        "action": "Chiedi esplicitamente i dati mancanti",
+        "example": "'Mostri solo i dati positivi, ma quali sono i negativi? Qual è il tasso di fallimento? Qual è il contesto completo?'"
+      },
+      {
+        "step": "Cerca serie complete",
+        "action": "Non accontentarti di un grafico isolato",
+        "example": "'Questo grafico parte da un minimo locale e termina su un massimo. Voglio vedere la serie storica completa per capire il trend reale.'"
+      },
+      {
+        "step": "Verifica le metanalisi",
+        "action": "Cerca revisioni sistematiche che includono tutti gli studi",
+        "example": "'Non mi fido di uno studio isolato. C'è una metanalisi (che analizza TUTTI gli studi disponibili) che conferma o smentisce questa conclusione?'"
       }
     ],
     "scenario": {
@@ -862,6 +1074,16 @@
         "title": "Conflitti armati: \"terrorista\"",
         "description": "Attori non statali che usano la violenza sono stati nominati \"terroristi\" o \"combattenti per la libertà\" a seconda dell'alleanza geopolitica del narratore. La stessa azione riceve etichette opposte.",
         "lesson": "Quando l'etichetta dipende da chi racconta, non sta descrivendo un fatto neutro: sta prendendo posizione."
+      },
+      {
+        "title": "Etichette \"Woke\" e \"Conservatore\" (2020-2024)",
+        "description": "Ne dibattiti culturali USA, termini come 'woke' e 'conservatore' sono usati come etichette che sostituiscono l'analisi. Una proposta sulla rappresentazione razziale può essere respinta come 'woke' senza discussere i dati sulle disuguaglianze. Una proposta sulla libertà accademica può essere respinta come 'conservatore' senza analizzare i contenuti.",
+        "lesson": "Le etichette identitarie moderne funzionano come quelle storiche: chiudono il dibattito attivando lealtà di gruppo invece di analizzare i contenuti."
+      },
+      {
+        "title": "Etichette \"Populista\" vs \"Elitista\" (2015-2024)",
+        "description": "In elezioni europee, movimenti popolari sono stati etichettati come 'populisti' o 'sovranisti' per discreditare le loro proposte politiche. Allo stesso modo, le élite economiche e le establishment media sono state etichettate come 'elitisti' da movimenti anti-sistema. Le etichette sostituiscono il dibattito sulle politiche concrete.",
+        "lesson": "L'etichettamento ideologico blocca l'analisi: una volta applicata un'etichetta, la proposta viene valutata in base all'etichetta, non ai contenuti."
       }
     ],
     "defense": [
@@ -876,6 +1098,21 @@
       {
         "step": "Rifiuta la semplificazione",
         "action": "La realtà è più complessa delle etichette"
+      },
+      {
+        "step": "Richiedi definizioni operative",
+        "action": "Chiedi: \"Cosa significa CONCRETAMENTE in questo contesto?\"",
+        "example": "'Quando dici 'socialista', cosa intendi esattamente? Sostenitore di quale politica specifica? Cosa proponi concretamente?'"
+      },
+      {
+        "step": "Analizza la proposta, non l'etichetta",
+        "action": "Giudica il contenuto, non il termine usato per descriverlo",
+        "example": "'Non mi interessa se etichettiamo questa proposta come 'di destra' o 'di sinistra'. Sono le cifre corrette? Funziona? Aiuta il paese? Questo è importante.'"
+      },
+      {
+        "step": "Sostituisci l'etichetta con i fatti",
+        "action": "Traduci l'etichetta in proposte concrete",
+        "example": "Invece di 'È fascista!', chiediti: 'Quali azioni specifiche ti sembrano fasciste? Quali misure propone? Qual è l'obiettivo preciso?'"
       }
     ],
     "scenario": {
@@ -884,7 +1121,7 @@
       "question": "Cosa ottiene l'avversario usando un'etichetta ideologica al posto di una critica?",
       "options": [
         {
-          "text": "Attiva reazioni identitarie nel pubblico senza dover entrare nel merito della proposta - chi odia 'i socialisti' la rifiuterà, chi li ama la sosterrà, senza aver letto una riga",
+          "text": "Attiva reazioni identitarie nel pubblico senza dover entrare nel merito della proposta: chi odia 'i socialisti' la rifiuterà, chi li ama la sosterrà, senza aver letto una riga",
           "correct": true,
           "explanation": "L'etichetta bypassa il ragionamento attivando l'identità. Una volta che una proposta è incasellata, viene valutata in base all'etichetta, non ai contenuti."
         },
@@ -941,6 +1178,16 @@
         "title": "Pubblicità \"best seller\" e \"N°1\"",
         "description": "Prodotti vengono promossi come \"il più venduto\" o \"scelta dai professionisti\" senza metodologia pubblica: si crea un effetto gregge che spinge a comprare per non restare fuori dalla norma percepita.",
         "lesson": "Il bandwagon commerciale sfrutta la paura di essere l'eccezione, non solo il desiderio di qualità."
+      },
+      {
+        "title": "Criptovalute (2017-2022)",
+        "description": "Durante il boom delle criptovalute, i media riportano continuamente 'milioni di persone investono', 'tutti ne parlano', 'il futuro è qui'. Il bandwagon digitale sfrutta l'FOMO (Fear Of Missing Out) per spingere investimenti impulsivi, ignorando rischi e volatilità. Anche quando i prezzi crollano del 80%, il bandwagon 'tutti guadagnano' persiste.",
+        "lesson": "Il bandwagon finanziario è particolarmente pericoloso: la pressione sociale a partecipare può superare la valutazione razionale dei rischi."
+      },
+      {
+        "title": "Social Media Trends (TikTok, Instagram)",
+        "description": "Piattaforme mostrano '10 milioni di visualizzazioni', 'tutti lo usano', 'trending worldwide' per spingere l'adozione di app, prodotti o tendenze. L'algoritmo amplifica il bandwagon: più visualizzazioni = più visibilità = più persone lo fanno. La qualità o la sicurezza diventano secondarie rispetto al numero di utenti.",
+        "lesson": "Il bandwagon algoritmico sfrutta la visibilità come prova di qualità, creando un effetto gregge digitale a scala globale."
       }
     ],
     "defense": [
@@ -955,6 +1202,21 @@
       {
         "step": "Ricorda la storia",
         "action": "La maggioranza ha spesso sostenuto cose sbagliate"
+      },
+      {
+        "step": "Cerca la fonte del numero",
+        "action": "Chiediti: 'Chi ha misurato questa maggioranza?'",
+        "example": "'Qualcuno ha fatto un sondaggio scientifico? O è un numero inventato per crear l'effetto gregge? I sondaggi affidabili hanno metodologia pubblica.'"
+      },
+      {
+        "step": "Rifiuta la pressione sociale",
+        "action": "Chiediti: 'Seguo perché sono convinto o perché non voglio essere l'eccezione?'",
+        "example": "'Tutti i miei amici usano questo prodotto. Ma serve a me? Corrisponde alle mie esigenze? Le mie esigenze non dipendono da cosa fanno gli altri.'"
+      },
+      {
+        "step": "Poni il criterio",
+        "action": "Valuta l'opzione in base ai fatti, non alla popolarità",
+        "example": "'Non importa se 2 milioni usano X. È adatto a me? È sicuro? Fa ciò che promette? La risposta a queste domande conta, non il numero di utenti.'"
       }
     ],
     "scenario": {
@@ -1018,8 +1280,18 @@
       },
       {
         "title": "Marketing \"naturale\" e \"benessere\"",
-        "description": "Packaging su prodotti che enfatizzano \"naturale\", \"equilibrio\", \"vitality\" senza specificare dosi, confronti o limiti scientifici. Il pubblico proietta significati positivi senza criteri comparabili.",
-        "lesson": "Aggettivi luminosi sostituiscono spesso dati e confronti: è lo stesso schema della politica."
+        "description": "Packaging su prodotti che enfatizzano \"naturale\", \"equilibrio\", \"vitalità\" senza specificare dosi, confronti o limiti scientifici. Il pubblico proietta significati positivi senza criteri comparabili.",
+        "lesson": "Aggettivi luminosi sostituiscono spesso dati e confronti. È lo stesso schema della politica."
+      },
+      {
+        "title": "Slogani elettorali \"Cambiare\" e \"Rinnovare\"",
+        "description": "Candidati usano termini vaghi come 'cambiare' e 'rinnovare' che proiettano significati positivi (progresso, miglioramento) senza specificare cosa cambierà concretamente. 'Cambiare per il meglio' può significare politiche opposte per elettori diversi; l'ambiguità è il punto.",
+        "lesson": "I glittering generalities elettorali permettono a tutti di sentirsi rappresentati, senza obbligare il candidato a proposte specifiche che potrebbero alienare parte dell'elettorato."
+      },
+      {
+        "title": "Campagne di brand \"Inclusività\" e \"Sostenibilità\"",
+        "description": "Aziende usano termini come 'inclusivo', 'sostenibile', 'etico' senza pubblicare report specifici su criteri ESG, diversità, impronta climatica. Le parole attivano valori positivi ma non offrono criteri per verificarli. Il consumatore proietta i propri valori sulla brand invece di valutarne l'effettivo impegno.",
+        "lesson": "Il greenwashing e l'agenda branding usano glittering generalities per evitare responsabilità verificabile: le parole suonano impegnate ma non sono misurabili."
       }
     ],
     "defense": [
@@ -1034,6 +1306,21 @@
       {
         "step": "Nota l'assenza",
         "action": "Cosa NON viene detto?"
+      },
+      {
+        "step": "Chiedi: 'Per chi?'",
+        "action": "Questi valori beneficiano concretamente quali gruppi?",
+        "example": "'Questa 'libertà' è per le aziende o per i cittadini? Chi guadagna? Chi perde?'"
+      },
+      {
+        "step": "Richiedi azioni concrete",
+        "action": "Quali leggi, misure o politiche reali implementano questi valori?",
+        "example": "'Parli di 'libertà': significa deregolazione totale? O libertà per alcuni gruppi e restrizioni per altri? Quali sono i provvedimenti legislativi specifici?'"
+      },
+      {
+        "step": "Sostituisci con politiche",
+        "action": "Traduci il valore astratto in provvedimenti legislativi",
+        "example": "'Invece di 'voto per la libertà', chiedi: 'quali restrizioni verranno rimosse da questa legge? Quali nuove libertà saranno introdotte? Per chi?'"
       }
     ],
     "scenario": {
@@ -1103,6 +1390,16 @@
         "title": "Comizi sotto bandiera o con benedizione",
         "description": "Candidati che tengono comizi con bandiere, inni o figure religiose sul palco: il simbolo nazionale o sacro contamina l'accoglienza emotiva verso la persona e le sue promesse, indipendentemente da numeri o costi.",
         "lesson": "Chiedere cosa resterebbe della proposta senza lo sfondo simbolico."
+      },
+      {
+        "title": "Spot con atleti famosi",
+        "description": "Prodotti vengono associati a campioni sportivi (calcio, tennis, Formula 1) per trasferire attributi positivi (vincitore, determinato, campione) al prodotto. L'atleta non ha competenza sul prodotto; la sola presenza crea credibilità trasferita. È la logica dell'endorsement pubblicitario.",
+        "lesson": "Il transfer atletico funziona perché il cervello associa automaticamente il successo sportivo alla qualità, anche quando le due cose sono completamente scollegate."
+      },
+      {
+        "title": "Politica con figure religiose",
+        "description": "Candidati si fanno fotografare in chiese, con leader religiosi, durante campagne elettorali. L'associazione con simboli sacri trasferisce moralità e approvazione senza che il candidato debba fornire prove delle sue posizioni. La sola presenza accanto a figure religiose legitima la candidatura.",
+        "lesson": "Il transfer religioso è particolarmente insidioso perché la fede è un valore profondo e la critica al candidato appare come attacco ai valori religiosi, non alla sua politica."
       }
     ],
     "defense": [
@@ -1117,6 +1414,21 @@
       {
         "step": "Riconosci l'associazione",
         "action": "Stanno usando un simbolo per legittimare qualcosa di non correlato?"
+      },
+      {
+        "step": "Cerca l'esperto reale",
+        "action": "Chi è un esperto verificabile su QUESTO argomento?",
+        "example": "'Questo attore recita medici, ma ha una laurea in medicina? Ci sono pubblicazioni peer-reviewed a suo nome? Chi sono gli oncologi veri che ne parlano?'"
+      },
+      {
+        "step": "Valuta l'argomentazione, non la fonte",
+        "action": "Chi parla non è un argomento",
+        "example": "'Non mi interessa che lo dica un famoso. I dati sono corretti? Le prove sono solide? La logica regge? Facciamo un check.'"
+      },
+      {
+        "step": "Riconosci la tecnica",
+        "action": "Nota quando lo sfondo fa tutto il lavoro dell'argomentazione",
+        "example": "'Se rimuovessi la bandiera/la divisa/la musica, rimarrebbe qualcosa di questo discorso? Se no, allora il transfer sta facendo il lavoro.'"
       }
     ],
     "scenario": {
@@ -1182,6 +1494,16 @@
         "title": "Convention politiche: storie personali in primissimo piano",
         "description": "Discorsi strutturati attorno a un aneddoto toccante (malattia superata, famiglia) per umanizzare il candidato prima delle promesse numeriche. L'impatto emotivo precede la domanda \"come finanzierai?\".",
         "lesson": "Il testimonial politico seleziona il caso che funziona narrativamente, non un campione rappresentativo."
+      },
+      {
+        "title": "Testimonial sanitari su social media (2015-2023)",
+        "description": "Storie di 'guarigioni miracolose' o 'reazioni avverse' circolano su TikTok e Instagram. Un video mostra una persona che racconta di essersi salvata da una malattia o di aver avuto effetti collaterali gravi dopo un farmaco. I milioni di visualizzazioni creano l'illusione di causalità, mentre i trial clinici possono mostrare il contrario.",
+        "lesson": "Il testimonial digitale è pericoloso perché i video vanno virali molto più velocemente delle smentite scientifiche, creando danni di salute pubblica."
+      },
+      {
+        "title": "Campagne di testimonial finanziari (Fintech)",
+        "description": "Piattaforme di prestiti mostrano video di persone che raccontano di aver ottenuto prestiti velocemente con Tassi 'incredibili'. Il racconto personale è presentato come prova che il servizio funziona, mentre i tassi reali e le condizioni contrattuali non sono menzionate. L'aneddoto sostituisce le informazioni complete.",
+        "lesson": "Il testimonial finanziario sfrutta la fiducia nelle storie personali per nascondere rischi e costi reali dei prodotti finanziari."
       }
     ],
     "defense": [
@@ -1196,6 +1518,21 @@
       {
         "step": "Ricorda",
         "action": "L'aneddoto non è dato, la storia non è statistica"
+      },
+      {
+        "step": "Cerca studi controllati",
+        "action": "Quali trial clinici o ricerche confermano?",
+        "example": "'Questa persona è guarita - è un caso singolo. Ci sono trial clinici su larga scala che mostrano efficacia? Quali percentuali di successo? Quali effetti collaterali?'"
+      },
+      {
+        "step": "Valuta la rappresentatività",
+        "action": "Questo caso rappresenta la media o l'eccezione?",
+        "example": "'Su 10.000 persone, 1 ha avuto questa esperienza. Rappresenta il 99,9% o lo 0,01%? L'aneddoto è la base dell'eccezione, non della regola.'"
+      },
+      {
+        "step": "Riconosci il bias di selezione",
+        "action": "Hanno selezionato i casi positivi e ignorato quelli negativi?",
+        "example": "'Mostrano solo chi è soddisfatto. E chi non lo è? E chi ha avuto effetti collaterali o non è guarito? Se non compaiono, è selezione, non informazione.'"
       }
     ],
     "scenario": {
@@ -1994,7 +2331,7 @@
       "question": "Perché la negabilità è parte strutturale di questa tecnica e non un effetto collaterale?",
       "options": [
         {
-          "text": "Permette di comunicare a un pubblico specifico beneficiando della comprensione in codice, senza assumersi la responsabilità pubblica di quel messaggio",
+          "text": "Permette di comunicare a un pubblico specifico beneficiando della comprensione in codice, senza assumersi la responsabilità pubblica di quel messaggio.",
           "correct": true,
           "explanation": "La negabilità è progettata, non accidentale. Il messaggio funziona a due livelli: chi conosce il codice riceve la comunicazione; chi non lo conosce sente qualcosa di innocuo."
         },
