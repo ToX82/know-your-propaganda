@@ -1157,5 +1157,39 @@ const techniques = [
         { text: 'Le tue fonti sono semplicemente accurate', correct: false, explanation: "La coerenza assoluta tra fonti diverse è rarità statistica - o selezione." }
       ]
     }
+  },
+  {
+    id: 56, icon: '🫧', name: 'Bolla di Filtraggio', subtitle: 'Personalizzazione Algoritmica', category: 'framing', catLabel: 'Inquadratura',
+    summary: "Gli algoritmi mostrano solo contenuti che confermano le convinzioni esistenti, isolando l'utente da prospettive diverse e argomenti contrari.",
+    definition: "La bolla di filtraggio (filter bubble) è uno spazio informativo personale creato dagli algoritmi che selezionano contenuti in base a preferenze, clic e tempo di visualizzazione. Il risultato è un ambiente dove l'utente vede solo ciò che conferma le sue credenze preesistenti, senza essere esposto a visioni alternative, contestazioni o argomenti sfumati. Non è deliberatamente falso, ma deliberatamente incompleto e ristretto alla prospettiva dell'individuo.",
+    historicalContext: "Il concetto è stato teorizzato da Ethan Zuckerman nel 2008 e da Eli Pariser nel suo libro 'The Filter Bubble' (2011). Con l'ascesa dei social media e degli algoritmi di raccomandazione, la bolla è diventata onnipresente: Netflix, YouTube, Facebook, Google, i sistemi di notizie personalizzati creano silos informativi individualizzati. Studi hanno dimostrato che utenti della stessa area geografica e demografica possono ricevere versioni completamente diverse della 'stessa' notizia, ampliando la frattura sociale.",
+    psychologicalMechanism: "Sfrutta il confirmation bias e il bisogno di coerenza: il cervello preferisce informazioni che confermano le credenze esistenti ed evita quelle che le contraddicono. L'algoritmo rinforza questo bias naturale, creando un cerchio di autoconferma.",
+    variants: [
+      { name: 'Personalizzazione dei social', desc: 'Facebook, Twitter/X mostrano contenuti in base a engagement passato' },
+      { name: 'Raccomandazione personalizzata', desc: 'YouTube e Netflix suggeriscono contenuti simili a quelli già visti' },
+      { name: 'Ricerca personalizzata', desc: 'Google restituisce risultati diversi per chiunque nella stessa ricerca' },
+      { name: 'Adattamento dinamico', desc: 'Algoritmi che modificano il feed in tempo reale in base alle reazioni' }
+    ],
+    redFlags: ['Non riesci a vedere opinioni diverse dalle tue su temi controversi', 'Il tuo feed mostra solo contenuti con cui sei già d\'accordo', 'Sembra che "tutti" la pensano come te', 'I contenuti critici o contrari raramente compaiono'],
+    caseStudies: [
+      { title: 'Elezioni USA 2016 e feed diversi', description: 'Ricerche hanno dimostrato che utenti di orientamenti opposti ricevevano racconti completamente diversi della stessa campagna elettorale. Le bolle algoritmiche non solo mostravano contenuti diversi, ma creavano realtà informative separate e in conflitto, rendendo il dialogo pubblico quasi impossibile.', lesson: 'La bolla non è innocente: crea versioni separate della realtà che non possono confrontarsi.' },
+      { title: 'COVID-19 e camere d\'eco', description: 'Durante la pandemia, algoritmi dei social e motori di ricerca hanno amplificato bolle di informazioni diverse: gruppi ricevevano solo contenuti che confermavano le loro posizioni (speranza/scetticismo, no-vax/pro-vax), con minima esposizione a prospettive alternative. La polarizzazione algoritmica ha reso difficile il consenso basato su prove condivise.', lesson: 'Quando gli algoritmi ottimizzano per engagement anziché per accuratezza, le bolle diventano strumenti involontari di polarizzazione.' }
+    ],
+    defense: [
+      { step: 'Cerca proattivamente', action: 'Cerca attivamente fonti diverse dalle tue' },
+      { step: 'Sfida le tue bolle', action: 'Segui qualcuno con opinioni diverse dalle tue' },
+      { step: 'Usa fonti diverse', action: 'Varia i canali: notizie tradizionali, accademiche, internazionali' },
+      { step: 'Disattiva la personalizzazione', action: 'Quando possibile, usa modalità di navigazione non personalizzate' }
+    ],
+    scenario: {
+      title: 'Notizia controversa',
+      situation: "Un tema dibattuto (es. cambio climatico, politica estera). Il tuo feed mostra solo contenuti che confermano la tua posizione. Non vedi argomenti dell'altra parte, né studi che li contraddicono. Ti sembra ovvio che hai ragione.",
+      question: 'Cosa manca nella tua esperienza informativa per formare un giudizio completo?',
+      options: [
+        { text: 'Esposizione sistematica a prospettive diverse e argomenti contrari che sfidino le tue convinzioni', correct: true, explanation: 'La bolla di filtraggio fornisce conforto ma non verità: ti protegge dal disaccordo senza che tu possa testare le tue convinzioni contro alternative. Questo è esattamente come vivere solo con persone che la pensano come te: confortante, ma pericolosamente limitante.' },
+        { text: 'Dati aggiuntivi: più informazioni confermano che la tua posizione è corretta', correct: false, explanation: 'Se la posizione fosse sbagliata, riceveresti comunque solo conferme. La quantità di conferme non equivale a correttezza; equivale a ripetizione all\'interno di una bolla, non a verifica all\'esterno.' },
+        { text: 'Nulla: l\'algoritmo seleziona i contenuti migliori per te in base alle tue preferenze', correct: false, explanation: '"Migliori" significa più simili a ciò che hai già visto e gradito, non più veri o più completi. L\'obiettivo dell\'algoritmo è engagement, non completezza o verità.' }
+      ]
+    }
   }
 ];

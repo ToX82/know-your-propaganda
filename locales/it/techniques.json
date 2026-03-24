@@ -6,9 +6,9 @@
     "subtitle": "Attacco alla Persona",
     "category": "attack",
     "catLabel": "Attacco",
-    "summary": "Attaccare la persona invece delle sue argomentazioni. Una delle fallacie logiche più antiche.",
-    "definition": "L'ad hominem (dal latino \"verso l'uomo\") è una fallacia logica in cui si attacca il carattere, i motivi o altri attributi personali di chi propone un'argomentazione, invece di confutare la sostanza.",
-    "historicalContext": "Classificato da Aristotele tra i sofismi. Usato sistematicamente dai regimi totalitari: l'etichetta \"nemico del popolo\" delegittimava qualsiasi argomento.",
+    "summary": "Si attacca chi parla (onestà, intelligenza, aspetto, interessi) invece di valutare se le sue prove o ragioni reggono sul merito.",
+    "definition": "L'ad hominem (dal latino \"verso l'uomo\") evita la discussione sul contenuto: si delegittima la fonte con insulti, sospetti sulle sue intenzioni o sul suo passato. Così il pubblico scarta tutto ciò che dice senza verificarlo, anche quando sarebbe vero o utile. Non confonderlo con segnalare un conflitto d'interesse documentato: quello va valutato insieme alle prove, non al posto delle prove.",
+    "historicalContext": "Già negli Organon aristotelici l'ad hominem è elencato tra le argomentazioni che non dimostrano la conclusione. Nel Rinascimento e nell'Illuminismo fu combattuto come ostacolo alla discussione scientifica; nel XX secolo processi politici e show trial (Mosca 1936-1938) sostituirono la prova con l'etichetta \"nemico del popolo\" o \"sabotatore\". Oggi è onnipresente nei talk show e sui social, dove colpire l'autore post o video sostituisce il fact-checking sul contenuto.",
     "psychologicalMechanism": "Sfrutta l'euristica della fonte: tendiamo a valutare le informazioni in base a chi le dice. Quando la fonte viene delegittimata, il cervello scarta automaticamente anche argomentazioni valide.",
     "variants": [
       {
@@ -35,9 +35,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Galileo",
-        "description": "Attecchiato come \"eretico\" invece di confutare le sue argomentazioni astronomiche.",
-        "lesson": "I difetti personali non invalidano le argomentazioni."
+        "title": "Galileo e il processo del 1633",
+        "description": "La Chiesa reagì alle tesi copernicane concentrandosi sullo status di Galileo (sospetto di eresia, disobbedienza) più che su osservazioni e calcoli confrontabili pubblicamente. L'attacco alla persona e alla sua obbedienza sostituì il dibattito astronomico sul merito.",
+        "lesson": "Smontare la reputazione non smonta i dati: servono prove sul contenuto, non sul carattere."
+      },
+      {
+        "title": "Show trial di Mosca (anni 1930)",
+        "description": "Oppositori politici furono presentati come \"spie\" e \"traditori\" prima ancora che le accuse materiali fossero discusse; la colpa era identità e fedeltà, non una catena probatoria su atti specifici. L'ad hominem istituzionale chiuse il dibattito pubblico.",
+        "lesson": "Quando l'accusa è \"chi sei\" invece di \"cosa hai fatto\", la tecnica è proprio l'attacco alla persona."
       }
     ],
     "defense": [
@@ -84,9 +89,9 @@
     "subtitle": "Arma del Derisore",
     "category": "attack",
     "catLabel": "Attacco",
-    "summary": "Trasformare l'avversario in oggetto di scherno per delegittimarlo senza argomenti.",
-    "definition": "La ridicolizzazione sistematica usa l'umorismo per rendere socialmente costoso prendere sul serio l'avversario.",
-    "historicalContext": "Usata dai regimi con caricature di gruppi etnici e oppositori. Nell'era digitale, i meme sono diventati armi potenti.",
+    "summary": "Si deride l'avversario (aspetto, errori, voce) per farlo sembrare inaffidabile o ridicolo, così il pubblico non ascolta più le sue idee.",
+    "definition": "La ridicolizzazione sostituisce la confutazione con risate e meme: chi ride smette di chiedersi se le critiche siano fondate. Funziona perché l'associazione emotiva (\"è uno dei meme\") è più veloce da ricordare di un'analisi. La satira può essere legittima, ma qui l'obiettivo è escludere la persona dal dibattito serio, non solo criticare una posizione.",
+    "historicalContext": "La caricatura politica è antica (satira romana, vignette dell'Europa del XVIII-XIX secolo come quelle di Gillray). Nel Novecento furono strumenti di guerra: riviste come \"Der Stürmer\" nel Terzo Reich degradarono interi gruppi con immagini ripetute. Dopo la televisione e soprattutto internet, la ridicolizzazione è diventata virale e permanente: un soprannome o un meme può seguire un leader più a lungo di un programma.",
     "psychologicalMechanism": "L'umorismo crea un'associazione emotiva che bypassa il ragionamento. Chi ride di qualcuno lo categorizza come \"non meritevole di serietà\".",
     "variants": [
       {
@@ -109,9 +114,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Potere dei meme",
-        "description": "Studi mostrano che candidati sistematicamente ridicolizzati in meme vengono percepiti come meno competenti.",
-        "lesson": "I meme sono comunicazione politica con effetti misurabili."
+        "title": "Caricature antisemite nella Germania nazista",
+        "description": "Sturm und propaganda visiva raffiguravano ebrei in modo grottesco e subumano: non si confutavano idee politiche, si costruiva il ridicolo e il disgusto verso persone ridotte a stereotipi. La risata e il disprezzo resero accettabile l'esclusione prima ancora delle leggi razziali.",
+        "lesson": "Quando il messaggio è solo \"guarda che ridicoli sono\", manca l'argomentazione: è ridicolizzazione pura."
+      },
+      {
+        "title": "Soprannomi presidenziali USA (2016)",
+        "description": "In campagna elettorale, avversari furono etichettati con epiteti memorabili pensati per circolare nei media e nei meme più che per descrivere programmi. L'attenzione si spostò dal merito delle proposte alla gara di battute.",
+        "lesson": "La derisione può essere efficace elettoralmente proprio perché bypassa il confronto sulle politiche concrete."
       }
     ],
     "defense": [
@@ -158,9 +168,9 @@
     "subtitle": "Il Nemico Assoluto",
     "category": "attack",
     "catLabel": "Attacco",
-    "summary": "Rappresentare l'avversario come incarnatione del male, privo di ogni tratto umano.",
-    "definition": "La demonizzazione rappresenta l'avversario non come qualcuno con opinioni diverse, ma come forza del male, minaccia esistenziale, essere privo di morale o umanità.",
-    "historicalContext": "Tecnica centrale in tutti i genocidi: ebrei, tutsi, armeni sono stati prima demonizzati come \"ratti\", \"scarafaggi\", \"parassiti\". La demonizzazione prepara psicologicamente alla violenza.",
+    "summary": "Si descrive il gruppo o la persona avversaria come malvagia, subumana o parassitaria, così qualsiasi violenza o esclusione sembra giustificata.",
+    "definition": "La demonizzazione rappresenta l'avversario non come interlocutore con cui si disaccorda, ma come minaccia morale o biologica (\"parassiti\", \"nemici della civiltà\"). Rimuove empatia e complessità: non si discute più se le sue richieste siano legittime, ma se debba esistere. È il passo retorico che spesso precede discriminazione e violenza.",
+    "historicalContext": "Documentata dall'antichità alle guerre moderne: prima di massacri e deportazioni, propagandisti e leader descrivono il bersaglio come contagio o minaccia esistenziale. Gli armeni furono accusati di tradimento durante la Grande Guerra; nel genocidio rwandese la radio RTLM chiamò i tutsi \"scarafaggi\"; nella ex Jugoslavia vennero riattivate narrazioni su \"minacce\" etniche. In ogni caso la demonizzazione precede o accompagna la rimozione dei diritti e della protezione giuridica.",
     "psychologicalMechanism": "Disumanizza il nemico, rimuovendo le inibizioni morali contro la violenza. Quando qualcuno è \"male puro\", qualsiasi azione contro di lui è giustificata.",
     "variants": [
       {
@@ -246,9 +256,9 @@
     "subtitle": "Diluvio di Menzogne",
     "category": "disinfo",
     "catLabel": "Disinformazione",
-    "summary": "Inondare lo spazio informativo con un volume tale di messaggi contraddittori da rendere impossibile il fact-checking.",
-    "definition": "Modello di propaganda che bombarda il pubblico con molti messaggi falsi e contraddittori - scommettendo che le correzioni non riescano a tenere il passo.",
-    "historicalContext": "Teorizzato da RAND Corporation nel 2016 per le operazioni russe durante l'annessione della Crimea. A differenza della propaganda sovietica, accetta contraddizioni evidenti.",
+    "summary": "Si inonda il pubblico di molte notizie, spesso incompatibili tra loro: nessuno riesce a verificare tutto e prevale confusione o stanchezza.",
+    "definition": "Il \"firehose\" non punta a una singola bugia credibile: mescola verità parziali, falsità e versioni che si contraddicono. L'obiettivo è saturare il tempo e l'attenzione, così le smentite arrivano sempre dopo e il dibattito si blocca sul \"chi ha detto cosa\". La precisione conta meno del volume e della velocità.",
+    "historicalContext": "La Rand Corporation (2016) descrisse il modello come ad alta velocità, multi-canale e tollerante alle contraddizioni: non serve una narrativa unica coerente, serve saturare lo spazio. Già durante l'annessione della Crimea (2014) e dopo l'abbattimento del volo MH17 comparvero versioni multiple e mutevoli. Il contrasto con la propaganda sovietica \"monolitica\" è proprio questo: più voci contraddittorie rendono più costoso il fact-checking collettivo.",
     "psychologicalMechanism": "Sfrutta l'\"illusione di verità\" (ripetere fa sembrare vero) e la \"fatigue cognitiva\" (troppe informazioni contraddittorie = smetto di verificare).",
     "variants": [
       {
@@ -275,9 +285,14 @@
     ],
     "caseStudies": [
       {
-        "title": "MH17",
-        "description": "Dopo l'abbattimento, furono proposte 15 spiegazioni diverse in giorni: missile ucraino, caccia, complotto CIA...",
-        "lesson": "La pluralità di spiegazioni può essere più efficace di una singola bugia."
+        "title": "MH17 (2014)",
+        "description": "Dopo l'abbattimento del volo Malaysia Airlines sul Donbass, circolarono in rapida successione narrazioni incompatibili (missile ucraino, jet militari, complotto di intelligence). Ogni smentita lasciava in circolazione altre versioni già lanciate: il dibattito pubblico si incastrò su \"quale storia\" invece che su prove convergenti.",
+        "lesson": "Molte spiegazioni contraddittorie saturano la capacità di verifica più di una bugia singola difesa a lungo."
+      },
+      {
+        "title": "Crisi COVID-19 e \"cure\" contraddittorie",
+        "description": "Nella prima ondata circolarono in parallelo messaggi discordanti (es. farmaci inefficaci presentati come miracolosi, negazione del virus accanto a teorie di laboratorio), spesso amplificati da account e canali diversi. L'effetto fu confusione su cosa fosse verificabile, non un unico racconto stabile da confutare.",
+        "lesson": "Il firehose non richiede coerenza interna: richiede volume e persistenza finché il pubblico rinuncia a controllare tutto."
       }
     ],
     "defense": [
@@ -324,9 +339,9 @@
     "subtitle": "Ingrandimento Virale",
     "category": "disinfo",
     "catLabel": "Disinformazione",
-    "summary": "Sfruttare la viralità per amplificare informazioni non verificate o false.",
-    "definition": "La catena di Sant'Antonio moderna sfrutta gli algoritmi dei social per amplificare contenuti emotivamente carichi, indipendentemente dalla loro verità.",
-    "historicalContext": "Nata come catene di lettere, si è evoluta con i social. Gli algoritmi premiano l'engagement, non la verità.",
+    "summary": "Messaggi pensati per essere inoltrati (paura, rabbia, senso di urgenza): si diffondono tra i contatti prima che qualcuno possa verificarli.",
+    "definition": "Come le lettere cartacee, le catene digitali chiedono \"condividi subito\" e sfruttano legami di fiducia. Gli algoritmi premiano l'engagement, non l'accuratezza: una bufala emotiva circola più velocemente di una correzione. Chi inoltra fa da amplificatore involontario.",
+    "historicalContext": "Le catene di lettere cartacee e via fax (XX secolo) chiedevano copie e inoltri sotto minaccia di sfortuna o promessa di denaro; erano già progettate per la crescita esponenziale. Con SMS, email e WhatsApp la stessa struttura si è spostata su allarmi sanitari, elettorali e finanziari. Gli algoritmi dei social premiano l'engagement (rabbia, paura), quindi le catene emotive battono quasi sempre le correzioni lente.",
     "psychologicalMechanism": "Sfrutta la prova sociale e l'emozione: contenuti che generano rabbia o paura vengono condivisi più velocemente.",
     "variants": [
       {
@@ -353,9 +368,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Catene WhatsApp",
-        "description": "In epidemie e elezioni, catene di messaggi non verificati si diffondono esponenzialmente, bypassando i fact-checker.",
-        "lesson": "La velocità di condivisione supera quella di verifica."
+        "title": "Brasile 2018: WhatsApp e elezioni",
+        "description": "Catene di messaggi e contenuti emotivamente carichi circolarono su larga scala tra contatti, con segnalazioni di diffusione organizzata di informazioni fuorvianti. Il meccanismo sfruttava la fiducia tra pari e la velocità dell'inoltro, tipica della catena virale più che del giornalismo.",
+        "lesson": "La struttura \"inoltra a tutti\" + urgenza replica le catene classiche: la verifica arriva dopo che il messaggio ha già raggiunto milioni."
+      },
+      {
+        "title": "Bufale sanitarie in pandemia",
+        "description": "Ricette false, avvisi su presunte cure o su \"non vaccinarsi\" si diffusero in chat di famiglia e gruppi di quartiere con formula di allerta immediata. Ogni inoltro legittimava socialmente la bufala prima dei comunicati istituzionali.",
+        "lesson": "Le catene sanitarie funzionano perché mescolano paura per la salute e obbligo morale di \"avvisare gli altri\"."
       }
     ],
     "defense": [
@@ -402,9 +422,9 @@
     "subtitle": "Inquadratura Narrativa",
     "category": "framing",
     "catLabel": "Inquadratura",
-    "summary": "Non sono i fatti a cambiare, ma la cornice attraverso cui vengono presentati.",
-    "definition": "Il framing seleziona alcuni aspetti di una realtà e li rende più salienti, promuovendo una particolare definizione del problema, interpretazione causale, valutazione morale.",
-    "historicalContext": "Concetto derivato dalla sociologia dei media (Goffman, Entman). Gli stessi fatti possono essere presentati con cornici completamente diverse.",
+    "summary": "Si scelgono parole, titoli e dettagli in primo piano: gli stessi fatti possono sembrare \"crisi\", \"invasione\" o \"emergenza umanitaria\" a seconda di come li incornici.",
+    "definition": "Il framing non inventa necessariamente fatti: decide quali contano, quali sono centrali e con quale linguaggio valutativo. \"Crisi di sicurezza\" e \"emergenza umanitaria\" possono descrivere lo stesso evento con implicazioni politiche opposte. Chi controlla la cornice orienta cosa il pubblico considera problema e quale soluzione sembra ragionevole.",
+    "historicalContext": "Erving Goffman (Frame Analysis, 1974) mostrò come organizziamo l'esperienza in \"cornici\"; Robert Entman (1993) applicò il concetto ai media: scegliere un problema, una causa morale e un rimedio è già una forma di potere. Negli anni '80-'90 gli studi su scioperi, disoccupazione e migrazioni dimostrarono che le stesse immagini (es. una fila davanti a un ufficio) potevano essere titolate come \"caos\" o \"bisogno di servizi\" con effetti opposti sull'opinione.",
     "psychologicalMechanism": "Agisce attraverso accessibilità (ciò che viene presentato per primo influenza l'interpretazione) e applicabilità (la cornice attiva determinati schemi mentali).",
     "variants": [
       {
@@ -431,9 +451,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Immigrazione",
-        "description": "Testata A: \"crisi di sicurezza\" (invasione, clandestini). Testata B: \"emergenza umanitaria\" (rifugiati, speranza).",
-        "lesson": "Non serve mentire: la selezione costruisce realtà diverse."
+        "title": "Stesso flusso migratorio, cornici opposte",
+        "description": "Le stesse persone in movimento sono state presentate come \"ondata da fermare\" (sicurezza, ordine) o come \"persone in fuga da guerra\" (diritto, protezione). I numeri potevano coincidere; cambiavano lessico, foto in apertura e intervistati scelti.",
+        "lesson": "Il framing non è solo aggettivo: è quale aspetto del fenomeno diventa \"il problema\" da risolvere."
+      },
+      {
+        "title": "Scioperi e \"ordine pubblico\"",
+        "description": "Uno stesso sciopero è stato coperto enfatizzando disagi ai pendolari (frame conflitto/disordine) o rivendicazioni salariali (frame lavoro/giustizia). La scelta del titolo principale ha orientato chi fosse visto come vittima o responsabile.",
+        "lesson": "Chi controlla la prima cornice spesso controlla chi merita empatia nel racconto."
       }
     ],
     "defense": [
@@ -480,9 +505,9 @@
     "subtitle": "La Deflessione",
     "category": "framing",
     "catLabel": "Inquadratura",
-    "summary": "Deflettere ogni critica puntando alle colpe altrui invece di rispondere.",
-    "definition": "Variante della fallacia \"tu quoque\": invece di rispondere a una critica, si accusa il critico dello stesso comportamento.",
-    "historicalContext": "Perfezionato dalla propaganda sovietica. Quando l'Occidente criticava i diritti umani in URSS, la risposta era: \"E voi? Avete il razzismo!\"",
+    "summary": "Si risponde a un'accusa con \"e tu / e loro peggio?\" così si cambia argomento senza ammettere, confutare o negare il punto sollevato.",
+    "definition": "Il whataboutism sposta il dibattito su un altro caso storico o su un avversario. Può anche sollevare ipocrisie reali, ma la usa per chiudere la domanda originale: se l'interlocutore insegue il nuovo tema, chi era sotto accusa non ha mai dovuto rispondere. Il criterio è: la critica iniziale è stata affrontata sul merito?",
+    "historicalContext": "Durante la Guerra Fredda i diplomatici sovietici rispondevano alle critiche su dissidenti o prigionieri con riferimenti alla segregazione negli USA o al colonialismo europeo: non negavano sempre i fatti, spostavano il bersaglio. La formula \"e voi?\" è stata poi adottata in dibattiti online e da regimi in difesa, dove serve evitare di rispondere punto per punto sull'accusa attuale.",
     "psychologicalMechanism": "Sfrutta il desiderio di coerenza morale: ci sentiamo a disagio a criticare qualcuno se noi stessi non siamo perfetti.",
     "variants": [
       {
@@ -509,9 +534,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Risposte sovietiche",
-        "description": "Critiche sui dissidenti risposte con: \"E i neri in America?\" Critiche legittime usate per chiudere il dibattito.",
-        "lesson": "Critiche valide possono essere scudi per evitare altre critiche."
+        "title": "Diplomazia sovietica (Guerra Fredda)",
+        "description": "A critiche su diritti civili in URSS, la contro-argomentazione tipica era un riferimento al razzismo o alle disuguaglianze negli Stati Uniti. Anche dove le critiche erano fondate, l'effetto retorico era spostare il tema: da \"cosa succede qui\" a \"chi sei tu per parlare\".",
+        "lesson": "Il whataboutism usa verità parziali altrui come scudo per non rispondere sul merito dell'accusa locale."
+      },
+      {
+        "title": "Dibattito domestico: corruzione",
+        "description": "Un giornalista chiede a un politico di rispondere su inchieste sul suo partito; il politico replica citando casi di altri partiti senza affrontare documenti o testimonianze sul caso posto. L'intervista finisce sul confronto tra \"chi è peggio\".",
+        "lesson": "Se la risposta elenca colpe altrui senza confutare i fatti dell'accusa iniziale, è deflessione."
       }
     ],
     "defense": [
@@ -558,9 +588,9 @@
     "subtitle": "Controllo dell'Invisible",
     "category": "framing",
     "catLabel": "Inquadratura",
-    "summary": "Non è importante come ne parliamo, ma DI COSA non parliamo.",
-    "definition": "Capacità dei media di influenzare non ciò che il pubblico pensa, ma ciò su cui il pubblico pensa.",
-    "historicalContext": "Teoria formulata da McCombs e Shaw nel 1972: i media non dicono cosa pensare, ma di cosa pensare.",
+    "summary": "Si decide quali problemi esistono nel dibattito pubblico (copertura, tempo in prima pagina, ripetizione): ciò che non viene nominato non viene neanche valutato.",
+    "definition": "L'agenda setting non dice solo \"pensa X\": dice \"pensa a questo tema e non a quello\". Leggi, scandali e urgenze spingono altre notizie (leggi, dati, politiche) fuori dal campo visivo. Chi controlla l'agenda non deve convincerti su ogni dettaglio: basta che non tu sappia che un'alternativa o un problema esistono.",
+    "historicalContext": "McCombs e Shaw (Chapel Hill, 1968; pubblicazione 1972) mostrarono correlazione tra temi prominenti sui giornali e ciò che gli elettori consideravano \"i problemi più importanti\". Negli anni successivi l'agenda-setting divenne un pilastro della comunicazione politica: non occorre convincere tutti, basta che certi temi (immigrazione, sicurezza, moralità) occupino ore di copertura mentre altri (disuguaglianza, clima, procedure legislative) restino marginali.",
     "psychologicalMechanism": "Il cervello valuta la rilevanza in base alla salienza mediatica. Se qualcosa è molto discusso, deve essere importante.",
     "variants": [
       {
@@ -587,9 +617,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Saturazione",
-        "description": "Durante settimane di coverage su scandali, legislazioni importanti passano inosservate.",
-        "lesson": "Ciò che non viene detto è più importante di ciò che viene detto."
+        "title": "Elezioni USA 2016: tempo dei telegiornali",
+        "description": "Studi di contenuto mostrarono che argomenti come politiche fiscali dettagliate o governance ricevettero una frazione del tempo dedicato a scandali e personalità dei candidati. L'agenda pubblica fu dominata da pochi temi ad alta intensità emotiva.",
+        "lesson": "Più minuti su un tema non ne provano l'importanza oggettiva: riflettono scelte editoriali che definiscono \"cosa è in discussione\"."
+      },
+      {
+        "title": "Leggi approvate sotto copertura minima",
+        "description": "In più paesi, riforme tecniche (lavoro, sorveglianza, appalti) sono state calendarizzate o segnalate in slot di minor ascolto mentre i titoli erano monopolizzati da cronaca o gossip politico.",
+        "lesson": "L'agenda setting include il timing: quando si parla di qualcosa conta quanto se se ne parla."
       }
     ],
     "defense": [
@@ -636,9 +671,9 @@
     "subtitle": "Avvelenare il Pozzo",
     "category": "framing",
     "catLabel": "Inquadratura",
-    "summary": "Pre-giudicare una fonte prima che possa parlare, rendendo impossibile accogliere le sue argomentazioni.",
-    "definition": "Presentare informazioni negative su una fonte PRIMA che questa possa esprimersi, in modo che qualsiasi cosa dica venga vista attraverso quel filtro negativo.",
-    "historicalContext": "Il termine viene dall'antica pratica di avvelenare letteralmente i pozzi. In retorica, è una forma preventiva di attacco.",
+    "summary": "Si diffondono avvertimenti o gossip sulla fonte prima che parli, così ogni sua frase viene letta con sospetto preventivo.",
+    "definition": "Avvelenare il pozzo (poisoning the well) usa il priming emotivo: la prima informazione su una persona o un evento ancorra il giudizio. Anche prove o argomenti solidi arrivano dopo un'etichetta (\"non fidarti\", \"è venduto\"). Non dimostra che l'argomentazione sia falsa: rende più difficile ascoltarla in modo equo.",
+    "historicalContext": "L'espressione retorica risale almeno al Medioevo (avvelenare la fonte prima che l'avversario beva). In dibattito pubblico, diffondere gossip o \"dossier\" la vigilia di un voto o di un'audizione è una forma strutturata di priming negativo. Anche senza menzogna, il timing fa sì che il primo frame sia \"sospetto\" invece di \"ascolta e poi giudica\".",
     "psychologicalMechanism": "Il primato dell'informazione: la prima informazione ricevuta su qualcuno influenza l'interpretazione di tutto ciò che segue.",
     "variants": [
       {
@@ -661,9 +696,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Dibattiti politici",
-        "description": "Prima di un dibattito, vengono diffuse notizie negative su un candidato, in modo che ogni sua parola sia vista con sospetto.",
-        "lesson": "Il danno preventivo è difficile da riparare."
+        "title": "Anticipazione di \"scandali\" in campagna",
+        "description": "Poche ore prima di un confronto in TV, circolano leak o accuse non verificate su un candidato. Anche se poi smentite, il sospetto è stato installato prima che il pubblico ascolti le sue proposte: ogni frase viene filtrata attraverso \"forse è vero\".",
+        "lesson": "La sequenza temporale è parte della tecnica: colpire prima che la fonte parli è diverso da criticare dopo."
+      },
+      {
+        "title": "Etichettare l'esperto prima della conferenza",
+        "description": "Comunicati che definiscono un relatore \"venduto alle lobby\" senza citare contratti o dati, diffusi appena si annuncia l'evento. Chi partecipa ha già un'ipotesi di colpa prima di aver sentito metodo e risultati.",
+        "lesson": "Avvelenare il pozzo non dimostra errori nel lavoro: rende più difficile valutarlo con equilibrio."
       }
     ],
     "defense": [
@@ -710,9 +750,9 @@
     "subtitle": "Impilare le Carte",
     "category": "framing",
     "catLabel": "Inquadratura",
-    "summary": "Presentare solo i fatti favorevoli alla propria tesi, nascondendo quelli contrari.",
-    "definition": "Costruire un intero messaggio da fatti veri ma scelti selettivamente e presentati in modo unilaterale.",
-    "historicalContext": "Termine dell'Institute for Propaganda Analysis (1937). Differisce dalla menzogna: i fatti sono veri, ma incompleti.",
+    "summary": "Si mostrano solo dati o episodi che supportano la tesi; si omettono statistiche, contesti o controesempi che la indebolirebbero.",
+    "definition": "Il card stacking può essere tutto vero nel letterale e fuorviante nel complesso: una serie di successi senza fallimenti, un trend tagliato negli anni giusti, una citazione senza il resto del discorso. Difficile da smontare con una \"bugia\" singola, perché ogni pezzo regge in isolamento: manca il quadro.",
+    "historicalContext": "L'Institute for Propaganda Analysis (1937-1942) elencò il \"card stacking\" tra i sette trucchi base: mescolare solo carte favorevoli al tavolo. Nei decenni successivi, inchieste su tabacco, amianto e clima mostrarono come industrie e portavoce selezionassero studi favorevoli o ignorassero metanalisi contrarie pur citando dati veri. Non è sempre menzogna: è omissione strategica.",
     "psychologicalMechanism": "Sfrutta il confirmation bias e l'illusione di completezza: se vediamo molti dati, assumiamo che il quadro sia completo.",
     "variants": [
       {
@@ -735,9 +775,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Report aziendali",
-        "description": "Report annuali che celebrano successi ma non menzionano fallimenti o rischi.",
-        "lesson": "La completezza richiede anche ciò che non ci piace."
+        "title": "Industria del tabacco (seconda metà XX secolo)",
+        "description": "Pubblicazioni e pubblicità citavano studi isolati o porzioni di ricerca che minimizzavano i danni, mentre la massa delle evidenze mediche convergeva altrove. Le singole cifre potevano essere \"vere\" in contesto ristretto; il quadro complessivo era fuorviante.",
+        "lesson": "Il card stacking in scienza si riconosce quando le revisioni sistematiche e le repliche non sono citate."
+      },
+      {
+        "title": "Grafici di mercato o finanza",
+        "description": "Un trend viene mostrato partendo da un minimo locale o terminando su un massimo, senza asse temporale completo, per far sembrare crescita o calo più netti di quanto sia la serie intera.",
+        "lesson": "Chiedere sempre la serie completa e la scala: stessi dati, crop diverso = storia diversa."
       }
     ],
     "defense": [
@@ -784,9 +829,9 @@
     "subtitle": "Labeling",
     "category": "framing",
     "catLabel": "Inquadratura",
-    "summary": "Usare etichette per definire persone, gruppi o idee, semplificando e spesso delegittimando.",
-    "definition": "Applicare etichette (positive o negative) che sostituiscono l'argomentazione e bloccano il pensiero critico.",
-    "historicalContext": "Usato sistematicamente in ogni conflitto: \"terrorista\" vs \"combattente per la libertà\", \"patriota\" vs \"nazionalista\".",
+    "summary": "Si attacca o si appoggia un'idea con un nome (\"estremista\", \"eroe\", \"woke\") invece di spiegare perché la proposta sia buona o cattiva.",
+    "definition": "L'etichetta attiva stereotipi e lealtà di gruppo: il cervello classifica e smette di analizzare. \"È solo un...\" chiude la domanda prima che si chieda cosa proponga davvero. Le etichette possono anche essere positive, ma restano scorciatoie al posto di criteri e prove.",
+    "historicalContext": "Già Tucidide descrive parole che cambiano significato in guerra (\"traditore\" vs \"patriota\"). Nel Novecento, \"terrorista\" o \"partigiano\" sono stati applicati agli stessi atti a seconda della parte. L'IPA (1937) chiamò \"name-calling\" una delle forme più economiche di propaganda: etichettare invece di argomentare. Oggi le etichette identitarie (\"woke\", \"fascista\", \"tecnocrate\") funzionano allo stesso modo: chiudono il dibattito prima di aprirlo.",
     "psychologicalMechanism": "Le etichette attivano stereotipi e bypassano l'analisi. Una volta applicata un'etichetta, non analizziamo i contenuti.",
     "variants": [
       {
@@ -809,9 +854,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Guerra Fredda",
-        "description": "\"Comunista\" era usato per delegittimare qualsiasi posizione progressista senza discuterne i meriti.",
-        "lesson": "Le etichette chiudono il dibattito."
+        "title": "McCarthyismo (USA, anni 1950)",
+        "description": "Accuse di simpatia comunista o \"liste\" senza processo equo rovinarono carriere: la parola \"comunista\" funzionava come condanna senza analisi delle idee o delle prove concrete sui singoli.",
+        "lesson": "L'etichetta sostituisce la prova: si attacca l'adesione simbolica, non gli argomenti."
+      },
+      {
+        "title": "Conflitti armati: \"terrorista\"",
+        "description": "Attori non statali che usano la violenza sono stati nominati \"terroristi\" o \"combattenti per la libertà\" a seconda dell'alleanza geopolitica del narratore. La stessa azione riceve etichette opposte.",
+        "lesson": "Quando l'etichetta dipende da chi racconta, non sta descrivendo un fatto neutro: sta prendendo posizione."
       }
     ],
     "defense": [
@@ -858,9 +908,9 @@
     "subtitle": "Effetto Gregge",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "\"Tutti lo fanno!\" - Sfruttare il desiderio di conformismo sociale.",
-    "definition": "Tecnica che sfrutta la prova sociale: se \"tutti\" fanno o pensano qualcosa, dovrebbe essere giusto/vero/desiderabile.",
-    "historicalContext": "Uno dei sette trucchi principali identificati dall'Institute for Propaganda Analysis nel 1937. Usato in pubblicità e politica.",
+    "summary": "Si invita ad allinearsi perché \"tutti\" o \"la maggioranza\" scelgono già quella opzione, così la decisione sembra sicura senza verificarla.",
+    "definition": "Il bandwagon sfrutta la prova sociale: in molte situazioni seguire il gruppo è razionale, quindi il messaggio imita quella scorciatoia. Numeri vaghi (\"milioni di clienti\"), code o folle in video suggeriscono consenso anche quando non c'è evidenza sul merito. Il fatto che molti facciano qualcosa non lo rende giusto o adatto al tuo caso.",
+    "historicalContext": "L'IPA (1937) lo chiamò \"bandwagon\" (\"salire sul carro del vincitore\"): invitare a unirsi alla maggioranza percepita. Le campagne elettorali americane parlavano di \"bandwagon effect\" già nel XIX secolo; in pubblicità, \"milioni di consumatori\" è un formato centenario. La logica è sempre: ridurre il rischio percepito della scelta mostrando che \"tutti\" l'hanno già fatta.",
     "psychologicalMechanism": "Sfrutta il bisogno di appartenenza e la paura di essere esclusi. Tendiamo a conformarci a ciò che percepiamo come norma sociale.",
     "variants": [
       {
@@ -883,9 +933,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Elezione del 1936",
-        "description": "Il \"Literary Digest\" previde la vittoria di Landon basandosi su milioni di questionari - ma il campione era sbilanciato. Il bandwagon si rivelò sbagliato.",
-        "lesson": "La maggioranza può avere torto."
+        "title": "Literary Digest 1936 vs Gallup",
+        "description": "Il Literary Digest predisse la vittoria di Landon su Roosevelt usando milioni di cartoline, ma il campione era distorto (chi rispondeva non era rappresentativo). La narrativa \"tutti gli indicatori dicono Landon\" era un falso bandwagon statistico.",
+        "lesson": "La maggioranza misurata male non è prova sociale: è errore di campione."
+      },
+      {
+        "title": "Pubblicità \"best seller\" e \"N°1\"",
+        "description": "Prodotti vengono promossi come \"il più venduto\" o \"scelta dai professionisti\" senza metodologia pubblica: si crea un effetto gregge che spinge a comprare per non restare fuori dalla norma percepita.",
+        "lesson": "Il bandwagon commerciale sfrutta la paura di essere l'eccezione, non solo il desiderio di qualità."
       }
     ],
     "defense": [
@@ -932,9 +987,9 @@
     "subtitle": "Parole Scintillanti",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Usare parole con connotazione positiva ma senza significato specifico.",
-    "definition": "Parole come \"libertà\", \"democrazia\", \"progresso\", \"giustizia\" usate senza definirne il contenuto, per associare sentimenti positivi a una causa.",
-    "historicalContext": "Identificato dall'Institute for Propaganda Analysis. Complementare al Name-Calling: parole vuote positive invece di negative.",
+    "summary": "Si usano valori di cui tutti sono a favore (libertà, famiglia, futuro) senza dire cosa si propone concretamente.",
+    "definition": "Le glittering generalities vestono una causa di termini emotivamente positivi ma operativamente vuoti: ognuno ci proietta il proprio significato, quindi sembra esserci consenso senza obbligo di dettagli. Chi chiede \"cosa significa qui?\" può essere accusato di essere contro quel valore. La parola fa da scudo al programma.",
+    "historicalContext": "L'IPA (1937) accoppiò \"glittering generalities\" al name-calling: stesso meccanismo, polarità opposta (valori positivi vuoti vs etichette negative vuote). I totalitarismi del XX secolo usarono \"ordine\", \"progresso\", \"nuovo uomo\" come contenitori emotivi. Il filosofo Walter Lippmann scrisse già negli anni '20 di \"stereotipi\" che riempiono parole di sentimento senza contenuto.",
     "psychologicalMechanism": "Le parole positive attivano emozioni positive senza attivare il pensiero critico. Chi non è \"per la libertà\"?",
     "variants": [
       {
@@ -957,9 +1012,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Campagne elettorali",
-        "description": "\"Per la libertà!\", \"Per il vero progresso!\" Senza definire cosa significano queste parole nel programma.",
-        "lesson": "Tutti amano la libertà, ma la definiscono diversamente."
+        "title": "Dichiarazioni d'indipendenza e costituzioni",
+        "description": "Concetti come \"libertà\" e \"uguaglianza\" hanno richiesto secoli di dibattito per essere operativizzati in leggi. Nelle campagne, gli stessi termini possono essere usati come slogan senza indicare imposte, servizi o diritti concreti.",
+        "lesson": "Le parole nobili diventano glittering generalities quando mancano definizioni verificabili nel programma."
+      },
+      {
+        "title": "Marketing \"naturale\" e \"benessere\"",
+        "description": "Packaging su prodotti che enfatizzano \"naturale\", \"equilibrio\", \"vitality\" senza specificare dosi, confronti o limiti scientifici. Il pubblico proietta significati positivi senza criteri comparabili.",
+        "lesson": "Aggettivi luminosi sostituiscono spesso dati e confronti: è lo stesso schema della politica."
       }
     ],
     "defense": [
@@ -1006,9 +1066,9 @@
     "subtitle": "Trasferimento di Autorità",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Trasferire l'autorità o il prestigio di una figura/simbolo a una causa.",
-    "definition": "Associare una causa a simboli, persone o istituzioni rispettate (o odiate) per trasferire automaticamente quei sentimenti.",
-    "historicalContext": "Usato sistematicamente in pubblicità (celebrity endorsement) e politica (fotografie con bandiere, religiosi, militari).",
+    "summary": "Si associa un prodotto o una politica a bandiere, medici in TV, eroi sportivi o simboli sacri perché l'ammirazione si sposti sull'oggetto senza valutarlo.",
+    "definition": "Il transfer collega due cose contigue nel messaggio (volto noto + marca; discorso + sfondo militare) e lascia che il cervello unisca le valutazioni. Funziona perché l'affetto o il rispetto per la fonte si estende per contagio. Resta da chiedere: la fonte ha competenza su questo tema specifico, o solo notorietà?",
+    "historicalContext": "Durante le due guerre mondiali, poster e film associarono prodotti a bandiere e divise. L'endorsement pubblicitario da parte di celebrità si diffuse negli USA dagli anni '30; in politica, apparire con generali o vescovi è una forma di prestigio per contatto. Non è nuovo: i Romani usavano statue di divinità vicino a candidature; il meccanismo è sempre trasferimento emotivo da simbolo a proposta.",
     "psychologicalMechanism": "Il cervello trasferisce automaticamente i sentimenti dalla fonte all'oggetto associato. Se una persona rispettata sostiene X, X acquista rispettabilità.",
     "variants": [
       {
@@ -1035,9 +1095,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Pubblicità scientifica",
-        "description": "Un attore che interpreta un medico in TV raccomanda un farmaco. Il transfer di autorità è fittizio ma efficace.",
-        "lesson": "L'autorità deve essere rilevante e reale."
+        "title": "Pubblicità in camice bianco",
+        "description": "Spot in cui attori interpretano medici o laboratori sembrano documentari: il bianco e il contesto clinico trasferiscono credibilità scientifica al prodotto, anche quando l'indicazione non è quella di un ente sanitario o di uno studio pubblicato.",
+        "lesson": "La divisa e l'ambientazione sono transfer: non equivalgono a peer review."
+      },
+      {
+        "title": "Comizi sotto bandiera o con benedizione",
+        "description": "Candidati che tengono comizi con bandiere, inni o figure religiose sul palco: il simbolo nazionale o sacro contamina l'accoglienza emotiva verso la persona e le sue promesse, indipendentemente da numeri o costi.",
+        "lesson": "Chiedere cosa resterebbe della proposta senza lo sfondo simbolico."
       }
     ],
     "defense": [
@@ -1084,9 +1149,9 @@
     "subtitle": "Testimonianza",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Usare testimonianze personali invece di dati o argomentazioni.",
-    "definition": "Presentare esperienze individuali come prova generale, o usare testimoni pagati/preparati per rafforzare un messaggio.",
-    "historicalContext": "Base della pubblicità moderna. In propaganda, usato per umanizzare cause o delegittimare avversari.",
+    "summary": "Si racconta una storia toccante o si mostra \"gente comune\" soddisfatta al posto di studi, numeri o confronti controllati.",
+    "definition": "Il testimonial sostituisce l'evidenza sistematica con un volto e una narrazione: il cervello ricorda le storie meglio delle tabelle. Un caso singolo può essere vero e non rappresentativo; può anche essere selezionato o recitato. La domanda è: cosa succederebbe in media, con metodo ripetibile?",
+    "historicalContext": "Dalla pubblicità del XIX secolo (\"testimonial\" letterali per medicinali) al product placement, la storia personale ha sempre battuto la tabella in termini di memorabilità. In politica, le convention statunitensi mettono in scena \"cittadini comuni\" il cui discorso è spesso curato dagli staff. Il testimonial non è solo pubblicità: è sostituzione del campione statistico con un volto.",
     "psychologicalMechanism": "Le storie personali sono più persuasive dei dati astratti. Il cervello ricorda meglio le narrazioni che le statistiche.",
     "variants": [
       {
@@ -1109,9 +1174,14 @@
     ],
     "caseStudies": [
       {
-        "title": "\"Maria la casalinga\"",
-        "description": "Pubblicità con \"consumatrici reali\" che risultano essere attrici. La testimonianza appare spontanea ma è orchestrata.",
-        "lesson": "Verifica sempre l'autenticità e gli interessi del testimone."
+        "title": "Pubblicità con \"testimonial\" finti",
+        "description": "Campagne in cui \"clienti soddisfatti\" erano attori o le interviste erano montate: la forma della testimonianza autentica veniva imitata per ottenere fiducia senza studio controllato.",
+        "lesson": "Il formato \"persona vera\" non implica verifica indipendente."
+      },
+      {
+        "title": "Convention politiche: storie personali in primissimo piano",
+        "description": "Discorsi strutturati attorno a un aneddoto toccante (malattia superata, famiglia) per umanizzare il candidato prima delle promesse numeriche. L'impatto emotivo precede la domanda \"come finanzierai?\".",
+        "lesson": "Il testimonial politico seleziona il caso che funziona narrativamente, non un campione rappresentativo."
       }
     ],
     "defense": [
@@ -1158,9 +1228,9 @@
     "subtitle": "Ripetizione",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Ripetere un messaggio finché non viene accettato come vero.",
-    "definition": "La ripetizione costante di un'affermazione la fa sembrare vera, indipendentemente dalla sua veridicità.",
-    "historicalContext": "\"Una menzogna ripetuta mille volte diventa verità\" (attribuito a Goebbels). Effetto studiato da psicologia come \"illusione di verità\".",
+    "summary": "Lo stesso slogan o la stessa accusa compare ovunque: la familiarità viene scambiata per conferma.",
+    "definition": "Ripetere non aggiunge prove, ma aumenta la fluenza percepita: ciò che è facile da elaborare sembra più plausibile (illusione di verità). Campagne multi-canale saturano l'ambiente così che una bugia suoni come \"fatto noto\". La verifica richiede sforzo; la ripetizione no.",
+    "historicalContext": "La propaganda di massa del XX secolo (radio, manifesti, cortei) si basava sulla ripetizione ossessiva: il Ministero della Propaganda nazista curava slogan identici su tutti i canali. In laboratorio, Hasher e colleghi (1977) dimostrarono l'\"illusione di verità\": ripetere un'affermazione, anche nota come falsa, ne aumenta la plausibilità percepita. Oggi algoritmi e notifiche moltiplicano le esposizioni più di ogni epoca precedente.",
     "psychologicalMechanism": "Il cervello usa la facilità di elaborazione come indicatore di verità. Se qualcosa è familiare, sembra vero.",
     "variants": [
       {
@@ -1183,9 +1253,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Illusione di verità",
-        "description": "Studi mostrano che affermazioni presentate più volte vengono giudicate più vere, anche se chi le valuta le ha già classificate come false.",
-        "lesson": "La familiarità non è verità."
+        "title": "Esperimenti sull'illusione di verità (1977)",
+        "description": "Ai partecipanti furono presentate frasi più volte; alla fine giudicarono più \"probabilmente vere\" le stesse frasi, anche quando sapevano che il contesto era artificiale. La ripetizione agisce sul grado di credibilità, non solo sulla memoria.",
+        "lesson": "La familiarità cognitiva viene scambiata per conferma epistemica: è il meccanismo centrale della tecnica."
+      },
+      {
+        "title": "Radio e manifesti nel Terzo Reich",
+        "description": "Gli stessi messaggi (\"minaccia ebraica\", \"spazio vitale\") furono ripetuti quotidianamente su radio, cinema e stampa. L'obiettivo non era argomentare una tesi nuova ogni volta: era rendere l'idea onnipresente e quindi \"ovvia\".",
+        "lesson": "La ripetizione istituzionale multi-canale è la forma storica della tecnica prima dei social."
       }
     ],
     "defense": [
@@ -1232,9 +1307,9 @@
     "subtitle": "Frasi Brevi",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Frasi brevi e memorabili che sostituiscono il pensiero complesso.",
-    "definition": "Formule brevi, facili da ricordare e ripetere, che riassumono (e spesso semplificano eccessivamente) una posizione.",
-    "historicalContext": "\"Make America Great Again\", \"Hope and Change\", \"Yes We Can\". Gli slogan sono centrali in ogni campagna politica.",
+    "summary": "Poche parole gridabili in comizio o hashtag che riassumono una politica complessa senza trade-off né numeri.",
+    "definition": "Gli slogan sono progettati per essere memorizzati e ripetuti prima ancora di essere analizzati. Uniscono persone con interessi diversi perché restano ambigui: ognuno ci legge la propria versione. Il rischio è decidere per identificazione sonora (\"la mia squadra\") invece che per contenuti verificabili.",
+    "historicalContext": "Già la Rivoluzione francese si organizzò attorno a parole d'ordine brevi (\"Liberté, Égalité, Fraternité\") che univano gruppi diversi. Nel XX secolo Lenin, Mussolini e Hitler usarono slogan da marcia e da adunata; la pubblicità americana (\"We Can Do It\", \"I Like Ike\") rese normale il programma politico in hashtag. La forma breve è adatta ai megafoni, ai titoli e oggi ai caratteri limitati dei social.",
     "psychologicalMechanism": "Il cervello preferisce informazioni facili da elaborare. Gli slogan sono memorizzati automaticamente e recuperati facilmente.",
     "variants": [
       {
@@ -1257,9 +1332,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Slogan in dittatura",
-        "description": "\"Un popolo, un impero, un leader\" - riassume e semplifica una complessa ideologia totalitaria in tre parole.",
-        "lesson": "Gli slogan bypassano il pensiero critico."
+        "title": "Italia fascista: \"Credere, obbedire, combattere\"",
+        "description": "Tre imperativi sintetizzavano l'obiettivo politico senza spiegare costi, diritti o istituzioni. Il messaggio era identità e azione, non bilanciamento di interessi.",
+        "lesson": "Lo slogan totalitario sostituisce il programma con un comando emotivo."
+      },
+      {
+        "title": "Campagne presidenziali USA recenti",
+        "description": "Hashtag e cappelli (\"MAGA\", \"Hope\", \"Yes We Can\") sono diventati marchi di squadra. Persone con visioni economiche opposte potevano proiettare significati diversi sulla stessa frase corta.",
+        "lesson": "Uno slogan efficace è spesso volutamente sottospecificato: unisce senza impegnare sui dettagli."
       }
     ],
     "defense": [
@@ -1306,9 +1386,9 @@
     "subtitle": "Gente Comune",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Presentarsi come \"uno di voi\" per guadagnare fiducia.",
-    "definition": "Tecnica in cui chi detiene potere si presenta come persona comune per costruire identificazione e fiducia.",
-    "historicalContext": "Identificato dall'Institute for Propaganda Analysis nel 1937. Usato da leader politici di ogni epoca.",
+    "summary": "Chi ha status elevato mostra abiti, luoghi o linguaggio \"popolari\" per sembrare della stessa classe o degli stessi valori del pubblico.",
+    "definition": "Plain folks costruisce fiducia per somiglianza: se \"è come noi\", ci aspettiamo che agisca nei nostri interessi. Può essere sincero o messa in scena stagionale (negozi, tute, dialetto studiato). Il criterio restano azioni e politiche, non l'immagine di ordinarietà.",
+    "historicalContext": "L'IPA (1937) lo chiamò \"plain folks\": il potente che indossa abiti semplici. La campagna di William Henry Harrison nel 1840 costruì l'immagine del \"uomo della log cabin\" contro l'aristocratico avversario. Nel Novecento, Roosevelt e successivi presidenti USA usarono trasmissioni radio dalla \"casa\"; oggi i video \"faccio la spesa\" sono l'evoluzione tecnica della stessa messa in scena.",
     "psychologicalMechanism": "Tendiamo a fidarci più di chi percepiamo come simile a noi. Se il leader è \"come noi\", deve avere i nostri interessi a cuore.",
     "variants": [
       {
@@ -1331,9 +1411,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Joe the Plumber",
-        "description": "Diventò simbolo del cittadino comune. Indagini mostrarono che non era idraulico e la sua domanda era preparata.",
-        "lesson": "Anche persone reali possono essere strumenti orchestrati."
+        "title": "Joe the Plumber (2008)",
+        "description": "Durante la campagna USA, un cittadino presentato come idraulico \"comune\" interpellò un candidato in pubblico; divenne simbolo mediatico. Verifiche successive mostrarono che la sua identità professionale e il contesto erano più complessi e strumentalizzati per la narrazione.",
+        "lesson": "Il volto \"del popolo\" non è garanzia di spontaneità né di rappresentanza statistica."
+      },
+      {
+        "title": "Campagne \"dalla cucina\"",
+        "description": "Politici filmati in contesti domestici o al supermercato per suggerire vicinanza alle preoccupazioni quotidiane. L'ambientazione è costruita come un set: non prova il contenuto delle politiche.",
+        "lesson": "Plain folks è spesso regia: valuta le politiche, non l'abbigliamento o la scenografia."
       }
     ],
     "defense": [
@@ -1380,9 +1465,9 @@
     "subtitle": "Appello all'Autorità",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Citare autorità come prova, anche quando non rilevanti o competenti sul tema.",
-    "definition": "Fallacia che cita un'autorità come prova definitiva, anche se l'autorità non ha competenza specifica sul tema.",
-    "historicalContext": "Aristotele classificò l'appello all'autorità come fallacia quando l'autorità non è rilevante.",
+    "summary": "Si dice \"lo dice uno scienziato / un generale / un campione\" come se il titolo bastasse, senza mostrare lavoro nel campo specifico della domanda.",
+    "definition": "L'appello fallace all'autorità tratta titoli, fama o uniforme come surrogato di evidenza. Un esperto vero nel campo A non è automaticamente credibile sul campo B; un consenso si valuta su pubblicazioni e repliche, non su un nome. Chiedi: questa persona ha studiato e pubblicato proprio su questa questione, o ha solo prestato il nome?",
+    "historicalContext": "Aristotele distingueva l'argomento da ethos: citare un esperto è lecito se l'esperto è rilevante. La fallacia si ha quando il titolo sostituisce la prova. Nel XX secolo, l'industria del tabacco pagò medici e \"ricercatori\" per citazioni favorevoli; il caso è documentato negli archivi interni dell'industria. Oggi analoghi rischi esistono con influencer e \"esperti\" mediatici senza curriculum verificabile sul tema.",
     "psychologicalMechanism": "Il rispetto per l'autorità è interiorizzato culturalmente. Quando un'autorità parla, tendiamo ad accettare senza verificare.",
     "variants": [
       {
@@ -1405,9 +1490,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Tabacco e medici",
-        "description": "Per decenni, l'industria citava medici che minimizzavano i rischi del fumo. Erano pagati.",
-        "lesson": "Verifica competenza, rilevanza e interessi dell'autorità."
+        "title": "Medici e sigarette (anni 1950-1960)",
+        "description": "Pubblicità mostravano \"medici\" che preferivano una marca o minimizzavano i danni; gli studi epidemiologici convergevano altrove. L'autorità della divisa bianca fu usata fuori dal campo della ricerca indipendente.",
+        "lesson": "L'appello all'autorità fallace usa il simbolo professionale al posto della letteratura scientifica."
+      },
+      {
+        "title": "Un \"climatologo\" citato sul vaccino",
+        "description": "Nei dibattiti pubblici compaiono persone con titoli accademici in discipline diverse dalla vaccinologia o dall'immunologia, presentate come \"scienziati\" generici. Il titolo non rende automaticamente rilevante la testimonianza.",
+        "lesson": "Chiedere sempre: competenza specifica sul tema e consenso nella comunità scientifica pertinente."
       }
     ],
     "defense": [
@@ -1454,9 +1544,9 @@
     "subtitle": "Noi vs. Loro",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Costruire identità antagoniste che rendono il dialogo impossibile.",
-    "definition": "Strategia di dividere la società in due campi mutuamente esclusivi, dove l'appartenenza al gruppo conta più della verità.",
-    "historicalContext": "Usata dai regimi per consolidare il potere. Nell'era digitale, contenuti polarizzanti ricevono più engagement.",
+    "summary": "Si forza la scelta tra \"noi\" virtuosi e \"loro\" pericolosi: chi esprime dubbi o accordi parziali viene trattato come traditore.",
+    "definition": "La polarizzazione sposta il dibattito dai fatti all'identità: non importa se l'argomento regge, importa da che parte stai. Rafforza coesione interna e disprezzo verso l'altro gruppo. Chi controlla le etichette (chi è \"vero X\") può escludere critiche interne e compromessi.",
+    "historicalContext": "Le società di caccia-raccolta avevano già confini tra \"noi\" e \"loro\"; la politica moderna industrializza questo schema. La guerra civile americana e l'Europa degli anni '30 mostrarono come \"purificare\" il campo interno (traditori, moderati) rafforzi l'autocrate. Dopo il 2000, studi empirici (Sunstein, Pariser) hanno collegato polarizzazione e camere d'eco digitali; l'engagement economico premia spesso contenuti che attivano identità in conflitto.",
     "psychologicalMechanism": "Sfrutta il tribalismo: il cervello elabora diversamente le informazioni a seconda che provengano dal \"nostro gruppo\" o dall'\"avversario\".",
     "variants": [
       {
@@ -1479,9 +1569,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Algoritmo della divisione",
-        "description": "Contenuti che generano indignazione verso l'out-group ricevono più condivisioni. È un modello di business.",
-        "lesson": "La polarizzazione è anche un modello economico."
+        "title": "Dichiarazione di Bush dopo l'11 settembre 2001",
+        "description": "La formula \"o sei con noi o sei con i terroristi\" ridusse lo spazio diplomatico e interno per posizioni critiche sulle risposte militari e legali: chi sollevava dubbi poteva essere incasellato come fianco del nemico.",
+        "lesson": "Il falso dilemma politico è polarizzazione: elimina la sfumatura e la critica interna."
+      },
+      {
+        "title": "Piattaforme social e engagement",
+        "description": "Studi empirici hanno mostrato che post ad alto contenuto emotivo verso un gruppo esterno ricevono più interazioni; le piattaforme, per progetto, amplificano ciò che tiene attenti gli utenti.",
+        "lesson": "La polarizzazione non è solo ideologia: è anche incentivo economico dell'attenzione."
       }
     ],
     "defense": [
@@ -1528,9 +1623,9 @@
     "subtitle": "Diluvio di Affermazioni",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Troppe affermazioni velocemente perché si possano verificare tutte.",
-    "definition": "Bombardare l'avversario con tante affermazioni non verificate che confutarle tutte è impossibile.",
-    "historicalContext": "Prende il nome dal creazionista Duane Gish, che lanciava decine di argomenti in pochi minuti.",
+    "summary": "Si elencano decine di accuse o dati in pochi minuti: smontarne anche dieci lascia l'impressione che \"il resto\" resti in piedi.",
+    "definition": "Il Gish Gallop sfrutta l'asimmetria tempo/risposta: affermare costa secondi, verificare minuti. Chi ascolta vede l'avversario \"muto\" su molti punti e scambia silenzio per debolezza. In dibattito pubblico vince chi controlla il ritmo, non chi ha ragione sul singolo punto.",
+    "historicalContext": "Duane Gish, debattista creazionista, divenne il prototipo negli anni '80-'90: in dibattiti pubblici contro biologi evoluzionisti, elencava affermazioni veloci (fossili, termodinamica, probabilità) sapendo che ogni risposta tecnica richiedeva più tempo. Oggi la stessa logica appare in video \"documentari\" di ore e in thread infiniti: l'affermazione è gratuita, la verifica è costosa.",
     "psychologicalMechanism": "Sfrutta l'asimmetria: fare un'affermazione richiede secondi, confutarla minuti o ore.",
     "variants": [
       {
@@ -1553,9 +1648,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Dibattiti creazionisti",
-        "description": "Gish lanciava dozzine di argomenti in 5 minuti. Per confutarne uno servono 10 minuti. Il pubblico vedeva \"non confutato\".",
-        "lesson": "La quantità di argomenti impressiona i non esperti."
+        "title": "Dibattiti Gish vs scienziati (anni 1980-1990)",
+        "description": "Gish lanciava decine di argomenti in pochi minuti; gli interlocutori scientifici non potevano rispondere punto per punto in tempo reale. Il pubblico percepiva come \"non risposte\" ciò che era un limite di tempo e formato.",
+        "lesson": "Il Gish Gallop è nato qui: il nome della tecnica è legato a questo uso pubblico documentato."
+      },
+      {
+        "title": "Video complottisti \"cento prove\"",
+        "description": "Montaggi che elencano rapidamente presunte anomalie (11 settembre, vaccini, elezioni) senza fonti verificabili per ciascuna. Smontarne una non tocca le altre 99; il video resta in circolazione.",
+        "lesson": "La lista lunga è una strategia: saturare l'attenzione, non vincere un punto singolo."
       }
     ],
     "defense": [
@@ -1602,9 +1702,9 @@
     "subtitle": "Spaventapasseri",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Distorcere l'argomento dell'avversario per poterlo attaccare più facilmente.",
-    "definition": "Costruire una versione debole o distorta dell'argomento altrui, attaccare quella, e fingere di aver confutato l'originale.",
-    "historicalContext": "Il nome viene dalla facilità di abbattere uno spaventapasseri. È una delle fallacie più comuni.",
+    "summary": "Si attribuisce all'avversario una posizione estrema o assurda che non ha mai sostenuto, la si confuta e si dichiara vittoria.",
+    "definition": "Lo spaventapasseri sostituisce la tesi reale con una caricatura facile da abbattere. Il pubblico percepisce una \"confutazione\" senza notare il cambio di bersaglio. Utile in retorica dove non c'è tempo per rettifiche: l'avversario resta a difendere una frase che non è sua.",
+    "historicalContext": "La metafora è antica: combattere un avversario di paglia al posto del vero contendente. La tradizione logica medievale e moderna (Whately, Mill) la elencano tra le fallacie informali più frequenti. In politica parlamentare e in tribunale, attribuire all'avversario una posizione estrema o assurda è una strategia retorica classica perché il pubblico vede solo il \"knockdown\" della tesi falsa.",
     "psychologicalMechanism": "Il pubblico percepisce che l'argomento è stato \"confutato\", senza notare che l'argomento attaccato non era quello originale.",
     "variants": [
       {
@@ -1627,9 +1727,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Dibattiti politici",
-        "description": "Il candidato A propone piccole riforme fiscali. Il candidato B: \"Vuole distruggere l'economia!\" Attacca una posizione che A non ha mai sostenuto.",
-        "lesson": "Verifica sempre: l'argomento attaccato è quello che è stato sostenuto?"
+        "title": "Dibattito fiscale",
+        "description": "Una proposta di lievi aggiustamenti viene descritta come \"voler distruggere l'economia\" o \"abolire lo Stato\". L'attacco colpisce una posizione più radicale di quella effettivamente avanzata.",
+        "lesson": "Confrontare la critica con il testo originale della proposta: se non coincidono, è spaventapasseri."
+      },
+      {
+        "title": "Dibattito su diritti minoranze",
+        "description": "Chi chiede riconoscimenti legali specifici viene rappresentato come chi \"vuole imporre\" a tutti comportamenti estremi. L'estremizzazione rende più facile mobilitare opposizione emotiva, ma non è la richiesta originale.",
+        "lesson": "Lo straw man spesso esagera conseguenze per far sembrare assurda una posizione moderata."
       }
     ],
     "defense": [
@@ -1676,9 +1781,9 @@
     "subtitle": "Aringa Affumicata",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Distrarre con un argomento irrilevante.",
-    "definition": "Introdurre un'informazione irrilevante per distrarre dal tema principale.",
-    "historicalContext": "Il nome viene dall'uso di aringhe affumicate per confondere i cani durante la caccia, distogliendoli dalla traccia.",
+    "summary": "Si introduce un tema secondario emotivo o conveniente per evitare di rispondere sulla questione aperta.",
+    "definition": "La red herring (aringa che storna il cane da pista) non confuta: sposta l'attenzione. Può essere un fatto vero ma irrilevante, un \"e comunque gli altri...\", un complimento al moderatore. Segnale: la risposta non contiene criteri verificabili sul punto originale.",
+    "historicalContext": "L'espressione inglese \"red herring\" si diffuse nel XIX secolo nella logica informale: una pista falsa. Storicamente, l'odore forte dell'aringa affumicata poteva essere usato nelle cacce per distrarre i cani. In retorica parlamentare britannica si parlava di deputati che introducevano argomenti laterali per evitare il merito della mozione.",
     "psychologicalMechanism": "Il cervello segue l'informazione saliente. Introducendo un argomento emozionante, si distrae dal tema principale.",
     "variants": [
       {
@@ -1701,9 +1806,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Interviste",
-        "description": "Giornalista: \"Di questi scandali cosa dice?\" Politico: \"Ma guardi quanto è bella la nostra riforma dell'istruzione!\"",
-        "lesson": "Il cambio di argomento non risponde alla domanda."
+        "title": "Interviste a tema corruzione",
+        "description": "Domanda su inchieste o scandali; risposta che elogia un successo in un settore non richiesto (istruzione, economia). Il secondo tema può essere vero ma non risponde alla domanda: funge da aringa affumicata.",
+        "lesson": "Verità irrilevante + cambio argomento = red herring."
+      },
+      {
+        "title": "Dibattito pubblico: \"pensa ai bambini\"",
+        "description": "Su una proposta tecnica (bilancio, regolamento), si introduce un appello emotivo generico a un altro valore non in discussione per evitare il merito della proposta.",
+        "lesson": "La red herring sfrutta argomenti emotivamente salienti per deviare dall'obiezione specifica."
       }
     ],
     "defense": [
@@ -1750,9 +1860,9 @@
     "subtitle": "Proiezione",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Accusare gli altri di ciò che tu stai facendo.",
-    "definition": "Tecnica in cui si attribuisce ai propri avversari esattamente ciò che si sta facendo, neutralizzando le accuse.",
-    "historicalContext": "Usata sistematicamente da dittature e regimi: accusano l'opposizione di essere \"golpisti\" mentre preparano un golpe.",
+    "summary": "Si proietta sui critici il proprio comportamento (frode, censura, violenza) così la discussione diventa \"due parti che si accusano\".",
+    "definition": "La proiezione confonde chi osserva: se entrambi gridano \"ladro!\", sembra simmetrico. In realtà una parte potrebbe documentare fatti mentre l'altra replica a specchio senza prove. Obiettivo: paralizzare il giudizio morale e diluire la responsabilità.",
+    "historicalContext": "La psicoanalisi parlava di proiezione come attribuzione a un altro di impulsi propri; in politica la \"accusa a specchio\" compare in conflitti armati e in propaganda (\"l'aggressore è l'altro\"). In epoche recenti, leader che limitano la libertà di stampa hanno accusato i media stranieri di \"fake news\"; la struttura è: delegittimare la critica anticipandone il contenuto.",
     "psychologicalMechanism": "Confonde il pubblico (\"chi ha ragione?\") e precostruisce la difesa (\"loro dicono lo stesso\"). Rende le accuse reciproche.",
     "variants": [
       {
@@ -1775,9 +1885,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Regimi autoritari",
-        "description": "Regimi che preparano brogli elettorali accusano l'opposizione di \"preparare brogli\", delegittimando in anticipo le accuse che verranno.",
-        "lesson": "Le accuse speculari vanno verificate su entrambi i lati."
+        "title": "Elezioni e accuse reciproche di frode",
+        "description": "In contesti polarizzati, entrambe le parti hanno affermato che l'altra avrebbe \"rubato\" o \"manipolato\" il voto. Senza prove simmetriche, la simmetria narrativa fa sembrare equivalenti responsabilità diverse.",
+        "lesson": "La proiezione politica crea rumore: confrontare le verifiche indipendenti, non solo le accuse."
+      },
+      {
+        "title": "Propaganda di guerra",
+        "description": "Stati che preparano attacchi militarmente hanno storicamente accusato l'avversario di \"aggressione imminente\" per legittimare il proprio primo colpo o mobilitazione.",
+        "lesson": "Quando l'accusa è identica a ciò che si sospetta della propria parte, chiedere evidenze separate per ciascun attore."
       }
     ],
     "defense": [
@@ -1824,9 +1939,9 @@
     "subtitle": "Fischio per Cani",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Messaggi codificati che solo certi gruppi capiscono.",
-    "definition": "Comunicazioni che hanno un significato innocuo per il pubblico generale ma un messaggio specifico per un gruppo target.",
-    "historicalContext": "Il termine viene dai fischi per cani, udibili solo dai cani. Usato sistematicamente in politica per segnali a basi estremiste.",
+    "summary": "Frasi o simboli che suonano innocui al grande pubblico ma attivano un secondo significato per chi condivide un codice.",
+    "definition": "Il dog whistle permette di segnalare lealtà a una base senza assumersi pubblicamente quella posizione: chi non conosce il codice sente una frase normale; chi lo conosce riceve l'incitamento o l'insulto. La plausibile negabilità (\"non intendevo\") fa parte del design, non è un effetto collaterale.",
+    "historicalContext": "Il termine fu diffuso negli anni '80-'90 negli USA per descrivere messaggi con doppio pubblico: un testo lecito per i media generali e un segnale per attivisti o basi ideologiche. Storici e giornalisti hanno analizzato come slogan apparentemente neutri (\"ordine pubblico\", \"diritti degli stati\") fossero usati in contesti di segregazione o reazione alle riforme, con effetti diversi sulle audience. Il meccanismo non richiede una menzogna esplicita: richiede un codice condiviso.",
     "psychologicalMechanism": "Permette di comunicare messaggi controversi mantenendo la plausibile negabilità (\"non intendevo quello\").",
     "variants": [
       {
@@ -1849,9 +1964,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Campagne elettorali",
-        "description": "Un candidato usa termini che sembrano innocui ma sono riconosciuti da gruppi estremisti come segnali di supporto. Se criticato: \"Non intendevo quello!\"",
-        "lesson": "Il contesto e la reazione del pubblico target rivelano il significato."
+        "title": "USA: \"diritti degli stati\" e segregazione",
+        "description": "Nel dibattito sui diritti civili, l'invocazione generica agli stati fu usata per difendere politiche locali di segregazione; per un pubblico era \"federalismo\", per altri segnale di resistenza alle riforme. Il significato dipendeva dal contesto storico e dal codice condiviso.",
+        "lesson": "Il dog whistle politico spesso usa vocaboli legalmente neutri con carica diversa per gruppi diversi."
+      },
+      {
+        "title": "Simboli e numeri in rete",
+        "description": "Combinazioni di numeri, parentesi o emoji sono state adottate da gruppi estremisti come riconoscimento interno; i non iniziati vedono caratteri casuali. Le piattaforme hanno dovuto aggiornare le policy proprio su questi codici.",
+        "lesson": "Il secondo livello di lettura non è nel dizionario: è nella comunità che usa il codice."
       }
     ],
     "defense": [
@@ -1898,9 +2018,9 @@
     "subtitle": "Negare la Realtà",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Far dubitare le vittime della propria percezione della realtà.",
-    "definition": "Tecnica di manipolazione che nega fatti evidenti, minimizza reazioni, e fa dubitare le vittime del proprio giudizio.",
-    "historicalContext": "Il termine viene dal film \"Gaslight\" (1944), dove un marito manipola la moglie facendole credere di essere pazza.",
+    "summary": "Si nega ciò che è successo, si riformula la storia o si fa passare la reazione della vittima per esagerazione o follia.",
+    "definition": "Il gaslighting corrode la fiducia nella propria memoria e percezione: la vittima smette di fare affidamento sui propri sensi e dipende dal narratore. In coppia, politica o lavoro, combina negazione, contraddizioni e svalutazione (\"sei troppo sensibile\"). Non è un disaccordo legittimo: è un pattern per destabilizzare il riferimento alla realtà condivisa.",
+    "historicalContext": "Il film \"Gaslight\" (1944) rese popolare l'immagine del marito che altera l'ambiente e nega i fatti. La clinica ha poi riconosciuto pattern simili in relazioni di abuso e controllo coercitivo. In contesti istituzionali, la negazione sistematica di violenze o errori documentati (scandali religiosi, militari, aziendali) ha la stessa struttura: far dubitare testimoni e pubblico sulla realtà accertata.",
     "psychologicalMechanism": "Sfrutta la dipendenza dalla conferma esterna. Se costantemente negato, si inizia a dubitare di sé.",
     "variants": [
       {
@@ -1927,9 +2047,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Relazioni abusive",
-        "description": "Il partner abusivo nega episodi di violenza, minimizza le reazioni della vittima, la fa sentire \"pazza\".",
-        "lesson": "La negazione sistematica della realtà è una forma di violenza."
+        "title": "Violenza domestica e \"non è successo\"",
+        "description": "Pattern documentato: negazione dell'episodio, poi reinterpretazione (\"sei esagerata\"), poi inversione (\"sei tu il problema\"). La vittima perde punti di riferimento esterni perché il manipolatore controlla anche la narrazione.",
+        "lesson": "Il gaslighting interpersonale mira alla stabilità cognitiva della vittima, non solo a vincere un litigio."
+      },
+      {
+        "title": "Risposte istituzionali agli scandali",
+        "description": "Organizzazioni hanno negato o minimizzato abusi documentati, etichettando i denuncianti come \"instabili\" o \"strumentalizzati\", fino all'emergere di prove accumulate. La struttura replica negazione + attacco alla fonte.",
+        "lesson": "Il DARVO istituzionale e il gaslighting condividono la negazione della realtà verificabile."
       }
     ],
     "defense": [
@@ -1976,9 +2101,9 @@
     "subtitle": "Selezione di Dati",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Selezionare solo i dati favorevoli ignorando tutto il resto.",
-    "definition": "Selezionare evidenze che confermano una posizione ignorando quelle che la smentiscono.",
-    "historicalContext": "Il termine viene dall'idea di raccogliere solo le ciliegie migliori. Usato per ritardare riconoscimenti di rischi (tabacco, clima).",
+    "summary": "Si mostra un grafico, un anno o uno studio che favorisce la tesi, omettendo la serie completa o gli studi che dicono l'opposto.",
+    "definition": "Il cherry-picking è selezione intenzionale: non inventa cifre, taglia il contesto. Tipico: asse temporale che inizia dopo un crollo, outlier presentato come tipico, meta-analisi ignorate. Richiede contro-intuizione: cercare attivamente cosa non è stato mostrato.",
+    "historicalContext": "L'industria del tabacco finanziò studi e citò sottoserie favorevoli mentre le revisioni sistematiche mostravano danni netti. Sul clima, gruppi di pressione selezionarono pochi articoli incerti ignorando migliaia di lavori convergenti. Il pattern è sempre: evidenza reale ma non rappresentativa presentata come se fosse il centro del dibattito.",
     "psychologicalMechanism": "Sfrutta il confirmation bias: valutiamo come più credibili le informazioni che confermano le nostre convinzioni.",
     "variants": [
       {
@@ -2001,9 +2126,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Tabacco",
-        "description": "L'industria citava studi che mostravano incertezza, ignorando il consenso crescente.",
-        "lesson": "Il cherry-picking può creare illusione di dibattito."
+        "title": "Tabacco e letteratura scientifica",
+        "description": "Venivano citati in pubblico pochi studi ambigui o finanziati dall'industria, mentre revisioni Cochrane e meta-analisi indipendenti mostravano rischi consolidati. Ogni singola citazione poteva essere \"tecnicamente\" discussa; il peso delle prove nel complesso era un altro.",
+        "lesson": "Il cherry-picking scientifico sostituisce il bilanciamento delle evidenze con l'eccezione scelta."
+      },
+      {
+        "title": "Grafici sul riscaldamento globale",
+        "description": "Curve presentate partendo da anni particolarmente caldi o freddi, o finestre temporali corte, per mostrare \"pausa\" o \"allarmismo\" a seconda dell'agenda. La serie lunga e le meta-analisi danno un quadro diverso.",
+        "lesson": "Stesso fenomeno fisico, finestra temporale diversa = narrativa diversa: classico taglio delle ciliegie."
       }
     ],
     "defense": [
@@ -2050,7 +2180,7 @@
     "subtitle": "Falso Movimento",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Simulare un movimento dal basso coordinato dall'alto.",
+    "summary": "Si finge consenso popolare: commenti, petizioni o \"associazioni di cittadini\" sono in realtà pagati o orchestrati da aziende, partiti o stati.",
     "definition": "Creare movimenti, campagne o opinioni che appaiono spontanei e grassroots ma sono orchestrati da attori organizzati come aziende, governi o gruppi di interesse. Il termine deriva dall'erba sintetica (Astroturf), che simula prati veri ma è artificiale.",
     "historicalContext": "Termine diffuso negli anni '80 quando aziende tabacche e del petrolio crearono gruppi di \"cittadini preoccupati\" contro normative ambientali. La tecnica però esiste da secoli: nel 1920 l'industria tabacca organizzò \"donne spontanee\" a protestare contro le restrizioni; nel XIX secolo ferrovieri finanziavano proteste \"cittadine\" contro i concorrenti.",
     "psychologicalMechanism": "Sfrutta la prova sociale: tendiamo a conformarci a ciò che percepiamo come opinione della maggioranza o spontanea. Un movimento percepito come dal basso appare autentico e degno di fiducia.",
@@ -2152,8 +2282,8 @@
     "subtitle": "Operazioni Sotto Copertura",
     "category": "manipulation",
     "catLabel": "Manipolazione",
-    "summary": "Azioni presentate come provenienti da un'altra parte.",
-    "definition": "Operazioni condotte in modo da apparire eseguite da un altro attore. Le false flag possono includere attacchi, incidenti, documenti o campagne disinformative progettati per creare supporto per azioni contro il bersaglio falsamente incolpato.",
+    "summary": "Si fa qualcosa di grave fingendo che sia opera di un nemico o di un gruppo, per scatenare rabbia, guerra o leggi d'emergenza.",
+    "definition": "False flag: l'autore reale maschera l'origine (uniformi, bandiere, siti clone, documenti leaked) per orientare vendetta o interventi verso un bersaglio sbagliato. Diverso dalla semplice bugia: c'è un evento pubblico che sembra attribuibile a X. Richiede attenzione a moventi, timing e prove indipendenti prima di reazioni irreversibili.",
     "historicalContext": "Termine navale: navigare sotto falsa bandiera per ingannare navi nemiche. Esempi storici non digitali: l'incendio del Reichstag (1933) usato dai nazisti per consolidare il potere; l'incidente di Gleiwitz (1939) con tedeschi vestiti da polacchi per giustificare l'invasione; la guerra del Vietnam iniziata con il falso incidente del Golfo del Tonchino. Le false flag esistono da millenni in tutte le forme di conflitto.",
     "psychologicalMechanism": "Sfrutta la necessità di rispondere alle minacce: se percepiamo un attacco da X, sosteniamo azioni contro X. L'emozione della minaccia bypassa il ragionamento critico sulle prove.",
     "variants": [
@@ -2250,9 +2380,9 @@
     "subtitle": "Manipolazione Video",
     "category": "digital",
     "catLabel": "Digitale",
-    "summary": "Creare contenuti artificiali indistinguibili dalla realtà.",
-    "definition": "Contenuti prodotti con AI che sostituiscono volto, voce o movimenti.",
-    "historicalContext": "Tecnologia accessibile dal 2017. Inizialmente per contenuti pornografici, poi politica.",
+    "summary": "Video o audio sintetici in cui una persona sembra dire o fare qualcosa che non ha mai fatto; la qualità migliora rapidamente.",
+    "definition": "I deepfake usano reti neurali su volto, voce e labbra: l'output mima registrazioni autentiche. Servono a diffondere dichiarazioni inventate, ricatto o confusione (\"non si sa più cosa è vero\"). La difesa non è solo \"guarda se sembra falso\": verificare provenienza, contesto e fonti primarie resta centrale.",
+    "historicalContext": "I primi deepfake convincenti si diffusero su Reddit (2017) con face-swap non consensuale; subito dopo emersero rischi politici. Nel 2022 circolò un video deepfake di Zelensky che chiedeva la resa: fu smentito rapidamente, ma mostrò l'uso bellico della sintesi. La voce clonata è diventata accessibile con costi bassi: il problema non è solo il video ma l'autenticazione della catena di pubblicazione.",
     "psychologicalMechanism": "\"Vedere è credere\": le immagini hanno autorità percettiva superiore al testo.",
     "variants": [
       {
@@ -2275,9 +2405,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Zelensky",
-        "description": "Un video deepfake mostrava Zelensky che ordinava la resa. Qualità imperfetta ma ha richiesto smentita ufficiale.",
-        "lesson": "I deepfake politici sono realtà, non futuribili."
+        "title": "Deepfake di Zelensky (2022)",
+        "description": "Durante la guerra in Ucraina circolò un video sintetico in cui il presidente appariva a chiedere la resa alle forze armate. Le piattaforme e il governo dovettero smentire esplicitamente; la qualità non era perfetta ma sufficiente a creare confusione nei primi minuti.",
+        "lesson": "Il deepfake è un'arma di disinformazione in conflitto: colpisce la catena di comando e la fiducia del pubblico."
+      },
+      {
+        "title": "Non-consensual deepfake pornografico",
+        "description": "Volti di personaggi pubblici o privati sono stati sovrapposti a video pornografici con strumenti sempre più accessibili, causando danni reputazionali e psicologici; diversi paesi hanno introdotto reati specifici.",
+        "lesson": "La stessa tecnica passa dalla propaganda politica al ricatto individuale: il meccanismo è sintesi visiva credibile."
       }
     ],
     "defense": [
@@ -2324,9 +2459,9 @@
     "subtitle": "Guerra dell'Informazione",
     "category": "digital",
     "catLabel": "Digitale",
-    "summary": "Campagne coordinate per influenzare opinioni ed elezioni.",
-    "definition": "Campagne coordinate da stati o attori per modellare opinione pubblica ed esiti elettorali. Le moderne operazioni digitali sono l'evoluzione di tecniche storiche di propaganda e interferenza, ma con scala, precisione e velocità senza precedenti.",
-    "historicalContext": "Le operazioni di influenza esistono da secoli: Radio Free Europe durante la Guerra Fredda, pamphlet rivoluzionari dell'Ottocento, propaganda di stato in ogni conflitto. La novità digitale è la scala, l'azione diretta sui cittadini individuali, e la capacità di amplificare divisioni preesistenti con micro-targeting preciso.",
+    "summary": "Reti di account, siti clone, leak selettivi e messaggi mirati amplificano divisioni o sopprimono voci, spesso mescolando verità e finzione.",
+    "definition": "Le operazioni di influenza combinano strumenti classici (media di facciata, intelligence) e digitali (bot, targeting, hack-and-leak). Non devono inventare tutto: spesso amplificano tensioni reali o versano verità scomode in momenti strategici. L'obiettivo è spostare comportamenti (voto, protesta, fiducia) più che convincere con un solo articolo.",
+    "historicalContext": "Le operazioni di influenza esistono da secoli: Radio Free Europe e Voice of America nella Guerra Fredda; pamphlet e manifesti rivoluzionari; intelligence che finanzia giornali e partiti alleati. Le inchieste giudiziarie (es. interferenza elettorale USA 2016) hanno documentato reti di account falsi, siti clone e finanziamenti opachi. La novità digitale è micro-targeting, velocità e costo marginale quasi nullo per replicare messaggi.",
     "psychologicalMechanism": "Amplificano divisioni preesistenti invece di crearne di nuove. Identificano fragilità sociali e le alimentano sfruttando algoritmi di engagement e bias di conferma individuali.",
     "variants": [
       {
@@ -2359,14 +2494,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Reti clone",
-        "description": "Operazioni hanno creato decine di siti che imitavano media europei con articoli falsi.",
-        "lesson": "Controlla sempre il dominio esatto e la storicità della fonte."
+        "title": "Siti clone e reti europee (anni 2010-2020)",
+        "description": "Reti coordinate crearono domini simili a testate note e diffusero articoli misti (veri e falsi) per confondere la ricerca e catturare traffico. Obiettivo: inserire narrazioni nella discussione pubblica come se provenissero da giornalismo legittimo.",
+        "lesson": "Verificare URL, WHOIS e \"chi siamo\": l'operazione di influenza imita la forma del media indipendente."
       },
       {
-        "title": "Guerra Fredda",
-        "description": "Radio Free Europe e Voice of America erano operazioni di influenza statunitense per informare e influenzare i paesi del blocco sovietico. Analogamente, Radio Mosca operava nell'altro senso.",
-        "lesson": "Le operazioni di influenza non sono nuove - la tecnologia ha solo aumentato la scala e la sofisticazione."
+        "title": "IRA e interferenza documentata (USA 2016)",
+        "description": "Attori organizzati gestirono centinaia di account social presentati come attivisti statunitensi, amplificando contenuti polarizzanti. Il caso è stato oggetto di atti d'accusa e rapporti parlamentari: mostra l'integrazione tra umani, finanziamenti e piattaforme.",
+        "lesson": "L'operazione di influenza moderna non è solo un articolo: è rete, calendario e targeting."
       }
     ],
     "defense": [
@@ -2417,9 +2552,9 @@
     "subtitle": "Inondazione",
     "category": "digital",
     "catLabel": "Digitale",
-    "summary": "Soffocare il dibattito con rumore e tossicità.",
-    "definition": "Saturare lo spazio di dibattito con un volume tale di messaggi, commenti o comunicazioni che rendono impossibile mantenere una discussione seria. Il flooding sfrutta il volume per affaticare, confondere o silenziare voci critiche.",
-    "historicalContext": "Tecnica centrale delle \"troll farms\" moderne, ma il principio esiste da prima: lettere di protesta massive organizzate, telefonate coordinate a uffici pubblici, petizioni con firme non verificabili, manifestazioni organizzate per soffocare contro-proteste. Il digitale ha reso il flooding immediato, globale e a costo quasi zero.",
+    "summary": "Si inonda un forum, un ufficio o un hashtag di messaggi ripetitivi o ostili finché nessuno riesce più a leggere o partecipare con calma.",
+    "definition": "Il flooding usa la quantità per esaurire tempo e salute mentale dei partecipanti: discussioni utili affondano nel rumore, le voci isolate smettono di scrivere. Online è spam e trolling coordinato; offline, lettere o telefonate di massa. Non dimostra che la maggioranza sia d'accordo: mostra capacità di coordinamento.",
+    "historicalContext": "Tecnica centrale delle \"troll farms\" e delle campagne di review bombing, ma il principio è antico: petizioni con firme duplicate, telefonate coordinate a parlamentari, fax di massa, occupazione rumorosa di spazi pubblici. Il digitale moltiplica volume e velocità: stesso testo, stesso minuto, stesso hashtag — segnale di coordinamento, non di opinione spontanea diffusa.",
     "psychologicalMechanism": "Il rumore affatica chi cerca informazioni serie, che alla fine si disimpegna. L'effetto \"echo chamber\" amplifica la percezione di opposizione o supporto massiccio, influenzando chi osserva dall'esterno.",
     "variants": [
       {
@@ -2456,14 +2591,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Commenti organizzati",
-        "description": "In certi paesi, eserciti di commentatori attaccano sistematicamente le voci critiche.",
-        "lesson": "Il volume non riflette il consenso."
+        "title": "Review bombing e hashtag invasi",
+        "description": "Valutazioni a stelle o commenti identici colpiscono un prodotto, un libro o un giornalista nello stesso arco temporale; oppure migliaia di post con lo stesso hashtag sommergono una discussione. Il meccanismo è sempre: saturare il canale così che il messaggio target scompaia o sembri \"opinione di massa\".",
+        "lesson": "Il flooding non prova che \"tutti pensano così\": prova capacità di riempire lo spazio pubblico."
       },
       {
-        "title": "Lettere di protesta",
-        "description": "Negli anni '90, aziende organizzavano campagne di lettere da dipendenti e familiari per sembrare supporto popolare contro normative. Le stesse lettere arrivavano da diverse città con testo quasi identico.",
-        "lesson": "Il flooding offline esiste da prima di internet."
+        "title": "Lettere e fax coordinati (pre-social)",
+        "description": "Campagne in cui centinaia di messaggi quasi identici arrivano a un ufficio o a un media in poche ore creavano l'illusione di una rivolta spontanea; spesso erano script forniti da un'associazione o un'azienda.",
+        "lesson": "Stesso schema del flooding digitale: quantità ripetuta al posto di pluralità di voci."
       }
     ],
     "defense": [
@@ -2514,9 +2649,9 @@
     "subtitle": "Appello alla Paura",
     "category": "emotional",
     "catLabel": "Emotivo",
-    "summary": "Mobilitare attraverso la paura invece che l'argomentazione.",
-    "definition": "Tecnica che usa la paura per indurre azioni senza pensiero critico.",
-    "historicalContext": "Base della pubblicità (\"compra questo o ti succede qualcosa\") e della politica (\"se non X, disastro\").",
+    "summary": "Si dipingono minacce immediate a persone care o allo stile di vita (criminalità, malattie, invasione) per spingere a votare, comprare o condividere senza verificare.",
+    "definition": "L'appeal alla paura attiva l'allarme biologico: il sistema nervoso privilegia risposta rapida rispetto all'analisi. Messaggi utili possono anche informare su rischi reali; diventa manipolazione quando esagerano probabilità o escludono opzioni meno drammatiche, o quando l'urgenza serve a saltare controlli e dibattito.",
+    "historicalContext": "Dalla pubblicità delle pulci (\"la tua casa è infestata\") alla politica della \"minaccia rossa\" (USA, anni '50) e alle campagne anti-terrorismo post-2001, la paura è stata usata per vendere prodotti e per mobilitare consenso. La psicologia sociale (Hovland, Janis) studiò quando l'appello alla paura aumenta o riduce la persuasione: dipende dalla percezione di efficacia della risposta proposta.",
     "psychologicalMechanism": "La paura attiva il sistema nervoso simpatico, bypassando il pensiero riflessivo.",
     "variants": [
       {
@@ -2539,9 +2674,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Pubblicità della paura",
-        "description": "Campagne che mostrano conseguenze terribili se non compri/il prodotto/servizio.",
-        "lesson": "La paura vende, ma non informa."
+        "title": "Pubblicità assicurativa e sanitaria",
+        "description": "Spot che mostrano incidenti o malattie gravi per spingere all'acquisto immediato di coperture o screening, spesso senza contesto quantitativo sul rischio reale individuale.",
+        "lesson": "La paura vende spesso più che la probabilità: il messaggio amplifica il danno percepito, non solo il rischio."
+      },
+      {
+        "title": "Dibattito post-11 settembre 2001",
+        "description": "La retorica di \"minaccia imminente\" fu usata per giustificare leggi e interventi in tempi compressi; critiche alla fretta o alla proporzione venivano presentate come debolezza di fronte al pericolo.",
+        "lesson": "L'urgenza emotiva può comprimere il dibattito democratico: è la politica applicata dell'appeal alla paura."
       }
     ],
     "defense": [
@@ -2588,9 +2728,9 @@
     "subtitle": "Appello al Nazionalismo",
     "category": "emotional",
     "catLabel": "Emotivo",
-    "summary": "Sfruttare il patriottismo per legittimare cause.",
-    "definition": "Associare una causa alla bandiera, alla nazione, ai simboli patri per renderla indiscutibile.",
-    "historicalContext": "Tecnica classica: chi si oppone \"non ama il proprio paese\".",
+    "summary": "Si avvolge una politica in simboli nazionali e si insinua che chi dubita non ami il paese o tradisca chi serve in uniforme.",
+    "definition": "Il flag-waving sostituisce il merito con l'appartenenza emotiva: criticare la proposta suona come attaccare la comunità. In democrazia, patriottismo e dissenso non sono opposti: si può voler bene al paese e contestare una guerra o una legge. La tecnica confonde le due cose per chiudere il dibattito.",
+    "historicalContext": "Già nei conflitti del XIX e XX secolo, bandiere e inni accompagnavano le mobilitazioni. La Primavera di Praga (1968) e le proteste contro la guerra in Vietnam videro accuse di \"tradimento\" verso chi criticava la linea ufficiale. Oggi il pattern si ripete su social: simboli nazionali come cornice di ogni post per rendere il dissenso \"anti-paese\".",
     "psychologicalMechanism": "L'identità nazionale è profonda. Attaccarla o opporsi a qualcosa avvolto nella bandiera sembra quasi un tradimento.",
     "variants": [
       {
@@ -2613,9 +2753,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Guerra in Iraq",
-        "description": "Critiche alla guerra presentate come \"non sostenere le truppe\" o \"non amare l'America\".",
-        "lesson": "Si può amare il paese e criticarne le azioni."
+        "title": "Guerra in Iraq (2003)",
+        "description": "Oppositori all'invasione furono spesso incasellati come \"contro le truppe\" o \"contro l'America\", anziché come critici a una decisione strategica specifica. Le critiche al merito militare e politico vennero fuse con l'affetto per il paese.",
+        "lesson": "La tecnica confonde critica a una policy con rifiuto dell'identità nazionale."
+      },
+      {
+        "title": "Dibattito europeo e \"traditori\"",
+        "description": "In più paesi, opposti politici o intellettuali che contestavano linee ufficiali su trattati o alleanze sono stati etichettati come nemici interni o \"anti-[paese]\".",
+        "lesson": "Il flag-waving sostituisce il merito con l'appartenenza: chi è \"vero patriota\" secondo chi parla?"
       }
     ],
     "defense": [
@@ -2662,9 +2807,9 @@
     "subtitle": "Persone di Successo",
     "category": "emotional",
     "catLabel": "Emotivo",
-    "summary": "Associare bellezza e successo a una causa.",
-    "definition": "Mostrare persone attraenti, felici, di successo associate a un prodotto, candidato o idea.",
-    "historicalContext": "Base della pubblicità moderna. Esteso alla politica.",
+    "summary": "Spot pieni di volti giovani e sorrisi che associano una marca o un voto a uno stile di vita desiderabile, senza argomenti sul merito.",
+    "definition": "Beautiful people sfrutta il desiderio di somigliare a chi è in scena: se \"persone così\" scelgono X, X sembra fonte di felicità. È transfer visivo. Non dice nulla su qualità, prezzi o conseguenze politiche: vende identificazione aspirazionale.",
+    "historicalContext": "Il cinema hollywoodiano e il sistema delle star (anni '20-'30) legarono bellezza e desiderio ai prodotti. Le sigarette furono pubblicizzate con medici e attori attraenti; oggi influencer e campagne \"lifestyle\" fanno lo stesso con cosmetici e politiche. La politica televisiva copiò il formato: convention con famiglie e volti \"perbene\".",
     "psychologicalMechanism": "Il trasferimento emotivo: se quelle persone sono felici e sostengono X, sostenere X renderà felice anche me.",
     "variants": [
       {
@@ -2687,9 +2832,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Pubblicità politica",
-        "description": "Candidati circondati da persone giovani, belle e felici nei loro spot.",
-        "lesson": "L'immagine non dice nulla sulle proposte."
+        "title": "Spot elettorali senza programma",
+        "description": "Video con musica, sorrisi e gruppi eterogenei che \"rappresentano il paese\" senza numeri su lavoro, sanità o deficit. L'effetto è aspirazione: \"voglio essere come quelle persone felici\".",
+        "lesson": "Beautiful people è puro transfer: la felicità in scena non è prova di politica."
+      },
+      {
+        "title": "Pubblicità di moda e cosmetici",
+        "description": "Modelli fotografati con prodotti che non hanno creato il loro aspetto (luce, trucco, editing). La causa dell'effetto visivo è attribuita al brand.",
+        "lesson": "Stesso schema: attributo estetico venduto come prodotto di una scelta di consumo."
       }
     ],
     "defense": [
@@ -3426,7 +3576,7 @@
         {
           "text": "Che 'naturale' significhi automaticamente 'sicuro ed efficace' - una correlazione che non esiste in chimica né in farmacologia",
           "correct": true,
-          "explanation": "Il veleno più potente conosciuto (tossina botulinica) è naturale al 100%. L'arsenicoè naturale. La correlazione 'naturale = sicuro' non ha base scientifica ma ha una fortissima base intuitiva - che il messaggio sfrutta."
+          "explanation": "Il veleno più potente conosciuto (tossina botulinica) è naturale al 100%. L'arsenico è naturale. La correlazione 'naturale = sicuro' non ha base scientifica ma ha una fortissima base intuitiva - che il messaggio sfrutta."
         },
         {
           "text": "Che l'azienda non abbia condotto studi: forse li ha ma non li cita per motivi di spazio",
@@ -4169,7 +4319,7 @@
     "subtitle": "Distrarre l'attenzione dai problemi reali",
     "category": "disinfo",
     "catLabel": "Disinformazione",
-    "summary": "Tecnica che consiste nel creare deliberatamente rumore informativo - notizie sensazionali, scandali minori o controversie artificiali - per distogliere l'attenzione del pubblico da questioni scomode o damaging.",
+    "summary": "Si lancia una notizia spettacolare o una polemica secondaria proprio mentre esplode una storia scomoda, così l'attenzione pubblica si sposta.",
     "definition": "La cortina di fumo (in inglese 'smokescreen' o 'red herring') è l'arte di spostare l'agenda pubblica verso un tema alternativo quando quello attuale è sfavorevole. Può essere intenzionale (lancio di una notizia distrazione) o strutturale (sistemi mediatici che privilegiano la spettacolarità).",
     "historicalContext": "Il termine deriva dall'uso militare di granate fumogene per nascondere movimenti di truppe. In politica, l'esempio classico è la 'guerra esterna' usata per distrarre dall'opposizione interna. Durante lo scandalo Watergate, Nixon tentò di deviare l'attenzione con annunci di politica estera. Nel XXI secolo, i social media hanno reso questa tecnica onnipresente.",
     "psychologicalMechanism": "L'attenzione cognitiva è una risorsa limitata. Quando siamo sommersi da informazioni su un tema X, abbiamo meno capacità di elaborare il tema Y. La cortina di fumo sfrutta questa limitazione: non nega il problema, lo rende irrilevante per saturazione dell'attenzione.",
@@ -4336,6 +4486,94 @@
           "text": "Sta descrivendo con precisione una tendenza demografica.",
           "correct": false,
           "explanation": "I dati sulla criminalità rimangono invariati: la narrazione è disconnessa dalla realtà empirica."
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "icon": "🫧",
+    "name": "Bolla di Filtraggio",
+    "subtitle": "Personalizzazione Algoritmica",
+    "category": "framing",
+    "catLabel": "Inquadratura",
+    "summary": "Gli algoritmi mostrano solo contenuti che confermano le convinzioni esistenti, isolando l'utente da prospettive diverse e argomenti contrari.",
+    "definition": "La bolla di filtraggio (filter bubble) è uno spazio informativo personale creato dagli algoritmi che selezionano contenuti in base a preferenze, clic e tempo di visualizzazione. Il risultato è un ambiente dove l'utente vede solo ciò che conferma le sue credenze preesistenti, senza essere esposto a visioni alternative, contestazioni o argomenti sfumati. Non è deliberatamente falso, ma deliberatamente incompleto e ristretto alla prospettiva dell'individuo.",
+    "historicalContext": "Il concetto è stato teorizzato da Ethan Zuckerman nel 2008 e da Eli Pariser nel suo libro 'The Filter Bubble' (2011). Con l'ascesa dei social media e degli algoritmi di raccomandazione, la bolla è diventata onnipresente: Netflix, YouTube, Facebook, Google, i sistemi di notizie personalizzati creano silos informativi individualizzati. Studi hanno dimostrato che utenti della stessa area geografica e demografica possono ricevere versioni completamente diverse della 'stessa' notizia, ampliando la frattura sociale.",
+    "psychologicalMechanism": "Sfrutta il confirmation bias e il bisogno di coerenza: il cervello preferisce informazioni che confermano le credenze esistenti ed evita quelle che le contraddicono. L'algoritmo rinforza questo bias naturale, creando un cerchio di autoconferma.",
+    "variants": [
+      {
+        "name": "Personalizzazione dei social",
+        "desc": "Facebook, Twitter/X mostrano contenuti in base a engagement passato"
+      },
+      {
+        "name": "Raccomandazione personalizzata",
+        "desc": "YouTube e Netflix suggeriscono contenuti simili a quelli già visti"
+      },
+      {
+        "name": "Ricerca personalizzata",
+        "desc": "Google restituisce risultati diversi per chiunque nella stessa ricerca"
+      },
+      {
+        "name": "Adattamento dinamico",
+        "desc": "Algoritmi che modificano il feed in tempo reale in base alle reazioni"
+      }
+    ],
+    "redFlags": [
+      "Non riesci a vedere opinioni diverse dalle tue su temi controversi",
+      "Il tuo feed mostra solo contenuti con cui sei già d'accordo",
+      "Sembra che 'tutti' la pensino come te",
+      "I contenuti critici o contrari raramente compaiono"
+    ],
+    "caseStudies": [
+      {
+        "title": "Elezioni USA 2016 e feed diversi",
+        "description": "Ricerche hanno dimostrato che utenti di orientamenti opposti ricevevano racconti completamente diversi della stessa campagna elettorale. Le bolle algoritmiche non solo mostravano contenuti diversi, ma creavano realtà informative separate e in conflitto, rendendo il dialogo pubblico quasi impossibile.",
+        "lesson": "La bolla non è innocente: crea versioni separate della realtà che non possono confrontarsi."
+      },
+      {
+        "title": "COVID-19 e camere d'eco",
+        "description": "Durante la pandemia, algoritmi dei social e motori di ricerca hanno amplificato bolle di informazioni diverse: gruppi ricevevano solo contenuti che confermavano le loro posizioni (speranza/scetticismo, no-vax/pro-vax), con minima esposizione a prospettive alternative. La polarizzazione algoritmica ha reso difficile il consenso basato su prove condivise.",
+        "lesson": "Quando gli algoritmi ottimizzano per engagement anziché per accuratezza, le bolle diventano strumenti involontari di polarizzazione."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Cerca proattivamente",
+        "action": "Cerca attivamente fonti diverse dalle tue"
+      },
+      {
+        "step": "Sfida le tue bolle",
+        "action": "Segui qualcuno con opinioni diverse dalle tue"
+      },
+      {
+        "step": "Usa fonti diverse",
+        "action": "Varia i canali: notizie tradizionali, accademiche, internazionali"
+      },
+      {
+        "step": "Disattiva la personalizzazione",
+        "action": "Quando possibile, usa modalità di navigazione non personalizzate"
+      }
+    ],
+    "scenario": {
+      "title": "Notizia controversa",
+      "situation": "Un tema dibattuto (es. cambio climatico, politica estera). Il tuo feed mostra solo contenuti che confermano la tua posizione. Non vedi argomenti dell'altra parte, né studi che li contraddicono. Ti sembra ovvio che hai ragione.",
+      "question": "Cosa manca nella tua esperienza informativa per formare un giudizio completo?",
+      "options": [
+        {
+          "text": "Esposizione sistematica a prospettive diverse e argomenti contrari che sfidino le tue convinzioni",
+          "correct": true,
+          "explanation": "La bolla di filtraggio fornisce conforto ma non verità: ti protegge dal disaccordo senza che tu possa testare le tue convinzioni contro alternative. Questo è esattamente come vivere solo con persone che la pensano come te: confortante, ma pericolosamente limitante."
+        },
+        {
+          "text": "Dati aggiuntivi: più informazioni confermano che la tua posizione è corretta",
+          "correct": false,
+          "explanation": "Se la posizione fosse sbagliata, riceveresti comunque solo conferme. La quantità di conferme non equivale a correttezza; equivale a ripetizione all'interno di una bolla, non a verifica all'esterno."
+        },
+        {
+          "text": "Nulla: l'algoritmo seleziona i contenuti migliori per te in base alle tue preferenze",
+          "correct": false,
+          "explanation": "'Migliori' significa più simili a ciò che hai già visto e gradito, non più veri o più completi. L'obiettivo dell'algoritmo è engagement, non completezza o verità."
         }
       ]
     }

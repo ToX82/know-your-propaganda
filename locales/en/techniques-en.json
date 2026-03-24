@@ -6,8 +6,8 @@
     "subtitle": "Personal Attack",
     "category": "attack",
     "catLabel": "Attack",
-    "summary": "Attacking the person instead of their arguments. One of the oldest logical fallacies.",
-    "definition": "Ad hominem (Latin for 'against the person') is a logical fallacy in which one attacks the character, motives, or other personal attributes of the person making an argument, rather than addressing the substance of what they are arguing.",
+    "summary": "The attack targets the speaker (honesty, intelligence, appearance, interests) instead of checking whether their evidence or reasons hold on the merits.",
+    "definition": "Ad hominem (Latin for 'against the person') sidesteps content: it delegitimizes the source with insults, suspicions about motives, or past behaviour. The audience may dismiss everything they say without checking it, even when it would be true or useful. Do not confuse this with flagging a documented conflict of interest—that must be weighed together with evidence, not instead of it.",
     "historicalContext": "Classified by Aristotle among the sophisms. Used systematically by totalitarian regimes: the label 'enemy of the people' delegitimized any argument, however valid.",
     "psychologicalMechanism": "Exploits the source heuristic: we tend to evaluate information based on who is saying it. When the source is delegitimized, the brain automatically discards even valid arguments along with it.",
     "variants": [
@@ -84,8 +84,8 @@
     "subtitle": "The Mocker's Weapon",
     "category": "attack",
     "catLabel": "Attack",
-    "summary": "Turning the opponent into an object of mockery to delegitimize them without arguments.",
-    "definition": "Systematic ridicule uses humor to make it socially costly to take the opponent seriously.",
+    "summary": "The opponent is mocked (looks, slips of the tongue, voice) so they seem untrustworthy or absurd and the public stops engaging with their ideas.",
+    "definition": "Ridicule replaces refutation with laughs and memes: once you laugh, you stop asking whether the criticisms are fair. It works because the emotional label ('the meme person') is easier to remember than analysis. Satire can be legitimate; here the goal is to exclude the person from serious debate, not only to criticize a position.",
     "historicalContext": "Used by regimes through caricatures of ethnic groups and dissidents. In the digital age, memes have become powerful weapons.",
     "psychologicalMechanism": "Humor creates an emotional association that bypasses reasoning. Those who laugh at someone categorize them as 'not worthy of being taken seriously'.",
     "variants": [
@@ -158,8 +158,8 @@
     "subtitle": "The Absolute Enemy",
     "category": "attack",
     "catLabel": "Attack",
-    "summary": "Representing the opponent as the embodiment of evil, devoid of any human qualities.",
-    "definition": "Demonization portrays the opponent not as someone with different opinions, but as a force of pure evil, an existential threat, a being without morality or humanity.",
+    "summary": "A group or person is cast as evil, subhuman, or parasitic so that exclusion or violence against them feels justified.",
+    "definition": "Demonization does not portray the other side as a counterpart you disagree with, but as a moral or biological threat ('parasites', 'enemies of civilization'). It strips empathy and nuance: the question is no longer whether their claims are legitimate, but whether they should exist. It is often the rhetorical step before discrimination and violence.",
     "historicalContext": "A central technique in all genocides: Jews, Tutsi, Armenians were first demonized as 'rats', 'cockroaches', 'parasites'. Demonization psychologically prepares the population for violence.",
     "psychologicalMechanism": "Dehumanizes the enemy, removing moral inhibitions against violence. When someone is 'pure evil', any action against them is justified.",
     "variants": [
@@ -246,8 +246,8 @@
     "subtitle": "Flood of Lies",
     "category": "disinfo",
     "catLabel": "Disinformation",
-    "summary": "Flooding the information space with such a volume of contradictory messages that fact-checking becomes impossible.",
-    "definition": "A propaganda model that bombards the public with many false and contradictory messages - betting that corrections cannot keep pace.",
+    "summary": "The public is flooded with many stories, often incompatible with each other: nobody can verify everything; confusion or fatigue wins.",
+    "definition": "The 'firehose' does not aim at one credible lie: it mixes partial truths, falsehoods, and mutually contradictory versions. The goal is to saturate time and attention so corrections always arrive late and debate stalls on 'who said what'. Volume and speed matter more than accuracy.",
     "historicalContext": "Theorized by the RAND Corporation in 2016 for Russian operations during the annexation of Crimea. Unlike Soviet propaganda, it accepts obvious contradictions.",
     "psychologicalMechanism": "Exploits the 'illusory truth effect' (repetition makes things seem true) and 'cognitive fatigue' (too many contradictory facts = I stop verifying).",
     "variants": [
@@ -324,8 +324,8 @@
     "subtitle": "Viral Amplification",
     "category": "disinfo",
     "catLabel": "Disinformation",
-    "summary": "Exploiting virality to amplify unverified or false information.",
-    "definition": "The modern chain letter exploits social media algorithms to amplify emotionally charged content, regardless of its truthfulness.",
+    "summary": "Messages are built to be forwarded (fear, anger, urgency) and spread across contacts before anyone can verify them.",
+    "definition": "Like paper chains, digital chains ask you to 'share now' and exploit trust between friends. Algorithms reward engagement, not accuracy: an emotional hoax travels faster than a correction. Everyone who forwards becomes an unwitting amplifier.",
     "historicalContext": "Born as paper letter chains, it evolved with social media. Algorithms reward engagement, not truth.",
     "psychologicalMechanism": "Exploits social proof and emotion: content that generates anger or fear spreads faster.",
     "variants": [
@@ -402,8 +402,8 @@
     "subtitle": "Narrative Frame",
     "category": "framing",
     "catLabel": "Framing",
-    "summary": "The facts don't change - only the frame through which they are presented.",
-    "definition": "Framing selects certain aspects of a reality and makes them more salient, promoting a particular problem definition, causal interpretation, or moral evaluation.",
+    "summary": "Words, headlines, and which detail leads the story shape judgment: the same events can read as 'security crisis', 'invasion', or 'humanitarian emergency' depending on the frame.",
+    "definition": "Framing does not necessarily invent facts: it decides what counts, what is central, and what evaluative language to use. 'Security crisis' and 'humanitarian emergency' can describe the same event with opposite political implications. Whoever controls the frame steers what counts as the problem and which solution seems reasonable.",
     "historicalContext": "Concept derived from media sociology (Goffman, Entman). The same facts can be presented through completely different frames.",
     "psychologicalMechanism": "Operates through accessibility (what is presented first influences interpretation) and applicability (the frame activates certain mental schemas).",
     "variants": [
@@ -480,8 +480,8 @@
     "subtitle": "The Deflection",
     "category": "framing",
     "catLabel": "Framing",
-    "summary": "Deflecting every criticism by pointing to others' wrongdoings instead of responding.",
-    "definition": "A variant of the 'tu quoque' fallacy: instead of responding to a criticism, the accused accuses the critic of the same behavior.",
+    "summary": "A charge is answered with 'what about you / them doing worse?' so the topic changes without admitting, refuting, or denying the original point.",
+    "definition": "Whataboutism shifts the debate to another case or opponent. It may expose real hypocrisy, but it is used to close the opening accusation: if the interlocutor chases the new topic, whoever was under scrutiny never had to answer. The test is: was the original criticism addressed on the merits?",
     "historicalContext": "Perfected by Soviet propaganda. When the West criticized human rights in the USSR, the response was: 'And you? You have racism!'",
     "psychologicalMechanism": "Exploits the desire for moral consistency: we feel uncomfortable criticizing someone if we ourselves are not perfect.",
     "variants": [
@@ -558,8 +558,8 @@
     "subtitle": "Control of the Invisible",
     "category": "framing",
     "catLabel": "Framing",
-    "summary": "It's not important how we talk about it, but WHAT we don't talk about.",
-    "definition": "The ability of media to influence not what the public thinks, but what the public thinks about.",
+    "summary": "Coverage, front-page time, and repetition decide which problems exist in public debate: what is never named is not weighed either.",
+    "definition": "Agenda setting does not only say 'think X': it says 'think about this topic and not that one'. Scandals and urgencies push other news (laws, data, policies) out of view. Whoever controls the agenda does not need to win every detail: it is enough that people do not know an alternative or problem exists.",
     "historicalContext": "Theory formulated by McCombs and Shaw in 1972: the media don't tell us what to think, but what to think about.",
     "psychologicalMechanism": "The brain assesses relevance based on media salience. If something is widely discussed, it must be important.",
     "variants": [
@@ -636,8 +636,8 @@
     "subtitle": "Preemptive Discrediting",
     "category": "framing",
     "catLabel": "Framing",
-    "summary": "Pre-judging a source before they can speak, making it impossible to receive their arguments.",
-    "definition": "Presenting negative information about a source BEFORE they can express themselves, so that whatever they say is filtered through that negative lens.",
+    "summary": "Warnings or gossip about the source spread before they speak, so every later sentence is read with preemptive suspicion.",
+    "definition": "Poisoning the well uses emotional priming: the first information about a person or event anchors judgment. Even solid evidence or arguments arrive after a label ('don't trust them', 'they're bought'). It does not prove the argument false: it makes fair listening harder.",
     "historicalContext": "The term comes from the ancient practice of literally poisoning wells. In rhetoric, it is a preemptive form of attack.",
     "psychologicalMechanism": "The primacy of information: the first information received about someone influences the interpretation of everything that follows.",
     "variants": [
@@ -710,8 +710,8 @@
     "subtitle": "Stacking the Deck",
     "category": "framing",
     "catLabel": "Framing",
-    "summary": "Presenting only the facts that favor one's thesis, hiding the contrary ones.",
-    "definition": "Building an entire message from true but selectively chosen facts, presented in a one-sided manner.",
+    "summary": "Only data or anecdotes that support the thesis are shown; statistics, context, or counterexamples that would weaken it are omitted.",
+    "definition": "Card stacking can be literally true and misleading in the whole: a run of successes without failures, a trend cut to flattering years, a quote without the rest of the speech. Hard to debunk with a single 'lie' because each piece holds in isolation: the full picture is what is missing.",
     "historicalContext": "Term from the Institute for Propaganda Analysis (1937). Differs from lying: the facts are true, but incomplete.",
     "psychologicalMechanism": "Exploits confirmation bias and the illusion of completeness: if we see a lot of data, we assume the picture is complete.",
     "variants": [
@@ -784,8 +784,8 @@
     "subtitle": "Name-Calling",
     "category": "framing",
     "catLabel": "Framing",
-    "summary": "Using labels to define people, groups, or ideas - simplifying and often delegitimizing them.",
-    "definition": "Applying labels (positive or negative) that substitute for argumentation and block critical thinking.",
+    "summary": "An idea or person is attacked or boosted with a name ('extremist', 'hero', 'woke') instead of explaining why the proposal is good or bad.",
+    "definition": "Labels activate stereotypes and group loyalty: the brain sorts and stops analyzing. 'They're just a...' closes the question before asking what they actually propose. Labels can be positive too; they remain shortcuts instead of criteria and evidence.",
     "historicalContext": "Used systematically in every conflict: 'terrorist' vs 'freedom fighter', 'patriot' vs 'nationalist'.",
     "psychologicalMechanism": "Labels activate stereotypes and bypass analysis. Once a label is applied, we no longer analyze the content.",
     "variants": [
@@ -858,8 +858,8 @@
     "subtitle": "Herd Effect",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "'Everyone is doing it!' - Exploiting the desire for social conformity.",
-    "definition": "Technique that exploits social proof: if 'everyone' does or thinks something, it must be right/true/desirable.",
+    "summary": "You are nudged to join in because 'everyone' or 'the majority' already chose that option, so the choice feels safe without verification.",
+    "definition": "Bandwagon exploits social proof: in many situations following the crowd is rational, so the message mimics that shortcut. Vague numbers ('millions of customers'), queues, or crowds in ads suggest consensus without evidence on the merits. Many people doing something does not make it right or right for you.",
     "historicalContext": "One of the seven main techniques identified by the Institute for Propaganda Analysis in 1937. Used in advertising and politics.",
     "psychologicalMechanism": "Exploits the need for belonging and the fear of being excluded. We tend to conform to what we perceive as social norms.",
     "variants": [
@@ -932,8 +932,8 @@
     "subtitle": "Shining Words",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Using words with positive connotations but no specific meaning.",
-    "definition": "Words like 'freedom', 'democracy', 'progress', 'justice' used without defining their content, to associate positive feelings with a cause.",
+    "summary": "Values almost everyone endorses (freedom, family, the future) are invoked without saying what is actually being proposed.",
+    "definition": "Glittering generalities dress a cause in emotionally positive but operationally empty terms: everyone projects their own meaning, so agreement seems broad without detail. Anyone who asks 'what does that mean here?' risks sounding opposed to the value itself. The word shields the programme.",
     "historicalContext": "Identified by the Institute for Propaganda Analysis. Complementary to name-calling: positive empty words instead of negative ones.",
     "psychologicalMechanism": "Positive words activate positive emotions without engaging critical thinking. Who isn't 'for freedom'?",
     "variants": [
@@ -1006,8 +1006,8 @@
     "subtitle": "Authority Transfer",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Transferring the authority or prestige of a figure/symbol to a cause.",
-    "definition": "Associating a cause with respected (or hated) symbols, people, or institutions to automatically transfer those feelings.",
+    "summary": "A product or policy is paired with flags, actors in white coats, sports heroes, or sacred symbols so admiration rubs off without merit checks.",
+    "definition": "Transfer places two things side by side in the message (famous face + brand; speech + military backdrop) and lets the brain merge the evaluations. It works because affection or respect for the source spreads by contagion. The question remains: does the source have competence on this specific issue, or only fame?",
     "historicalContext": "Used systematically in advertising (celebrity endorsement) and politics (photographs with flags, religious figures, military).",
     "psychologicalMechanism": "The brain automatically transfers feelings from the source to the associated object. If a respected person supports X, X acquires respectability.",
     "variants": [
@@ -1084,8 +1084,8 @@
     "subtitle": "Personal Testimony",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Using personal testimonies instead of data or arguments.",
-    "definition": "Presenting individual experiences as general proof, or using paid/coached witnesses to reinforce a message.",
+    "summary": "A touching story or 'real people' satisfaction stands in for studies, numbers, or controlled comparisons.",
+    "definition": "Testimonial swaps systematic evidence for a face and a narrative: the brain remembers stories better than tables. One case can be true and unrepresentative; it can also be selected or staged. The question is: what happens on average, with a repeatable method?",
     "historicalContext": "The foundation of modern advertising. In propaganda, used to humanize causes or delegitimize opponents.",
     "psychologicalMechanism": "Personal stories are more persuasive than abstract data. The brain remembers narratives better than statistics.",
     "variants": [
@@ -1158,8 +1158,8 @@
     "subtitle": "Say It Again and Again",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Repeating a message until it is accepted as true.",
-    "definition": "The constant repetition of a statement makes it seem true, regardless of its actual veracity.",
+    "summary": "The same slogan or accusation appears everywhere: familiarity is mistaken for confirmation.",
+    "definition": "Repetition does not add proof but increases perceived fluency: what is easy to process feels more plausible (illusory truth effect). Multi-channel campaigns saturate the environment so a falsehood sounds like 'common knowledge'. Verification takes effort; repetition does not.",
     "historicalContext": "'A lie repeated a thousand times becomes truth' (attributed to Goebbels). Effect studied in psychology as the 'illusory truth effect'.",
     "psychologicalMechanism": "The brain uses ease of processing as an indicator of truth. If something is familiar, it seems true.",
     "variants": [
@@ -1232,8 +1232,8 @@
     "subtitle": "Catchphrase",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Short, memorable phrases that substitute for complex thought.",
-    "definition": "Short, easily remembered and repeated formulas that summarize (and often excessively simplify) a position.",
+    "summary": "A few shoutable words at a rally or in a hashtag sum up complex policy without trade-offs or numbers.",
+    "definition": "Slogans are built to be memorized and chanted before they are analyzed. They unite people with different interests because they stay ambiguous: everyone reads in their own version. The risk is deciding by team soundbite instead of verifiable content.",
     "historicalContext": "'Make America Great Again', 'Hope and Change', 'Yes We Can'. Slogans are central to every political campaign.",
     "psychologicalMechanism": "The brain prefers information that is easy to process. Slogans are memorized automatically and recalled easily.",
     "variants": [
@@ -1306,8 +1306,8 @@
     "subtitle": "One of You",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Presenting oneself as 'one of you' to gain trust.",
-    "definition": "Technique in which those holding power present themselves as ordinary people to build identification and trust.",
+    "summary": "High-status figures display 'ordinary' clothes, places, or speech to seem of the same class or values as the audience.",
+    "definition": "Plain folks builds trust through similarity: if 'they're like us', we expect them to act in our interest. It may be sincere or seasonal staging (shops, overalls, studied dialect). The criterion remains actions and policy, not the image of ordinariness.",
     "historicalContext": "Identified by the Institute for Propaganda Analysis in 1937. Used by political leaders throughout history.",
     "psychologicalMechanism": "We tend to trust those we perceive as similar to us. If the leader is 'like us', they must have our interests at heart.",
     "variants": [
@@ -1380,8 +1380,8 @@
     "subtitle": "Argument from Authority",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Citing authorities as proof, even when they are not relevant or competent on the topic.",
-    "definition": "A fallacy that cites an authority as definitive proof, even if that authority has no specific competence on the topic.",
+    "summary": "'A scientist / general / champion says so' is treated as enough, without showing work in the specific field of the question.",
+    "definition": "The fallacious appeal to authority treats titles, fame, or uniforms as a substitute for evidence. A real expert in field A is not automatically credible on field B; consensus is judged on publications and replications, not a name. Ask: has this person studied and published on this exact question, or only lent their name?",
     "historicalContext": "Aristotle classified the appeal to authority as a fallacy when the authority is not relevant to the subject.",
     "psychologicalMechanism": "Respect for authority is culturally internalized. When an authority speaks, we tend to accept without verifying.",
     "variants": [
@@ -1454,8 +1454,8 @@
     "subtitle": "Us vs. Them",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Building antagonistic identities that make dialogue impossible.",
-    "definition": "A strategy of dividing society into two mutually exclusive camps, where group membership matters more than truth.",
+    "summary": "You are forced to choose between 'virtuous us' and 'dangerous them': nuance or partial agreement is treated as betrayal.",
+    "definition": "Polarization shifts debate from facts to identity: it matters less whether an argument holds than which side you are on. It strengthens in-group cohesion and contempt for the out-group. Whoever controls the labels ('real X') can silence internal criticism and compromise.",
     "historicalContext": "Used by regimes to consolidate power. In the digital age, polarizing content receives more engagement.",
     "psychologicalMechanism": "Exploits tribalism: the brain processes information differently depending on whether it comes from 'our group' or the 'opponent'.",
     "variants": [
@@ -1528,8 +1528,8 @@
     "subtitle": "Flood of Claims",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Too many claims too quickly to be verified.",
-    "definition": "Bombarding the opponent with so many unverified claims that refuting them all is impossible.",
+    "summary": "Dozens of accusations or data points are fired in minutes: even rebutting ten leaves the impression that 'the rest' still stands.",
+    "definition": "The Gish Gallop exploits a time asymmetry: asserting takes seconds; checking takes minutes. The audience sees the opponent 'silent' on many points and mistakes silence for weakness. In public debate, whoever sets the pace wins more than whoever is right on each point.",
     "historicalContext": "Named after creationist Duane Gish, who launched dozens of arguments in a matter of minutes.",
     "psychologicalMechanism": "Exploits asymmetry: making a claim takes seconds, refuting it takes minutes or hours.",
     "variants": [
@@ -1602,8 +1602,8 @@
     "subtitle": "The Scarecrow",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Distorting the opponent's argument to attack it more easily.",
-    "definition": "Building a weak or distorted version of the opponent's argument, attacking that, and pretending to have refuted the original.",
+    "summary": "The opponent is assigned an extreme or absurd position they never held; that version is knocked down and victory is declared.",
+    "definition": "Straw man substitutes the real thesis with a caricature that is easy to tear down. The audience sees a 'refutation' without noticing the target changed. Useful in rhetoric with no time for corrections: the opponent is left defending words that were not theirs.",
     "historicalContext": "The name comes from the ease of knocking down a scarecrow. It is one of the most common fallacies.",
     "psychologicalMechanism": "The audience perceives that the argument has been 'refuted', without noticing that the argument attacked was not the original.",
     "variants": [
@@ -1676,8 +1676,8 @@
     "subtitle": "Smoked Herring",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Distracting with an irrelevant argument.",
-    "definition": "Introducing irrelevant information to distract from the main topic.",
+    "summary": "A secondary, emotional, or convenient topic is introduced to avoid answering the question on the table.",
+    "definition": "A red herring does not refute: it redirects attention. It may be a true but irrelevant fact, a 'what about them', or praise for the moderator. Signal: the response contains no verifiable criteria on the original point.",
     "historicalContext": "The name comes from the use of smoked herrings to confuse hunting dogs, drawing them away from the trail.",
     "psychologicalMechanism": "The brain follows salient information. By introducing an exciting argument, the main topic is sidelined.",
     "variants": [
@@ -1750,8 +1750,8 @@
     "subtitle": "Mirror Accusation",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Accusing others of exactly what you yourself are doing.",
-    "definition": "Technique in which one attributes to their opponents exactly what they themselves are doing, thereby neutralizing accusations.",
+    "summary": "Critics are accused of the behaviour you are engaged in (fraud, censorship, violence) so the dispute becomes 'two sides accusing each other'.",
+    "definition": "Projection confuses observers: if both sides shout 'thief!', it looks symmetric. In reality one side may document facts while the other mirrors without evidence. The goal is to paralyse moral judgment and dilute responsibility.",
     "historicalContext": "Used systematically by dictatorships and regimes: they accuse the opposition of being 'coup plotters' while preparing a coup.",
     "psychologicalMechanism": "Confuses the public ('who is right?') and pre-builds the defense ('they say the same thing'). Makes accusations reciprocal.",
     "variants": [
@@ -1824,8 +1824,8 @@
     "subtitle": "Coded Message",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Coded messages that only certain groups understand.",
-    "definition": "Communications that have an innocent meaning for the general public but a specific message for a target group.",
+    "summary": "Phrases or symbols sound innocuous to the broad public but carry a second meaning for those who share a code.",
+    "definition": "A dog whistle signals loyalty to a base without publicly owning that position: those without the code hear a normal line; those with the code hear the incitement or slur. Plausible deniability ('I didn't mean that') is part of the design, not an accident.",
     "historicalContext": "The term comes from dog whistles, audible only to dogs. Used systematically in politics to signal extremist bases.",
     "psychologicalMechanism": "Allows controversial messages to be communicated while maintaining plausible deniability ('I didn't mean that').",
     "variants": [
@@ -1898,8 +1898,8 @@
     "subtitle": "Denying Reality",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Making victims doubt their own perception of reality.",
-    "definition": "A manipulation technique that denies obvious facts, minimizes reactions, and makes victims doubt their own judgment.",
+    "summary": "What happened is denied, the story is rewritten, or the victim's reaction is framed as overreaction or madness.",
+    "definition": "Gaslighting erodes trust in one's own memory and perception: the victim stops relying on their senses and depends on the narrator. In couples, politics, or work it combines denial, contradiction, and belittling ('you're too sensitive'). It is not legitimate disagreement: it is a pattern to destabilize the shared reference to reality.",
     "historicalContext": "The term comes from the film 'Gaslight' (1944), where a husband manipulates his wife into thinking she's going crazy.",
     "psychologicalMechanism": "Exploits dependence on external validation. If constantly denied, one begins to doubt oneself.",
     "variants": [
@@ -1976,8 +1976,8 @@
     "subtitle": "Selective Data",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Selecting only favorable data while ignoring everything else.",
-    "definition": "Selecting evidence that confirms a position while ignoring evidence that refutes it.",
+    "summary": "A chart, year, or study that flatters the thesis is shown; the full series or studies saying the opposite are left out.",
+    "definition": "Cherry-picking is intentional selection: it does not invent figures, it cuts context. Typical: a time axis starting after a crash, an outlier presented as typical, meta-analyses ignored. It takes counter-intuition: actively search for what was not shown.",
     "historicalContext": "The term comes from the idea of picking only the best cherries. Used to delay recognition of risks (tobacco, climate).",
     "psychologicalMechanism": "Exploits confirmation bias: we evaluate as more credible information that confirms our existing beliefs.",
     "variants": [
@@ -2050,7 +2050,7 @@
     "subtitle": "Fake Grassroots",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Simulating a grassroots movement that is actually coordinated from the top.",
+    "summary": "Popular consent is faked: comments, petitions, or 'citizen groups' are paid or orchestrated by firms, parties, or states.",
     "definition": "Creating movements, campaigns, or opinions that appear spontaneous and grassroots but are orchestrated by organized actors like corporations, governments, or interest groups. The term derives from synthetic grass (Astroturf), which mimics real lawns but is artificial.",
     "historicalContext": "Term popularized in the 1980s when tobacco and oil companies created 'concerned citizens' groups against environmental regulations. However, the technique has existed for centuries: in 1920 the tobacco industry organized 'spontaneous women' to protest against restrictions; in the 19th century railroads funded 'citizen' protests against competitors.",
     "psychologicalMechanism": "Exploits social proof: we tend to conform to what we perceive as majority opinion or spontaneous. A movement perceived as grassroots appears authentic and trustworthy.",
@@ -2152,8 +2152,8 @@
     "subtitle": "Covert Operations",
     "category": "manipulation",
     "catLabel": "Manipulation",
-    "summary": "Actions presented as coming from another party.",
-    "definition": "Operations conducted to appear as if carried out by another actor. False flags can include attacks, incidents, documents, or disinformation campaigns designed to create support for actions against the falsely blamed target.",
+    "summary": "Something grave is done while making it look like the work of an enemy or group, to trigger rage, war, or emergency laws.",
+    "definition": "False flag: the real author hides the origin (uniforms, flags, clone sites, leaked documents) to steer retaliation or intervention toward the wrong target. Distinct from a simple lie: there is a public event seemingly attributable to X. Motives, timing, and independent evidence matter before irreversible reactions.",
     "historicalContext": "Naval term: sailing under a false flag to deceive enemy ships. Non-digital historical examples: the Reichstag fire (1933) used by Nazis to consolidate power; the Gleiwitz incident (1939) with Germans dressed as Poles to justify invasion; the Vietnam War beginning with the false Gulf of Tonkin incident. False flags have existed for millennia in all forms of conflict.",
     "psychologicalMechanism": "Exploits the need to respond to threats: if we perceive an attack from X, we support actions against X. The emotion of threat bypasses critical reasoning about evidence.",
     "variants": [
@@ -2250,9 +2250,9 @@
     "subtitle": "Video Manipulation",
     "category": "digital",
     "catLabel": "Digital",
-    "summary": "Creating AI-generated content indistinguishable from reality.",
-    "definition": "Content produced with AI that replaces faces, voices, or movements.",
-    "historicalContext": "Technology accessible since 2017. Initially for pornographic content, then politics.",
+    "summary": "Synthetic video or audio in which someone appears to say or do something they never did; quality is improving fast.",
+    "definition": "Deepfakes use neural networks on face, voice, and lip sync: the output mimics authentic footage. They spread invented statements, extortion, or confusion ('you can't trust anything anymore'). Defence is not only 'it looks fake': check provenance, context, and primary sources.",
+    "historicalContext": "Convincing deepfakes first spread on Reddit (2017) with non-consensual face-swap; political risks followed soon after. In 2022 a deepfake video of Zelensky calling for surrender circulated: it was debunked quickly but showed wartime use of synthesis. Voice cloning has become cheap and accessible: the problem is not only video but authenticating the publication chain.",
     "psychologicalMechanism": "'Seeing is believing': images have higher perceptual authority than text.",
     "variants": [
       {
@@ -2275,9 +2275,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Zelensky",
-        "description": "A deepfake video showed Zelensky ordering surrender. Imperfect quality but required an official denial.",
-        "lesson": "Political deepfakes are reality, not future speculation."
+        "title": "Zelensky deepfake (2022)",
+        "description": "During the war in Ukraine, a synthetic video showed the president appearing to ask the armed forces to surrender. Platforms and government had to issue explicit denials; quality was not perfect but enough to create confusion in the first minutes.",
+        "lesson": "Deepfakes are a disinformation weapon in conflict: they hit command chains and public trust."
+      },
+      {
+        "title": "Non-consensual deepfake pornography",
+        "description": "Public or private figures' faces have been overlaid on pornographic video with increasingly accessible tools, causing reputational and psychological harm; several countries have introduced specific offences.",
+        "lesson": "The same technique moves from political propaganda to individual extortion: the mechanism is plausible visual synthesis."
       }
     ],
     "defense": [
@@ -2324,9 +2329,9 @@
     "subtitle": "Information Warfare",
     "category": "digital",
     "catLabel": "Digital",
-    "summary": "Coordinated campaigns to influence opinions and elections.",
-    "definition": "Coordinated campaigns by states or actors to shape public opinion and electoral outcomes. Modern digital operations are the evolution of historical propaganda and interference techniques, but with unprecedented scale, precision, and speed.",
-    "historicalContext": "Influence operations have existed for centuries: Radio Free Europe during the Cold War, revolutionary pamphlets of the 19th century, state propaganda in every conflict. The digital novelty is the scale, direct action on individual citizens, and ability to amplify pre-existing divisions with precise micro-targeting.",
+    "summary": "Networks of accounts, clone sites, selective leaks, and targeted messaging amplify divisions or suppress voices, often mixing truth and fabrication.",
+    "definition": "Influence operations combine classic tools (front outlets, intelligence) and digital ones (bots, targeting, hack-and-leak). They need not invent everything: they often amplify real tensions or time inconvenient truths strategically. The goal is to shift behaviour (vote, protest, trust) more than to win a single article.",
+    "historicalContext": "Influence operations have existed for centuries: Radio Free Europe and Voice of America in the Cold War; revolutionary pamphlets and posters; intelligence funding newspapers and allied parties. Investigations and indictments (e.g. US election interference 2016) documented networks of fake accounts, clone sites, and opaque financing. The digital novelty is micro-targeting, speed, and near-zero marginal cost to replicate messages.",
     "psychologicalMechanism": "Amplify pre-existing divisions rather than creating new ones. They identify social vulnerabilities and feed them, exploiting engagement algorithms and individual confirmation biases.",
     "variants": [
       {
@@ -2359,14 +2364,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Clone networks",
-        "description": "Operations have created dozens of sites that imitated European media with false articles.",
-        "lesson": "Always check the exact domain and source history."
+        "title": "Clone sites and European networks (2010s–2020s)",
+        "description": "Coordinated networks created domains similar to well-known outlets and spread mixed (true and false) stories to confuse search and capture traffic. The aim was to insert narratives into public debate as if they came from legitimate journalism.",
+        "lesson": "Verify URL, WHOIS, and \"about\" pages: the operation mimics the form of independent media."
       },
       {
-        "title": "Cold War",
-        "description": "Radio Free Europe and Voice of America were American influence operations to inform and influence countries in the Soviet bloc. Similarly, Radio Moscow operated in the opposite direction.",
-        "lesson": "Influence operations are not new - technology has only increased scale and sophistication."
+        "title": "IRA and documented interference (US 2016)",
+        "description": "Organized actors ran hundreds of social accounts posing as US activists, amplifying polarizing content. The case was the subject of indictments and congressional reports: it shows the blend of humans, funding, and platforms.",
+        "lesson": "A modern influence operation is not a single article: it is network, timing, and targeting."
       }
     ],
     "defense": [
@@ -2417,9 +2422,9 @@
     "subtitle": "Flooding",
     "category": "digital",
     "catLabel": "Digital",
-    "summary": "Drowning debate with noise and toxicity.",
-    "definition": "Saturating the debate space with such volume of messages, comments, or communications that makes maintaining serious discussion impossible. Flooding exploits volume to exhaust, confuse, or silence critical voices.",
-    "historicalContext": "A central technique of modern 'troll farms', but the principle predates the internet: organized mass protest letters, coordinated phone calls to public offices, petitions with unverifiable signatures, organized protests to drown out counter-protests. The digital realm has made flooding immediate, global, and nearly cost-free.",
+    "summary": "A forum, office, or hashtag is flooded with repetitive or hostile messages until nobody can read or participate calmly.",
+    "definition": "Flooding uses quantity to exhaust participants' time and bandwidth: useful discussion sinks in noise and isolated voices stop posting. Online it is spam and coordinated trolling; offline, mass letters or calls. It does not prove majority agreement: it shows coordination capacity.",
+    "historicalContext": "A core technique of \"troll farms\" and review-bombing campaigns, but the principle is old: petitions with duplicate signatures, coordinated calls to legislators, mass fax campaigns, noisy occupation of public space. Digital multiplies volume and speed: same text, same minute, same hashtag — a sign of coordination, not spontaneous widespread opinion.",
     "psychologicalMechanism": "The noise exhausts those seeking serious information, who eventually disengage. The 'echo chamber' effect amplifies the perception of massive opposition or support, influencing those observing from outside.",
     "variants": [
       {
@@ -2456,14 +2461,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Organized comments",
-        "description": "In some countries, armies of commenters systematically attack critical voices.",
-        "lesson": "Volume does not reflect consensus."
+        "title": "Review bombing and flooded hashtags",
+        "description": "Identical star ratings or comments hit a product, book, or journalist in the same time window; or thousands of posts with the same hashtag drown a thread. The mechanism is always: saturate the channel so the target message disappears or looks like a \"mass opinion\".",
+        "lesson": "Flooding does not prove \"everyone thinks this\": it proves capacity to fill public space."
       },
       {
-        "title": "Protest letters",
-        "description": "In the 1990s, companies organized campaigns of letters from employees and relatives to appear as popular support against regulations. The same letters arrived from different cities with nearly identical text.",
-        "lesson": "Offline flooding has existed since before the internet."
+        "title": "Coordinated letters and faxes (pre-social)",
+        "description": "Campaigns where hundreds of near-identical messages reached an office or outlet in a few hours created the illusion of a spontaneous revolt; often they were scripts from an association or company.",
+        "lesson": "Same pattern as digital flooding: repeated quantity instead of diverse voices."
       }
     ],
     "defense": [
@@ -2514,9 +2519,9 @@
     "subtitle": "Appeal to Fear",
     "category": "emotional",
     "catLabel": "Emotional",
-    "summary": "Mobilizing through fear instead of argument.",
-    "definition": "Technique that uses fear to induce actions without critical thinking.",
-    "historicalContext": "Foundation of advertising ('buy this or something bad happens') and politics ('if not X, disaster').",
+    "summary": "Immediate threats to loved ones or way of life (crime, disease, invasion) push people to vote, buy, or share without checking.",
+    "definition": "Fear appeals trigger the biological alarm system: the nervous system favours fast response over analysis. Messages can also inform about real risks; they become manipulative when they inflate probabilities, erase less dramatic options, or use urgency to skip scrutiny and debate.",
+    "historicalContext": "From flea-market advertising ('your home is infested') to Red Scare politics (US 1950s) and post-2001 anti-terror rhetoric, fear has sold products and mobilized consent. Social psychology (Hovland, Janis) studied when fear appeals increase or reduce persuasion: it depends on whether the proposed response feels effective.",
     "psychologicalMechanism": "Fear activates the sympathetic nervous system, bypassing reflective thought.",
     "variants": [
       {
@@ -2539,9 +2544,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Fear advertising",
-        "description": "Campaigns showing terrible consequences if you don't buy the product/service.",
-        "lesson": "Fear sells, but doesn't inform."
+        "title": "Insurance and health advertising",
+        "description": "Ads that show accidents or serious illness to push immediate purchase of coverage or screening, often without quantitative context on your real individual risk.",
+        "lesson": "Fear often sells more than probability: the message amplifies perceived harm, not just risk."
+      },
+      {
+        "title": "Post-9/11 debate",
+        "description": "Rhetoric of \"imminent threat\" was used to justify laws and interventions on compressed timelines; criticism of speed or proportion was framed as weakness in the face of danger.",
+        "lesson": "Emotional urgency can compress democratic debate: that is fear appeal applied to politics."
       }
     ],
     "defense": [
@@ -2588,9 +2598,9 @@
     "subtitle": "Appeal to Nationalism",
     "category": "emotional",
     "catLabel": "Emotional",
-    "summary": "Exploiting patriotism to legitimize causes.",
-    "definition": "Associating a cause with the flag, nation, or national symbols to make it beyond question.",
-    "historicalContext": "A classic technique: those who oppose 'don't love their country'.",
+    "summary": "A policy is wrapped in national symbols and doubters are hinted to dislike the country or betray those in uniform.",
+    "definition": "Flag-waving substitutes merit with emotional belonging: criticizing the proposal sounds like attacking the community. In a democracy, patriotism and dissent are not opposites: you can love the country and oppose a war or a law. The technique fuses the two to shut debate.",
+    "historicalContext": "Since 19th- and 20th-century conflicts, flags and anthems have accompanied mobilization. The Prague Spring (1968) and protests against the Vietnam War saw \"traitor\" accusations against those who questioned official lines. Today the pattern repeats on social: national symbols as a frame for every post so dissent sounds \"anti-country\".",
     "psychologicalMechanism": "National identity runs deep. Attacking it or opposing something wrapped in the flag feels almost like betrayal.",
     "variants": [
       {
@@ -2613,9 +2623,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Iraq War",
-        "description": "Criticism of the war presented as 'not supporting the troops' or 'not loving America'.",
-        "lesson": "You can love your country and criticize its actions."
+        "title": "Iraq War (2003)",
+        "description": "Opponents of the invasion were often cast as \"against the troops\" or \"against America\" rather than as critics of a specific strategic choice. Military and political criticism was fused with affection for the country.",
+        "lesson": "The technique conflates criticism of a policy with rejection of national identity."
+      },
+      {
+        "title": "European debate and \"traitors\"",
+        "description": "In several countries, politicians or intellectuals who challenged official lines on treaties or alliances were labelled internal enemies or \"anti-[country]\".",
+        "lesson": "Flag-waving substitutes merit with belonging: who counts as a \"real patriot\" according to the speaker?"
       }
     ],
     "defense": [
@@ -2662,9 +2677,9 @@
     "subtitle": "Successful People",
     "category": "emotional",
     "catLabel": "Emotional",
-    "summary": "Associating beauty and success with a cause.",
-    "definition": "Showing attractive, happy, successful people associated with a product, candidate, or idea.",
-    "historicalContext": "The foundation of modern advertising. Extended to politics.",
+    "summary": "Ads full of young faces and smiles tie a brand or vote to a desirable lifestyle, without arguments on the merits.",
+    "definition": "Beautiful people exploits the wish to resemble those on screen: if 'people like that' choose X, X seems a source of happiness. It is visual transfer. It says nothing about quality, price, or policy consequences: it sells aspirational identification.",
+    "historicalContext": "Hollywood and the star system (1920s–30s) tied desire to products. Cigarettes were advertised with attractive doctors and actors; today influencers and \"lifestyle\" campaigns do the same for cosmetics and politics. Televised politics copied the format: conventions with families and \"wholesome\" faces.",
     "psychologicalMechanism": "Emotional transfer: if those people are happy and support X, supporting X will make me happy too.",
     "variants": [
       {
@@ -2687,9 +2702,14 @@
     ],
     "caseStudies": [
       {
-        "title": "Political advertising",
-        "description": "Candidates surrounded by young, beautiful, happy people in their campaign spots.",
-        "lesson": "The image says nothing about the proposals."
+        "title": "Campaign spots without a platform",
+        "description": "Video with music, smiles, and diverse groups that \"represent the country\" without numbers on jobs, health, or deficits. The effect is aspiration: \"I want to be like those happy people\".",
+        "lesson": "Beautiful people is pure transfer: happiness on screen is not evidence of policy."
+      },
+      {
+        "title": "Fashion and cosmetics advertising",
+        "description": "Models photographed with products that did not create their look (lighting, makeup, editing). The visual effect is attributed to the brand.",
+        "lesson": "Same pattern: an aesthetic attribute sold as the outcome of a consumer choice."
       }
     ],
     "defense": [
@@ -4336,6 +4356,94 @@
           "text": "They are accurately describing a demographic trend.",
           "correct": false,
           "explanation": "Crime statistics remain unchanged: the narrative is disconnected from empirical reality."
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "icon": "🫧",
+    "name": "Filter Bubble",
+    "subtitle": "Algorithmic Personalization",
+    "category": "framing",
+    "catLabel": "Framing",
+    "summary": "Algorithms show only content that confirms existing beliefs, isolating users from diverse perspectives and counterarguments.",
+    "definition": "The filter bubble is a personalized information space created by algorithms that select content based on preferences, clicks, and watch time. The result is an environment where users see only what confirms their preexisting beliefs, without being exposed to alternative viewpoints, counterarguments, or nuanced positions. It is not deliberately false, but deliberately incomplete and restricted to the individual's perspective.",
+    "historicalContext": "The concept was theorized by Ethan Zuckerman in 2008 and popularized by Eli Pariser in his book 'The Filter Bubble' (2011). With the rise of social media and recommendation algorithms, the bubble has become ubiquitous: Netflix, YouTube, Facebook, Google, and personalized news systems create individualized information silos. Studies have shown that users in the same geographic and demographic areas can receive completely different versions of the 'same' news, amplifying social fragmentation.",
+    "psychologicalMechanism": "Exploits confirmation bias and need for coherence: the brain prefers information that confirms existing beliefs and avoids what contradicts them. The algorithm reinforces this natural bias, creating a circle of self-confirmation.",
+    "variants": [
+      {
+        "name": "Social media personalization",
+        "desc": "Facebook, Twitter/X show content based on past engagement"
+      },
+      {
+        "name": "Personalized recommendations",
+        "desc": "YouTube and Netflix suggest content similar to what was already viewed"
+      },
+      {
+        "name": "Personalized search",
+        "desc": "Google returns different results for anyone doing the same search"
+      },
+      {
+        "name": "Dynamic adaptation",
+        "desc": "Algorithms that modify the feed in real time based on reactions"
+      }
+    ],
+    "redFlags": [
+      "You cannot see diverse opinions from yours on controversial topics",
+      "Your feed shows only content you already agree with",
+      "It seems like 'everyone' thinks like you",
+      "Critical or contrary content rarely appears"
+    ],
+    "caseStudies": [
+      {
+        "title": "US 2016 elections and different feeds",
+        "description": "Research demonstrated that users of opposing orientations received completely different narratives of the same election campaign. Algorithmic bubbles not only showed different content, but created separate and conflicting information realities, making public dialogue nearly impossible.",
+        "lesson": "The bubble is not innocent: it creates separate versions of reality that cannot confront each other."
+      },
+      {
+        "title": "COVID-19 and echo chambers",
+        "description": "During the pandemic, social media algorithms and search engines amplified different information bubbles: groups received only content that confirmed their positions (hopefulness/skepticism, no-vax/pro-vax), with minimal exposure to alternative perspectives. Algorithmic polarization made consensus based on shared evidence difficult.",
+        "lesson": "When algorithms optimize for engagement rather than accuracy, bubbles become involuntary polarization tools."
+      }
+    ],
+    "defense": [
+      {
+        "step": "Seek proactively",
+        "action": "Actively seek sources different from yours"
+      },
+      {
+        "step": "Challenge your bubbles",
+        "action": "Follow someone with different opinions from yours"
+      },
+      {
+        "step": "Use diverse sources",
+        "action": "Vary channels: traditional news, academic, international"
+      },
+      {
+        "step": "Disable personalization",
+        "action": "When possible, use non-personalized browsing modes"
+      }
+    ],
+    "scenario": {
+      "title": "Controversial topic",
+      "situation": "A debated topic (e.g., climate change, foreign policy). Your feed shows only content that confirms your position. You don't see arguments from the other side, nor studies that contradict them. It seems obvious that you are right.",
+      "question": "What is missing in your informational experience to form a complete judgment?",
+      "options": [
+        {
+          "text": "Systematic exposure to diverse perspectives and counterarguments that challenge your convictions",
+          "correct": true,
+          "explanation": "The filter bubble provides comfort but not truth: it protects you from disagreement without allowing you to test your convictions against alternatives. This is exactly like living only with people who think like you: comfortable, but dangerously limiting."
+        },
+        {
+          "text": "Additional data: more information confirms that your position is correct",
+          "correct": false,
+          "explanation": "If your position were wrong, you would still receive only confirmations. The quantity of confirmations does not equal correctness; it equals repetition within a bubble, not verification outside it."
+        },
+        {
+          "text": "Nothing: the algorithm selects the best content for you based on your preferences",
+          "correct": false,
+          "explanation": "'Best' means more similar to what you have already seen and liked, not more true or more complete. The algorithm's goal is engagement, not completeness or truth."
         }
       ]
     }
