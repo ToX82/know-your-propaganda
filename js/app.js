@@ -3,7 +3,8 @@ let initialHashHandled = false;
 
 /* ─── SIDEBAR ──────────────────────────────────────── */
 function openSidebar() {
-  document.getElementById('sidebar').classList.add('translate-x-0');
+  const sidebar = document.getElementById('sidebar');
+  if (sidebar) sidebar.classList.add('sidebar-open');
   document.getElementById('sidebar-overlay').classList.remove('hidden');
   const btn = document.getElementById('sidebar-toggle');
   if (btn) {
@@ -13,7 +14,8 @@ function openSidebar() {
 }
 
 function closeSidebar() {
-  document.getElementById('sidebar').classList.remove('translate-x-0');
+  const sidebar = document.getElementById('sidebar');
+  if (sidebar) sidebar.classList.remove('sidebar-open');
   document.getElementById('sidebar-overlay').classList.add('hidden');
   const btn = document.getElementById('sidebar-toggle');
   if (btn) {
@@ -23,8 +25,18 @@ function closeSidebar() {
 }
 
 function isSidebarOpen() {
-  return document.getElementById('sidebar').classList.contains('translate-x-0');
-};
+  const sidebar = document.getElementById('sidebar');
+  return sidebar && sidebar.classList.contains('sidebar-open');
+}
+
+function toggleSidebarGroup(name) {
+  const group = document.getElementById(name + '-group');
+  const chevron = document.getElementById(name + '-chevron');
+  if (!group) return;
+  const isHidden = group.classList.contains('hidden');
+  group.classList.toggle('hidden');
+  if (chevron) chevron.classList.toggle('-rotate-90', !isHidden);
+}
 
 /* ─── HASH ROUTING ─────────────────────────────────── */
 function getHashRoute() {
@@ -186,6 +198,7 @@ async function switchLanguage(lang) {
   window.slugMaps[lang] = window.createSlugMap(techniques, lang);
   updateStaticUI();
   updateCategoryCounts();
+  updateProgress();
   updateMetaDescription();
 
   // Navigate to home page in the new language
@@ -238,6 +251,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   updateStaticUI();
   updateCategoryCounts();
+  updateProgress();
   updateMetaDescription();
   handleHashRoute();
 });

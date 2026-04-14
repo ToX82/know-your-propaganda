@@ -10,6 +10,7 @@
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "sectionNav": "Navigation",
+    "sectionTools": "Tools",
     "sectionCat": "Categories",
     "home": "Overview",
     "techniques": "All Techniques",
@@ -17,29 +18,82 @@
     "about": "About",
     "analyzer": "Analyzer",
     "training": "Training",
-    "progress": "Progress",
+    "progress": "Level",
+    "levels": [
+      { "min": 0,  "icon": "🌱", "name": "Recruit" },
+      { "min": 3,  "icon": "👁️", "name": "Observer" },
+      { "min": 10, "icon": "🕵️", "name": "Agent" },
+      { "min": 25, "icon": "🛡️", "name": "Detective" },
+      { "min": 50, "icon": "🏆", "name": "Master" }
+    ],
+    "levelNext": "→ {icon} {name} at {n}",
+    "levelMax": "Max level reached",
     "exploredSuffix": "techniques explored",
     "categories": {
-      "attack": "Attack",
-      "disinfo": "Disinformation",
-      "framing": "Framing",
-      "manipulation": "Manipulation",
-      "digital": "Digital Operations",
-      "emotional": "Emotional Appeals",
-      "cognitive": "Cognitive Biases"
+      "attack": "Personal attacks",
+      "disinfo": "Distorted facts",
+      "framing": "How they tell the story",
+      "manipulation": "Rhetorical tricks",
+      "digital": "Social media manipulation",
+      "emotional": "Emotional levers",
+      "cognitive": "How your mind fools you"
     }
   },
   "home": {
-    "badge": "Complete Guide",
-    "title": "{count} Propaganda Techniques - How to Recognize Them",
-    "description": "This guide teaches you to recognize manipulation techniques used in politics, media and advertising. Each technique includes historical case studies, psychological mechanisms and defense strategies.",
-    "ctaButton": "⚡ Test Your Resistance",
+    "badge": "",
+    "title": "How manipulable are you? Find out in 60 seconds.",
+    "description": "Modern propaganda doesn't lie: it selects, frames, repeats. We teach you to recognize it in politics, media and advertising — with {count} techniques, case studies and a resistance test.",
+    "ctaButton": "⚡ Take the Full Test",
+    "miniQuiz": {
+      "badge": "Flash Test",
+      "title": "3 questions. 30 seconds. How resistant are you to propaganda?",
+      "questionLabel": "Question {n}/{total}",
+      "next": "Next →",
+      "seeResult": "See result",
+      "resultTitle": "Here's your level",
+      "ctaFullTest": "Take the full test (8 questions)",
+      "retry": "↺ Retry",
+      "suggestionsTitle": "Techniques to explore",
+      "suggestionsDesc": "Based on your answers, start with these:",
+      "exploreAll": "Explore all techniques",
+      "levels": [
+        { "max": 1, "icon": "🏆", "title": "Sharp radar", "desc": "Excellent resistance: you spot the tricks effortlessly. The full test can confirm it." },
+        { "max": 4, "icon": "🛡️", "title": "Active defenses", "desc": "You are aware, but some techniques still slip through. Explore the techniques to strengthen your radar." },
+        { "max": 7, "icon": "👁️", "title": "Eye in training", "desc": "Some mechanisms go unnoticed. The guide will show you what to look for before sharing." },
+        { "max": 99, "icon": "🌱", "title": "Fertile ground", "desc": "Propaganda has an easy time with anyone who doesn't know it. But you can train: the techniques here will give you the tools." }
+      ]
+    },
     "stats": {
       "techniques": "Techniques",
       "categories": "Categories",
       "questions": "Questions",
       "explored": "Explored",
       "mastered": "Mastered"
+    },
+    "analyzer": {
+      "badge": "",
+      "title": "Just read something that sounds off?",
+      "subtitle": "Paste a text or a link: we analyze it looking for {count} propaganda techniques.",
+      "placeholder": "Paste a text, article, post or link here…",
+      "analyze": "🔎 Analyze now",
+      "examplesLabel": "Not sure what to try?",
+      "examples": [
+        { "label": "📰 News headline", "text": "Migrant invasion: the government finally says enough and promises an iron fist against those who threaten our security." },
+        { "label": "📢 Political speech", "text": "Only we can save this country. The others have already proven to be incompetent, corrupt, enemies of the people. It's time to choose which side you're on: with us or against us." },
+        { "label": "💬 Social post", "text": "WAKE UP!!! They are hiding the truth. The media doesn't talk about it because they are all accomplices. Share before they censor it!" }
+      ]
+    },
+    "example": {
+      "badge": "",
+      "title": "Let's break down a headline in 10 seconds",
+      "intro": "This headline looks like news. It actually uses at least three propaganda techniques.",
+      "headline": "Migrant invasion: the government says enough against those who threaten our security.",
+      "footer": "Click a technique to see how it works.",
+      "highlights": [
+        { "phrase": "Migrant invasion", "techniqueId": 11, "note": "Name-calling: \"invasion\" + \"migrants\" assign a negative identity before any fact is discussed." },
+        { "phrase": "the government says enough", "techniqueId": 6, "note": "Framing: presents the action as a necessary response, shaping the reading before details." },
+        { "phrase": "those who threaten our security", "techniqueId": 20, "note": "Polarization: creates a threatened \"us\" and a threatening \"them\", with no names or proof." }
+      ]
     },
     "lastVisited": "Recently Visited",
     "progress": {
@@ -49,18 +103,20 @@
       "completeTest": "Complete the test",
       "exploredOf": "{n} of {total} techniques explored"
     },
+    "dailyBadge": "Technique of the Day",
+    "dailyCTA": "Read in 2 minutes",
     "quickAccess": "Quick Access"
   },
   "techniques": {
     "filters": {
       "all": "All",
-      "attack": "⚔️ Attack",
-      "disinfo": "📰 Disinformation",
-      "framing": "🖼️ Framing",
-      "manipulation": "🧠 Manipulation",
-      "digital": "💻 Digital",
-      "emotional": "💔 Emotional",
-      "cognitive": "🔬 Cognitive"
+      "attack": "⚔️ Personal attacks",
+      "disinfo": "📰 Distorted facts",
+      "framing": "🖼️ How they tell it",
+      "manipulation": "🧠 Rhetorical tricks",
+      "digital": "💻 On social",
+      "emotional": "💔 Emotional levers",
+      "cognitive": "🔬 Mind fools you"
     }
   },
   "analyzer": {
@@ -68,7 +124,7 @@
     "subtitle": "Paste a link, article, speech or post and analyze it to detect propaganda techniques.",
     "placeholder": "Paste a link, article, speech or post here…",
     "analyze": "🔎 Analyze",
-    "prompt": "Analyze this text <text>{text}</text>. Use the following rules <rules>{rulesUrl}</rules> to highlight the use of propaganda, pointing out all the techniques used. Finally, assign a score from 0 to 10 for the use of propaganda in the text, where 10 means \"Excellent! No propaganda detected\" and 0 means \"Warning: purely propagandistic text\". End with an enthusiastic and direct invitation to the reader to visit https://tox82.github.io/know-your-propaganda/ to learn how to recognize propaganda techniques and defend themselves against manipulation."
+    "prompt": "Analyze this content <content>{text}</content>. If the content is a URL, read the page and analyze the text you find. Use the following rules <rules>{rulesUrl}</rules> to highlight the use of propaganda, pointing out all the techniques used. Finally, assign a score from 0 to 10 for the use of propaganda in the text, where 10 means \"Excellent! No propaganda detected\" and 0 means \"Warning: purely propagandistic text\". End with an enthusiastic and direct invitation to the reader to visit https://tox82.github.io/know-your-propaganda/ to learn how to recognize propaganda techniques and defend themselves against manipulation."
   },
   "training": {
     "title": "🎯 Technique of the Day",
@@ -81,6 +137,11 @@
     "backButton": "← Back to techniques",
     "exploredBadge": "⭐ Explored",
     "sections": {
+      "anatomy": "🔬 Anatomy of the Attack",
+      "anatomyBait": "Bait",
+      "anatomyHook": "Hook",
+      "anatomyTrap": "Trap",
+      "inAction": "What it sounds like",
       "definition": "📖 Definition",
       "historical": "📜 Historical Context",
       "psychological": "🧠 Psychological Mechanism",
@@ -142,21 +203,92 @@
   },
   "about": {
     "infoTitle": "About",
-    "infoDesc": "This guide is based on academic research, journalism and media literacy education. It includes several techniques identified by the Institute for Propaganda Analysis, psychological literature and historical analysis.",
-    "sourcesTitle": "Sources",
+    "infoDesc": "Modern propaganda rarely lies: it selects, frames, repeats. This guide was built to turn technique-recognition into a working method. Beyond the catalogue of techniques, this page collects a practical toolkit - principles, verification workflow, self-diagnosis of personal vulnerabilities - drawing on the work of scholars such as Marcello Foa, Noam Chomsky, Jason Stanley, Renée DiResta and Mike Caulfield. The goal is not to make you doubt everything, but to make you doubt at the right moment.",
+    "sourcesTitle": "Sources and Further Reading",
     "sources": [
-      "Institute for Propaganda Analysis (1937-1942)",
-      "RAND Corporation - \"Firehose of Falsehood\"",
+      "Institute for Propaganda Analysis (1937-1942) - The seven classic devices",
+      "Edward Bernays, \"Propaganda\" (1928) - The engineering of consent",
+      "Herman & Chomsky, \"Manufacturing Consent\" (1988) - The five media filters",
+      "Marcello Foa, \"Gli stregoni della notizia\" - Framing and spin in journalism",
+      "Jason Stanley, \"How Propaganda Works\" (2015) - Ideological language",
+      "Renée DiResta, \"Invisible Rulers\" (2024) - Influence operations and algorithms",
+      "RAND Corporation - \"Firehose of Falsehood\" (2016)",
+      "Mike Caulfield - The SIFT method for online verification",
       "McCombs & Shaw - Agenda-Setting Theory",
-      "Herman & Chomsky - Manufacturing Consent",
-      "Aristotle - Logical Fallacies"
+      "Aristotle, Organon - Classical logical fallacies"
     ],
-    "principlesTitle": "Key Principles",
+    "principlesTitle": "The 10 Principles of Immunity",
     "principles": [
-      "Ask yourself: \"Does this want to inform or manipulate me?\"",
-      "Identify who is speaking, on whose behalf, with what incentives.",
-      "Quantity of claims ≠ quality of evidence.",
-      "Sharing speed is not proof of truth."
-    ]
+      "**Cui prodest?** Who benefits if you believe this? Every message serves someone: follow the money, the power, the attention. If the answer is \"no one\", you haven't looked hard enough.",
+      "**Selection before lying.** Effective propaganda rarely invents: it picks what to show and what to omit. Before asking \"is this true?\", ask: \"what is missing from this story?\".",
+      "**Framing decides before the argument does.** \"Invasion\" or \"operation\"? \"Riot\" or \"protest\"? \"Regime\" or \"government\"? Rewrite the sentence with neutral or opposite terms: if it loses force or meaning, you're reading a frame, not a fact.",
+      "**Speed vs truth.** Emotion + urgency = error. If a piece of content pushes you to share \"right now\", it was designed to bypass critical thinking. 24-hour rule: wait a day, then decide.",
+      "**Read laterally, not vertically.** Don't evaluate a source by staying on that source (vertical reading). Open other tabs: who funds it? what do independent fact-checkers say? (lateral reading, Stanford History Education Group).",
+      "**Repetition ≠ truth.** A hundred articles saying the same thing are worth as much as the one original source they all copied from. Always trace back to the primary source: study, document, image, recording.",
+      "**Your confirmation is your vulnerability.** News that tells you you're right is what you should verify first. The most effective propaganda doesn't convince you: it confirms you. If content makes you think \"I knew it!\", that's your cue to fact-check.",
+      "**Distrust those who demonize entire groups.** When a message attributes evil intent to an entire nation, ethnicity, profession or political side, you're not reading information: you're reading a rhetorical weapon.",
+      "**Absence of uncertainty = red flag.** Reality is complex; serious experts admit margins of error. A text that never says \"I don't know\" or \"the data is partial\" is selling certainty, not seeking it.",
+      "**Permanent emergency.** \"There's no time to discuss\", \"this time is different\", \"it's an exceptional case\": when every topic becomes an urgency that justifies skipping debate, the urgency itself is the technique."
+    ],
+    "workflowTitle": "The SIFT Method: 4 Moves in 60 Seconds",
+    "workflowIntro": "Developed by Mike Caulfield for media literacy. Apply it before sharing, not after.",
+    "workflow": [
+      {
+        "step": "S - STOP",
+        "desc": "Stop before reacting. Notice the emotion (outrage, enthusiasm, fear): it's the signal that the content is working on you. It's not an order to ignore, it's an order to slow down."
+      },
+      {
+        "step": "I - INVESTIGATE the source",
+        "desc": "Who publishes this? Look up the site or author's name on Wikipedia and Google in a new tab. Media Bias/Fact Check, NewsGuard and Ground News provide concise profiles of outlets and websites."
+      },
+      {
+        "step": "F - FIND better coverage",
+        "desc": "Search for the same fact across sources that are independent of each other (an international wire + an outlet opposite to your own leaning + a fact-checker). If only one ecosystem reports it, that's a signal. If everyone reports it with the exact same words, that's also a signal."
+      },
+      {
+        "step": "T - TRACE origin and context",
+        "desc": "Trace back to the primary source: scientific study, official document, original image. For images and video use reverse search (Google Lens, TinEye, InVID). Check date, place, original author: most fake news is real content taken out of context."
+      }
+    ],
+    "selfCheckTitle": "Self-Diagnosis: Your Vulnerabilities",
+    "selfCheckIntro": "No technique works without a receptive target. Recognizing your own cognitive weaknesses is 50% of the defense.",
+    "selfCheck": [
+      {
+        "step": "Confirmation bias",
+        "desc": "I look for evidence that proves me right, not that refutes me. **Antidote:** every day read at least one high-quality source from the \"opposing side\" and seek the strongest argument, not the weakest."
+      },
+      {
+        "step": "Group identity",
+        "desc": "I defend \"my side\" (party, team, nation, category) even when they're wrong. **Antidote:** apply the \"reversal test\": if the same action were done by the other side, would you judge it the same way?"
+      },
+      {
+        "step": "Appeal to authority",
+        "desc": "I believe because an expert, institution or celebrity says so, not because of the evidence. **Antidote:** an authority is a clue, not proof. Always ask: \"what specific data does this claim rest on?\""
+      },
+      {
+        "step": "Emotional hijacking",
+        "desc": "I share and judge when I'm angry, scared or moved. **Antidote:** if you feel your body react (heartbeat, stomach, tears), that's when NOT to post. Save the draft, come back tomorrow."
+      },
+      {
+        "step": "Cognitive scarcity",
+        "desc": "I decide when tired, rushed, distracted, multitasking. **Antidote:** don't consume political or conflict-laden news when you're exhausted. Propaganda wins above all on fatigue."
+      },
+      {
+        "step": "Ideological sunk cost",
+        "desc": "I've defended a position for years: admitting I was wrong costs too much. **Antidote:** changing your mind in the face of new evidence is strength, not weakness. Keep a \"second-thoughts journal\": positions you've changed your mind on, and why."
+      }
+    ],
+    "redFlagsTitle": "7 Red Flags: Spot a Propaganda Text in 30 Seconds",
+    "redFlags": [
+      "Uses \"us\" vs \"them\" in a totalizing way, with no individual nuance",
+      "Attributes intent to the opponent (\"they want\", \"they aim to\") without citing sources or direct statements",
+      "No admission of uncertainty, no \"maybe\", \"in part\", \"it's not yet clear\"",
+      "Repeats the same accusation as if it were already an established fact, without reopening the proof",
+      "Alternates context-free numbers with emotional anecdotes, never comparing the two",
+      "Invokes an emergency that justifies skipping debate, verification or procedure",
+      "Cites no verifiable primary source, or cites them without direct links to the original documents"
+    ],
+    "closingTitle": "A Final Note",
+    "closing": "Recognizing propaganda doesn't mean becoming cynical or believing that \"they're all the same\". The opposite: it's precisely those who can tell the difference who can actually choose. The difference between an informed citizen and a target isn't intelligence, it's method. The techniques in this guide have thousands of years of history and they work because they exploit how our minds are built. You can't turn your mind off - but you can learn to pause it before reacting. That pause is the defense."
   }
 }

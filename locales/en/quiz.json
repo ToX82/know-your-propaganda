@@ -213,7 +213,7 @@
     "suggestionsLabel": "What you can do",
     "resourcesLabel": "Useful resources",
     "ranges": {
-      "0-8 punti": {
+      "0-8 points": {
         "level": "🛡️ Bulletproof",
         "title_card": "━━━━━━━━━━━━━━━━━━━━━\n🛡️  BULLETPROOF\n━━━━━━━━━━━━━━━━━━━━━\nCritical thinking: excellent\nBlind spots detected: none\n━━━━━━━━━━━━━━━━━━━━━",
         "description": "Your critical thinking works the way it should. You recognise manipulation techniques, you don't let emotions drive you, and you verify before reacting. That's not common - most people have at least a few blind spots. Next step? Help those around you develop the same skills.",
@@ -224,7 +224,7 @@
           "Consider volunteering with fact-checking organisations"
         ]
       },
-      "9-16 punti": {
+      "9-16 points": {
         "level": "🔍 Healthy sceptic",
         "title_card": "━━━━━━━━━━━━━━━━━━━━━\n🔍  HEALTHY SCEPTIC\n━━━━━━━━━━━━━━━━━━━━━\nCritical thinking: good\nBlind spots detected: a few\n━━━━━━━━━━━━━━━━━━━━━",
         "description": "In most cases, your instincts guide you well. But some techniques - especially those working on emotions or perceived authority - still get through. That's not a flaw: these techniques are designed to fool everyone. Knowing where you're vulnerable is already half the defence.",
@@ -235,7 +235,7 @@
           "Diversify your news sources - if you only read 'friendly' outlets, you're in a bubble"
         ]
       },
-      "17-24 punti": {
+      "17-24 points": {
         "level": "🎯 Exposed",
         "title_card": "━━━━━━━━━━━━━━━━━━━━━\n🎯  EXPOSED\n━━━━━━━━━━━━━━━━━━━━━\nCritical thinking: needs strengthening\nBlind spots detected: several\n━━━━━━━━━━━━━━━━━━━━━",
         "description": "You're more vulnerable than you probably think. Not because you're 'gullible' - manipulation techniques are designed by professionals to work on everyone. The fact that you took this test means you want to improve, and that's already 50% of the work. Re-read the answer explanations: you'll find patterns that will help in real life.",
@@ -246,7 +246,7 @@
           "Install a browser fact-checking extension (NewsGuard, Media Bias/Fact Check)"
         ]
       },
-      "25-40 punti": {
+      "25-40 points": {
         "level": "🌱 Fertile ground",
         "title_card": "━━━━━━━━━━━━━━━━━━━━━\n🌱  FERTILE GROUND\n━━━━━━━━━━━━━━━━━━━━━\nCritical thinking: needs building\nBlind spots detected: significant\n━━━━━━━━━━━━━━━━━━━━━",
         "description": "Your defences are low, but it's not because you're stupid. It's because manipulation techniques are designed by professionals and you don't yet have the tools to recognise them. Now you do. This test is the first step: re-read each answer's explanation and you'll be amazed how quickly you can improve.",

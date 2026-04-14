@@ -143,38 +143,57 @@ function renderQuizIntro() {
   const subtitle = info ? info.sottotitolo : _ui.quiz.subtitle;
   const instructions = info ? info.istruzioni : '';
   const introMessage = narrative ? narrative.intro_message : '';
+  const nQ = (typeof quizQuestions !== 'undefined' && quizQuestions.length) ? quizQuestions.length : 10;
+  const maxPts = (typeof getQuizMaxScore === 'function') ? getQuizMaxScore() : nQ * 3;
+  const isIt = _lang === 'it';
+  const stat1 = isIt ? 'Scenari' : 'Scenarios';
+  const stat2 = isIt ? 'Durata' : 'Duration';
+  const stat3 = isIt ? 'Punteggio' : 'Score';
+  const cta = isIt ? 'Inizia la missione' : 'Start mission';
 
   document.getElementById('quiz-card').innerHTML = `
-    <div class="text-center mb-6">
-      <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-amber-50 border border-amber-200 mb-4">
-        <span class="text-3xl">🕵️</span>
+    <div class="mb-8">
+      <h2 class="text-heading font-extrabold text-slate-800 tracking-tight mb-2">${title}</h2>
+      <p class="text-body text-slate-500 max-w-xl">${subtitle}</p>
+    </div>
+
+    <div class="grid grid-cols-3 gap-3 mb-8 max-w-lg quiz-stat-grid">
+      <div class="card p-4 text-center">
+        <div class="text-caption font-semibold uppercase tracking-wider text-slate-400 mb-1">${stat1}</div>
+        <div class="text-heading font-extrabold text-slate-800 font-mono">${nQ}</div>
       </div>
-      <h2 class="text-xl md:text-2xl font-extrabold text-slate-800 tracking-tight mb-2">${title}</h2>
-      <p class="text-sm text-slate-500">${subtitle}</p>
+      <div class="card p-4 text-center">
+        <div class="text-caption font-semibold uppercase tracking-wider text-slate-400 mb-1">${stat2}</div>
+        <div class="text-heading font-extrabold text-slate-800">~5 min</div>
+      </div>
+      <div class="card p-4 text-center">
+        <div class="text-caption font-semibold uppercase tracking-wider text-slate-400 mb-1">${stat3}</div>
+        <div class="text-heading font-extrabold text-slate-800 font-mono">0–${maxPts}</div>
+      </div>
     </div>
 
     ${introMessage ? `
       <div class="card p-5 mb-5">
-        <pre class="text-sm text-slate-600 leading-relaxed whitespace-pre-wrap font-sans">${introMessage}</pre>
+        <div class="text-body text-slate-600 leading-relaxed whitespace-pre-wrap font-sans">${introMessage}</div>
       </div>
     ` : ''}
 
     ${instructions ? `
       <div class="card-inset p-4 mb-5">
-        <p class="text-sm text-slate-500 leading-relaxed">${instructions}</p>
+        <p class="text-small text-slate-500 leading-relaxed">${instructions}</p>
       </div>
     ` : ''}
 
     ${narrative && narrative.difficulty_curve ? `
-      <div class="flex items-start gap-2 mb-5 text-xs text-slate-400">
-        <span class="text-amber-500 mt-0.5">ℹ️</span>
+      <div class="flex items-start gap-2 mb-6 text-small text-slate-400">
+        <span class="text-amber-500 mt-0.5 shrink-0" aria-hidden="true">ℹ️</span>
         <span>${narrative.difficulty_curve}</span>
       </div>
     ` : ''}
 
-    <div class="text-center">
-      <button onclick="startMainQuiz()" class="btn-primary text-base px-8 py-3">
-        ⚡ ${_lang === 'it' ? 'INIZIA LA MISSIONE' : 'START MISSION'}
+    <div>
+      <button type="button" onclick="startMainQuiz()" class="btn-primary text-base px-8 py-3">
+        ${cta}
       </button>
     </div>
   `;

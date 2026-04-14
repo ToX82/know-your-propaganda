@@ -28,16 +28,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="min-h-screen bg-gray-50 text-slate-800">
+<body class="min-h-screen bg-slate-50 text-slate-800">
 
-<!-- Overlay -->
+<!-- Overlay (mobile drawer) -->
 <div id="sidebar-overlay" class="fixed inset-0 bg-black/30 backdrop-blur-sm z-40 hidden md:hidden" aria-hidden="true"></div>
 
-<!-- Sidebar -->
-<aside id="sidebar" class="fixed left-0 top-0 h-full w-60 z-50 flex flex-col bg-white border-r border-gray-200 -translate-x-full md:translate-x-0 transition-transform duration-300 ease-out shadow-sm">
+<!-- Sidebar: hidden off-canvas &lt; md; fixed open on md+ -->
+<aside id="sidebar" class="sidebar-shell fixed left-0 top-0 h-full w-[min(15rem,88vw)] z-50 flex flex-col bg-white border-r border-slate-200 transition-transform duration-300 ease-out shadow-sm">
 
   <!-- Brand -->
-  <div class="p-4 border-b border-gray-200 bg-gradient-to-r from-amber-50 to-white">
+  <div class="p-4 border-b border-slate-200 bg-gradient-to-r from-amber-50 to-white">
     <a href="#home" class="flex items-center gap-3 group">
       <div class="w-9 h-9 bg-gradient-to-br from-amber-400 to-amber-500 rounded-lg flex items-center justify-center text-base shadow-md shadow-amber-200 group-hover:shadow-amber-300 transition-shadow">🛡️</div>
       <div>
@@ -47,16 +47,16 @@
     </a>
   </div>
 
-  <!-- Nav -->
+  <!-- Nav: 4 primary items only -->
   <nav class="flex-1 px-3 py-4 overflow-y-auto sidebar-scroll">
-    <div id="section-nav" class="text-[10px] font-semibold text-slate-400 uppercase tracking-[0.15em] px-3 mb-2">Navigazione</div>
+    <div id="section-nav" class="nav-section-heading">Navigazione</div>
 
     <button class="nav-item active" data-page="home">
       <span class="nav-icon">🏠</span> <span data-label>Panoramica</span>
     </button>
     <button class="nav-item" data-page="techniques">
       <span class="nav-icon">📚</span> <span data-label>Tutte le Tecniche</span>
-      <span class="ml-auto bg-amber-100 text-amber-700 text-[10px] font-bold font-mono px-1.5 py-0.5 rounded" id="techniques-count">-</span>
+      <span class="ml-auto bg-amber-100 text-amber-700 text-caption font-bold font-mono px-1.5 py-0.5 rounded" id="techniques-count">-</span>
     </button>
     <button class="nav-item" data-page="quiz">
       <span class="nav-icon">🕵️</span> <span data-label>Test Resistenza</span>
@@ -64,75 +64,26 @@
     <button class="nav-item" data-page="about">
       <span class="nav-icon">ℹ️</span> <span data-label>Informazioni</span>
     </button>
-    <button class="nav-item" data-page="analyzer">
-      <span class="nav-icon">🔍</span> <span data-label>Analizzatore</span>
-    </button>
-    <button class="nav-item" data-page="training">
-      <span class="nav-icon">🎯</span> <span data-label>Allenamento</span>
-    </button>
-
-    <div class="border-t border-gray-200 my-3"></div>
-    <div id="section-cat" class="text-[10px] font-semibold text-slate-400 uppercase tracking-[0.15em] px-3 mb-2">Categorie</div>
-
-    <button class="nav-item" data-filter="attack">
-      <span class="nav-icon">⚔️</span> <span data-label>Attacco</span>
-      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-attack"></span>
-    </button>
-    <button class="nav-item" data-filter="disinfo">
-      <span class="nav-icon">📰</span> <span data-label>Disinformazione</span>
-      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-disinfo"></span>
-    </button>
-    <button class="nav-item" data-filter="framing">
-      <span class="nav-icon">🖼️</span> <span data-label>Inquadratura</span>
-      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-framing"></span>
-    </button>
-    <button class="nav-item" data-filter="manipulation">
-      <span class="nav-icon">🧠</span> <span data-label>Manipolazione</span>
-      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-manipulation"></span>
-    </button>
-    <button class="nav-item" data-filter="digital">
-      <span class="nav-icon">💻</span> <span data-label>Operazioni Digitali</span>
-      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-digital"></span>
-    </button>
-    <button class="nav-item" data-filter="emotional">
-      <span class="nav-icon">💔</span> <span data-label>Appelli Emotivi</span>
-      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-emotional"></span>
-    </button>
-    <button class="nav-item" data-filter="cognitive">
-      <span class="nav-icon">🔬</span> <span data-label>Bias Cognitivi</span>
-      <span class="ml-auto text-[10px] font-mono text-slate-400" id="count-cognitive"></span>
-    </button>
   </nav>
-
-  <!-- Progress -->
-  <div class="p-3 border-t border-gray-200">
-    <div class="flex items-center justify-between mb-1.5">
-      <span id="progress-label" class="text-[10px] font-semibold uppercase tracking-wider text-slate-400">Progresso</span>
-      <span class="text-[10px] font-mono font-bold text-slate-500" id="progress-text">0/-</span>
-    </div>
-    <div class="w-full h-1.5 bg-gray-100 rounded-full overflow-hidden">
-      <div id="progress-bar" class="h-full bg-gradient-to-r from-amber-400 to-amber-500 rounded-full transition-all duration-500" style="width:0%"></div>
-    </div>
-  </div>
 </aside>
 
-<!-- Main -->
-<main class="ml-0 md:ml-60 min-h-screen flex flex-col">
-  <header class="sticky top-0 z-30 bg-white/90 backdrop-blur-lg border-b border-gray-200 px-4 py-3 md:px-6">
+<!-- Main: full width on mobile; offset on desktop -->
+<main class="main-with-sidebar min-h-screen flex flex-col">
+  <header class="sticky top-0 z-30 bg-white/90 backdrop-blur-lg border-b border-slate-200 px-4 py-3 md:px-6">
     <div class="flex items-center justify-between gap-3">
       <div class="flex items-center gap-3 min-w-0 flex-1">
-        <button id="sidebar-toggle" type="button" class="md:hidden p-2 -ml-1 rounded-lg text-slate-500 hover:text-slate-800 hover:bg-gray-100 transition-colors" aria-label="Apri menu" aria-expanded="false" aria-controls="sidebar">
+        <button id="sidebar-toggle" type="button" class="md:hidden p-2 -ml-1 rounded-lg text-slate-500 hover:text-slate-800 hover:bg-slate-100 transition-colors" aria-label="Apri menu" aria-expanded="false" aria-controls="sidebar">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
         </button>
-        <h1 class="font-bold text-slate-800 text-lg tracking-tight truncate" id="page-title">Panoramica</h1>
+        <h1 class="font-bold text-slate-800 text-heading-sm tracking-tight truncate" id="page-title">Panoramica</h1>
       </div>
       <div class="flex items-center gap-3 flex-shrink-0">
-        <div class="hidden sm:flex items-center gap-1.5 text-xs text-slate-400 font-mono">
+        <div id="explored-wrap" class="hidden sm:flex items-center gap-1.5 text-small text-slate-400 font-mono">
           <span class="text-amber-500">★</span>
           <span id="explored-count">0</span>
           <span id="explored-suffix">tecniche esplorate</span>
         </div>
-        <button id="lang-switch" data-switch-to="en" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-gray-100 text-slate-600 hover:text-slate-800 hover:bg-gray-200 border border-gray-200 transition-all">
+        <button id="lang-switch" data-switch-to="en" class="px-3 py-1.5 text-small font-semibold rounded-lg bg-slate-100 text-slate-600 hover:text-slate-800 hover:bg-slate-200 border border-slate-200 transition-all">
           EN
         </button>
       </div>

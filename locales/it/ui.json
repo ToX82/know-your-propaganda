@@ -10,6 +10,7 @@
     "openMenu": "Apri menu",
     "closeMenu": "Chiudi menu",
     "sectionNav": "Navigazione",
+    "sectionTools": "Strumenti",
     "sectionCat": "Categorie",
     "home": "Panoramica",
     "techniques": "Tutte le Tecniche",
@@ -17,29 +18,82 @@
     "about": "Informazioni",
     "analyzer": "Analizzatore",
     "training": "Allenamento",
-    "progress": "Progresso",
+    "progress": "Livello",
+    "levels": [
+      { "min": 0,  "icon": "🌱", "name": "Recluta" },
+      { "min": 3,  "icon": "👁️", "name": "Osservatore" },
+      { "min": 10, "icon": "🕵️", "name": "Agente" },
+      { "min": 25, "icon": "🛡️", "name": "Detective" },
+      { "min": 50, "icon": "🏆", "name": "Maestro" }
+    ],
+    "levelNext": "→ {icon} {name} a {n}",
+    "levelMax": "Livello massimo raggiunto",
     "exploredSuffix": "tecniche esplorate",
     "categories": {
-      "attack": "Attacco",
-      "disinfo": "Disinformazione",
-      "framing": "Inquadratura",
-      "manipulation": "Manipolazione",
-      "digital": "Operazioni Digitali",
-      "emotional": "Appelli Emotivi",
-      "cognitive": "Bias Cognitivi"
+      "attack": "Attacchi personali",
+      "disinfo": "Fatti distorti",
+      "framing": "Come ti raccontano la storia",
+      "manipulation": "Trucchi retorici",
+      "digital": "Manipolazione sui social",
+      "emotional": "Leve emotive",
+      "cognitive": "Come la mente ti frega"
     }
   },
   "home": {
-    "badge": "Guida Completa",
-    "title": "{count} Tecniche di Propaganda - Come Riconoscerle",
-    "description": "Questa guida ti insegna a riconoscere le tecniche di manipolazione usate in politica, media e pubblicità. Ogni tecnica include casi studio storici, meccanismi psicologici e strategie di difesa.",
-    "ctaButton": "⚡ Testa la Tua Resistenza",
+    "badge": "",
+    "title": "Quanto sei manipolabile? Scoprilo in 60 secondi.",
+    "description": "La propaganda moderna non mente: seleziona, inquadra, ripete. Ti insegniamo a riconoscerla in politica, media e pubblicità — con {count} tecniche, casi studio e un test di resistenza.",
+    "ctaButton": "⚡ Fai il Test Completo",
+    "miniQuiz": {
+      "badge": "Test Lampo",
+      "title": "3 domande. 30 secondi. Quanto sei resistente alla propaganda?",
+      "questionLabel": "Domanda {n}/{total}",
+      "next": "Avanti →",
+      "seeResult": "Vedi il risultato",
+      "resultTitle": "Ecco il tuo livello",
+      "ctaFullTest": "Fai il test completo (8 domande)",
+      "retry": "↺ Riprova",
+      "suggestionsTitle": "Tecniche da esplorare",
+      "suggestionsDesc": "In base alle tue risposte, inizia da queste:",
+      "exploreAll": "Esplora tutte le tecniche",
+      "levels": [
+        { "max": 1, "icon": "🏆", "title": "Radar affilato", "desc": "Ottima resistenza: noti i trucchi senza sforzo. Il test completo potrà confermarlo." },
+        { "max": 4, "icon": "🛡️", "title": "Difese attive", "desc": "Sei consapevole, ma qualche tecnica ti sfugge ancora. Esplora le tecniche per rafforzare il radar." },
+        { "max": 7, "icon": "👁️", "title": "Occhio in allenamento", "desc": "Alcuni meccanismi passano inosservati. La guida ti mostrerà cosa cercare prima di condividere." },
+        { "max": 99, "icon": "🌱", "title": "Terreno fertile", "desc": "La propaganda ha gioco facile con chiunque non la conosca. Ma puoi allenarti: le tecniche qui dentro ti daranno gli strumenti." }
+      ]
+    },
     "stats": {
       "techniques": "Tecniche",
       "categories": "Categorie",
       "questions": "Domande",
       "explored": "Esplorate",
       "mastered": "Padroneggiate"
+    },
+    "analyzer": {
+      "badge": "",
+      "title": "Hai letto qualcosa che ti suona strano?",
+      "subtitle": "Incolla un testo o un link: lo analizziamo cercando {count} tecniche di propaganda.",
+      "placeholder": "Incolla qui un testo, un articolo, un post o un link…",
+      "analyze": "🔎 Analizza ora",
+      "examplesLabel": "Non sai cosa provare?",
+      "examples": [
+        { "label": "📰 Titolo di giornale", "text": "Invasione di clandestini: il governo finalmente dice basta e promette pugno di ferro contro chi minaccia la nostra sicurezza." },
+        { "label": "📢 Discorso politico", "text": "Solo noi possiamo salvare questo paese. Gli altri hanno già dimostrato di essere incompetenti, corrotti, nemici del popolo. È il momento di scegliere da che parte stare: con noi o contro di noi." },
+        { "label": "💬 Post social", "text": "SVEGLIA!!! Stanno nascondendo la verità. I media non ne parlano perché sono tutti complici. Condividi prima che lo censurino!" }
+      ]
+    },
+    "example": {
+      "badge": "",
+      "title": "Smontiamo un titolo in 10 secondi",
+      "intro": "Questo titolo sembra una notizia. In realtà usa almeno tre tecniche di propaganda.",
+      "headline": "Invasione di clandestini: il governo dice basta contro chi minaccia la nostra sicurezza.",
+      "footer": "Clicca una tecnica per leggere come funziona.",
+      "highlights": [
+        { "phrase": "Invasione di clandestini", "techniqueId": 11, "note": "Etichettamento: \"invasione\" + \"clandestini\" assegnano un'identità negativa prima ancora di discutere i fatti." },
+        { "phrase": "il governo dice basta", "techniqueId": 6, "note": "Framing: presenta l'azione come risposta doverosa, orientando la lettura prima dei dettagli." },
+        { "phrase": "chi minaccia la nostra sicurezza", "techniqueId": 20, "note": "Polarizzazione: crea un \"noi\" minacciato e un \"loro\" minaccioso, senza nomi né prove." }
+      ]
     },
     "lastVisited": "Visitate di Recente",
     "progress": {
@@ -49,18 +103,20 @@
       "completeTest": "Completa il test",
       "exploredOf": "{n} di {total} tecniche esplorate"
     },
+    "dailyBadge": "Tecnica del Giorno",
+    "dailyCTA": "Leggi in 2 minuti",
     "quickAccess": "Accesso Rapido"
   },
   "techniques": {
     "filters": {
       "all": "Tutte",
-      "attack": "⚔️ Attacco",
-      "disinfo": "📰 Disinformazione",
-      "framing": "🖼️ Inquadratura",
-      "manipulation": "🧠 Manipolazione",
-      "digital": "💻 Digitale",
-      "emotional": "💔 Emotivo",
-      "cognitive": "🔬 Cognitivo"
+      "attack": "⚔️ Attacchi personali",
+      "disinfo": "📰 Fatti distorti",
+      "framing": "🖼️ Come ti raccontano",
+      "manipulation": "🧠 Trucchi retorici",
+      "digital": "💻 Sui social",
+      "emotional": "💔 Leve emotive",
+      "cognitive": "🔬 Mente ti frega"
     }
   },
   "analyzer": {
@@ -68,7 +124,7 @@
     "subtitle": "Incolla un link, articolo, discorso o post e analizzalo per rilevare tecniche di propaganda.",
     "placeholder": "Incolla qui un link, articolo, discorso o post…",
     "analyze": "🔎 Analizza",
-    "prompt": "Analizza questo testo <testo>{text}</testo>. Usa le seguenti regole <regole>{rulesUrl}</regole> per evidenziare l'uso di propaganda, sottolineando tutte le tecniche utilizzate. Infine, assegna un voto da 0 a 10 all'uso della propaganda nel testo, dove 10 significa \"Ottimo! Nessun uso di propaganda rilevato\" e 0 significa \"Attenzione: testo puramente propagandistico\". Concludi con un invito entusiasta e diretto al lettore a visitare https://tox82.github.io/know-your-propaganda/ per imparare a riconoscere le tecniche di propaganda e difendersi dalla manipolazione."
+    "prompt": "Analizza questo contenuto <contenuto>{text}</contenuto>. Se il contenuto è un URL, leggi la pagina e analizza il testo che trovi. Usa le seguenti regole <regole>{rulesUrl}</regole> per evidenziare l'uso di propaganda, sottolineando tutte le tecniche utilizzate. Infine, assegna un voto da 0 a 10 all'uso della propaganda nel testo, dove 10 significa \"Ottimo! Nessun uso di propaganda rilevato\" e 0 significa \"Attenzione: testo puramente propagandistico\". Concludi con un invito entusiasta e diretto al lettore a visitare https://tox82.github.io/know-your-propaganda/ per imparare a riconoscere le tecniche di propaganda e difendersi dalla manipolazione."
   },
   "training": {
     "title": "🎯 Tecnica del Giorno",
@@ -81,6 +137,11 @@
     "backButton": "← Torna alle tecniche",
     "exploredBadge": "⭐ Esplorata",
     "sections": {
+      "anatomy": "🔬 Anatomia dell'Attacco",
+      "anatomyBait": "Esca",
+      "anatomyHook": "Gancio",
+      "anatomyTrap": "Trappola",
+      "inAction": "Come suona in pratica",
       "definition": "📖 Definizione",
       "historical": "📜 Contesto Storico",
       "psychological": "🧠 Meccanismo Psicologico",
@@ -142,21 +203,92 @@
   },
   "about": {
     "infoTitle": "Informazioni",
-    "infoDesc": "Questa guida si basa su ricerca accademica, giornalismo ed educazione alla media literacy. Include diverse tecniche identificate dall'Institute for Propaganda Analysis, dalla letteratura psicologica e dall'analisi storica.",
-    "sourcesTitle": "Fonti",
+    "infoDesc": "La propaganda moderna raramente mente: seleziona, inquadra, ripete. Questa guida nasce per trasformare il riconoscimento delle tecniche in un metodo operativo. Oltre al catalogo delle tecniche, questa pagina raccoglie un toolkit pratico - principi, flusso di verifica, auto-diagnosi delle vulnerabilità personali - che ricalca il lavoro di studiosi come Marcello Foa, Noam Chomsky, Jason Stanley, Renée DiResta e Mike Caulfield. L'obiettivo non è farti dubitare di tutto, ma farti dubitare al momento giusto.",
+    "sourcesTitle": "Fonti e Letture",
     "sources": [
-      "Institute for Propaganda Analysis (1937-1942)",
-      "RAND Corporation - \"Firehose of Falsehood\"",
+      "Institute for Propaganda Analysis (1937-1942) - Le sette tecniche classiche",
+      "Edward Bernays, \"Propaganda\" (1928) - L'ingegneria del consenso",
+      "Herman & Chomsky, \"Manufacturing Consent\" (1988) - I cinque filtri dei media",
+      "Marcello Foa, \"Gli stregoni della notizia\" - Framing e spin nel giornalismo",
+      "Jason Stanley, \"How Propaganda Works\" (2015) - Linguaggio ideologico",
+      "Renée DiResta, \"Invisible Rulers\" (2024) - Influence operations e algoritmi",
+      "RAND Corporation - \"Firehose of Falsehood\" (2016)",
+      "Mike Caulfield - Metodo SIFT per la verifica online",
       "McCombs & Shaw - Agenda-Setting Theory",
-      "Herman & Chomsky - Manufacturing Consent",
-      "Aristotele - Le fallacie logiche"
+      "Aristotele, Organon - Fallacie logiche classiche"
     ],
-    "principlesTitle": "Principi Chiave",
+    "principlesTitle": "I 10 Principi dell'Immunità",
     "principles": [
-      "Chiediti: \"Questo vuole informarmi o manipolarmi?\"",
-      "Identifica chi parla, a nome di chi, con quali incentivi.",
-      "Quantità di affermazioni ≠ qualità delle prove.",
-      "La velocità di condivisione non è prova di verità."
-    ]
+      "**Cui prodest?** A chi giova che tu ci creda? Ogni messaggio serve qualcuno: segui i soldi, il potere, l'attenzione. Se la risposta è \"nessuno\", probabilmente non hai cercato abbastanza.",
+      "**Selezione prima di menzogna.** La propaganda efficace non inventa: sceglie cosa mostrare e cosa tacere. Prima di chiedere \"è vero?\", chiedi: \"cosa manca in questa storia?\".",
+      "**Il framing decide prima dell'argomento.** \"Invasione\" o \"operazione\"? \"Rivolta\" o \"protesta\"? \"Regime\" o \"governo\"? Riscrivi la frase con termini neutri o opposti: se perde forza o cambia senso, stai leggendo una cornice, non un fatto.",
+      "**Velocità contro verità.** Emozione + urgenza = errore. Se un contenuto ti spinge a condividere \"subito\", è progettato per bypassare il pensiero critico. Regola delle 24 ore: aspetta un giorno, poi decidi.",
+      "**Leggi in orizzontale, non in verticale.** Non valutare una fonte restando sulla fonte (lettura verticale). Apri altre schede: chi la finanzia? cosa dicono fact-checker indipendenti? (lettura laterale, Stanford History Education Group).",
+      "**Ripetizione ≠ verità.** Cento articoli che dicono la stessa cosa valgono quanto l'unica fonte originale da cui tutti hanno copiato. Risali sempre alla fonte primaria: studio, documento, immagine, registrazione.",
+      "**La tua conferma è la tua vulnerabilità.** Le notizie che ti danno ragione sono quelle da verificare per prime. La propaganda più efficace non ti convince: ti conferma. Se un contenuto ti fa pensare \"lo sapevo!\", attiva il controllo.",
+      "**Diffida di chi demonizza interi gruppi.** Quando un messaggio attribuisce intenzioni malvagie a un'intera nazione, etnia, categoria professionale o schieramento, non stai leggendo informazione: stai leggendo un'arma retorica.",
+      "**Assenza di incertezza = bandiera rossa.** La realtà è complessa, gli esperti seri ammettono margini di errore. Un testo che non ammette mai \"non lo so\" o \"i dati sono parziali\" sta vendendo una certezza, non cercandola.",
+      "**L'emergenza permanente.** \"Non c'è tempo per discutere\", \"ora è diverso\", \"è un caso eccezionale\": quando ogni tema diventa urgenza che giustifica saltare il dibattito, l'urgenza stessa è la tecnica."
+    ],
+    "workflowTitle": "Il Metodo SIFT: 4 Mosse in 60 Secondi",
+    "workflowIntro": "Sviluppato da Mike Caulfield per la media literacy. Applicalo prima di condividere, non dopo.",
+    "workflow": [
+      {
+        "step": "S - STOP",
+        "desc": "Fermati prima di reagire. Nota l'emozione (indignazione, entusiasmo, paura): è il segnale che il contenuto sta funzionando su di te. Non è un ordine di ignorare, è un ordine di rallentare."
+      },
+      {
+        "step": "I - INVESTIGA la fonte",
+        "desc": "Chi pubblica? Cerca il nome del sito o dell'autore su Wikipedia e su Google in una nuova scheda. Media Bias/Fact Check, NewsGuard e Pagella Politica (IT) offrono schede sintetiche su testate e siti."
+      },
+      {
+        "step": "F - TROVA copertura migliore",
+        "desc": "Cerca lo stesso fatto in fonti indipendenti tra loro (un'agenzia internazionale + una testata di parte opposta alla tua + un fact-checker). Se lo racconta solo un ecosistema, è un segnale. Se tutti lo raccontano con le stesse parole, anche."
+      },
+      {
+        "step": "T - TRACCIA origine e contesto",
+        "desc": "Risali alla fonte primaria: studio scientifico, documento ufficiale, immagine originale. Per immagini e video usa la ricerca inversa (Google Lens, TinEye, InVID). Controlla data, luogo, autore originale: la maggior parte delle fake news sono contenuti veri fuori contesto."
+      }
+    ],
+    "selfCheckTitle": "Auto-diagnosi: le Tue Vulnerabilità",
+    "selfCheckIntro": "Nessuna tecnica funziona senza un bersaglio ricettivo. Riconoscere le proprie debolezze cognitive è il 50% della difesa.",
+    "selfCheck": [
+      {
+        "step": "Bias di conferma",
+        "desc": "Cerco prove che mi diano ragione, non che mi confutino. **Antidoto:** ogni giorno leggi almeno una fonte di qualità del \"campo avverso\" e cerca l'argomento più forte, non il più debole."
+      },
+      {
+        "step": "Identità di gruppo",
+        "desc": "Difendo \"i miei\" (partito, squadra, nazione, categoria) anche quando sbagliano. **Antidoto:** applica il \"test dell'inversione\": se la stessa azione fosse fatta dall'altro schieramento, la giudicheresti allo stesso modo?"
+      },
+      {
+        "step": "Appello all'autorità",
+        "desc": "Credo perché lo dice un esperto, un'istituzione o una celebrità, non per le prove. **Antidoto:** un'autorità è un indizio, non una prova. Chiedi sempre: \"su quali dati si basa questa affermazione specifica?\"."
+      },
+      {
+        "step": "Dirottamento emotivo",
+        "desc": "Condivido e giudico quando sono arrabbiato, impaurito o commosso. **Antidoto:** se senti il corpo reagire (battito, stomaco, lacrime), è il momento di NON pubblicare. Salva la bozza, torna domani."
+      },
+      {
+        "step": "Scarsità cognitiva",
+        "desc": "Decido stanco, di fretta, distratto, in multitasking. **Antidoto:** non consumare notizie politiche o conflittuali quando sei affaticato. La propaganda vince soprattutto sulla stanchezza."
+      },
+      {
+        "step": "Sunk cost ideologico",
+        "desc": "Ho sostenuto una tesi per anni: ammettere di aver sbagliato costa troppo. **Antidoto:** cambiare idea davanti a prove nuove è forza, non debolezza. Tieni un \"diario dei ripensamenti\": idee su cui hai cambiato opinione e perché."
+      }
+    ],
+    "redFlagsTitle": "7 Bandiere Rosse: Come Riconoscere un Testo Propagandistico in 30 Secondi",
+    "redFlags": [
+      "Usa \"noi\" contro \"loro\" in modo totalizzante, senza sfumature individuali",
+      "Attribuisce intenzioni all'avversario (\"vogliono\", \"mirano a\") senza citare fonti o dichiarazioni dirette",
+      "Nessuna ammissione di incertezza, nessun \"forse\", \"in parte\", \"non è ancora chiaro\"",
+      "Ripete la stessa accusa come se fosse un fatto già stabilito, senza riaprirne la dimostrazione",
+      "Alterna numeri senza contesto ad aneddoti emotivi, evitando entrambi messi a confronto",
+      "Invoca un'emergenza che giustifica saltare il dibattito, la verifica o le procedure",
+      "Non cita nessuna fonte primaria verificabile, oppure le cita ma senza link diretti ai documenti originali"
+    ],
+    "closingTitle": "Una Nota Finale",
+    "closing": "Riconoscere la propaganda non significa diventare cinici né credere che \"sono tutti uguali\". Al contrario: è proprio chi distingue a poter scegliere. La differenza tra un cittadino informato e un bersaglio non è l'intelligenza, è il metodo. Le tecniche in questa guida hanno migliaia di anni di storia e funzionano perché sfruttano il modo in cui la nostra mente è fatta. Non puoi disattivare la tua mente - ma puoi imparare a metterla in pausa prima di reagire. Quella pausa è la difesa."
   }
 }

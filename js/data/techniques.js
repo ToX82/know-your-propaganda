@@ -71,7 +71,7 @@ const techniques = [
       { name: 'Cospirazione', desc: '"Sono ovunque, controllano tutto"' },
       { name: 'Moralmente inferiore', desc: '"Non hanno valori, sono barbari"' }
     ],
-    redFlags: ['Paragoni ad animali o malattie', 'Rappresentazione come minaccia esistenziale', 'Negoazione di umanità all\'avversario', 'Linguaggio che implica necessità di "purificazione" o "eliminazione"'],
+    redFlags: ['Paragoni ad animali o malattie', 'Rappresentazione come minaccia esistenziale', 'Negazione di umanità all\'avversario', 'Linguaggio che implica necessità di "purificazione" o "eliminazione"'],
     caseStudies: [
       { title: 'Radio Rwanda', description: 'Prima del genocidio, i tutsi erano chiamati "inyenzi" (scarafaggi). La demonizzazione preparò la popolazione al massacro.', lesson: 'La demonizzazione è il primo passo verso la violenza di massa.' },
       { title: 'Propaganda nazista', description: 'Gli ebrei rappresentati come ratti che "infestano" la società. La rimozione dell\'umanità permise la "soluzione finale".', lesson: 'Le parole precedono le azioni.' }

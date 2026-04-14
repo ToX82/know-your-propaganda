@@ -1,11 +1,76 @@
 /* ═══════════════════════════════════════════════════════
+   DESIGN TOKENS — typography
+═══════════════════════════════════════════════════════ */
+:root {
+  --text-caption: 0.6875rem;
+  --text-small: 0.8125rem;
+  --text-body: 0.9375rem;
+  --text-heading-sm: 1.125rem;
+  --text-heading: 1.5rem;
+  --text-display: clamp(1.75rem, 1.25rem + 2.8vw, 3.25rem);
+  --color-page: #f8fafc;
+  --color-hero: linear-gradient(160deg, #0f172a 0%, #1e293b 55%, #0f172a 100%);
+}
+
+.text-caption { font-size: var(--text-caption); line-height: 1.35; }
+.text-small { font-size: var(--text-small); line-height: 1.45; }
+.text-body { font-size: var(--text-body); line-height: 1.55; }
+.text-heading-sm { font-size: var(--text-heading-sm); line-height: 1.35; }
+.text-heading { font-size: var(--text-heading); line-height: 1.25; }
+.hero-display {
+  font-size: var(--text-display);
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* ═══════════════════════════════════════════════════════
    BASE
 ═══════════════════════════════════════════════════════ */
 * { font-family: 'Inter', system-ui, sans-serif; }
 
 body {
-  background: #f7f8fa;
+  background: var(--color-page);
   min-height: 100vh;
+}
+
+/* Sidebar: off-screen on small viewports; always visible md+ */
+.sidebar-shell {
+  transform: translate3d(-100%, 0, 0);
+  will-change: transform;
+}
+.sidebar-shell.sidebar-open {
+  transform: translate3d(0, 0, 0);
+}
+@media (min-width: 768px) {
+  .sidebar-shell {
+    transform: translate3d(0, 0, 0);
+  }
+  .sidebar-shell.sidebar-open {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.main-with-sidebar {
+  margin-left: 0;
+  width: 100%;
+  max-width: 100vw;
+}
+@media (min-width: 768px) {
+  .main-with-sidebar {
+    margin-left: 15rem;
+    width: auto;
+  }
+}
+
+.nav-section-heading {
+  font-size: var(--text-caption);
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 /* ═══════════════════════════════════════════════════════
@@ -243,13 +308,10 @@ body {
 html, body { overflow-x: hidden; }
 body { max-width: 100vw; }
 
-@media (max-width: 767px) {
-  #sidebar { max-width: min(15rem, 85vw); }
-}
-
 #content h1, #content h2, #content h3 {
   word-wrap: break-word;
   overflow-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
 /* ═══════════════════════════════════════════════════════
@@ -260,4 +322,216 @@ body { max-width: 100vw; }
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* ═══════════════════════════════════════════════════════
+   HOME HERO
+   ═══════════════════════════════════════════════════════ */
+.hero-dark {
+  background: var(--color-hero);
+  position: relative;
+  overflow: hidden;
+}
+.hero-dark::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+  pointer-events: none;
+}
+.hero-dark::after {
+  content: '';
+  position: absolute;
+  top: -40%;
+  right: -15%;
+  width: 55%;
+  height: 180%;
+  background: radial-gradient(ellipse, rgba(245,158,11,0.06) 0%, transparent 55%);
+  pointer-events: none;
+}
+
+.hero-quiz-option {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.875rem 1.25rem;
+  font-size: 0.875rem;
+  color: rgba(255,255,255,0.88);
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.hero-quiz-option:hover {
+  background: rgba(255,255,255,0.14);
+  border-color: rgba(255,255,255,0.2);
+  transform: translateX(4px);
+}
+.hero-quiz-option.selected {
+  background: rgba(255,255,255,0.18);
+  border-color: rgba(245,158,11,0.5);
+}
+
+.hero-quiz-situation {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+/* ═══════════════════════════════════════════════════════
+   HOME CALLOUT / INPUT / DAILY
+   ═══════════════════════════════════════════════════════ */
+.callout-left {
+  background: #ffffff;
+  border: none;
+  border-left: 4px solid;
+  border-radius: 0 0.75rem 0.75rem 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+/* Mantenuto per compatibilità con altre pagine */
+.input-area {
+  background: #fffbeb;
+  border: 2px dashed #fcd34d;
+  border-radius: 0.75rem;
+  box-shadow: none;
+  transition: border-color 0.2s ease;
+}
+.input-area:focus-within {
+  border-color: #f59e0b;
+}
+
+/* ═══════════════════════════════════════════════════════
+   HOME SECTION LABEL
+   ═══════════════════════════════════════════════════════ */
+.home-section-label {
+  display: block;
+  font-size: var(--text-caption);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #94a3b8;
+  margin-bottom: 0.75rem;
+}
+
+/* Techniques list — status dots */
+.tech-status-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  flex-shrink: 0;
+}
+.tech-status-dot--new { background: #e2e8f0; }
+.tech-status-dot--explored { background: #f59e0b; }
+.tech-status-dot--mastered { background: #10b981; }
+
+.quiz-stat-grid .card { min-height: 5.5rem; }
+.home-section-label--light {
+  color: rgba(255,255,255,0.45);
+}
+
+/* ═══════════════════════════════════════════════════════
+   DAILY TECHNIQUE CARD
+   ═══════════════════════════════════════════════════════ */
+.daily-card {
+  background: linear-gradient(160deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  border: 1px solid rgba(245,158,11,0.22);
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  transition: border-color 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.daily-card::after {
+  content: '';
+  position: absolute;
+  top: -40%;
+  right: -10%;
+  width: 50%;
+  height: 180%;
+  background: radial-gradient(ellipse, rgba(245,158,11,0.06) 0%, transparent 65%);
+  pointer-events: none;
+}
+.daily-card:hover {
+  border-color: rgba(245,158,11,0.4);
+}
+
+/* ═══════════════════════════════════════════════════════
+   HOME ANALYZER CARD
+   ═══════════════════════════════════════════════════════ */
+.home-analyzer-card {
+  background: linear-gradient(160deg, #0f172a 0%, #1e293b 100%);
+  border: 1px solid rgba(148,163,184,0.15);
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.home-analyzer-card::after {
+  content: '';
+  position: absolute;
+  bottom: -25%;
+  left: -8%;
+  width: 45%;
+  height: 120%;
+  background: radial-gradient(ellipse, rgba(245,158,11,0.05) 0%, transparent 60%);
+  pointer-events: none;
+}
+.home-analyzer-textarea {
+  width: 100%;
+  font-size: 0.875rem;
+  color: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  resize: vertical;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  font-family: inherit;
+}
+.home-analyzer-textarea::placeholder {
+  color: rgba(255,255,255,0.35);
+}
+.home-analyzer-textarea:focus {
+  outline: none;
+  border-color: rgba(245,158,11,0.5);
+  background: rgba(255,255,255,0.1);
+}
+.home-analyzer-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.65);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 9999px;
+  padding: 0.25rem 0.625rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.home-analyzer-chip:hover {
+  background: rgba(255,255,255,0.14);
+  color: rgba(255,255,255,0.9);
+}
+
+/* ═══════════════════════════════════════════════════════
+   STAGGER ANIMATIONS
+   ═══════════════════════════════════════════════════════ */
+.stagger-1 { animation-delay: 0ms; }
+.stagger-2 { animation-delay: 150ms; opacity: 0; animation-fill-mode: forwards; }
+.stagger-3 { animation-delay: 300ms; opacity: 0; animation-fill-mode: forwards; }
+.stagger-4 { animation-delay: 450ms; opacity: 0; animation-fill-mode: forwards; }
+
+/* ═══════════════════════════════════════════════════════
+   RESULT CARD (inside dark hero)
+   ═══════════════════════════════════════════════════════ */
+.result-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }

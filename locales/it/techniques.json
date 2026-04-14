@@ -36,22 +36,22 @@
     "caseStudies": [
       {
         "title": "Galileo e il processo del 1633",
-        "description": "La Chiesa reagì alle tesi copernicane concentrandosi sullo status di Galileo (sospetto di eresia, disobbedienza) più che su osservazioni e calcoli confrontabili pubblicamente. L'attaco alla persona e alla sua obbedienza sostituì il dibattito astronomico sul merito.",
+        "description": "La Chiesa reagì alle tesi copernicane concentrandosi sullo status di Galileo (sospetto di eresia, disobbedienza) più che su osservazioni e calcoli confrontabili pubblicamente. L'attacco alla persona e alla sua obbedienza sostituì il dibattito astronomico sul merito.",
         "lesson": "Smontare la reputazione non smonta i dati: servono prove sul contenuto, non sul carattere."
       },
       {
         "title": "Show trial di Mosca (anni 1930)",
         "description": "Oppositori politici furono presentati come \"spie\" e \"traditori\" prima ancora che le accuse materiali fossero discusse; la colpa era identità e fedeltà, non una catena probatoria su atti specifici. L'ad hominem istituzionale chiuse il dibattito pubblico.",
-        "lesson": "Quando l'accusa è \"chi sei\" invece di \"cosa hai fatto\", la tecnica è proprio l'attaco alla persona."
+        "lesson": "Quando l'accusa è \"chi sei\" invece di \"cosa hai fatto\", la tecnica è proprio l'attacco alla persona."
       },
       {
-        "title": "Debattito sul clima (2015)",
-        "description": "Dibattito pubblico tra uno scienziato e un politico. Lo scienziato presenta grafici IPCC e dati scientifici. Il politico risponde: 'Ma lui ha voliato 3 volte nel 2010! Come possiamo fidarci delle sue previsioni?'. Il pubblico si concentra sul passato dello scienziato, ignorando completamente i dati climatici presentati.",
+        "title": "Dibattito sul clima (2015)",
+        "description": "Dibattito pubblico tra uno scienziato e un politico. Lo scienziato presenta grafici IPCC e dati scientifici. Il politico risponde: 'Ma lui ha volato 3 volte nel 2010! Come possiamo fidarci delle sue previsioni?'. Il pubblico si concentra sul passato dello scienziato, ignorando completamente i dati climatici presentati.",
         "lesson": "L'ad hominem distrugge il dibattito scientifico: non si discute più la validità dei dati, ma la credibilità personale del messaggero."
       },
       {
         "title": "Controversie farmaceutiche (2010-2020)",
-        "description": "In dibattiti su vaccini o farmaci, ricercatori con decenni di pubblicazioni peer-reviewed sono stati attaccati personalmente. 'Questo medico ha ricevuto finanziamenti dalla Big Pharma!' - una accusa che non entra nel merito degli studi clinici. Il pubblico, confuso dalle accuse personali, non riesce più a valutare i dati scientifici.",
+        "description": "In dibattiti su vaccini o farmaci, ricercatori con decenni di pubblicazioni peer-reviewed sono stati attaccati personalmente. 'Questo medico ha ricevuto finanziamenti dalla Big Pharma!' - un'accusa che non entra nel merito degli studi clinici. Il pubblico, confuso dalle accuse personali, non riesce più a valutare i dati scientifici.",
         "lesson": "Attaccare la fonte non confuta i dati: i numeri restano validi anche quando l'autore è imperfetto."
       }
     ],
@@ -98,6 +98,13 @@
           "explanation": "Il silenzio non è consenso. L'ingegnere potrebbe aver scelto di non rispondere a un'obiezione che non merita confutazione tecnica."
         }
       ]
+    },
+    "slogan": "Se non puoi smontare il messaggio, sporca il messaggero.",
+    "hook": "«Certo che dici così, sei pagato per dirlo.» — e nessuno guarda più i dati.",
+    "anatomy": {
+      "bait": "Qualcuno fa un'affermazione scomoda ma documentata.",
+      "hook": "Invece di contestare i dati, si attacca chi parla: identità, passato, motivi.",
+      "trap": "Il pubblico scarta la persona, e con essa anche l'argomento."
     }
   },
   {
@@ -195,6 +202,13 @@
           "explanation": "Dipende dal contesto. Rispondere alla satira può sembrare mancanza di senso dell'umorismo, non difesa legittima."
         }
       ]
+    },
+    "slogan": "Una risata seppellisce più di mille confutazioni.",
+    "hook": "Un meme-caricatura del politico col naso rosso gira nelle chat: nessuno discute più la sua proposta.",
+    "anatomy": {
+      "bait": "Un avversario con un'idea difficile da contrastare.",
+      "hook": "Lo si trasforma in caricatura: soprannome, voce storpiata, meme.",
+      "trap": "Ridere di qualcuno vale quanto averlo sconfitto: l'idea muore con la risata."
     }
   },
   {
@@ -229,7 +243,7 @@
     "redFlags": [
       "Paragoni ad animali o malattie",
       "Rappresentazione come minaccia esistenziale",
-      "Negoazione di umanità all'avversario",
+      "Negazione di umanità all'avversario",
       "Linguaggio che implica necessità di \"purificazione\" o \"eliminazione\""
     ],
     "caseStudies": [
@@ -250,7 +264,7 @@
       },
       {
         "title": "Guerra del Golfo (1990-1991)",
-        "description": "Prima della guerra del Golfo, la propaganda americana rappresentò i soldati irachiani come 'bestie' e 'brutti'. Saddam Hussein fu presentato come 'il nuovo Hitler'. La disumanizzazione semplificò il supporto pubblico all'invasione e accettò le vittime civili come necessarie.",
+        "description": "Prima della guerra del Golfo, la propaganda americana rappresentò i soldati irachiani come 'bestie' e 'bruti'. Saddam Hussein fu presentato come 'il nuovo Hitler'. La disumanizzazione semplificò il supporto pubblico all'invasione e accettò le vittime civili come necessarie.",
         "lesson": "La demonizzazione prepara il terreno per azioni militari che sarebbero inaccettabili senza la 'bestializzazione' del nemico."
       }
     ],
@@ -263,7 +277,7 @@
       {
         "step": "Ricorda la storia",
         "action": "La demonizzazione ha preceduto ogni genocidio",
-        "example": "Prima di ogni massacro di massa (Armenia, Ruanda, Holocausto) i bersagli sono stati descritti come minacce biologiche o morali, non come esseri umani."
+        "example": "Prima di ogni massacro di massa (Armenia, Ruanda, Olocausto) i bersagli sono stati descritti come minacce biologiche o morali, non come esseri umani."
       },
       {
         "step": "Cerca la complessità",
@@ -302,6 +316,13 @@
           "explanation": "La motivazione è un effetto secondario. L'obiettivo primario è ridefinire il gruppo bersaglio come non umano, eliminando ogni vincolo morale."
         }
       ]
+    },
+    "slogan": "Trasforma l'avversario in mostro: la discussione diventa caccia.",
+    "hook": "«Non sono cittadini con idee diverse, sono un'invasione.» — e il dialogo è finito.",
+    "anatomy": {
+      "bait": "Un gruppo di persone con posizioni legittime ma contrarie.",
+      "hook": "Gli si attribuiscono tratti subumani, intenti distruttivi, minaccia esistenziale.",
+      "trap": "Non si negozia con un mostro: si elimina. Il contraddittorio è già perso."
     }
   },
   {
@@ -355,8 +376,8 @@
         "lesson": "La contraddizione deliberata non è un errore: è una tecnica. L'obiettivo non è la verità, ma la confusione permanente."
       },
       {
-        "title": "Elezioni USA 2020: \"fraude\" contraddittoria",
-        "description": "Dopo le elezioni, circolarono narrazioni parallele: 'le macchine hanno cambiato i voti' → 'voti morti per COVID' → 'spie cinesi hanno inserito' → 'frodi fisici'. Non c'era un'unica versione della frode, ma molteplici e spesso contraddittorie. L'effetto fu creare dubbio sistematico, non un'inchiesta focalizzata.",
+        "title": "Elezioni USA 2020: \"frode\" contraddittoria",
+        "description": "Dopo le elezioni, circolarono narrazioni parallele: 'le macchine hanno cambiato i voti' → 'voti morti per COVID' → 'spie cinesi hanno inserito' → 'frodi fisiche'. Non c'era un'unica versione della frode, ma molteplici e spesso contraddittorie. L'effetto fu creare dubbio sistematico, non un'inchiesta focalizzata.",
         "lesson": "Il firehose elettorale non richiede una frode vera: basta creare confusione sufficiente perché il pubblico dubiti di tutto."
       }
     ],
@@ -408,6 +429,13 @@
           "explanation": "Quello è il fine militare. In questo contesto il bersaglio è l'opinione pubblica interna e internazionale, non il nemico sul campo."
         }
       ]
+    },
+    "slogan": "Se non puoi convincere, inonda fino alla rinuncia.",
+    "hook": "Cinque versioni contraddittorie dello stesso evento in 24 ore: a fine giornata nessuno sa più cosa sia successo.",
+    "anatomy": {
+      "bait": "Un fatto verificabile che andrebbe contestato.",
+      "hook": "Si spara un diluvio di messaggi rapidi, contraddittori, su tutti i canali.",
+      "trap": "Il pubblico, esausto, smette di cercare la verità: ogni versione sembra una opinione."
     }
   },
   {
@@ -504,6 +532,13 @@
           "explanation": "La semplicità del formato non è il problema. Molte informazioni utili sono semplici. Il problema è la struttura del messaggio, non la complessità del tema."
         }
       ]
+    },
+    "slogan": "L'urgenza finta è il carburante della disinformazione.",
+    "hook": "«Inoltra a 10 amici entro sera o succederà il peggio!» — il messaggio moltiplica sé stesso.",
+    "anatomy": {
+      "bait": "Una notizia scioccante, una minaccia, un'occasione.",
+      "hook": "Si chiede esplicitamente di inoltrare subito, senza verificare.",
+      "trap": "Ogni utente diventa un nodo: il messaggio esce dal radar dei fact-checker."
     }
   },
   {
@@ -559,7 +594,7 @@
       {
         "title": "Proteste per il clima (2019-2023)",
         "description": "Manifestazioni studentesche sono state presentate come 'sciopero illegale che paralizza il traffico' (frame disordine) o come 'movimento democratico per il futuro' (frame diritti). I media che usano il frame 'disordine' spesso selezionano interviste a pendolari frustrati; quelli che usano il frame 'diritti' intervistano attivisti e scienziati.",
-        "lesson": "Il framing determina quali interviste vengono selezionati e quindi quali prospettive vengono amplificate."
+        "lesson": "Il framing determina quali interviste vengono selezionate e quindi quali prospettive vengono amplificate."
       }
     ],
     "defense": [
@@ -610,6 +645,13 @@
           "explanation": "Menzionare i 10.000 non minimizza i 50: dà contesto proporzionale. È la testata A a perdere il contesto, non la B a distorcere i fatti."
         }
       ]
+    },
+    "slogan": "Chi sceglie la cornice, vince il quadro.",
+    "hook": "Non è un «aumento delle tasse», è una «riforma della fiscalità». Stessa misura, reazioni opposte.",
+    "anatomy": {
+      "bait": "Un tema complesso che può essere letto in molti modi.",
+      "hook": "Si sceglie il lessico, l'angolo, il paragone — e lo si ripete.",
+      "trap": "Il pubblico pensa dentro quella cornice senza accorgersi di averla indossata."
     }
   },
   {
@@ -716,6 +758,13 @@
           "explanation": "Il giornalista non è accusato di nulla in questa conversazione. 'Anche gli altri lo fanno' è deflazione, non riequilibrio."
         }
       ]
+    },
+    "slogan": "«E voi allora?» è il paralume che oscura ogni critica.",
+    "hook": "«Parli di corruzione qui? E gli scandali di 20 anni fa nell'altro partito?» — e la critica originale svanisce.",
+    "anatomy": {
+      "bait": "Una critica precisa che andrebbe affrontata.",
+      "hook": "Invece di rispondere, si punta il dito altrove: «e loro?».",
+      "trap": "La discussione si sposta, nessuno risponde alla domanda iniziale."
     }
   },
   {
@@ -726,7 +775,7 @@
     "category": "framing",
     "catLabel": "Inquadratura",
     "summary": "Si decide quali problemi esistono nel dibattito pubblico (copertura, tempo in prima pagina, ripetizione): ciò che non viene nominato non viene neanche valutato.",
-    "definition": "L'agenda setting non dice solo \"pensa X\": dice \"pensa a questo tema e non a quello\". Leggi, scandali e urgenze spingono altre notizie (leggi, dati, politiche) fuori dal campo visivo. Chi controlla l'agenda non deve convincerti su ogni dettaglio: basta che non tu sappia che un'alternativa o un problema esistono.",
+    "definition": "L'agenda setting non dice solo \"pensa X\": dice \"pensa a questo tema e non a quello\". Leggi, scandali e urgenze spingono altre notizie (leggi, dati, politiche) fuori dal campo visivo. Chi controlla l'agenda non deve convincerti su ogni dettaglio: basta che tu non sappia che un'alternativa o un problema esistono.",
     "historicalContext": "McCombs e Shaw (Chapel Hill, 1968; pubblicazione 1972) mostrarono correlazione tra temi prominenti sui giornali e ciò che gli elettori consideravano \"i problemi più importanti\". Negli anni successivi l'agenda-setting divenne un pilastro della comunicazione politica: non occorre convincere tutti, basta che certi temi (immigrazione, sicurezza, moralità) occupino ore di copertura mentre altri (disuguaglianza, clima, procedure legislative) restino marginali.",
     "psychologicalMechanism": "Il cervello valuta la rilevanza in base alla salienza mediatica. Se qualcosa è molto discusso, deve essere importante.",
     "variants": [
@@ -761,7 +810,7 @@
       {
         "title": "Leggi approvate sotto copertura minima",
         "description": "In più paesi, riforme tecniche (lavoro, sorveglianza, appalti) sono state calendarizzate o segnalate in slot di minor ascolto mentre i titoli erano monopolizzati da cronaca o gossip politico.",
-        "lesson": "L'agenda setting include il timing: quando si parla di qualcosa conta quanto se se ne parla."
+        "lesson": "L'agenda setting include il timing: quando si parla di qualcosa conta quanto se ne parla."
       },
       {
         "title": "Brexit (2016-2020)",
@@ -824,6 +873,13 @@
           "explanation": "La discrezionalità editoriale è reale, ma non è neutrale. Le conseguenze politiche di questa scelta sono documentate e serie."
         }
       ]
+    },
+    "slogan": "I media non ti dicono cosa pensare, ma a cosa pensare.",
+    "hook": "Per settimane il TG apre con la cronaca nera. Il paese si sente meno sicuro, anche se i reati calano.",
+    "anatomy": {
+      "bait": "Un flusso quotidiano di temi possibili.",
+      "hook": "Alcuni vengono ripetuti in apertura, altri ignorati.",
+      "trap": "Il pubblico crede che l'importante sia ciò che è visibile, non ciò che conta davvero."
     }
   },
   {
@@ -870,7 +926,7 @@
       {
         "title": "Campagna \"Credibility Attacks\" (2020)",
         "description": "Durante la campagna presidenziale USA, un super PAC diffuse annunci negativi su Biden giorni prima di ogni dibattito: 'Biden sta perdendo memoria', 'È in declino cognitivo', 'Non ha energia per il lavoro'. I media ripetevano questi frame negativi, creando sospetto preventivo prima che Biden potesse rispondere.",
-        "lesson": "Il poisoning the well su larga scala funziona perché gli altrui media ripetono gli attacchi senza verificarli, installando il dubbio nel pubblico."
+        "lesson": "Il poisoning the well su larga scala funziona perché gli altri media ripetono gli attacchi senza verificarli, installando il dubbio nel pubblico."
       },
       {
         "title": "Leak di \"documenti compromettenti\" (2016)",
@@ -928,6 +984,13 @@
           "explanation": "Una fonte con interessi può produrre ricerca valida. La verifica deve riguardare metodo e dati, non solo la fonte."
         }
       ]
+    },
+    "slogan": "Avvelena la fonte prima che beva qualcuno.",
+    "hook": "«Prima che parli, sappiate che è stato indagato nel 2012.» — la testimonianza è già incrinata.",
+    "anatomy": {
+      "bait": "Qualcuno che sta per dire qualcosa di credibile.",
+      "hook": "Prima che parli, si introducono informazioni negative sulla sua persona.",
+      "trap": "Qualsiasi cosa dirà, il pubblico la ascolterà con sospetto preventivo."
     }
   },
   {
@@ -974,7 +1037,7 @@
       {
         "title": "Sviluppi immobiliari (2015-2022)",
         "description": "Sviluppatori presentano grafici di aumento dei prezzi immobiliari (+15% annuo) selezionando solo i quartieri più esclusivi e gli anni di crescita. Omettono: quartieri in calo, correzioni per inflazione, confronti con redditi. La presentazione crea impressione di boom immobiliare che il quadro completo non supporta.",
-        "lesson": "Il card stacking economico funziona mostrando solo i dati 'buoni' e nascondendo il contesto completo che camberebbe la percezione."
+        "lesson": "Il card stacking economico funziona mostrando solo i dati 'buoni' e nascondendo il contesto completo che cambierebbe la percezione."
       },
       {
         "title": "Report aziendali (Quarterly Reports)",
@@ -1032,6 +1095,13 @@
           "explanation": "Non serve conoscere le previsioni esatte per capire che '1 milione su 3 previsti' ha un significato opposto a '1 milione in assoluto'. Il problema è la cornice mancante, non il dato nascosto."
         }
       ]
+    },
+    "slogan": "Metà verità, intera bugia.",
+    "hook": "Un volantino elenca solo i successi del candidato, mai i fallimenti. Tutto vero. Tutto parziale.",
+    "anatomy": {
+      "bait": "Una storia complessa con luci e ombre.",
+      "hook": "Si presentano solo i dati a favore, tacendo il resto.",
+      "trap": "Nessuna bugia esplicita, ma il quadro finale è distorto."
     }
   },
   {
@@ -1077,12 +1147,12 @@
       },
       {
         "title": "Etichette \"Woke\" e \"Conservatore\" (2020-2024)",
-        "description": "Ne dibattiti culturali USA, termini come 'woke' e 'conservatore' sono usati come etichette che sostituiscono l'analisi. Una proposta sulla rappresentazione razziale può essere respinta come 'woke' senza discussere i dati sulle disuguaglianze. Una proposta sulla libertà accademica può essere respinta come 'conservatore' senza analizzare i contenuti.",
+        "description": "Nei dibattiti culturali USA, termini come 'woke' e 'conservatore' sono usati come etichette che sostituiscono l'analisi. Una proposta sulla rappresentazione razziale può essere respinta come 'woke' senza discutere i dati sulle disuguaglianze. Una proposta sulla libertà accademica può essere respinta come 'conservatore' senza analizzare i contenuti.",
         "lesson": "Le etichette identitarie moderne funzionano come quelle storiche: chiudono il dibattito attivando lealtà di gruppo invece di analizzare i contenuti."
       },
       {
         "title": "Etichette \"Populista\" vs \"Elitista\" (2015-2024)",
-        "description": "In elezioni europee, movimenti popolari sono stati etichettati come 'populisti' o 'sovranisti' per discreditare le loro proposte politiche. Allo stesso modo, le élite economiche e le establishment media sono state etichettate come 'elitisti' da movimenti anti-sistema. Le etichette sostituiscono il dibattito sulle politiche concrete.",
+        "description": "In elezioni europee, movimenti popolari sono stati etichettati come 'populisti' o 'sovranisti' per discreditare le loro proposte politiche. Allo stesso modo, le élite economiche e l'establishment mediatico è stato etichettato come 'elitisti' da movimenti anti-sistema. Le etichette sostituiscono il dibattito sulle politiche concrete.",
         "lesson": "L'etichettamento ideologico blocca l'analisi: una volta applicata un'etichetta, la proposta viene valutata in base all'etichetta, non ai contenuti."
       }
     ],
@@ -1136,6 +1206,13 @@
           "explanation": "L'efficienza è un valore se non sacrifica l'accuratezza. Qui si sostituisce l'analisi con la categorizzazione - il risultato è più veloce ma meno informato."
         }
       ]
+    },
+    "slogan": "Dagli un'etichetta e non dovrai più discutere con lui.",
+    "hook": "«È un negazionista.» Bastano due parole: la discussione è sostituita da una categoria.",
+    "anatomy": {
+      "bait": "Una posizione articolata e sfumata.",
+      "hook": "Si appiccica un'etichetta semplice, carica emotivamente.",
+      "trap": "L'etichetta copre la persona: non si discute più con lei, si discute con la categoria."
     }
   },
   {
@@ -1240,6 +1317,13 @@
           "explanation": "Purtroppo no. Decenni di ricerche cognitive mostrano che il meccanismo della prova sociale funziona anche su persone informate e scettiche in altri ambiti."
         }
       ]
+    },
+    "slogan": "Se lo fanno tutti, devi farlo anche tu. Anche se non serve.",
+    "hook": "«Il 72% degli italiani è d'accordo con noi.» — il tuo cervello corre a unirsi al 72%.",
+    "anatomy": {
+      "bait": "Il bisogno umano di non restare isolati.",
+      "hook": "Si mostra un numero, un movimento, una massa che \"già\" la pensa così.",
+      "trap": "Salti sul carro per non essere escluso, non perché hai valutato."
     }
   },
   {
@@ -1344,6 +1428,13 @@
           "explanation": "Questa è una speranza, non la realtà. Le ricerche mostrano che le associazioni emotive stabilite in campagna resistono a lungo, anche di fronte a performance concrete."
         }
       ]
+    },
+    "slogan": "Parole luminose che non dicono niente.",
+    "hook": "«Libertà, futuro, cambiamento.» — applauso. Cosa significa concretamente? Nessuno lo chiede.",
+    "anatomy": {
+      "bait": "Valori che tutti condividono e nessuno contesta.",
+      "hook": "Si usano parole astratte e nobili senza definirle né impegnarsi.",
+      "trap": "Aderisci al bagliore e accetti qualsiasi contenuto che viene infilato dentro."
     }
   },
   {
@@ -1452,6 +1543,13 @@
           "explanation": "L'impatto è reale, ma è social, non epistemico. Una cosa può avere grande effetto sull'opinione pubblica ed essere del tutto priva di valore argomentativo."
         }
       ]
+    },
+    "slogan": "Rubare l'autorità altrui appoggiandovisi sopra.",
+    "hook": "Il politico davanti alla bandiera, accanto alla statua di un eroe nazionale: il messaggio cambia senza dire una parola.",
+    "anatomy": {
+      "bait": "Un simbolo rispettato (bandiera, scienza, religione, eroe).",
+      "hook": "Si affianca il proprio messaggio al simbolo.",
+      "trap": "Le emozioni legate al simbolo si trasferiscono sul messaggio, senza prove."
     }
   },
   {
@@ -1502,7 +1600,7 @@
       },
       {
         "title": "Campagne di testimonial finanziari (Fintech)",
-        "description": "Piattaforme di prestiti mostrano video di persone che raccontano di aver ottenuto prestiti velocemente con Tassi 'incredibili'. Il racconto personale è presentato come prova che il servizio funziona, mentre i tassi reali e le condizioni contrattuali non sono menzionate. L'aneddoto sostituisce le informazioni complete.",
+        "description": "Piattaforme di prestiti mostrano video di persone che raccontano di aver ottenuto prestiti velocemente con tassi 'incredibili'. Il racconto personale è presentato come prova che il servizio funziona, mentre i tassi reali e le condizioni contrattuali non sono menzionate. L'aneddoto sostituisce le informazioni complete.",
         "lesson": "Il testimonial finanziario sfrutta la fiducia nelle storie personali per nascondere rischi e costi reali dei prodotti finanziari."
       }
     ],
@@ -1556,6 +1654,13 @@
           "explanation": "Molte malattie guariscono spontaneamente. La domanda non è 'il paziente ha guarito?' ma 'ha guarito più spesso di chi non ha preso il farmaco?' - e questo richiede un campione."
         }
       ]
+    },
+    "slogan": "Un volto famoso al posto di un argomento.",
+    "hook": "Un attore amato dice «fidatevi di questo farmaco»: non è un medico, ma la sua faccia vale più dei dati.",
+    "anatomy": {
+      "bait": "L'affetto del pubblico per un personaggio noto.",
+      "hook": "Il personaggio approva una tesi, un prodotto, un'idea.",
+      "trap": "La simpatia verso la persona diventa fiducia nella tesi."
     }
   },
   {
@@ -1635,6 +1740,13 @@
           "explanation": "L'illusione di verità funziona indipendentemente dalla veridicità del contenuto. La ripetizione di contenuti veri non è neutra: li rende percepiti come 'più veri' di altri contenuti altrettanto veri ma meno ripetuti."
         }
       ]
+    },
+    "slogan": "Ripeti una cosa abbastanza volte e diventa vera.",
+    "hook": "Lo stesso slogan a ogni intervista, ogni tweet, ogni manifesto. Dopo un mese, ti sembra di averlo sempre pensato.",
+    "anatomy": {
+      "bait": "Un'affermazione, vera o falsa, che si vuole far passare.",
+      "hook": "La si ripete identica, con frequenza alta, su più canali.",
+      "trap": "La familiarità diventa credibilità: riconoscere = credere."
     }
   },
   {
@@ -1714,6 +1826,13 @@
           "explanation": "Al contrario: ricerche sul framing mostrano che gli slogan sono efficaci anche su chi non era predisposto, purché le parole abbiano valenza emotiva positiva."
         }
       ]
+    },
+    "slogan": "Una frase corta può uccidere un'ora di ragionamento.",
+    "hook": "«Prima gli italiani.» Tre parole: nessun argomento resiste senza diventare lungo, complicato, noioso.",
+    "anatomy": {
+      "bait": "Una realtà complessa che richiede spiegazioni.",
+      "hook": "Si comprime in una formula ritmica, memorabile, emotiva.",
+      "trap": "La formula diventa la conclusione: il pensiero critico costa troppo in confronto."
     }
   },
   {
@@ -1793,6 +1912,13 @@
           "explanation": "Il tema è irrilevante per valutare l'autenticità. Il problema non è quello di cui parla Maria, ma chi ha prodotto il video e con quale scopo."
         }
       ]
+    },
+    "slogan": "Il potente in camicia a maniche corte non è uno di noi: finge di esserlo.",
+    "hook": "Il miliardario in felpa, che beve birra in un bar di paese: «sono come te». (Spoiler: no.)",
+    "anatomy": {
+      "bait": "La diffidenza verso le élite.",
+      "hook": "Chi comanda si veste, parla, mangia come la \"gente comune\".",
+      "trap": "Ti fidi di lui perché sembra come te — smetti di vedere il potere che detiene."
     }
   },
   {
@@ -1872,6 +1998,13 @@
           "explanation": "Il consenso degli esperti è solido quando è il risultato di ricerca indipendente convergente. 'Scienziati' senza specificazione non costituisce consenso verificabile."
         }
       ]
+    },
+    "slogan": "Un titolo non è una prova: controlla il campo.",
+    "hook": "«Un Premio Nobel ha detto che...» — sì, ma Nobel in letteratura che parla di medicina. Il titolo abbaglia.",
+    "anatomy": {
+      "bait": "Il rispetto istintivo per i titoli e le competenze.",
+      "hook": "Si cita un'autorità, anche fuori dal suo campo, come se fosse conclusiva.",
+      "trap": "Il prestigio del titolo sostituisce la verifica dell'argomento."
     }
   },
   {
@@ -1951,6 +2084,13 @@
           "explanation": "Questo è esattamente il tipo di argomento che la polarizzazione usa per forzare l'adesione. La neutralità e il dubbio sono posizioni legittime, non complicità."
         }
       ]
+    },
+    "slogan": "Rompi il centro. Solo estremi. Solo nemici.",
+    "hook": "«O con noi o con loro.» Chi cerca di mediare diventa traditore di entrambi i lati.",
+    "anatomy": {
+      "bait": "Una società fatta di tante posizioni sfumate.",
+      "hook": "Si riducono i campi a due, ostili, incompatibili.",
+      "trap": "Chi sta in mezzo scompare o diventa bersaglio: il dialogo è eliminato."
     }
   },
   {
@@ -1962,7 +2102,7 @@
     "catLabel": "Manipolazione",
     "summary": "Si elencano decine di accuse o dati in pochi minuti: smontarne anche dieci lascia l'impressione che \"il resto\" resti in piedi.",
     "definition": "Il Gish Gallop sfrutta l'asimmetria tempo/risposta: affermare costa secondi, verificare minuti. Chi ascolta vede l'avversario \"muto\" su molti punti e scambia silenzio per debolezza. In dibattito pubblico vince chi controlla il ritmo, non chi ha ragione sul singolo punto.",
-    "historicalContext": "Duane Gish, debattista creazionista, divenne il prototipo negli anni '80-'90: in dibattiti pubblici contro biologi evoluzionisti, elencava affermazioni veloci (fossili, termodinamica, probabilità) sapendo che ogni risposta tecnica richiedeva più tempo. Oggi la stessa logica appare in video \"documentari\" di ore e in thread infiniti: l'affermazione è gratuita, la verifica è costosa.",
+    "historicalContext": "Duane Gish, dibattitore creazionista, divenne il prototipo negli anni '80-'90: in dibattiti pubblici contro biologi evoluzionisti, elencava affermazioni veloci (fossili, termodinamica, probabilità) sapendo che ogni risposta tecnica richiedeva più tempo. Oggi la stessa logica appare in video \"documentari\" di ore e in thread infiniti: l'affermazione è gratuita, la verifica è costosa.",
     "psychologicalMechanism": "Sfrutta l'asimmetria: fare un'affermazione richiede secondi, confutarla minuti o ore.",
     "variants": [
       {
@@ -2030,6 +2170,13 @@
           "explanation": "In teoria sì. In pratica l'economia dell'attenzione non lo permette: 80 smentite non raggiungono mai lo stesso pubblico delle 80 affermazioni originali."
         }
       ]
+    },
+    "slogan": "Venti bugie in un minuto: nessuno riesce a confutarle tutte.",
+    "hook": "In dibattito snocciola 15 \"fatti\" sospetti in 90 secondi. Confutarli richiederebbe mezz'ora. Non la hai.",
+    "anatomy": {
+      "bait": "Il formato limitato di un dibattito o intervista.",
+      "hook": "Si spara una raffica di affermazioni false o dubbie troppo veloci da smontare.",
+      "trap": "L'avversario risponde a poche, tutte le altre rimangono valide per il pubblico."
     }
   },
   {
@@ -2109,6 +2256,13 @@
           "explanation": "Vero in astratto - ma 'un po'' e 'tutti' sono quantità incompatibili. L'obiezione distorce la proposta originale invece di analizzarne gli effetti reali."
         }
       ]
+    },
+    "slogan": "Non attacca te: attacca una versione ridicola di te.",
+    "hook": "«Vuoi limitare la velocità in città?» → «Quindi vuoi vietare le auto!» — e la discussione si sposta su qualcosa che non hai detto.",
+    "anatomy": {
+      "bait": "Una posizione ragionevole ma difficile da contrastare.",
+      "hook": "Si riformula in versione estrema, caricaturale, facile da attaccare.",
+      "trap": "L'avversario demolisce la caricatura e tu sembri aver perso, pur non avendo detto quello."
     }
   },
   {
@@ -2188,6 +2342,13 @@
           "explanation": "Diritto formale sì, ma il pubblico ha anche il diritto di notare l'evasione e di trarne le proprie conclusioni."
         }
       ]
+    },
+    "slogan": "Un diversivo profumato, e la pista si perde.",
+    "hook": "Gli chiedi del bilancio: risponde parlando della stagione calcistica. A metà risposta, hai dimenticato la domanda.",
+    "anatomy": {
+      "bait": "Una domanda scomoda e specifica.",
+      "hook": "Si introduce un argomento interessante ma irrilevante.",
+      "trap": "La conversazione segue la nuova pista; la domanda originale muore."
     }
   },
   {
@@ -2267,6 +2428,13 @@
           "explanation": "Al contrario: rivela che il partito ha scelto di rispondere con un contro-attacco invece di affrontare l'accusa specifica - il che suggerisce che non ha difesa su quella."
         }
       ]
+    },
+    "slogan": "Accusa l'altro di ciò che stai facendo tu.",
+    "hook": "Il politico coinvolto in scandali grida ogni giorno: «Sono loro i corrotti!». Chi ascolta si confonde.",
+    "anatomy": {
+      "bait": "Una propria colpa che potrebbe emergere.",
+      "hook": "Si accusa l'avversario dello stesso atto, per primo e con clamore.",
+      "trap": "Il pubblico fatica a distinguere chi è davvero colpevole: il rumore copre la pista."
     }
   },
   {
@@ -2346,6 +2514,13 @@
           "explanation": "Vero - ma non tutti i codici funzionano per attivare solidarietà con gruppi che sarebbe politicamente costoso nominare esplicitamente. La distinzione conta."
         }
       ]
+    },
+    "slogan": "Parli a tutti, ma solo alcuni sentono il vero messaggio.",
+    "hook": "Una frase apparentemente innocua: «restituire la nostra terra a chi la merita». Gli insider ricevono il codice.",
+    "anatomy": {
+      "bait": "Un pubblico misto che va gestito.",
+      "hook": "Si usa un linguaggio neutro per i più, codificato per un sottogruppo.",
+      "trap": "Se qualcuno denuncia il sottinteso, basta negare: «non l'ho mai detto»."
     }
   },
   {
@@ -2429,6 +2604,13 @@
           "explanation": "Questa interpretazione si applica al conflitto genuino. Qui la struttura è unilaterale: una parte nega deliberatamente ciò che sa essere vero. Il dialogo non risolve la negazione intenzionale."
         }
       ]
+    },
+    "slogan": "Ti fa dubitare di ciò che hai visto con i tuoi occhi.",
+    "hook": "«Non è mai successo.» «Te lo sei immaginato.» «Sei troppo sensibile.» — dopo mesi, non sai più cosa è vero.",
+    "anatomy": {
+      "bait": "Un episodio reale, documentato o vissuto.",
+      "hook": "Si nega con calma, ripetutamente, che sia mai accaduto o che fosse come sembrava.",
+      "trap": "La vittima smette di fidarsi della propria memoria: perde la bussola."
     }
   },
   {
@@ -2508,6 +2690,13 @@
           "explanation": "In realtà possiamo già dire che il dato citato, senza il contesto dei 200.000 posti persi, produce una narrazione opposta alla realtà. Non serve il comunicato completo per identificare l'omissione critica."
         }
       ]
+    },
+    "slogan": "Scegli le ciliegie buone. Lascia marcire il resto sotto l'albero.",
+    "hook": "Un solo studio su 100 dà ragione alla tesi. Lo cita come \"la scienza dice che\". Gli altri 99? Silenzio.",
+    "anatomy": {
+      "bait": "Un insieme ampio di dati, molti contrari alla tesi.",
+      "hook": "Si estraggono solo i casi che confermano.",
+      "trap": "Il campione diventa bugia statistica senza che nessuna singola affermazione sia, in sé, falsa."
     }
   },
   {
@@ -2610,6 +2799,13 @@
           "explanation": "Vero per un singolo profilo. Ma la combinazione di account nuovi + messaggi identici + timing coordinato ha una probabilità statistica molto bassa di essere organica."
         }
       ]
+    },
+    "slogan": "Prato finto: sembra spontaneo, è un tappeto.",
+    "hook": "Una \"associazione di cittadini\" appare in 50 città lo stesso giorno, stessa grafica. Nessuno si fa domande.",
+    "anatomy": {
+      "bait": "La fiducia che le persone ripongono nei movimenti dal basso.",
+      "hook": "Si finanzia e organizza un \"movimento\" che simula la spontaneità popolare.",
+      "trap": "Il pubblico crede di vedere volontà popolare, invece guarda uno spot pagato."
     }
   },
   {
@@ -2708,6 +2904,13 @@
           "explanation": "Al contrario: i falsi progettati per massimizzare la diffusione spesso circolano di più dei documenti autentici, perché costruiti per fare notizia."
         }
       ]
+    },
+    "slogan": "Colpisciti da solo, incolpa il tuo nemico.",
+    "hook": "Un attacco apparentemente compiuto dal gruppo A viene attribuito al gruppo B per giustificarne la repressione.",
+    "anatomy": {
+      "bait": "La necessità di una giustificazione per un'azione forte.",
+      "hook": "Si mette in scena un'aggressione facendola sembrare opera dell'avversario.",
+      "trap": "L'opinione pubblica chiede vendetta contro un nemico che non ha agito."
     }
   },
   {
@@ -2787,6 +2990,13 @@
           "explanation": "La qualità dei deepfake migliora costantemente. Nel 2024, strumenti accessibili producono risultati difficilmente distinguibili. La qualità non è criterio di autenticità."
         }
       ]
+    },
+    "slogan": "I tuoi occhi non bastano più come prova.",
+    "hook": "Un video del leader che dice cose mai dette. Virale in 6 ore. La smentita, in 6 giorni.",
+    "anatomy": {
+      "bait": "La fiducia residua che le persone ripongono nei video e nell'audio.",
+      "hook": "Si sintetizza un contenuto falso ma visivamente identico all'originale.",
+      "trap": "Anche quando smascherato, il ricordo emotivo del video resta."
     }
   },
   {
@@ -2880,6 +3090,13 @@
           "explanation": "La ricondivisione aumenta la percezione di credibilità, non l'autenticità. Se la fonte originale è falsa, la moltiplicazione delle ricondivisioni non la rende vera."
         }
       ]
+    },
+    "slogan": "Una guerra senza armi: il campo di battaglia è la tua testa.",
+    "hook": "Centinaia di account fake, articoli coordinati, meme su misura: non un singolo atto, una campagna orchestrata.",
+    "anatomy": {
+      "bait": "Uno spazio informativo aperto e fragile.",
+      "hook": "Attori statali o privati coordinano contenuti, account, canali in campagne durature.",
+      "trap": "Il dibattito pubblico di una nazione viene plasmato dall'esterno, senza dichiarazioni di guerra."
     }
   },
   {
@@ -2977,6 +3194,13 @@
           "explanation": "La pertinenza al tema è una condizione necessaria ma non sufficiente. Anche le operazioni coordinate scrivono commenti pertinenti. Il segnale rilevante è la coordinazione, non il contenuto."
         }
       ]
+    },
+    "slogan": "Non nascondere la notizia: seppelliscila sotto altre notizie.",
+    "hook": "Il giorno dell'inchiesta scomoda esce una \"notizia bomba\" sulla vita privata di un VIP: l'inchiesta sparisce.",
+    "anatomy": {
+      "bait": "Una notizia scomoda che emergerebbe da sola.",
+      "hook": "Si rilasciano contemporaneamente molti contenuti più spettacolari.",
+      "trap": "L'attenzione è una risorsa scarsa: la notizia importante non trova spazio."
     }
   },
   {
@@ -3056,6 +3280,13 @@
           "explanation": "Questo è un effetto secondario intenzionale: la colpa anticipata per non aver condiviso è un secondo meccanismo di pressione. Ma è costruito sulla paura, non è un meccanismo indipendente."
         }
       ]
+    },
+    "slogan": "Spaventali e non penseranno: obbediranno.",
+    "hook": "«Se non agiamo oggi, domani sarà troppo tardi!» — e qualsiasi misura drastica diventa accettabile.",
+    "anatomy": {
+      "bait": "Un'ansia latente o un pericolo reale.",
+      "hook": "Si amplifica la minaccia e si offre una soluzione immediata e forte.",
+      "trap": "Il pubblico, terrorizzato, accetta compromessi che, a mente fredda, rifiuterebbe."
     }
   },
   {
@@ -3135,6 +3366,13 @@
           "explanation": "Al contrario: nelle democrazie la critica alle istituzioni è una delle forme più importanti di partecipazione civica. Condizionarla alla fedeltà è una forma di silenziamento."
         }
       ]
+    },
+    "slogan": "La bandiera come argomento: chi la tocca è nemico.",
+    "hook": "«Un vero italiano non dubiterebbe mai di questa misura.» — e il dissenso diventa tradimento.",
+    "anatomy": {
+      "bait": "L'attaccamento emotivo alla patria.",
+      "hook": "Si lega una tesi specifica all'identità nazionale.",
+      "trap": "Criticare la tesi equivale a tradire la nazione: il dissenso costa troppo."
     }
   },
   {
@@ -3214,6 +3452,13 @@
           "explanation": "I leader potrebbero evocare reazioni negative. La scelta di usare volti neutrali è deliberata - ma il problema fondamentale resta l'assenza di contenuto, non l'assenza dei leader."
         }
       ]
+    },
+    "slogan": "Non vende il prodotto: vende chi vorresti essere.",
+    "hook": "Una modella ride in una cucina perfetta con in mano un detersivo. Non compri il detersivo: compri quella vita.",
+    "anatomy": {
+      "bait": "Il desiderio di assomigliare a persone attraenti e di successo.",
+      "hook": "Si associa il prodotto o l'idea a corpi e vite perfette.",
+      "trap": "Aderire alla tesi diventa il modo per avvicinarsi a quella immagine."
     }
   },
   {
@@ -3293,6 +3538,13 @@
           "explanation": "Non è necessariamente vero - le offerte limitate genuine esistono. Il prezzo non è l'indicatore giusto; lo è la struttura della pressione temporale."
         }
       ]
+    },
+    "slogan": "«Ultimi posti!» spegne il cervello.",
+    "hook": "«Solo 3 articoli rimasti!» — clicchi prima di chiederti se ti serve.",
+    "anatomy": {
+      "bait": "La paura di perdere un'occasione.",
+      "hook": "Si segnala scarsità o urgenza, vera o inventata.",
+      "trap": "Il cervello passa alla modalità \"agire subito\" e salta la valutazione."
     }
   },
   {
@@ -3372,6 +3624,13 @@
           "explanation": "Questa preoccupazione è reale in certi contesti, ma accettarla come ragione significa lasciarsi manipolare dal secondo strato della tecnica: la minaccia implicita alle relazioni."
         }
       ]
+    },
+    "slogan": "Un regalo oggi è una catena domani.",
+    "hook": "Ti offrono un campione gratis. Ora senti il bisogno di ricambiare: è così che funziona la tua testa.",
+    "anatomy": {
+      "bait": "La norma sociale universale: \"dono e contraccambio\".",
+      "hook": "Si fa un piccolo favore o regalo gratuito.",
+      "trap": "La persona avverte un debito morale e concede cose sproporzionate rispetto al regalo."
     }
   },
   {
@@ -3451,6 +3710,13 @@
           "explanation": "Il punto di riferimento corretto non è l'altra auto in showroom - è il prezzo di mercato dello stesso modello. Avere meno ancore significa dover cercare il riferimento giusto, non restare senza informazioni."
         }
       ]
+    },
+    "slogan": "Il primo numero vince il negoziato, anche se è assurdo.",
+    "hook": "Prezzo di listino: 999€. Scontato: 299€. L'«occasione» esiste solo perché hai visto 999€ per primo.",
+    "anatomy": {
+      "bait": "La necessità di avere un punto di riferimento.",
+      "hook": "Si lancia un primo valore (prezzo, stima, percentuale) alto o basso a piacere.",
+      "trap": "Ogni valutazione successiva ruota attorno all'ancora, anche se arbitraria."
     }
   },
   {
@@ -3530,6 +3796,13 @@
           "explanation": "Questa risposta presuppone che tu possa valutare la correttezza delle fonti dall'interno della bolla - ma è esattamente ciò che la bolla rende difficile."
         }
       ]
+    },
+    "slogan": "Cerchiamo ciò che già crediamo e lo chiamiamo prova.",
+    "hook": "Leggi solo il giornale che la pensa come te. Dopo un anno, sei convinto che «tutti» la pensino così.",
+    "anatomy": {
+      "bait": "La tendenza naturale del cervello a confermare le proprie tesi.",
+      "hook": "Si offrono continuamente contenuti in linea con le tue convinzioni.",
+      "trap": "Percepisci il mondo come unanime: il dubbio sparisce dal radar."
     }
   },
   {
@@ -3609,6 +3882,13 @@
           "explanation": "La semplificazione che aiuta la comprensione è diversa dalla semplificazione che elimina opzioni reali. Presentare solo due scelte su un tema complesso non è comunicazione efficace: è riduzione dello spazio decisionale."
         }
       ]
+    },
+    "slogan": "O bianco o nero: tutto il resto è stato cancellato.",
+    "hook": "«O sei con noi o sei contro di noi.» — il terzo, il quarto, il decimo scenario sono stati spazzati via.",
+    "anatomy": {
+      "bait": "Una realtà con molte opzioni possibili.",
+      "hook": "Si presentano solo due alternative, estreme e contrapposte.",
+      "trap": "Scegli la \"meno peggio\" senza accorgerti delle opzioni nascoste."
     }
   },
   {
@@ -3619,7 +3899,7 @@
     "category": "manipulation",
     "catLabel": "Manipolazione",
     "summary": "Sommergere qualcuno di attenzioni, complimenti e affetto intensivi per creare dipendenza emotiva e abbattere le difese critiche.",
-    "definition": "Il love bombing è una tecnica di manipolazione in cui si inondate la vittima di attenzioni eccessive, lodi, affetto e disponibilità totale in modo deliberato e strategico. L'obiettivo è creare dipendenza emotiva, accelerare il legame affettivo e abbassare le difese critiche prima di iniziare a controllare o sfruttare la persona.",
+    "definition": "Il love bombing è una tecnica di manipolazione in cui si inonda la vittima di attenzioni eccessive, lodi, affetto e disponibilità totale in modo deliberato e strategico. L'obiettivo è creare dipendenza emotiva, accelerare il legame affettivo e abbassare le difese critiche prima di iniziare a controllare o sfruttare la persona.",
     "historicalContext": "Documentato inizialmente nelle dinamiche delle sette religiose degli anni '70 (Moon, Scientology). Oggi riconosciuto come fase iniziale delle relazioni narcisistiche e abusive, nonché tecnica di reclutamento nelle organizzazioni estremiste.",
     "psychologicalMechanism": "Attiva i circuiti della dopamina con ricompense imprevedibili e intense. Il cervello associa la fonte di tutto quell'affetto a sicurezza e valore personale. Quando il bombardamento cessa - come avviene sempre - la dipendenza creata spinge a fare qualsiasi cosa per ritrovarlo.",
     "variants": [
@@ -3689,6 +3969,13 @@
           "explanation": "Vero - ma qui non è solo l'intensità. È l'intensità combinata con l'isolamento sistematico dalle reti di supporto esistenti. Questa combinazione specifica è il pattern da riconoscere."
         }
       ]
+    },
+    "slogan": "Ti riempie d'amore per legarti al guinzaglio.",
+    "hook": "Nei primi giorni sei inondato di attenzioni, regali, complimenti. Mesi dopo, non riesci a uscirne.",
+    "anatomy": {
+      "bait": "Il bisogno universale di sentirsi visti e amati.",
+      "hook": "Si satura la vittima di affetto intenso e improvviso.",
+      "trap": "Quando l'amore viene tolto, faresti di tutto per riaverlo: sei in trappola."
     }
   },
   {
@@ -3768,6 +4055,13 @@
           "explanation": "Anche questo è un argomento separato e legittimo - ma è diverso dal ragionamento sui costi irrecuperabili. Confondere le due cose è un errore cognitivo ulteriore."
         }
       ]
+    },
+    "slogan": "Non puoi recuperare ciò che hai già perso, ma ci provi lo stesso.",
+    "hook": "«Ho già investito 5 anni: non posso mollare ora.» — ed eccoti a perderne altri 5.",
+    "anatomy": {
+      "bait": "Un investimento passato non recuperabile (tempo, soldi, emozioni).",
+      "hook": "Si evoca ciò che si è già speso come motivo per continuare.",
+      "trap": "Si prende la decisione guardando il passato invece del futuro: si sprofonda."
     }
   },
   {
@@ -3847,6 +4141,13 @@
           "explanation": "Questo sarebbe vero se ci fosse una sponsorizzazione dichiarata. Il problema qui è il ragionamento del follower ('ha avuto successo'), non necessariamente la condotta dell'attore."
         }
       ]
+    },
+    "slogan": "Una qualità bella ne fa brillare altre inesistenti.",
+    "hook": "Il candidato è bello e sorride: il pubblico gli attribuisce competenza, onestà, intelligenza. Senza prove.",
+    "anatomy": {
+      "bait": "Una qualità evidente e positiva (bellezza, fama, eloquenza).",
+      "hook": "Il cervello estende quel bagliore ad altri tratti non verificati.",
+      "trap": "Giudichi la persona sui meriti inventati dal tuo stesso cervello."
     }
   },
   {
@@ -3926,6 +4227,13 @@
           "explanation": "Questa risposta accetta la premessa che gli ingredienti naturali siano preferibili - che è esattamente l'assunzione da mettere in discussione."
         }
       ]
+    },
+    "slogan": "«Naturale» non vuol dire «buono». L'arsenico è naturale.",
+    "hook": "«È un rimedio naturale!» — come la cicuta, o il morso di vipera. Naturali pure quelli.",
+    "anatomy": {
+      "bait": "Il fascino culturale per tutto ciò che è «naturale».",
+      "hook": "Si etichetta una cosa come «naturale» per implicarne bontà o sicurezza.",
+      "trap": "L'etichetta sostituisce la valutazione di rischi, efficacia, interazioni."
     }
   },
   {
@@ -4005,6 +4313,13 @@
           "explanation": "Un esempio aiuterebbe, ma non basta: esempi storici non dimostrano necessità logica. Ciò che manca è la catena causale che spiega perché questa legge specifica produrrebbe questo risultato specifico."
         }
       ]
+    },
+    "slogan": "Un piccolo passo oggi, il baratro domani (dicono loro).",
+    "hook": "«Se permettiamo A, fra dieci anni avremo Z.» — senza mai spiegare cosa succede fra B e Y.",
+    "anatomy": {
+      "bait": "Una proposta ragionevole e limitata.",
+      "hook": "Si proietta una catena di conseguenze catastrofiche senza tappe intermedie.",
+      "trap": "Il timore dell'esito finale blocca la discussione del passo iniziale, che era innocuo."
     }
   },
   {
@@ -4084,6 +4399,13 @@
           "explanation": "La questione non è valutare l'influencer specifico: è che il format strutturalmente crea equivalenza prima ancora che gli argomenti vengano presentati."
         }
       ]
+    },
+    "slogan": "Due cose confrontabili non sono automaticamente uguali.",
+    "hook": "«Entrambi i partiti hanno scandali.» Sì, ma uno ha 3 inchieste, l'altro 300. La pari è retorica, non reale.",
+    "anatomy": {
+      "bait": "Due situazioni paragonabili su qualche aspetto.",
+      "hook": "Si trattano come equivalenti ignorando scala, gravità, contesto.",
+      "trap": "Il pubblico conclude che «sono uguali» e chi è peggiore ci guadagna."
     }
   },
   {
@@ -4163,6 +4485,13 @@
           "explanation": "Il disaccordo tra economisti riguarda l'entità degli effetti, non il meccanismo semplificato presentato qui. Il problema è la riduzione di un sistema complesso a un capro espiatorio."
         }
       ]
+    },
+    "slogan": "Un problema complesso, una sola categoria da incolpare.",
+    "hook": "Economia stagnante? Colpa di loro. Disoccupazione? Colpa di loro. Stadio pieno? Colpa di loro. Facile.",
+    "anatomy": {
+      "bait": "Un malessere collettivo reale e diffuso.",
+      "hook": "Si identifica un gruppo su cui scaricare ogni responsabilità.",
+      "trap": "L'analisi delle cause vere si ferma: basta punire il capro espiatorio."
     }
   },
   {
@@ -4242,6 +4571,13 @@
           "explanation": "Questa interpretazione, se accettata, è esattamente l'effetto voluto dalla mossa. La struttura tripartita è documentata e sistematica, non una reazione emotiva caotica."
         }
       ]
+    },
+    "slogan": "Colpevole negato, vittima invertita.",
+    "hook": "Viene accusato. Nega tutto. Attacca l'accusatore. Si presenta come vittima dell'inchiesta. In 30 secondi.",
+    "anatomy": {
+      "bait": "Un'accusa fondata rivolta a chi ha potere.",
+      "hook": "Si nega, si attacca l'accusatore, si ribalta la parte di vittima e aggressore.",
+      "trap": "Il pubblico confuso non capisce più chi sta male e chi ha fatto male."
     }
   },
   {
@@ -4321,6 +4657,13 @@
           "explanation": "La normalizzazione istituzionale è un effetto, non una certificazione di legittimità. I partiti tradizionali adottano posizioni estreme quando il terreno è già stato preparato - non sono i giudici della loro accettabilità."
         }
       ]
+    },
+    "slogan": "Ieri era impensabile. Oggi è discutibile. Domani sarà legge.",
+    "hook": "Un'idea estrema viene ripetuta con calma per anni. La prima volta scandalizza. Dopo cinque anni, è dibattito normale.",
+    "anatomy": {
+      "bait": "Il range di ciò che una società considera dicibile.",
+      "hook": "Si introducono idee estreme che spostano i bordi poco alla volta.",
+      "trap": "Ciò che prima era tabù diventa normale, senza che nessuno lo decida esplicitamente."
     }
   },
   {
@@ -4400,6 +4743,13 @@
           "explanation": "Questa interpretazione richiederebbe che tutte le conversazioni individuali producessero lo stesso cambio, il che è statisticamente improbabile. Il pattern coerente indica un meccanismo sistematico, non il cambiamento d'idea."
         }
       ]
+    },
+    "slogan": "Credi di essere solo, quindi taci. Così diventi solo davvero.",
+    "hook": "Sui social sembra che tutti la pensino così. Tu no, ma taci. E chi la pensa come te, vedendo il silenzio, tace anche lui.",
+    "anatomy": {
+      "bait": "La paura dell'isolamento sociale.",
+      "hook": "Si amplifica una voce e si oscurano le altre, creando l'illusione di maggioranza.",
+      "trap": "I dissenzienti tacciono per paura, e il loro silenzio conferma l'illusione."
     }
   },
   {
@@ -4479,6 +4829,13 @@
           "explanation": "Può essere vero che ogni studio abbia limiti - ma se i limiti vengono identificati solo dopo la presentazione, e se la richiesta cambia ad ogni risposta, il pattern non è critico: è evasivo."
         }
       ]
+    },
+    "slogan": "Ogni volta che arrivi alla meta, la meta si sposta.",
+    "hook": "«Prova X.» — lo provi. «Sì, ma ora prova Y.» — lo provi. «Sì, ma ora prova Z.» Il gioco è infinito.",
+    "anatomy": {
+      "bait": "Una richiesta di prova o condizione chiara.",
+      "hook": "Ogni volta che viene soddisfatta, la si sostituisce con una nuova.",
+      "trap": "L'avversario non può mai «vincere»: la discussione è impostata per non finire mai."
     }
   },
   {
@@ -4558,6 +4915,13 @@
           "explanation": "Gli standard alti si comunicano con obiettivi chiari e feedback specifico. Il pattern descritto non fornisce criteri di miglioramento - fornisce dimostrazione permanente di inadeguatezza parziale."
         }
       ]
+    },
+    "slogan": "Un complimento avvelenato ti lega al donatore.",
+    "hook": "«Sei carina, per una come te.» — ti senti insicura. Vuoi approvazione. La chiedi proprio a lui.",
+    "anatomy": {
+      "bait": "L'autostima della vittima.",
+      "hook": "Si inseriscono critiche sottili dentro complimenti.",
+      "trap": "La vittima, destabilizzata, cerca approvazione proprio da chi l'ha destabilizzata."
     }
   },
   {
@@ -4647,6 +5011,13 @@
           "explanation": "Un contesto ad alto carico emotivo è l'opposto di una condizione favorevole al pensiero critico."
         }
       ]
+    },
+    "slogan": "Non pensi: senti. E senti ciò che sentono gli altri.",
+    "hook": "Un post indignato viene condiviso 10.000 volte. Prima ancora di leggerlo, sei già arrabbiato anche tu.",
+    "anatomy": {
+      "bait": "La naturale sincronizzazione emotiva tra esseri umani.",
+      "hook": "Si diffondono contenuti ad alta carica emotiva in tempi rapidi.",
+      "trap": "L'emozione collettiva travolge il pensiero individuale: agisci prima di riflettere."
     }
   },
   {
@@ -4736,6 +5107,13 @@
           "explanation": "Non è una preferenza del pubblico, ma il risultato di scelte editoriali influenzate dal timing dell'annuncio."
         }
       ]
+    },
+    "slogan": "Crea rumore dove non vuoi che guardino.",
+    "hook": "Mentre il parlamento vota una legge controversa, scoppia un «caso» di costume che occupa tutti i TG.",
+    "anatomy": {
+      "bait": "Un problema reale che potrebbe attirare attenzione critica.",
+      "hook": "Si genera o amplifica un evento distraente.",
+      "trap": "Quando il fumo si dirada, il problema è già diventato fatto compiuto."
     }
   },
   {
@@ -4825,6 +5203,13 @@
           "explanation": "I dati sulla criminalità rimangono invariati: la narrazione è disconnessa dalla realtà empirica."
         }
       ]
+    },
+    "slogan": "Prevedi il crollo e lo fai accadere.",
+    "hook": "«Quella banca è a rischio.» Tutti corrono a ritirare i soldi. La banca crolla. Lo era davvero? Ora sì.",
+    "anatomy": {
+      "bait": "Una previsione in un sistema dove le aspettative influenzano l'esito.",
+      "hook": "Si diffonde la previsione come fatto, modificando il comportamento collettivo.",
+      "trap": "Il comportamento modificato produce l'esito previsto, «confermando» la profezia."
     }
   },
   {
@@ -4913,6 +5298,13 @@
           "explanation": "'Migliori' significa più simili a ciò che hai già visto e gradito, non più veri o più completi. L'obiettivo dell'algoritmo è engagement, non completezza o verità."
         }
       ]
+    },
+    "slogan": "L'algoritmo ti dà ragione per tenerti attaccato.",
+    "hook": "Sei mesi dopo, il tuo feed è fatto solo di cose che confermano ciò che pensi. Il mondo sembra piccolo e coerente.",
+    "anatomy": {
+      "bait": "Il desiderio umano di contenuti «interessanti».",
+      "hook": "L'algoritmo impara cosa ti fa restare e ti mostra sempre più di quello.",
+      "trap": "Perdi il contatto con opinioni diverse: confondi la tua bolla col mondo."
     }
   }
 ]
